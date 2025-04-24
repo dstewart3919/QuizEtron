@@ -55,6 +55,13 @@ h1 {
   text-shadow: 0 0 10px #9ef, 0 0 20px #69f;
 }
 
+h2 {
+  color: #ffffff;
+  font-size: 2vw;
+  margin-bottom: -1.0rem;
+  text-shadow: 0 0 10px #9ef, 0 0 20px #69f;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -164,3 +171,16 @@ footer a:hover {
     font-size: 2rem;
   }
 }
+
+.back-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #88ccff;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.back-link:hover {
+  color: white;
+}
+
