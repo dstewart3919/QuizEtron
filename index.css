@@ -15,14 +15,14 @@ body {
 }
 
 .video-background {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: fixed; /* <- CHANGED from absolute */
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  transform: translate(-50%, -50%);
   object-fit: cover;
   z-index: -1;
+  pointer-events: none;
 }
 
 .overlay {
