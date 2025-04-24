@@ -1,0 +1,72 @@
+.style {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+  backdrop-filter: blur(6px); /* Slightly more blur for stronger effect */
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.65);
+  background-image: url('../media/legalBG.png'); /* Ensure file exists */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.style h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 191, 255, 0.3);
+}
+
+.style h2 {
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem 0;
+  color: var(--accent, #00bfff);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+.style p,
+.style ul {
+  margin: 0.25rem 0 1.25rem 0;
+}
+
+.style a {
+  color: #88ccff;
+  text-decoration: underline;
+}
+
+.style a:hover {
+  color: #fff;
+  text-shadow: 0 0 4px #88ccff;
+}
+
+.style ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.back-button {
+  display: inline-block;
+  color: #000 !important;
+  background-color: #003366; 
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.2);
+}
+
+.back-button:hover {
+  background-color: #ff3030; /* Bright red hover */
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 50, 50, 0.4);
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('ResultsBG.png'); /* Set the background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            margin: 0;
+            padding: 20px;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full height of viewport */
+            color: white; /* Change text color for better visibility */
+        }
+        .results {
+            max-width: 600px;
+            width: 100%; /* Ensure it fills the width */
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 30px; /* Increased padding for a nicer look */
+            border-radius: 8px; /* More rounded corners */
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* Deeper shadow for depth */
+            text-align: center; /* Center text */
+        }
+        h1 {
+            color: #333; /* Keep heading color for contrast */
+            margin-bottom: 20px; /* Spacing below the heading */
+        }
+        .score {
+            font-size: 28px; /* Slightly larger font size */
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px; /* Space below score */
+        }
+        .comment {
+            font-size: 20px; /* Slightly larger font size */
+            color: #555; /* A softer color for the comment */
+        }
+        .button {
+            margin-top: 30px; /* More space above the button */
+        }
+        .button a {
+            padding: 12px 20px; /* Increased padding for better button size */
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s; /* Smooth transition for hover */
+        }
+        .button a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="results">
+        <h1>Test Results</h1>
+        <div class="score">Your Score: <span id="score"></span></div>
+        <div class="comment" id="comment"></div>
+        <div class="button">
+            <a href="index.html">Take the Test Again</a>
+        </div>
+    </div>
+
+    <script>
+        // Simulated score for demonstration purposes
+        const score = Math.floor(Math.random() * 100) + 60; // Random score between 60 and 160
+        document.getElementById('score').innerText = score;
+
+        let comment;
+        if (score >= 140) {
+            comment = "Genius!!!!!";
+        } else if (score >= 120) {
+            comment = "Intelligent!";
+        } else if (score >= 100) {
+            comment = "Above Average";
+        } else if (score >= 60) {
+            comment = "Human";
+        } else {
+            comment = "Brain Dead";
+        }
+        document.getElementById('comment').innerText = comment;
+    </script>
+</body>
+</html>

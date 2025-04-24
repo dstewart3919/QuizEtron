@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Intelligence Test</title>
+    <style>
+        html, body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            overflow: auto; /* Allow scrollbars */
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: purple; /* Set text color to purple */
+            font-size: 4.5em; /* Increase font size */
+            position: relative; /* Position relative for z-index */
+            z-index: 1; /* Above video */
+            margin: 20px 0; /* Add some margin for spacing */
+            background-image: url('TitleBG.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire area */
+            background-position: center; /* Center the image */
+            padding: 20px; /* Optional: Add padding for better appearance */
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto; /* Added margin for spacing */
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative; /* Position relative for z-index */
+            z-index: 1; /* Above video */
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        /* Video styling */
+        video {
+            position: fixed; /* Fixed to always fill the background */
+            top: 0; /* Align with top of the window */
+            left: 0;
+            width: 100%;
+            height: 100%; /* Fill the entire viewport */
+            object-fit: cover; /* Cover the entire body */
+            z-index: 0; /* Behind other elements */
+        }
+    </style>
+</head>
+<body>
+    <video id="backgroundVideo" autoplay muted loop>
+        <source src="NewBG.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h1>Emotional Intelligence Test</h1>
+    <form id="eqForm">
+        <fieldset>
+            <legend>Please answer the following questions:</legend>
+            <div class="question">
+                <p>1. How do you typically respond when someone shares their feelings with you?</p>
+                <label><input type="radio" name="q1" value="1" required> I listen and offer support.</label><br>
+                <label><input type="radio" name="q1" value="2"> I change the subject.</label><br>
+                <label><input type="radio" name="q1" value="3"> I become uncomfortable.</label><br>
+            </div>
+            <div class="question">
+                <p>2. When faced with a stressful situation, how do you react?</p>
+                <label><input type="radio" name="q2" value="1" required> I try to stay calm and think rationally.</label><br>
+                <label><input type="radio" name="q2" value="2"> I panic and react impulsively.</label><br>
+                <label><input type="radio" name="q2" value="3"> I avoid dealing with it.</label><br>
+            </div>
+            <div class="question">
+                <p>3. How do you usually feel when you receive constructive criticism?</p>
+                <label><input type="radio" name="q3" value="1" required> I appreciate it and try to improve.</label><br>
+                <label><input type="radio" name="q3" value="2"> I feel defensive and upset.</label><br>
+                <label><input type="radio" name="q3" value="3"> I ignore it completely.</label><br>
+            </div>
+            <div class="question">
+                <p>4. How often do you reflect on your own emotions?</p>
+                <label><input type="radio" name="q4" value="1" required> Regularly, I find it helpful.</label><br>
+                <label><input type="radio" name="q4" value="2"> Occasionally, but not often.</label><br>
+                <label><input type="radio" name="q4" value="3"> Rarely, I don't think about it.</label><br>
+            </div>
+            <div class="question">
+                <p>5. When you see someone upset, what is your first instinct?</p>
+                <label><input type="radio" name="q5" value="1" required> I approach them to see if they need help.</label><br>
+                <label><input type="radio" name="q5" value="2"> I keep my distance.</label><br>
+                <label><input type="radio" name="q5" value="3"> I feel uncomfortable and look away.</label><br>
+            </div>
+            <div class="question">
+                <p>6. How do you manage your own stress levels?</p>
+                <label><input type="radio" name="q6" value="1" required> I have strategies I use regularly.</label><br>
+                <label><input type="radio" name="q6" value="2"> I often let stress overwhelm me.</label><br>
+                <label><input type="radio" name="q6" value="3"> I don’t think about managing stress.</label><br>
+            </div>
+            <div class="question">
+                <p>7. How do you react when someone is angry at you?</p>
+                <label><input type="radio" name="q7" value="1" required> I try to understand their feelings.</label><br>
+                <label><input type="radio" name="q7" value="2"> I get angry back.</label><br>
+                <label><input type="radio" name="q7" value="3"> I ignore them.</label><br>
+            </div>
+            <div class="question">
+                <p>8. Do you often consider how your words affect others?</p>
+                <label><input type="radio" name="q8" value="1" required> Yes, I’m mindful of my words.</label><br>
+                <label><input type="radio" name="q8" value="2"> Sometimes, but not always.</label><br>
+                <label><input type="radio" name="q8" value="3"> No, I speak my mind without thinking.</label><br>
+            </div>
+            <div class="question">
+                <p>9. How well do you handle interpersonal conflicts?</p>
+                <label><input type="radio" name="q9" value="1" required> I try to resolve them calmly.</label><br>
+                <label><input type="radio" name="q9" value="2"> I often escalate the conflict.</label><br>
+                <label><input type="radio" name="q9" value="3"> I avoid conflicts at all costs.</label><br>
+            </div>
+            <div class="question">
+                <p>10. When making decisions, do you consider how they affect others?</p>
+                <label><input type="radio" name="q10" value="1" required> Yes, I always think of others.</label><br>
+                <label><input type="radio" name="q10" value="2"> Sometimes, but it's not a priority.</label><br>
+                <label><input type="radio" name="q10" value="3"> No, I make decisions based on my needs only.</label><br>
+            </div>
+        </fieldset>
+        <input type="submit" value="Next Test">
+    </form>
+
+    <script>
+        const video = document.getElementById('backgroundVideo');
+
+        video.addEventListener('ended', function() {
+            video.playbackRate = -1; // Reverse playback
+            video.currentTime = video.duration; // Go to end for reverse
+            video.play(); // Start playing backward
+        });
+
+        // Listen for when the video is playing to revert playback rate back to normal
+        video.addEventListener('playing', function() {
+            if (video.playbackRate < 0) {
+                video.playbackRate = 1; // Set playback rate back to normal
+            }
+        });
+
+        document.getElementById('eqForm').onsubmit = function(event) {
+            event.preventDefault(); // Prevent form submission for demonstration purposes
+            window.location.href = "Test2.html"; // Change "Test2.html" to your actual next test page URL
+        };
+    </script>
+</body>
+</html>

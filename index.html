@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizetron - Start Testing</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <video autoplay muted loop playsinline class="video-background" poster="fallback.jpg">
+    <source src="media/indexBG.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>Welcome to Quizetron</h1>
+    <input type="button" value="Enter Site" onclick="window.location.href='test-loader.html'" />
+    <input type="button" value="Random Quiz" onclick="window.location.href='test-loader.html?random=true'" />
+
+    <p style="margin-top: 1.5rem; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #ccc;">
+      At Quizetron, we respect your privacy. We do not sell your personal data or send spam. All we ask is that you watch a few ads to help support the site’s growth. The more quizzes you complete, the more you help us continue creating fun and intelligent content. Thank you for being part of the journey.
+    </p>
+  </div>
+
+  <footer>
+    <a href="legal/privacy.html">Privacy</a>
+    <a href="legal/terms.html">Terms</a>
+    <a href="legal/disclaimer.html">Disclaimer</a>
+    <a href="legal/copyright.html">Copyright</a>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
