@@ -16,6 +16,10 @@ body {
   -ms-overflow-style: none; /* IE 10+ */
 }
 
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 .video-background {
   position: absolute;
   top: 50%;
