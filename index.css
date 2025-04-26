@@ -39,6 +39,7 @@ body {
   text-align: center;
   padding: 0 20px;
   animation: fadeIn 1.5s ease-out;
+  padding-bottom: 6rem;
 }
 
 h1 {
@@ -108,7 +109,12 @@ footer a:hover {
   h1 {
     font-size: 8vw;
   }
+
   select, input[type="button"] {
     width: 90%;
+  }
+
+  .content {
+    padding-top: 7rem; /* push Horror down extra on small screens */
   }
 }

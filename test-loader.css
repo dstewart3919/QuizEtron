@@ -41,6 +41,7 @@ body {
   padding: 0 20px;
   animation: fadeIn 1.5s ease-out;
   padding-top: 4rem; /* Add a safe space at top */
+  padding-bottom: 6rem;
 }
 
 h1 {
@@ -164,6 +165,10 @@ footer a:hover {
 
   .test-card .icon {
     font-size: 2rem;
+  }
+
+  .content {
+    padding-top: 7rem; /* push Horror down extra on small screens */
   }
 }
 
