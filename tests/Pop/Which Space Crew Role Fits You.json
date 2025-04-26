@@ -1,0 +1,53 @@
+{
+  "title": "Which Space Crew Role Fits You?",
+  "background": "galaxy",
+  "themeColor": "#ff66cc",
+  "buttonColor": "#ff99ff",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": true,
+  "backgroundCycleTime": 45,
+
+  "questions": [
+    {
+      "question": "What do you prefer doing under pressure?",
+      "choices": [
+        "Take command and make fast decisions",
+        "Work quietly and fix critical systems",
+        "Support the team with energy and motivation",
+        "Analyze data to predict outcomes"
+      ],
+      "weights": [
+        {"leadership": 2},
+        {"technical": 2},
+        {"morale": 2},
+        {"analytical": 2}
+      ]
+    },
+    {
+      "question": "Which trait describes you best?",
+      "choices": [
+        "Decisive",
+        "Resourceful",
+        "Inspirational",
+        "Logical"
+      ],
+      "weights": [
+        {"leadership": 1},
+        {"technical": 1},
+        {"morale": 1},
+        {"analytical": 1}
+      ]
+    }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "leadership": "Squad Commander",
+      "technical": "Systems Specialist",
+      "morale": "Crew Motivator",
+      "analytical": "Science Officer"
+    }
+  }
+}

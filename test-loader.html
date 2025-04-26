@@ -16,17 +16,28 @@
 
   <div class="content">
     <h1>Quizetron</h1>
-    <h2><span id="categoryName">All Categories</span></h1>
+    <h2><span id="categoryName">All Categories</span></h2>
+
     <div id="testGrid" class="test-grid">
-      <!-- Tiles will be populated by test-loader.js -->
+      <!-- Tiles populated dynamically -->
     </div>
+
     <div id="backBtnContainer" style="margin-top: 2rem; display: none;">
       <a href="test-loader.html" class="back-link">← Back to Categories</a>
     </div>
   </div>
 
+  <footer>
+    <a href="legal/privacy.html">Privacy</a>
+    <a href="legal/terms.html">Terms</a>
+    <a href="legal/disclaimer.html">Disclaimer</a>
+    <a href="legal/copyright.html">Copyright</a>
+  </footer>
+
+  <script src="Util.js"></script>
+  <script src="test-loader.js"></script>
+
   <script>
-    // Show or hide back button based on category
     document.addEventListener('DOMContentLoaded', () => {
       const backBtn = document.getElementById('backBtnContainer');
       const categoryName = document.getElementById('categoryName');
@@ -37,6 +48,5 @@
       }
     });
   </script>
-  <script src="test-loader.js"></script>
 </body>
 </html>

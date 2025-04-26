@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizetron - Results</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <video autoplay muted loop playsinline class="video-background" id="results-background">
+    <source id="bg-source" src="media/defaultBG.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="content" id="results-content">
+    <h1 id="result-title">Calculating...</h1>
+    <p id="result-description"></p>
+    <a id="retake-button" href="test-loader.html" class="back-link" style="margin-top: 2rem;">← Back to Categories</a>
+  </div>
+
+  <footer>
+    <a href="legal/privacy.html">Privacy</a>
+    <a href="legal/terms.html">Terms</a>
+    <a href="legal/disclaimer.html">Disclaimer</a>
+    <a href="legal/copyright.html">Copyright</a>
+  </footer>
+
+  <script src="Util.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      loadResults();
+    });
+  </script>
+</body>
+</html>
