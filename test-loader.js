@@ -57,19 +57,20 @@ if (!category) {
       return response.json();
     })
     .then(data => {
-      const tests = data.list || [];
+      const quizTitles = data.list || [];
+      const quizFiles = data.listJSON || [];
 
-      if (tests.length === 0) {
+      if (quizTitles.length === 0) {
         testGrid.innerHTML = '<p>No tests found in this category yet.</p>';
       } else {
-        tests.forEach(testName => {
+        quizTitles.forEach((title, index) => {
+          const filename = quizFiles[index];
           const item = document.createElement('div');
           item.className = 'test-list-item';
-          item.textContent = testName;
+          item.textContent = title;
 
           item.onclick = () => {
-            const fileName = testName.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.json';
-            window.location.href = `quiz.html?test=${fileName}&category=${category}`;
+            window.location.href = `quiz.html?category=${category}&test=${filename}`;
           };
 
           testGrid.appendChild(item);
