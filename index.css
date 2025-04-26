@@ -87,8 +87,8 @@ input[type="button"]:hover {
 }
 
 footer {
-  position: absolute;
-  bottom: 10px;
+  position: relative;
+  margin-top: 2rem;
   font-size: 0.8rem;
   color: #ccc;
   text-align: center;
