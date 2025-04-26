@@ -4,5 +4,12 @@
     "Spaceship Life Support Systems",
     "Spaceship Pilot Readiness",
     "Which Space Crew Role Fits You"
+  ],
+
+  "listJSON": [
+    "galactic-iq-calibration.json",
+    "spaceship-life-support-systems.json",
+    "spaceship-pilot-readiness.json",
+    "which-space-crew-role-fits-you.json"
   ]
 }
