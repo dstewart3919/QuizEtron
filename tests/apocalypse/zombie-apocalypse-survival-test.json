@@ -1,0 +1,42 @@
+{
+  "title": "Zombie Apocalypse Survival Test",
+  "background": "apocalypse",
+  "themeColor": "#663300",
+  "buttonColor": "#cc4400",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "First priority after zombies rise?", "choices": ["Build shelter", "Find weapons", "Look for family", "Loot stores"], "answerIndex": 1 },
+    { "question": "Best melee weapon in a zombie fight?", "choices": ["Chainsaw", "Machete", "Knife", "Crowbar"], "answerIndex": 3 },
+    { "question": "Ideal group size for survival?", "choices": ["Solo", "2-4 people", "10-15 people", "50+ people"], "answerIndex": 1 },
+    { "question": "Which location is most defensible?", "choices": ["Mall", "High school", "Warehouse", "Farmhouse"], "answerIndex": 3 },
+    { "question": "Safest escape vehicle?", "choices": ["Motorcycle", "Bicycle", "SUV", "Helicopter"], "answerIndex": 2 },
+    { "question": "Best time to scavenge supplies?", "choices": ["Morning", "Midday", "Midnight", "Dusk"], "answerIndex": 0 },
+    { "question": "Which wound needs immediate amputation in zombie lore?", "choices": ["Arm scratch", "Leg bite", "Neck scratch", "Back bite"], "answerIndex": 1 },
+    { "question": "Essential survival tool besides weapons?", "choices": ["Compass", "Flashlight", "Rope", "Canteen"], "answerIndex": 3 },
+    { "question": "Best structure material against zombie intrusion?", "choices": ["Glass", "Concrete", "Wood", "Plastic"], "answerIndex": 1 },
+    { "question": "If trapped in a building, your best defense move is:", "choices": ["Set traps", "Climb to roof", "Hide in basement", "Charge the exit"], "answerIndex": 1 },
+    { "question": "Which food lasts the longest without refrigeration?", "choices": ["Milk", "Fruit", "Canned meat", "Fresh vegetables"], "answerIndex": 2 },
+    { "question": "Ideal weapon maintenance priority?", "choices": ["Ammo supply", "Sharpen blade", "Clean barrel", "All of the above"], "answerIndex": 3 },
+    { "question": "If bitten but not infected yet, first step?", "choices": ["Bandage", "Tourniquet", "Amputate", "Pray"], "answerIndex": 2 },
+    { "question": "What's a good zombie distraction?", "choices": ["Fireworks", "Car horn", "Gunshots", "Flashlight"], "answerIndex": 0 },
+    { "question": "What natural disaster is most dangerous during zombie survival?", "choices": ["Earthquake", "Tornado", "Flood", "Wildfire"], "answerIndex": 3 },
+    { "question": "Best place to rest overnight?", "choices": ["Basement", "Top floor", "Main lobby", "Parking garage"], "answerIndex": 1 },
+    { "question": "Most vital trait for surviving zombies?", "choices": ["Strength", "Intelligence", "Fearlessness", "Speed"], "answerIndex": 1 },
+    { "question": "If two members are bitten, what is the hard survival call?", "choices": ["Wait it out", "Quarantine", "Expel immediately", "Arm them"], "answerIndex": 2 },
+    { "question": "Best emergency exit method from zombie swarm?", "choices": ["Fight through", "Sneak and crawl", "Use decoy noise", "Sacrifice a slower member"], "answerIndex": 2 },
+    { "question": "What should your main base have?", "choices": ["Electricity", "Medical supplies", "Wi-Fi", "Hot showers"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Zombie Apocalypse Survivor! 🧙‍♂️🦊",
+      "medium": "You're alive... barely! Stay sharp out there. 🚫🦰",
+      "low": "You'd be zombie food in the first week! 🧜‍♂️💀"
+    }
+  }
+}

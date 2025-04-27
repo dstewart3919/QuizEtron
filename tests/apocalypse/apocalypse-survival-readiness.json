@@ -1,0 +1,42 @@
+{
+  "title": "Apocalypse Survival Readiness",
+  "background": "apocalypse",
+  "themeColor": "#cc5500",
+  "buttonColor": "#ff6600",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "What is the safest shelter option during a nuclear fallout?", "choices": ["Wooden cabin", "Underground bunker", "High-rise apartment", "Vehicle"], "answerIndex": 1 },
+    { "question": "Which water source is most likely safe without purification?", "choices": ["Clear river", "Rainwater from tarp", "Pond", "Urban fountain"], "answerIndex": 1 },
+    { "question": "Best melee weapon against zombies?", "choices": ["Chainsaw", "Baseball bat", "Crowbar", "Butterfly knife"], "answerIndex": 2 },
+    { "question": "Which food lasts the longest without refrigeration?", "choices": ["Fresh meat", "Canned beans", "Bread", "Cheese"], "answerIndex": 1 },
+    { "question": "What is the priority after escaping an infected zone?", "choices": ["Search for survivors", "Find food", "Secure clean water", "Start a fire"], "answerIndex": 2 },
+    { "question": "Which animal is most sustainable to hunt during apocalypse?", "choices": ["Bear", "Rabbit", "Wolf", "Moose"], "answerIndex": 1 },
+    { "question": "Best footwear for long-term survival travel?", "choices": ["Flip-flops", "Steel-toed boots", "Running shoes", "High heels"], "answerIndex": 2 },
+    { "question": "Which is essential for building a survival shelter?", "choices": ["Plastic sheets", "Bright lights", "Shiny mirrors", "Metal rods"], "answerIndex": 0 },
+    { "question": "What is the universal distress signal?", "choices": ["Waving arms", "Three fires", "Single loud shout", "Stacking rocks"], "answerIndex": 1 },
+    { "question": "What is best for starting a fire without matches?", "choices": ["Wet wood", "Flint and steel", "Plastic wrapper", "Glass bottle"], "answerIndex": 1 },
+    { "question": "Which direction does moss typically grow on trees?", "choices": ["East", "South", "North", "West"], "answerIndex": 2 },
+    { "question": "Best strategy against a raider group?", "choices": ["Negotiate", "Hide", "Charge them", "Fire warning shots"], "answerIndex": 1 },
+    { "question": "Most critical supply in desert survival?", "choices": ["Sunscreen", "Water", "Food", "Shelter"], "answerIndex": 1 },
+    { "question": "How often should you move camp to avoid detection?", "choices": ["Every 12 hours", "Every 2-3 days", "Once a week", "Never"], "answerIndex": 1 },
+    { "question": "Which first aid item stops heavy bleeding?", "choices": ["Band-aid", "Tourniquet", "Ice pack", "Gauze"], "answerIndex": 1 },
+    { "question": "What natural material can be used to purify water?", "choices": ["Sand", "Leaves", "Clay", "Mud"], "answerIndex": 0 },
+    { "question": "Best way to avoid infection from zombie bite?", "choices": ["Amputate quickly", "Clean with soap", "Bandage tightly", "Ignore and run"], "answerIndex": 0 },
+    { "question": "Ideal size for a post-collapse survival group?", "choices": ["1 person", "3-5 people", "10-20 people", "50+ people"], "answerIndex": 1 },
+    { "question": "Which plant indicates drinkable groundwater nearby?", "choices": ["Cactus", "Willow tree", "Moss", "Dandelions"], "answerIndex": 1 },
+    { "question": "Key rule when scavenging abandoned towns?", "choices": ["Travel at noon", "Go alone", "Travel quietly", "Leave trails"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You're an Apocalypse Survival Master! 🧟‍♂️🌍",
+      "medium": "You're a survivor but still at risk! Stay sharp. 🤖",
+      "low": "You won't last long out there... Time to train up! 💥"
+    }
+  }
+}

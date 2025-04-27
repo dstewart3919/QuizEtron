@@ -1,6 +1,9 @@
-// FULL CLEAN PATCH for Util.js
+// === FINAL CLEAN PATCH FOR UTIL.JS (IQ FIX + DATA PASSING) ===
 
-// Load a Quiz JSON and start it
+let quizData;
+let currentIndex = 0;
+let userAnswers = [];
+
 async function loadQuiz() {
   const params = new URLSearchParams(window.location.search);
   const category = params.get('category');
@@ -17,10 +20,10 @@ async function loadQuiz() {
     const response = await fetch(quizPath);
     if (!response.ok) throw new Error('Quiz file not found.');
 
-    const quizData = await response.json();
+    quizData = await response.json();
 
-    if (!quizData || !quizData.questions) {
-      throw new Error('Quiz data invalid.');
+    if (!quizData || !Array.isArray(quizData.questions) || quizData.questions.length === 0) {
+      throw new Error('Invalid quiz data.');
     }
 
     startQuiz(quizData);
@@ -30,9 +33,9 @@ async function loadQuiz() {
   }
 }
 
-// Start the quiz once loaded
-function startQuiz(quizData) {
-  console.log("Starting quiz:", quizData);
+function startQuiz(data) {
+  quizData = data;
+  console.log('Starting quiz:', quizData);
 
   const quizLoading = document.getElementById('quiz-loading');
   if (quizLoading) quizLoading.style.display = 'none';
@@ -40,65 +43,12 @@ function startQuiz(quizData) {
   const quizContainer = document.getElementById('quizContainer');
   if (quizContainer) quizContainer.style.display = 'block';
 
-  const quizTitle = document.getElementById('quiz-title');
-  const questionEl = document.getElementById('question');
-  const optionsEl = document.getElementById('options');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  const submitBtn = document.getElementById('submitBtn');
+  document.getElementById('quiz-title').textContent = quizData.title || 'Quiz Loaded';
 
-  let currentIndex = 0;
-  let userAnswers = [];
+  renderQuestion();
 
-  if (!quizData || !Array.isArray(quizData.questions) || quizData.questions.length === 0) {
-    showError("Quiz data is missing or invalid.");
-    return;
-  }
-
-  quizTitle.textContent = quizData.title || "Quiz Loaded";
-
-  function renderQuestion() {
-    const questionObj = quizData.questions[currentIndex];
-
-    if (!questionObj) {
-      console.error("No question found at index:", currentIndex);
-      showError("No more questions available.");
-      return;
-    }
-
-    questionEl.textContent = questionObj.question;
-    optionsEl.innerHTML = '';
-
-    questionObj.choices.forEach((choice, index) => {
-      const label = document.createElement('label');
-      label.style.display = 'block';
-      label.style.margin = '10px 0';
-      label.style.fontSize = '1.2rem';
-      label.style.color = 'white';
-
-      const input = document.createElement('input');
-      input.type = 'radio';
-      input.name = 'option';
-      input.value = index;
-      input.style.marginRight = '8px';
-
-      label.appendChild(input);
-      label.appendChild(document.createTextNode(choice));
-      optionsEl.appendChild(label);
-    });
-
-    if (userAnswers[currentIndex] !== undefined) {
-      const selectedOption = optionsEl.querySelectorAll('input')[userAnswers[currentIndex]];
-      if (selectedOption) selectedOption.checked = true;
-    }
-
-    prevBtn.style.display = currentIndex > 0 ? 'inline-block' : 'none';
-    nextBtn.style.display = currentIndex < quizData.questions.length - 1 ? 'inline-block' : 'none';
-    submitBtn.style.display = currentIndex === quizData.questions.length - 1 ? 'inline-block' : 'none';
-  }
-
-  nextBtn.onclick = () => {
-    const selected = optionsEl.querySelector('input[name="option"]:checked');
+  document.getElementById('nextBtn').onclick = () => {
+    const selected = document.querySelector('input[name="option"]:checked');
     if (!selected) {
       alert('Please select an option before continuing.');
       return;
@@ -108,13 +58,13 @@ function startQuiz(quizData) {
     renderQuestion();
   };
 
-  prevBtn.onclick = () => {
+  document.getElementById('prevBtn').onclick = () => {
     currentIndex--;
     renderQuestion();
   };
 
-  submitBtn.onclick = () => {
-    const selected = optionsEl.querySelector('input[name="option"]:checked');
+  document.getElementById('submitBtn').onclick = () => {
+    const selected = document.querySelector('input[name="option"]:checked');
     if (!selected) {
       alert('Please select an option before submitting.');
       return;
@@ -125,16 +75,67 @@ function startQuiz(quizData) {
       title: quizData.title,
       questions: quizData.questions,
       scoringType: quizData.scoringType,
+      resultMapping: quizData.resultMapping || null,
       userAnswers: userAnswers
     }));
 
     window.location.href = 'results.html';
   };
-
-  renderQuestion();
 }
 
-// Load results page after quiz submission
+function renderQuestion() {
+  const questionObj = quizData.questions[currentIndex];
+
+  if (!questionObj) {
+    console.error('No question found at index:', currentIndex);
+    showError('No more questions available.');
+    return;
+  }
+
+  const questionEl = document.getElementById('question');
+  const optionsEl = document.getElementById('options');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const submitBtn = document.getElementById('submitBtn');
+
+  questionEl.textContent = questionObj.question;
+  optionsEl.innerHTML = '';
+
+  questionObj.choices.forEach((choice, index) => {
+    const wrapper = document.createElement('div');
+    wrapper.style.display = 'flex';
+    wrapper.style.alignItems = 'center';
+    wrapper.style.justifyContent = 'center';
+    wrapper.style.margin = '8px 0';
+
+    const input = document.createElement('input');
+    input.type = 'radio';
+    input.name = 'option';
+    input.value = index;
+    input.style.marginRight = '10px';
+    input.style.transform = 'scale(1.5)';
+
+    const label = document.createElement('label');
+    label.style.fontSize = '1.2rem';
+    label.style.color = 'white';
+    label.style.cursor = 'pointer';
+    label.textContent = choice;
+
+    wrapper.appendChild(input);
+    wrapper.appendChild(label);
+    optionsEl.appendChild(wrapper);
+  });
+
+  if (userAnswers[currentIndex] !== undefined) {
+    const selectedOption = optionsEl.querySelectorAll('input')[userAnswers[currentIndex]];
+    if (selectedOption) selectedOption.checked = true;
+  }
+
+  prevBtn.style.display = currentIndex > 0 ? 'inline-block' : 'none';
+  nextBtn.style.display = currentIndex < quizData.questions.length - 1 ? 'inline-block' : 'none';
+  submitBtn.style.display = currentIndex === quizData.questions.length - 1 ? 'inline-block' : 'none';
+}
+
 async function loadResults() {
   const storedResult = localStorage.getItem('quizResults');
   if (!storedResult) {
@@ -148,32 +149,72 @@ async function loadResults() {
   const desc = document.getElementById('result-description');
 
   if (resultData.scoringType === 'score') {
-    const correctCount = resultData.userAnswers.reduce((count, answer, idx) => {
-      return count + (answer === resultData.questions[idx].answerIndex ? 1 : 0);
-    }, 0);
-    desc.textContent = `You scored ${correctCount} out of ${resultData.questions.length}.`;
-  } else if (resultData.scoringType === 'iq') {
+  const correctCount = resultData.userAnswers.reduce((count, answer, idx) => {
+    return count + (answer === resultData.questions[idx].answerIndex ? 1 : 0);
+  }, 0);
+
+  const percentage = correctCount / resultData.questions.length;
+  let resultText = `You scored ${correctCount} out of ${resultData.questions.length}.`;
+
+  if (resultData.resultMapping && resultData.resultMapping.score) {
+    if (percentage >= 0.8) {
+      resultText = resultData.resultMapping.score.high;
+    } else if (percentage >= 0.5) {
+      resultText = resultData.resultMapping.score.medium;
+    } else {
+      resultText = resultData.resultMapping.score.low;
+    }
+  }
+
+  desc.textContent = resultText;
+} else if (resultData.scoringType === 'iq') {
     const correct = resultData.userAnswers.reduce((count, answer, idx) => {
       return count + (answer === resultData.questions[idx].answerIndex ? 1 : 0);
     }, 0);
     const iqScore = 80 + Math.round(correct / resultData.questions.length * 60);
     desc.textContent = `Your estimated Galactic IQ: ${iqScore}!`;
+  } else if (resultData.scoringType === 'category') {
+    const categoryScores = {};
+
+    resultData.userAnswers.forEach((answer, index) => {
+      const weights = resultData.questions[index].weights[answer];
+      const category = Object.keys(weights)[0];
+      const value = weights[category];
+
+      if (!categoryScores[category]) {
+        categoryScores[category] = 0;
+      }
+      categoryScores[category] += value;
+    });
+
+    let bestCategory = null;
+    let bestScore = -Infinity;
+    for (const cat in categoryScores) {
+      if (categoryScores[cat] > bestScore) {
+        bestCategory = cat;
+        bestScore = categoryScores[cat];
+      }
+    }
+
+    const finalRole = resultData.resultMapping && resultData.resultMapping.categoryMapping
+      ? resultData.resultMapping.categoryMapping[bestCategory]
+      : bestCategory;
+
+    desc.textContent = `You are best suited for the role: ${finalRole}!`;
   } else {
-    desc.textContent = "Results calculated.";
+    desc.textContent = 'Results calculated.';
   }
 }
 
-// Show an error if something critical fails
 function showError(msg) {
   document.body.innerHTML = `
-    <h1 style="color: white; text-align: center; margin-top: 20%;">${msg}</h1>
+    <h1 style="color: white; text-align: center; margin-top: 20%">${msg}</h1>
     <div style="text-align:center; margin-top:20px;">
       <a href="test-loader.html" style="color:cyan;">← Back to Tests</a>
     </div>
   `;
 }
 
-// Expose to window
 window.loadQuiz = loadQuiz;
 window.startQuiz = startQuiz;
 window.loadResults = loadResults;

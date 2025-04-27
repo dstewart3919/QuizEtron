@@ -1,15 +1,15 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Apocalypse Survival Readiness",
+    "Apocalypse Survivor Essentials",
+    "Zombie Apocalypse Survival Test",
+    "Apocalypse Leadership Challenge"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "apocalypse-survival-readiness.json",
+    "apocalypse-survivor-essentials.json",
+    "zombie-apocalypse-survival-test.json",
+    "apocalypse-leadership-challenge.json"
   ]
 }
