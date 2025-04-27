@@ -1,0 +1,42 @@
+{
+  "title": "Quick Science IQ Challenge",
+  "background": "intelligence",
+  "themeColor": "#116644",
+  "buttonColor": "#44aa88",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "What planet is closest to the sun?", "choices": ["Venus", "Mercury", "Earth", "Mars"], "answerIndex": 1 },
+    { "question": "Water boils at what temperature (Celsius)?", "choices": ["90°C", "95°C", "100°C", "110°C"], "answerIndex": 2 },
+    { "question": "Which element is abbreviated as 'O'?", "choices": ["Oxygen", "Gold", "Osmium", "Oxide"], "answerIndex": 0 },
+    { "question": "Which part of the cell contains DNA?", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Cell wall"], "answerIndex": 0 },
+    { "question": "What gas do humans breathe out?", "choices": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"], "answerIndex": 1 },
+    { "question": "What is the chemical formula for water?", "choices": ["CO2", "H2O", "O2", "HO2"], "answerIndex": 1 },
+    { "question": "Which body organ pumps blood?", "choices": ["Brain", "Heart", "Liver", "Lungs"], "answerIndex": 1 },
+    { "question": "Earth is located in which galaxy?", "choices": ["Andromeda", "Whirlpool", "Milky Way", "Sombrero"], "answerIndex": 2 },
+    { "question": "Electricity is measured in:", "choices": ["Volts", "Watts", "Joules", "Calories"], "answerIndex": 0 },
+    { "question": "What do bees collect and use to make honey?", "choices": ["Pollen", "Sap", "Nectar", "Water"], "answerIndex": 2 },
+    { "question": "How many bones are in an adult human body?", "choices": ["206", "210", "201", "199"], "answerIndex": 0 },
+    { "question": "Which state of matter has no definite shape but a definite volume?", "choices": ["Solid", "Liquid", "Gas", "Plasma"], "answerIndex": 1 },
+    { "question": "Sound travels fastest through which material?", "choices": ["Air", "Water", "Steel", "Wood"], "answerIndex": 2 },
+    { "question": "Which vitamin do you get from sunlight?", "choices": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], "answerIndex": 3 },
+    { "question": "Which blood type is a universal donor?", "choices": ["O-", "A+", "B-", "AB+"], "answerIndex": 0 },
+    { "question": "The study of plants is called:", "choices": ["Zoology", "Botany", "Geology", "Ecology"], "answerIndex": 1 },
+    { "question": "Which planet is known for its rings?", "choices": ["Jupiter", "Uranus", "Saturn", "Neptune"], "answerIndex": 2 },
+    { "question": "What tool measures earthquakes?", "choices": ["Thermometer", "Seismograph", "Barometer", "Altimeter"], "answerIndex": 1 },
+    { "question": "Which scientist developed the theory of relativity?", "choices": ["Isaac Newton", "Marie Curie", "Albert Einstein", "Galileo"], "answerIndex": 2 },
+    { "question": "What is the powerhouse of the cell?", "choices": ["Nucleus", "Ribosome", "Mitochondria", "Cytoplasm"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You're a Science Whiz! 🧬🚀",
+      "medium": "Good science smarts! 🧪",
+      "low": "Needs more science power! 🔬📚"
+    }
+  }
+}

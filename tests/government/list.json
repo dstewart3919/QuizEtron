@@ -1,15 +1,27 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Would You Survive a Government Collapse?",
+    "Which Founding Father Matches You?",
+    "Are You Fit to Run a Nation?",
+    "Government IQ Test: Laws, Powers, History",
+    "What Type of Leader Would You Be?",
+    "Civil War Survival Challenge",
+    "Your Role in a New Republic",
+    "How Well Do You Know the Constitution?",
+    "International Politics Survival Test",
+    "Which Political System Matches You?"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "would-you-survive-government-collapse.json",
+    "which-founding-father-matches-you.json",
+    "are-you-fit-to-run-a-nation.json",
+    "government-iq-test.json",
+    "what-type-of-leader-would-you-be.json",
+    "civil-war-survival-challenge.json",
+    "your-role-in-a-new-republic.json",
+    "how-well-do-you-know-constitution.json",
+    "international-politics-survival-test.json",
+    "which-political-system-matches-you.json"
   ]
 }

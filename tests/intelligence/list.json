@@ -1,15 +1,27 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "IQ Challenge: Logic and Math",
+    "Smarter Than a 5th Grader Quiz",
+    "Brain Buster IQ Test",
+    "Quick Science IQ Challenge",
+    "Ultimate Memory and Reasoning Test",
+    "Are You a Hidden Genius?",
+    "Math and Patterns Speed Test",
+    "Survival IQ: Smartest Move Wins",
+    "Basic Facts Everyone Should Know",
+    "Advanced IQ: Elite Thinkers Test"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "iq-challenge-logic-math.json",
+    "smarter-than-5th-grader.json",
+    "brain-buster-iq-test.json",
+    "quick-science-iq-challenge.json",
+    "memory-reasoning-test.json",
+    "are-you-a-hidden-genius.json",
+    "math-patterns-speed-test.json",
+    "survival-iq-smartest-move.json",
+    "basic-facts-everyone-should-know.json",
+    "advanced-iq-elite-test.json"
   ]
 }

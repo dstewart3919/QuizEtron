@@ -1,0 +1,42 @@
+{
+  "title": "How Well Do You Know Horror Lore?",
+  "background": "horror",
+  "themeColor": "#220022",
+  "buttonColor": "#883388",
+  "scoringType": "iq",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Who wrote 'The Call of Cthulhu'?", "choices": ["Edgar Allan Poe", "Stephen King", "H.P. Lovecraft", "Mary Shelley"], "answerIndex": 2 },
+    { "question": "In which movie do dreams become deadly?", "choices": ["It Follows", "The Babadook", "A Nightmare on Elm Street", "Sinister"], "answerIndex": 2 },
+    { "question": "What creature is famous for shapeshifting?", "choices": ["Vampire", "Werewolf", "Poltergeist", "Mummy"], "answerIndex": 1 },
+    { "question": "Slender Man is associated with:", "choices": ["Forests", "Deserts", "Lakes", "Mountains"], "answerIndex": 0 },
+    { "question": "First horror novel ever written?", "choices": ["Frankenstein", "Dracula", "The Turn of the Screw", "The Shining"], "answerIndex": 0 },
+    { "question": "In Japanese folklore, what is a 'yurei'?", "choices": ["Demon", "Ghost", "Witch", "Spirit animal"], "answerIndex": 1 },
+    { "question": "What town is central to the 'Silent Hill' series?", "choices": ["Raccoon City", "Silent Hill", "Derry", "Springwood"], "answerIndex": 1 },
+    { "question": "Which horror movie features a cursed videotape?", "choices": ["The Ring", "Paranormal Activity", "The Grudge", "Insidious"], "answerIndex": 0 },
+    { "question": "Which weapon is Jason Voorhees famous for?", "choices": ["Knife", "Machete", "Chainsaw", "Axe"], "answerIndex": 1 },
+    { "question": "What creature drains blood in Filipino myth?", "choices": ["Aswang", "Chupacabra", "Djinn", "Banshee"], "answerIndex": 0 },
+    { "question": "Who is known as the Master of Horror?", "choices": ["Stephen King", "Clive Barker", "John Carpenter", "Wes Craven"], "answerIndex": 0 },
+    { "question": "In the movie 'The Thing', the creature:", "choices": ["Mimics humans", "Becomes a giant insect", "Takes over computers", "Turns people to stone"], "answerIndex": 0 },
+    { "question": "Which movie features a haunted videotape that kills in 7 days?", "choices": ["The Grudge", "The Ring", "Sinister", "Oculus"], "answerIndex": 1 },
+    { "question": "Classic Halloween monster born from stitched corpses?", "choices": ["Werewolf", "Vampire", "Frankenstein's Monster", "Mummy"], "answerIndex": 2 },
+    { "question": "Cryptid said to live in West Virginia?", "choices": ["Bigfoot", "Mothman", "Chupacabra", "Kraken"], "answerIndex": 1 },
+    { "question": "Dracula can be weakened by:", "choices": ["Holy water", "Silver", "Loud noises", "Sunlight"], "answerIndex": 3 },
+    { "question": "Famous horror house located at 112 Ocean Avenue?", "choices": ["The Conjuring House", "Amityville House", "The Haunting of Hill House", "Bates Motel"], "answerIndex": 1 },
+    { "question": "What is the Babadook?", "choices": ["Ghost", "Demon", "Manifestation of grief", "Serial killer"], "answerIndex": 2 },
+    { "question": "A poltergeist is known for:", "choices": ["Possession", "Physical disturbances", "Haunting only children", "Appearing in mirrors"], "answerIndex": 1 },
+    { "question": "In 'It', Pennywise feeds on:", "choices": ["Hope", "Anger", "Fear", "Sorrow"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Horror Lore Genius! 📜👻",
+      "medium": "You know enough to stay alive. 🧠",
+      "low": "You're horror movie bait... 📽️💀"
+    }
+  }
+}

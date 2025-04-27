@@ -1,0 +1,42 @@
+{
+  "title": "Brain Buster IQ Test",
+  "background": "intelligence",
+  "themeColor": "#112244",
+  "buttonColor": "#446688",
+  "scoringType": "iq",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "What comes next in the sequence: 1, 1, 2, 3, 5, 8, __?", "choices": ["11", "12", "13", "14"], "answerIndex": 2 },
+    { "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long for 100 machines to make 100 widgets?", "choices": ["5 minutes", "50 minutes", "100 minutes", "1 minute"], "answerIndex": 0 },
+    { "question": "Which number is missing: 2, 6, 12, 20, __, 42", "choices": ["30", "32", "34", "36"], "answerIndex": 2 },
+    { "question": "If a pie is cut into 6 slices and you eat half, how many slices are left?", "choices": ["2", "3", "4", "5"], "answerIndex": 3 },
+    { "question": "Which word does not belong?", "choices": ["Cat", "Dog", "Lion", "Chair"], "answerIndex": 3 },
+    { "question": "Solve for x: 3x + 5 = 20", "choices": ["3", "5", "15", "7"], "answerIndex": 3 },
+    { "question": "How many squares are in a chessboard?", "choices": ["64", "32", "128", "100"], "answerIndex": 0 },
+    { "question": "What is 12% of 200?", "choices": ["20", "24", "26", "28"], "answerIndex": 1 },
+    { "question": "A clock shows 3:15. What is the angle between hour and minute hands?", "choices": ["0°", "7.5°", "30°", "45°"], "answerIndex": 1 },
+    { "question": "What number is 1/4 of 64?", "choices": ["12", "14", "16", "18"], "answerIndex": 2 },
+    { "question": "Find the missing letter: A, D, G, J, __?", "choices": ["L", "M", "N", "O"], "answerIndex": 1 },
+    { "question": "Solve: 8 + (6 ÷ 2) × 3", "choices": ["17", "20", "27", "29"], "answerIndex": 1 },
+    { "question": "Which shape has exactly five sides?", "choices": ["Hexagon", "Pentagon", "Octagon", "Heptagon"], "answerIndex": 1 },
+    { "question": "If 2 pens cost $1.20, how much for 10 pens?", "choices": ["$6", "$5", "$8", "$7"], "answerIndex": 0 },
+    { "question": "Which number is smallest?", "choices": ["0.25", "1/5", "0.2", "0.15"], "answerIndex": 3 },
+    { "question": "Tom is 16 years old. His brother is half his age. How old is his brother?", "choices": ["6", "7", "8", "9"], "answerIndex": 2 },
+    { "question": "If you rearrange the letters L-A-P-S, you get the name of a:", "choices": ["Place", "Animal", "Metal", "Plant"], "answerIndex": 1 },
+    { "question": "What is 9²?", "choices": ["18", "72", "81", "90"], "answerIndex": 2 },
+    { "question": "Which is the next prime number after 7?", "choices": ["9", "10", "11", "13"], "answerIndex": 2 },
+    { "question": "Find the missing number: 9, 16, 25, __, 49", "choices": ["36", "39", "42", "45"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "Elite IQ Level! 🧠🏆",
+      "medium": "Solid problem-solving skills! 🔥",
+      "low": "Your brain is just warming up! 🧩"
+    }
+  }
+}

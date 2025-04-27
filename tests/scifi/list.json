@@ -3,13 +3,25 @@
     "Galactic IQ Calibration",
     "Spaceship Life Support Systems",
     "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Which Space Crew Role Fits You",
+    "Star Wars Force Aptitude Test",
+    "Star Trek Logic and Leadership Test",
+    "Matrix Reality Decoder Challenge",
+    "Alien Invasion Survival Skills",
+    "Galaxy Explorer Readiness Test",
+    "Cybernetic Future Adaptability Quiz"
   ],
-
+  
   "listJSON": [
     "galactic-iq-calibration.json",
     "spaceship-life-support-systems.json",
     "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "which-space-crew-role-fits-you.json",
+    "star-wars-force-aptitude-test.json",
+    "star-trek-logic-leadership-test.json",
+    "matrix-reality-decoder-challenge.json",
+    "alien-invasion-survival-skills.json",
+    "galaxy-explorer-readiness-test.json",
+    "cybernetic-future-adaptability-quiz.json"
   ]
 }

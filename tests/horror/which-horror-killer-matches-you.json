@@ -1,0 +1,43 @@
+{
+  "title": "Which Horror Movie Killer Matches Your Style?",
+  "background": "horror",
+  "themeColor": "#331111",
+  "buttonColor": "#883333",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Your weapon of choice?", "choices": ["Chainsaw", "Kitchen knife", "Psychic powers", "Traps"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Preferred environment?", "choices": ["Woods", "Suburbs", "High school", "Abandoned buildings"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Why do you hunt?", "choices": ["Family tradition", "Born evil", "Bullied revenge", "Teach lessons"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Signature style?", "choices": ["Gory and brutal", "Silent and stalking", "Explosive rage", "Complex games"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Your iconic look?", "choices": ["Mask made of skin", "White blank mask", "Bloody prom dress", "Mechanical voice box"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "First victim type?", "choices": ["Wandering stranger", "Neighborhood teens", "High school bully", "Selfish criminal"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Post-attack escape plan?", "choices": ["Chase them relentlessly", "Disappear into shadows", "Unleash powers", "Lock them in a puzzle"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Emotion during kills?", "choices": ["Wild frenzy", "Stone-cold calm", "Sorrow mixed with rage", "No emotion—just logic"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Your ultimate weakness?", "choices": ["Overwhelming rage", "Being outnumbered", "Broken spirit", "Mortal sickness"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Favorite horror season?", "choices": ["Summer", "Fall", "Prom night", "Winter"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Victim's biggest mistake?", "choices": ["Entering your territory", "Thinking you're dead", "Mocking you", "Breaking your rules"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Do you work alone?", "choices": ["Family nearby", "Completely solo", "Alone by force", "With apprentices"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Biggest fear?", "choices": ["Losing family", "Being trapped", "Humiliation", "Failure of a test"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Your pace during stalking?", "choices": ["Wild sprinting", "Slow and steady", "Erratic movement", "Setting traps in advance"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "First sign you're coming?", "choices": ["Chainsaw revving", "Silent approaching", "Telekinetic shock", "Cryptic message"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Injury during battle?", "choices": ["Keep charging", "Act like nothing happened", "Psychic burst", "Trap recovery plan"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "If you lose a victim?", "choices": ["Hunt madly", "Stalk patiently", "Explode with rage", "Wait until they fall into trap"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Your ideal horror movie rating?", "choices": ["Over-the-top gore", "Slow burn terror", "Emotional trauma", "Twisted psychological"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "After the hunt, you:", "choices": ["Wear trophies", "Disappear mysteriously", "Cry alone", "Plan next game"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] },
+    { "question": "Victory celebration?", "choices": ["Dance with chainsaw", "Walk away into night", "Explode surroundings", "Watch survivors struggle"], "weights": [{"Leatherface": 2}, {"Michael Myers": 2}, {"Carrie": 2}, {"Jigsaw": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Leatherface": "You're like Leatherface — Wild, brutal, and terrifying! 🔪",
+      "Michael Myers": "You're like Michael Myers — Silent and unstoppable! 🎃",
+      "Carrie": "You're like Carrie — Wronged, powerful, and vengeful! 🩸",
+      "Jigsaw": "You're like Jigsaw — Twisted, calculating, and patient! 🧩"
+    }
+  }
+}

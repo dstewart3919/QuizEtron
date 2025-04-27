@@ -1,0 +1,43 @@
+{
+  "title": "Which Founding Father Matches You?",
+  "background": "government",
+  "themeColor": "#224466",
+  "buttonColor": "#4488cc",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Your leadership style?", "choices": ["Bold and outspoken", "Strategic and reserved", "Idealistic and visionary", "Tactical and adaptive"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Preferred form of government?", "choices": ["Strong federal government", "Decentralized states", "Balanced powers", "Experimental and new ideas"], "weights": [{"Hamilton": 2}, {"Jefferson": 2}, {"Washington": 2}, {"Franklin": 2}] },
+    { "question": "In conflict, you:", "choices": ["Outtalk the enemy", "Maintain dignity", "Seek peace", "Use cleverness"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Biggest personal flaw?", "choices": ["Arrogance", "Stubbornness", "Dreaminess", "Risk-taking"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Ideal weapon?", "choices": ["Pen", "Sword", "Negotiation", "Printing press"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Main goal for a new nation?", "choices": ["Financial strength", "Unity", "Freedom", "Innovation"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Handling criticism:", "choices": ["Fight back", "Ignore it", "Address it calmly", "Laugh it off"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Approach to foreign affairs?", "choices": ["Assert dominance", "Cautious neutrality", "Global cooperation", "Experiment with alliances"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Personal lifestyle?", "choices": ["Lavish and risky", "Simple and honorable", "Philosophical and reflective", "Adventurous and witty"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "How you handle setbacks?", "choices": ["Push harder", "Stay steady", "Rethink strategy", "Create a new plan"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "What would you invent?", "choices": ["Banking system", "Constitution", "Declaration of Independence", "Lightning rod"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Your biggest fear?", "choices": ["Losing power", "Losing honor", "Losing ideals", "Losing freedom to create"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Best leadership motto?", "choices": ["Power builds nations", "Honor before all", "Liberty and justice", "Creativity fuels progress"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Your best diplomatic move?", "choices": ["Negotiate hard", "Lead by example", "Offer visions of hope", "Charm and network"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Dealing with chaos?", "choices": ["Take charge", "Remain calm", "Think deeply", "Innovate new systems"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "You inherit a failing economy. First move?", "choices": ["Raise taxes strategically", "Cut spending and stabilize", "Reform banking", "Encourage new technologies"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Most admired skill?", "choices": ["Financial genius", "Military leadership", "Philosophy", "Invention"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "When facing tyranny, you:", "choices": ["Overthrow immediately", "Strategize carefully", "Educate the masses", "Subvert creatively"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "When designing a nation, what matters most?", "choices": ["Economic systems", "Unity", "Rights and freedoms", "Scientific advancement"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] },
+    { "question": "Ultimate legacy you want to leave?", "choices": ["Strong financial system", "Respected leadership", "Freedom manifesto", "Scientific revolution"], "weights": [{"Hamilton": 2}, {"Washington": 2}, {"Jefferson": 2}, {"Franklin": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Hamilton": "Alexander Hamilton — The Economic Architect 🇺🇸💵",
+      "Washington": "George Washington — The Steadfast Leader 🇺🇸🗡️",
+      "Jefferson": "Thomas Jefferson — The Idealistic Philosopher 🇺🇸📜",
+      "Franklin": "Benjamin Franklin — The Inventive Genius 🇺🇸⚡"
+    }
+  }
+}

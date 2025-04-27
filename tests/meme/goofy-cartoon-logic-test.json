@@ -1,0 +1,33 @@
+{
+  "title": "Goofy Cartoon Logic Test",
+  "background": "meme",
+  "themeColor": "#663399",
+  "buttonColor": "#aa66ff",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "If you fall off a cliff in a cartoon, you:", "choices": ["Float until you notice", "Fall instantly", "Bounce like jelly", "Teleport somewhere safe"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "You get hit with an anvil. You:", "choices": ["Become flat, walk away", "Turn into an accordion", "Pretend nothing happened", "Invent a machine to reverse it"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "Best escape plan?", "choices": ["Paint a fake tunnel", "Dress as your enemy", "Walk away whistling", "Use science babble"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "Ideal travel method?", "choices": ["Rocket strapped to your back", "Banana boat", "Walking through walls", "Portal gun"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "How do you win a fight?", "choices": ["Drop heavy objects", "Laugh until they give up", "Outsmart them with loopholes", "Turn them into a pickle"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "What's your cartoon weakness?", "choices": ["Gravity", "Ice cream", "Sarcasm", "Your own genius"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "Best cartoon pet?", "choices": ["Coyote", "Talking starfish", "Giant rabbit", "Sentient butter robot"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "If someone insults you, you:", "choices": ["Chase them forever", "Make silly faces", "Roast them savagely", "Build a death ray"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "Cartoon superpower you'd want?", "choices": ["Infinite ACME gadgets", "Invincible goofiness", "Breaking the 4th wall", "Mega science IQ"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] },
+    { "question": "Your life motto?", "choices": ["Never give up, no matter how dumb", "Laugh it off", "Outsmart everyone", "Question everything"], "weights": [{"WileE": 2}, {"GoofyGoober": 2}, {"BugsLogic": 2}, {"RickLogic": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "WileE": "You are Wile E. Coyote — relentless, unlucky, and 100% committed. 🚀🪤",
+      "GoofyGoober": "You are pure Goofy Goober — powered by chaos and snacks. 🍦🪁",
+      "BugsLogic": "You are Bugs Bunny Logic — sarcastic, unbeatable, sly as heck. 🥕😎",
+      "RickLogic": "You are Rick Logic — dangerous genius wrapped in chaos. 🧪🚀"
+    }
+  }
+}

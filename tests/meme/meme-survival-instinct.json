@@ -1,0 +1,33 @@
+{
+  "title": "Your Meme Survival Instinct",
+  "background": "meme",
+  "themeColor": "#445522",
+  "buttonColor": "#88aa44",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "You wake up to internet chaos. You:", "choices": ["Post spicy memes", "Retreat silently", "Start a meme war", "Laugh and move on"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "Someone insults your meme. You:", "choices": ["Roast them back with better memes", "Ignore completely", "Create a meme exposing them", "Laugh and repost it ironically"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "Pick your meme starter pack:", "choices": ["Dank memes", "Wholesome memes", "Savage memes", "Weird niche memes"], "weights": [{"ChaoticGood": 2}, {"NeutralGood": 2}, {"ChaoticEvil": 2}, {"LawfulNeutral": 2}] },
+    { "question": "Your natural internet habitat:", "choices": ["Twitter fights", "Reddit deep dives", "Trolling in comment sections", "Sharing memes to brighten days"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "If memes were outlawed:", "choices": ["Start an underground meme ring", "Write peaceful protest memes", "Anarchy and rage posting", "Calmly create meme archives"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "Which animal meme are you?", "choices": ["Dogecoin dog", "Concerned cat", "Pissed-off goose", "Confused monkey"], "weights": [{"ChaoticGood": 2}, {"NeutralGood": 2}, {"ChaoticEvil": 2}, {"LawfulNeutral": 2}] },
+    { "question": "You see bad memes trending. You:", "choices": ["Battle them with fresh memes", "Silently judge", "Sabotage from within", "Laugh and accept fate"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "Choose a meme weapon:", "choices": ["Mega sarcasm", "Deadpan truth", "Pure chaos energy", "Wholesome power"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "What’s your motto?", "choices": ["Memes heal the world", "Memes must be balanced", "Memes must DESTROY", "Memes = Freedom"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] },
+    { "question": "Biggest meme crime?", "choices": ["Posting boomer memes", "Spamming stolen memes", "Starting fake meme drama", "Gatekeeping memes"], "weights": [{"ChaoticGood": 2}, {"LawfulNeutral": 2}, {"ChaoticEvil": 2}, {"NeutralGood": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "ChaoticGood": "You are Chaotic Good — memes for the people, chaos for the cause! 🔥😂",
+      "LawfulNeutral": "You are Lawful Neutral — peaceful meme librarian. 📚✨",
+      "ChaoticEvil": "You are Chaotic Evil — meme bomb thrower. No survivors. 💣🤣",
+      "NeutralGood": "You are Neutral Good — healing the world one meme at a time. 🥰🌎"
+    }
+  }
+}

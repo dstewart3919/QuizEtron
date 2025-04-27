@@ -1,0 +1,42 @@
+{
+  "title": "Star Trek Logic and Leadership Test",
+  "background": "sci-fi",
+  "themeColor": "#002255",
+  "buttonColor": "#0055aa",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "In a critical situation, you must first:", "choices": ["Act immediately", "Analyze data", "Consult the team", "Panic"], "answerIndex": 1 },
+    { "question": "Vulcans believe in:", "choices": ["Emotion first", "Logic above all", "Aggression", "Deception"], "answerIndex": 1 },
+    { "question": "Prime Directive prevents:", "choices": ["War", "Interference with less developed civilizations", "Space mining", "Diplomacy"], "answerIndex": 1 },
+    { "question": "First duty of a Starfleet officer:", "choices": ["Follow orders blindly", "Protect ship’s technology", "Seek personal fame", "Truth to the scientific method"], "answerIndex": 3 },
+    { "question": "If an enemy surrenders, you:", "choices": ["Execute them", "Negotiate peace", "Use them for experiments", "Mock them"], "answerIndex": 1 },
+    { "question": "Kobayashi Maru is a test of:", "choices": ["Piloting skills", "Strength", "Character in no-win scenarios", "Combat strategy"], "answerIndex": 2 },
+    { "question": "Red Alert means:", "choices": ["Prepare weapons", "High alert situation", "Ship is about to explode", "Communication lockdown"], "answerIndex": 1 },
+    { "question": "What race practices ultimate logic?", "choices": ["Humans", "Romulans", "Vulcans", "Borg"], "answerIndex": 2 },
+    { "question": "Starfleet captains are expected to be:", "choices": ["Emotional", "Calculating and calm", "Reckless", "Impatient"], "answerIndex": 1 },
+    { "question": "Who is known for logical problem-solving?", "choices": ["Kirk", "Spock", "Worf", "Q"], "answerIndex": 1 },
+    { "question": "You detect life signs during a survey. You:", "choices": ["Investigate carefully", "Charge in", "Ignore it", "Blast it from orbit"], "answerIndex": 0 },
+    { "question": "When a warp core is unstable, what’s priority?", "choices": ["Evacuate", "Increase warp", "Turn off life support", "Fire phasers"], "answerIndex": 0 },
+    { "question": "Your first reaction to alien communication?", "choices": ["Fire weapons", "Attempt peaceful contact", "Evade", "Self-destruct"], "answerIndex": 1 },
+    { "question": "Federation’s purpose is primarily:", "choices": ["Colonization", "Resource gathering", "Peaceful exploration", "Conquering"], "answerIndex": 2 },
+    { "question": "Spock’s famous line is:", "choices": ["'Engage!'", "'Live long and prosper.'", "'Resistance is futile.'", "'Make it so.'"], "answerIndex": 1 },
+    { "question": "If you suspect sabotage onboard:", "choices": ["Alert security and investigate", "Arrest everyone", "Ignore it", "Abandon ship"], "answerIndex": 0 },
+    { "question": "Best leadership quality?", "choices": ["Ruthlessness", "Empathy mixed with reason", "Overconfidence", "Arrogance"], "answerIndex": 1 },
+    { "question": "A good Starfleet captain is known for:", "choices": ["Firing first", "Prioritizing diplomacy", "Conquering planets", "Ignoring science"], "answerIndex": 1 },
+    { "question": "If ship's computer is compromised:", "choices": ["Blow up computer core", "Reset and isolate systems", "Trust it anyway", "Call Klingons"], "answerIndex": 1 },
+    { "question": "In tough negotiations, you:", "choices": ["Threaten", "Use logic and reason", "Bribe", "Yell loudly"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You have the leadership and logic of a Starfleet Captain! 🖖🚀",
+      "medium": "You show promise — future commander in the making. 🌟🛸",
+      "low": "More training at Starfleet Academy recommended! 📚🖖"
+    }
+  }
+}

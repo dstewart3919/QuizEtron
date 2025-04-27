@@ -1,0 +1,33 @@
+{
+  "title": "Trump Speech Simulator Quiz",
+  "background": "meme",
+  "themeColor": "#aa0000",
+  "buttonColor": "#ff5555",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Pick a classic Trump move:", "choices": ["Declare it 'the best ever'", "Blame fake news", "Announce something yuge", "Tweet at 3 AM"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "First thing you’d say in a debate?", "choices": ["'Wrong.'", "'I know more than the generals.'", "'It'll be tremendous.'", "'Sad!'"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "Your power outfit?", "choices": ["Red tie", "Oversized suit", "Golden hat", "Twitter hoodie"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "Biggest threat to your empire?", "choices": ["Bad deals", "Fake news", "Low energy", "Mean tweets"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "How do you describe your success?", "choices": ["'Nobody does it better.'", "'They said it couldn't be done.'", "'It’s gonna be yuge.'", "'People are talking about it.'"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "Favorite prop to show off?", "choices": ["Contract", "Newspaper", "Giant trophy", "Phone with Twitter open"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "Pick a famous Trump word:", "choices": ["'Win'", "'Fake'", "'Yuge'", "'Sad'"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "You’re losing a game. You:", "choices": ["Claim you won", "Say it was rigged", "Make it sound historic", "Start tweeting insults"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "Meme moment you'd most create?", "choices": ["Victory dance", "Arguing with media", "Boasting about crowd size", "Starting 3 AM tweetstorm"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] },
+    { "question": "Ultimate Trump flex?", "choices": ["Art of the Deal", "Winning lawsuits", "Historic ratings", "Unhinged viral tweet"], "weights": [{"DealMaker": 2}, {"FakeNewsHunter": 2}, {"YugeEnergy": 2}, {"MidnightTweeter": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "DealMaker": "You are the Deal Maker — every move is 'the greatest in history!' 🧠💼",
+      "FakeNewsHunter": "You are the Fake News Hunter — trust issues, maximum sarcasm. 📰🧢",
+      "YugeEnergy": "You are Yuge Energy — life is a rally and you’re the headliner. 🎤🏛️",
+      "MidnightTweeter": "You are the Midnight Tweeter — chaos reigns past 3 AM. 📱🌙"
+    }
+  }
+}

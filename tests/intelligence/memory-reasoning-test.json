@@ -1,0 +1,42 @@
+{
+  "title": "Ultimate Memory and Reasoning Test",
+  "background": "intelligence",
+  "themeColor": "#222266",
+  "buttonColor": "#5555aa",
+  "scoringType": "iq",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "You see the sequence: RED, BLUE, RED, BLUE, RED, __?", "choices": ["BLUE", "RED", "GREEN", "YELLOW"], "answerIndex": 0 },
+    { "question": "Which number is missing? 5, 10, 20, __, 80", "choices": ["30", "40", "50", "60"], "answerIndex": 1 },
+    { "question": "Which comes next: A, C, E, G, __?", "choices": ["H", "I", "J", "K"], "answerIndex": 1 },
+    { "question": "You walk into a room with 2 dogs, 4 cats, 1 giraffe, and 5 ducks. How many legs are there total (including yours)?", "choices": ["22", "24", "26", "28"], "answerIndex": 2 },
+    { "question": "Find the next number: 1, 4, 9, 16, 25, __?", "choices": ["30", "32", "36", "40"], "answerIndex": 2 },
+    { "question": "What word is always spelled incorrectly?", "choices": ["Incorrectly", "Wrong", "Misspelled", "Confusing"], "answerIndex": 0 },
+    { "question": "If you rearrange the letters 'CIFAIPC', you would have the name of a:", "choices": ["Country", "Ocean", "City", "Continent"], "answerIndex": 1 },
+    { "question": "Which shape has the most sides?", "choices": ["Hexagon", "Pentagon", "Octagon", "Triangle"], "answerIndex": 2 },
+    { "question": "If all roses are flowers and some flowers fade quickly, are some roses fading quickly?", "choices": ["Definitely", "Possibly", "Definitely not", "Impossible to tell"], "answerIndex": 1 },
+    { "question": "What is half of one third of 300?", "choices": ["25", "50", "100", "150"], "answerIndex": 1 },
+    { "question": "Which letter is missing: B, E, H, K, __?", "choices": ["L", "M", "N", "O"], "answerIndex": 1 },
+    { "question": "What comes next: 2, 6, 12, 20, __?", "choices": ["30", "32", "34", "36"], "answerIndex": 2 },
+    { "question": "Which animal comes first alphabetically?", "choices": ["Zebra", "Elephant", "Alligator", "Monkey"], "answerIndex": 2 },
+    { "question": "If you double 15, then add 10, what do you get?", "choices": ["30", "35", "40", "45"], "answerIndex": 2 },
+    { "question": "Which is heavier: a pound of feathers or a pound of lead?", "choices": ["Feathers", "Lead", "Neither", "Depends on temperature"], "answerIndex": 2 },
+    { "question": "Which day comes next: Monday, Wednesday, Friday, __?", "choices": ["Sunday", "Saturday", "Monday", "Tuesday"], "answerIndex": 1 },
+    { "question": "If 8 pencils cost $2, how much do 24 pencils cost?", "choices": ["$4", "$6", "$8", "$10"], "answerIndex": 1 },
+    { "question": "Memory test: Remember this: Banana, Rocket, Chair, Fish. Which was NOT listed?", "choices": ["Banana", "Rocket", "Chair", "Apple"], "answerIndex": 3 },
+    { "question": "The next even number after 98 is:", "choices": ["99", "100", "101", "102"], "answerIndex": 1 },
+    { "question": "Which is the odd one out?", "choices": ["Triangle", "Square", "Circle", "Rectangle"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "Ultimate Memory Master! 🧠✨",
+      "medium": "Great Logical Skills! 🧩",
+      "low": "You have potential — keep training! 📚"
+    }
+  }
+}

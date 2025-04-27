@@ -1,0 +1,33 @@
+{
+  "title": "Elon Musk Tweet Generator Test",
+  "background": "meme",
+  "themeColor": "#004466",
+  "buttonColor": "#0088cc",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Your perfect random tweet would be about:", "choices": ["Dogs on Mars", "Flamethrower sales", "AI warnings", "Secret tunnels"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "First thing you'd build?", "choices": ["Space colony", "Flamethrower company", "AI lab", "Hyperloop to nowhere"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "Choose your 'random idea' weapon:", "choices": ["Dogecoin memes", "Literal fire", "AI-powered toaster", "Digging machines"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "Favorite snack while tweeting?", "choices": ["Popcorn and memes", "Hot peppers", "Brain fuel smoothie", "Coffee underground"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "Your chaotic business move:", "choices": ["Buy a social network", "Sell flamethrowers as toys", "Release AI that roasts you", "Dig tunnels under cities"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "Your Mars colonization plan?", "choices": ["Dogs first", "Flamethrower-powered ships", "AI terraforming", "Tunnels on Mars"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "What would your fans call you?", "choices": ["Dogefather", "Flamelord", "Cybermind", "Tunnelking"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "Favorite chaotic flex?", "choices": ["Meme-coins skyrocketing", "Launch a flamethrower for no reason", "Predict the AI future", "Tunnels to avoid traffic"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "Your reaction to failure?", "choices": ["Post a dank meme", "Burn failure (literally)", "Optimize it", "Dig under the problem"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] },
+    { "question": "What motivates you the most?", "choices": ["Memes", "Explosions", "Changing humanity", "Building weird stuff underground"], "weights": [{"Dogefather": 2}, {"FlameLord": 2}, {"CyberMind": 2}, {"TunnelKing": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Dogefather": "You are the Dogefather — chaotic meme energy fueling the galaxy. 🐕🚀",
+      "FlameLord": "You are FlameLord — burning brighter and louder than anyone else. 🔥🧨",
+      "CyberMind": "You are CyberMind — seeing the future before anyone else. 🧠🤖",
+      "TunnelKing": "You are TunnelKing — building secret roads while the world panics. 🚇🏗️"
+    }
+  }
+}

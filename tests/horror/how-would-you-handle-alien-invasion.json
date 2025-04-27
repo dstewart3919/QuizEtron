@@ -1,0 +1,42 @@
+{
+  "title": "How Would You Handle an Alien Invasion?",
+  "background": "horror",
+  "themeColor": "#112244",
+  "buttonColor": "#336699",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "First sighting of aliens. You:", "choices": ["Hide underground", "Broadcast it live", "Try to make contact", "Evacuate city"], "answerIndex": 0 },
+    { "question": "Alien craft crash-lands nearby. You:", "choices": ["Investigate", "Stay hidden", "Warn others", "Salvage parts"], "answerIndex": 1 },
+    { "question": "Best base of operations?", "choices": ["Bunker", "Skyscraper", "Forest", "Military base"], "answerIndex": 0 },
+    { "question": "Aliens are abducting people. You:", "choices": ["Lay low", "Fight back", "Try diplomacy", "Follow the abductees"], "answerIndex": 0 },
+    { "question": "Weapon of choice?", "choices": ["High-powered rifle", "Explosives", "EMP generator", "Bat and hope"], "answerIndex": 2 },
+    { "question": "Best group strategy?", "choices": ["Small stealth group", "Massive defense network", "Solo survival", "Join government response"], "answerIndex": 0 },
+    { "question": "You capture an alien. First move?", "choices": ["Interrogate it", "Study it", "Kill it", "Trade it for safe passage"], "answerIndex": 1 },
+    { "question": "Alien weapon spotted. You:", "choices": ["Steal it", "Run away", "Study from afar", "Destroy it"], "answerIndex": 2 },
+    { "question": "Alien drones patrol the skies. You:", "choices": ["Travel only at night", "Wear camo", "Signal them", "Use decoys"], "answerIndex": 0 },
+    { "question": "Mysterious black monolith appears. You:", "choices": ["Avoid it", "Touch it", "Photograph it", "Worship it"], "answerIndex": 0 },
+    { "question": "You hear weird signals on the radio. You:", "choices": ["Decipher them", "Ignore them", "Jam them", "Broadcast your location"], "answerIndex": 0 },
+    { "question": "Biggest alien threat?", "choices": ["Mind control", "Bioweapons", "Invisibility", "Sheer numbers"], "answerIndex": 1 },
+    { "question": "If offered safe passage by aliens you:", "choices": ["Refuse", "Accept and betray humans", "Demand answers", "Escape during talks"], "answerIndex": 3 },
+    { "question": "Infiltrated city. First step?", "choices": ["Set up safe zones", "Sabotage alien tech", "Gather intelligence", "Leave immediately"], "answerIndex": 2 },
+    { "question": "Alien parasites spreading. You:", "choices": ["Wear hazmat gear", "Evacuate", "Fight infected", "Hide underground"], "answerIndex": 0 },
+    { "question": "Power grid disabled. You:", "choices": ["Go completely off-grid", "Try to restore it", "Light signal fires", "Panic"], "answerIndex": 0 },
+    { "question": "Allies suggest surrender. You:", "choices": ["Fight to the end", "Consider it", "Betray allies", "Fake surrender and attack"], "answerIndex": 0 },
+    { "question": "They offer you survival in exchange for betraying Earth. You:", "choices": ["Refuse", "Play along and betray aliens later", "Accept", "Fight immediately"], "answerIndex": 1 },
+    { "question": "Final stand location?", "choices": ["Mountain caves", "Fortified town", "Space station ruins", "Nuclear facility"], "answerIndex": 0 },
+    { "question": "Ultimate survival motto?", "choices": ["Adapt and overcome", "Fight without mercy", "Never trust anyone", "Survive at all costs"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You survive the invasion! 🛸🧠",
+      "medium": "You live... barely under alien rule. 👽",
+      "low": "Abducted and forgotten... 💀🌌"
+    }
+  }
+}

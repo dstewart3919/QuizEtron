@@ -1,0 +1,43 @@
+{
+  "title": "Your Role in a New Republic",
+  "background": "government",
+  "themeColor": "#334455",
+  "buttonColor": "#557799",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "First position you volunteer for?", "choices": ["Leader", "Strategist", "Diplomat", "Historian"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Key focus for the new nation?", "choices": ["Strong leadership", "Military defense", "Trade and alliances", "Cultural rebirth"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Your power base is:", "choices": ["Popular support", "Military loyalty", "Global friendships", "Legacy and tradition"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Best way to handle rebellion?", "choices": ["Negotiate terms", "Crush immediately", "Offer incentives", "Document the history"], "weights": [{"Diplomat": 2}, {"Strategist": 2}, {"Leader": 2}, {"Historian": 2}] },
+    { "question": "First law you pass?", "choices": ["Freedom of speech", "Mandatory military service", "Trade tariffs", "Preservation of historical sites"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "How do you deal with foreign spies?", "choices": ["Diplomatic expulsion", "Counter-intelligence", "Public exposure", "Record their deeds"], "weights": [{"Diplomat": 2}, {"Strategist": 2}, {"Leader": 2}, {"Historian": 2}] },
+    { "question": "You encounter ancient ruins. You:", "choices": ["Turn it into a museum", "Use it as fortress", "Create alliance with local tribe", "Preserve it untouched"], "weights": [{"Historian": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Leader": 2}] },
+    { "question": "Major threat arises. You prioritize:", "choices": ["Mobilizing defenses", "Building alliances", "Calming the people", "Recording the events"], "weights": [{"Strategist": 2}, {"Diplomat": 2}, {"Leader": 2}, {"Historian": 2}] },
+    { "question": "Currency collapse. You suggest:", "choices": ["Barter economy", "Military scrip", "Global trade deals", "Gold standard based on old practices"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "First foreign deal?", "choices": ["Trade agreement", "Non-aggression pact", "Military alliance", "Knowledge exchange"], "weights": [{"Diplomat": 2}, {"Strategist": 2}, {"Leader": 2}, {"Historian": 2}] },
+    { "question": "Historical figure you admire?", "choices": ["George Washington", "Alexander the Great", "Nelson Mandela", "Herodotus"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Your national emblem?", "choices": ["Sword and olive branch", "Shield and eagle", "Handshake symbol", "Ancient book"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "To inspire the people, you:", "choices": ["Lead from frontlines", "Develop smart defense", "Deliver historic speeches", "Write powerful chronicles"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "You build a capital city. Key feature?", "choices": ["Palace of leadership", "Defensive walls", "Global embassy center", "Great library"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Handling internal corruption?", "choices": ["Purge the corrupt", "Manipulate politically", "Negotiate reforms", "Record for history books"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "An epic conflict begins. You:", "choices": ["Take personal command", "Devise strategies", "Forge peace treaties", "Chronicle the events"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Your leadership flaw?", "choices": ["Pride", "Overcomplication", "Naïve trust", "Detached observation"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Biggest national celebration?", "choices": ["Independence Day", "Military Victory Day", "Global Friendship Day", "History and Heritage Day"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "Your ultimate goal?", "choices": ["Long-lasting unity", "Unbreakable security", "Global respect", "Immortal legacy"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] },
+    { "question": "When you retire, you're remembered for:", "choices": ["Leadership", "Military brilliance", "Diplomatic genius", "Historical wisdom"], "weights": [{"Leader": 2}, {"Strategist": 2}, {"Diplomat": 2}, {"Historian": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Leader": "You are the Pillar of the Republic! 🏛️👑",
+      "Strategist": "You are the Mastermind of Defense! 🛡️⚔️",
+      "Diplomat": "You are the Peacemaker of Nations! 🤝🌍",
+      "Historian": "You are the Guardian of History! 📜🏛️"
+    }
+  }
+}

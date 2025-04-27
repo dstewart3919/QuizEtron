@@ -1,0 +1,42 @@
+{
+  "title": "Horror IQ Test: Legends, Monsters, Survival",
+  "background": "horror",
+  "themeColor": "#220011",
+  "buttonColor": "#663366",
+  "scoringType": "iq",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "What kills a vampire traditionally?", "choices": ["Silver bullet", "Stake through heart", "Burning alive", "Decapitation"], "answerIndex": 1 },
+    { "question": "Classic monster that changes during a full moon?", "choices": ["Vampire", "Zombie", "Werewolf", "Ghoul"], "answerIndex": 2 },
+    { "question": "Which horror legend drowned in Crystal Lake?", "choices": ["Freddy Krueger", "Jason Voorhees", "Michael Myers", "Chucky"], "answerIndex": 1 },
+    { "question": "Symbol of protection against demons?", "choices": ["Crucifix", "Lantern", "Black cat", "Dagger"], "answerIndex": 0 },
+    { "question": "What is Pennywise?", "choices": ["Demon", "Mutated clown", "Alien entity", "Witch"], "answerIndex": 2 },
+    { "question": "How do zombies typically spread infection?", "choices": ["Touch", "Bite", "Screams", "Telepathy"], "answerIndex": 1 },
+    { "question": "Dracula was based on which real figure?", "choices": ["Vlad the Impaler", "Jack the Ripper", "King Arthur", "Rasputin"], "answerIndex": 0 },
+    { "question": "Freddy Krueger attacks victims in their:", "choices": ["Homes", "Dreams", "Schools", "Hospitals"], "answerIndex": 1 },
+    { "question": "Movie where a videotape curses viewers?", "choices": ["The Grudge", "The Ring", "The Nun", "Sinister"], "answerIndex": 1 },
+    { "question": "Weakness of the Slender Man?", "choices": ["Salt", "Fire", "Photographic evidence", "None confirmed"], "answerIndex": 3 },
+    { "question": "In 'The Exorcist', what possesses Regan?", "choices": ["A witch", "The devil", "A demon named Pazuzu", "An angry spirit"], "answerIndex": 2 },
+    { "question": "The horror trope 'Final Girl' refers to:", "choices": ["First to die", "Monster's ally", "Last survivor", "First attacker"], "answerIndex": 2 },
+    { "question": "Ghosts usually manifest strongest during:", "choices": ["New moon", "Midnight", "3:00 AM", "Full moon"], "answerIndex": 2 },
+    { "question": "What object is used to summon Bloody Mary?", "choices": ["Ouija board", "Mirror", "Candle", "Book"], "answerIndex": 1 },
+    { "question": "How do you end a poltergeist haunting?", "choices": ["Salt and prayer", "Move houses", "Destroy cursed object", "Exorcism"], "answerIndex": 3 },
+    { "question": "Chucky is a:", "choices": ["Living doll", "Vampire puppet", "Cursed voodoo creation", "Talking toy"], "answerIndex": 2 },
+    { "question": "First rule of surviving a horror movie?", "choices": ["Stay isolated", "Never split up", "Investigate strange noises", "Forget weapons"], "answerIndex": 1 },
+    { "question": "A Wendigo originates from which culture?", "choices": ["Celtic", "Native American", "Nordic", "Roman"], "answerIndex": 1 },
+    { "question": "What typically summons Candyman?", "choices": ["Saying his name", "Opening a cursed book", "Stealing honey", "Lighting candles"], "answerIndex": 0 },
+    { "question": "Most important trait to survive horror?", "choices": ["Speed", "Brains", "Strength", "Wealth"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Horror Mastermind! 🧠🔪",
+      "medium": "You know your monsters, but beware... 👀",
+      "low": "You'd be first to die in a scary movie. 💀📽️"
+    }
+  }
+}

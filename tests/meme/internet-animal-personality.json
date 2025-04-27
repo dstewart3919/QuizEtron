@@ -1,0 +1,33 @@
+{
+  "title": "What Internet Animal Are You?",
+  "background": "meme",
+  "themeColor": "#554400",
+  "buttonColor": "#aa8833",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Pick your morning mood:", "choices": ["Excited chaos", "Sleepy grump", "Magical adventure", "Overthinking everything"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Your ideal weekend:", "choices": ["Zoomies in a field", "Judging humanity", "Flying through space", "Ordering way too much food"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Favorite snack?", "choices": ["Bones", "Nothing (leave me alone)", "Cupcakes", "Burger... many burger"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Biggest strength?", "choices": ["Optimism", "Sarcasm", "Being a literal rainbow", "Meming through life"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "If someone takes your picture, you:", "choices": ["Smile with full teeth", "Look bored", "Pose fabulously", "Make derp face"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Choose your dream ride:", "choices": ["Magic skateboard", "Big comfy chair", "Rocket ship", "Uber Eats van"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Most likely to be seen where?", "choices": ["Park chasing squirrels", "Window sill glaring", "Riding cosmic rainbows", "Corner booth at McDonald's"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Your communication style:", "choices": ["Much wow, very speak", "Deadpan replies", "Singing noises", "Random weird words"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Biggest life goal?", "choices": ["Make friends", "Be left alone", "Spread rainbows", "Survive meme fame"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] },
+    { "question": "Favorite weather?", "choices": ["Sunny and zoomy", "Dark and moody", "Galactic", "Any weather as long as food comes"], "weights": [{"Doge": 2}, {"Grumpy Cat": 2}, {"Nyan Cat": 2}, {"Cheems": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Doge": "You are Doge — chaotic good pupper! Such wow. 🐕✨",
+      "Grumpy Cat": "You are Grumpy Cat — elite sarcasm level 9999. 😾☕",
+      "Nyan Cat": "You are Nyan Cat — eternal rainbow zoom energy. 🌈🚀",
+      "Cheems": "You are Cheems — derpy but powerful. 🍔🐶"
+    }
+  }
+}

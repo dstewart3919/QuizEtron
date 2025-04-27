@@ -1,0 +1,42 @@
+{
+  "title": "Would You Survive a Zombie Outbreak?",
+  "background": "horror",
+  "themeColor": "#551111",
+  "buttonColor": "#aa3333",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "First sign of outbreak, you:", "choices": ["Barricade home", "Head to store", "Try to rescue friends", "Ignore news"], "answerIndex": 0 },
+    { "question": "Best zombie apocalypse weapon?", "choices": ["Baseball bat", "Shotgun", "Chainsaw", "Crowbar"], "answerIndex": 1 },
+    { "question": "Zombie bites your friend. You:", "choices": ["Try to save them", "Say goodbye and run", "Quarantine them", "Shoot immediately"], "answerIndex": 3 },
+    { "question": "Best shelter location?", "choices": ["Mall", "High-rise building", "Isolated cabin", "Police station"], "answerIndex": 2 },
+    { "question": "Your group size?", "choices": ["Solo", "Small trusted group", "Big gang", "Random strangers"], "answerIndex": 1 },
+    { "question": "Main food priority?", "choices": ["Canned goods", "Fast food", "Steal whatever you can", "Hunt wild animals"], "answerIndex": 0 },
+    { "question": "How to deal with injuries?", "choices": ["Keep going", "First aid kit", "Cry about it", "Ignore everything"], "answerIndex": 1 },
+    { "question": "If surrounded by zombies?", "choices": ["Fight through", "Sneak away", "Hide silently", "Pray for rescue"], "answerIndex": 2 },
+    { "question": "Safest travel time?", "choices": ["Daytime", "Night", "Dusk/Dawn", "Stay still always"], "answerIndex": 2 },
+    { "question": "Vehicle of choice?", "choices": ["Bicycle", "Motorcycle", "Pickup truck", "Helicopter"], "answerIndex": 2 },
+    { "question": "Biggest early danger?", "choices": ["Other humans", "Zombies", "Starvation", "Getting lost"], "answerIndex": 0 },
+    { "question": "Best way to sleep safely?", "choices": ["Climb trees", "Stay in locked rooms", "Sleep during day", "Never sleep"], "answerIndex": 1 },
+    { "question": "Long-term survival plan?", "choices": ["Find remote island", "Fortify a town", "Keep moving", "Underground bunker"], "answerIndex": 0 },
+    { "question": "Horde approaching, you:", "choices": ["Hide underground", "Sprint far away", "Fight to the death", "Use diversion"], "answerIndex": 3 },
+    { "question": "Ideal companion?", "choices": ["Medic", "Sniper", "Engineer", "Comedian"], "answerIndex": 1 },
+    { "question": "Supplies are running out. You:", "choices": ["Raid risky areas", "Grow food", "Take from others", "Give up"], "answerIndex": 1 },
+    { "question": "Biggest survival motto?", "choices": ["Trust no one", "Stay silent", "Shoot first", "Travel fast"], "answerIndex": 0 },
+    { "question": "First zombie encounter, your reaction:", "choices": ["Panic", "Analyze situation", "Fight immediately", "Run screaming"], "answerIndex": 1 },
+    { "question": "You find an abandoned shelter. First move?", "choices": ["Secure perimeter", "Eat everything", "Broadcast location", "Sleep immediately"], "answerIndex": 0 },
+    { "question": "Ultimate goal?", "choices": ["Survive at all costs", "Save humanity", "Become warlord", "Find paradise"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Zombie Apocalypse Champion! 🧟‍♂️🏆",
+      "medium": "You survive, but with many scars. 🩹",
+      "low": "You got eaten... painfully fast. 💀🧠"
+    }
+  }
+}

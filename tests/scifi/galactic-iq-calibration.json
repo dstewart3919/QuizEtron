@@ -1,54 +1,42 @@
 {
   "title": "Galactic IQ Calibration",
-  "background": "starmap",
-  "themeColor": "#00ffcc",
-  "buttonColor": "#00ffaa",
+  "background": "sci-fi",
+  "themeColor": "#003366",
+  "buttonColor": "#0066cc",
   "scoringType": "iq",
   "timeLimitSeconds": 0,
-  "randomizeQuestions": false,
+  "randomizeQuestions": true,
   "backgroundCycle": false,
   "backgroundCycleTime": 30,
 
   "questions": [
-    {
-      "question": "Which pattern completes the sequence: ◯ △ ◯ △ ◯ __?",
-      "choices": [
-        "△",
-        "◯",
-        "⬛",
-        "⬤"
-      ],
-      "answerIndex": 0
-    },
-    {
-      "question": "Solve: 7, 14, 28, __?",
-      "choices": [
-        "56",
-        "42",
-        "35",
-        "49"
-      ],
-      "answerIndex": 0
-    },
-    {
-      "question": "Which direction is opposite to port on a spaceship?",
-      "choices": [
-        "Starboard",
-        "Aft",
-        "Bow",
-        "Down"
-      ],
-      "answerIndex": 0
-    }
+    { "question": "Solve: (8 + 4) × 2 ÷ 4", "choices": ["6", "8", "10", "12"], "answerIndex": 0 },
+    { "question": "Next in sequence: 2, 6, 12, 20, __", "choices": ["28", "30", "32", "34"], "answerIndex": 1 },
+    { "question": "Planet X is 5 light-years away. At half light speed, it takes how long?", "choices": ["5 years", "10 years", "2.5 years", "1 year"], "answerIndex": 1 },
+    { "question": "Identify the pattern: A1, B2, C3, D4, __", "choices": ["E5", "F4", "E3", "F5"], "answerIndex": 0 },
+    { "question": "What element is most abundant in stars?", "choices": ["Oxygen", "Carbon", "Hydrogen", "Helium"], "answerIndex": 2 },
+    { "question": "Binary code for 5?", "choices": ["100", "101", "110", "111"], "answerIndex": 1 },
+    { "question": "Spaceship needs 1000 units of fuel for a 5-day trip. Daily burn rate?", "choices": ["100", "200", "250", "500"], "answerIndex": 2 },
+    { "question": "Light travels fastest through:", "choices": ["Water", "Air", "Vacuum", "Glass"], "answerIndex": 2 },
+    { "question": "Which number is prime?", "choices": ["9", "11", "15", "21"], "answerIndex": 1 },
+    { "question": "Complete: Red, Orange, Yellow, __", "choices": ["Blue", "Green", "Indigo", "Violet"], "answerIndex": 1 },
+    { "question": "A spaceship doubles its speed every hour. If it’s 2,000 km/h at hour 2, what was it at hour 0?", "choices": ["250 km/h", "500 km/h", "1,000 km/h", "125 km/h"], "answerIndex": 1 },
+    { "question": "Smallest planet in our solar system?", "choices": ["Mercury", "Mars", "Venus", "Pluto"], "answerIndex": 0 },
+    { "question": "Area of a square with sides of 5 units?", "choices": ["20", "10", "25", "15"], "answerIndex": 2 },
+    { "question": "Solve for X: 3X + 2 = 11", "choices": ["2", "3", "4", "5"], "answerIndex": 2 },
+    { "question": "Which star type lives longest?", "choices": ["Blue giant", "Yellow dwarf", "Red dwarf", "Neutron star"], "answerIndex": 2 },
+    { "question": "Find missing number: 3, 6, 12, __, 48", "choices": ["18", "20", "24", "30"], "answerIndex": 2 },
+    { "question": "Dark matter is known to:", "choices": ["Emit light", "Bend space", "Generate electricity", "Be solid at room temperature"], "answerIndex": 1 },
+    { "question": "Simple machine that lifts heavy objects?", "choices": ["Lever", "Spring", "Wheel", "Battery"], "answerIndex": 0 },
+    { "question": "If it’s midnight on Earth, what time is it on the Moon?", "choices": ["Same", "12 hours ahead", "6 hours behind", "Random"], "answerIndex": 0 },
+    { "question": "Biggest moon in the solar system?", "choices": ["Titan", "Europa", "Ganymede", "Io"], "answerIndex": 2 }
   ],
 
   "resultMapping": {
-    "iq": {
-      "thresholds": {
-        "140": "Genius-Level Strategist",
-        "120": "Highly Analytical Navigator",
-        "100": "Standard Crewman"
-      }
+    "score": {
+      "high": "Your Galactic IQ exceeds 140 — Supreme Space Brain! 🚀🧠✨",
+      "medium": "Your Galactic IQ is solid — strong starship crew material! 🛰️🛡️",
+      "low": "You need more training, cadet. Time to hit the astro-books! 📚🪐"
     }
   }
 }

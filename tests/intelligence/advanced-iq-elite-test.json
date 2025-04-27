@@ -1,0 +1,42 @@
+{
+  "title": "Advanced IQ: Elite Thinkers Test",
+  "background": "intelligence",
+  "themeColor": "#222222",
+  "buttonColor": "#555555",
+  "scoringType": "iq",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Find the next number: 1, 4, 9, 16, 25, __?", "choices": ["30", "36", "49", "64"], "answerIndex": 1 },
+    { "question": "Which letter comes next: B, D, G, K, __?", "choices": ["N", "O", "P", "Q"], "answerIndex": 0 },
+    { "question": "Which shape is different: Circle, Square, Cube, Triangle?", "choices": ["Circle", "Square", "Cube", "Triangle"], "answerIndex": 2 },
+    { "question": "If 2 pencils cost $1.20, how much do 10 pencils cost?", "choices": ["$5", "$6", "$7", "$8"], "answerIndex": 1 },
+    { "question": "Solve: (3 + 5)² ÷ 4", "choices": ["16", "32", "64", "8"], "answerIndex": 0 },
+    { "question": "Which number is missing: 2, 5, 10, 17, __?", "choices": ["24", "26", "30", "34"], "answerIndex": 1 },
+    { "question": "What is the square root of 144?", "choices": ["10", "11", "12", "13"], "answerIndex": 2 },
+    { "question": "You rearrange the letters 'E-A-R-T-H'. It forms a:", "choices": ["Animal", "Plant", "Planet", "Element"], "answerIndex": 2 },
+    { "question": "Find the missing letter: A, E, I, __, U", "choices": ["O", "P", "M", "S"], "answerIndex": 0 },
+    { "question": "Complete: 5, 10, 20, 40, __?", "choices": ["60", "70", "80", "90"], "answerIndex": 2 },
+    { "question": "If a store gives 20% off $50, how much is the discount?", "choices": ["$8", "$10", "$12", "$15"], "answerIndex": 1 },
+    { "question": "What is the cube root of 27?", "choices": ["2", "3", "4", "5"], "answerIndex": 1 },
+    { "question": "If 1/4 of a number is 6, what is the number?", "choices": ["12", "18", "24", "30"], "answerIndex": 2 },
+    { "question": "Which prime number comes after 23?", "choices": ["27", "29", "31", "33"], "answerIndex": 1 },
+    { "question": "Find the pattern: 1, 2, 4, 7, 11, __?", "choices": ["15", "16", "17", "18"], "answerIndex": 0 },
+    { "question": "Solve for x: 2x + 6 = 14", "choices": ["2", "3", "4", "5"], "answerIndex": 3 },
+    { "question": "Next sequence: J, F, M, A, M, __?", "choices": ["J", "J", "A", "S"], "answerIndex": 0 },
+    { "question": "Which is NOT a polygon?", "choices": ["Circle", "Triangle", "Square", "Pentagon"], "answerIndex": 0 },
+    { "question": "Find the odd one out: 2, 3, 5, 7, 9, 11", "choices": ["3", "5", "7", "9"], "answerIndex": 3 },
+    { "question": "Which is the next square number after 81?", "choices": ["90", "91", "100", "101"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "Elite IQ! 🔥🧠",
+      "medium": "Strong Analytical Skills! 📚",
+      "low": "Challenging your mind! 🚀"
+    }
+  }
+}

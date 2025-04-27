@@ -1,0 +1,33 @@
+{
+  "title": "Which Andrew Tate Quote Matches You?",
+  "background": "meme",
+  "themeColor": "#663300",
+  "buttonColor": "#cc6600",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Your ultimate flex?", "choices": ["Fast cars", "Expensive watches", "Cigars and coffee", "Outsmarting haters"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Your weekend plan?", "choices": ["Drive Bugatti", "Post watch pics", "Sip espresso and philosophize", "Play 5D chess"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Choose a power move:", "choices": ["Kickboxing a tree", "Flex Rolex collection", "Smoke and talk about war", "Mentally destroy enemies"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Favorite drink?", "choices": ["Sparkling water (only)", "Fine whiskey", "Espresso shots", "Brain fuel (aka water)"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "How do you deal with problems?", "choices": ["Punch them mentally", "Buy another watch", "Light a cigar, think it through", "Outthink and outmaneuver"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Your biggest flex phrase?", "choices": ["'What color is your Bugatti?'", "'I have 17 watches.'", "'I only drink elite coffee.'", "'Checkmate, peasant.'"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Choose a vacation spot:", "choices": ["Dubai rooftop", "Swiss watch shops", "Roman cigar lounge", "Quiet chess retreat"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Ideal pet?", "choices": ["Panther", "Golden pocket watch", "Old wise cat", "Eagle"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Favorite hobby?", "choices": ["Fighting", "Collecting rare things", "Smoking and plotting", "Calculating 10 moves ahead"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] },
+    { "question": "Pick a winning quote:", "choices": ["'Success is speed.'", "'Time is power.'", "'Patience conquers all.'", "'Brains beat brawn.'"], "weights": [{"TopG": 2}, {"WatchKing": 2}, {"CigarBoss": 2}, {"ChessMaster": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "TopG": "You're pure Top G — Bugatti spirit, fight-ready, flex-mode activated. 🏎️💨",
+      "WatchKing": "You are Watch King — time is money and you own both. ⌚👑",
+      "CigarBoss": "You're Cigar Boss — slow thinker, strong finisher. 🥃🚬",
+      "ChessMaster": "You are Chess Master — 10 moves ahead at all times. ♟️🧠"
+    }
+  }
+}

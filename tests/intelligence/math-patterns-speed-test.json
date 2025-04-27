@@ -1,0 +1,42 @@
+{
+  "title": "Math and Patterns Speed Test",
+  "background": "intelligence",
+  "themeColor": "#223355",
+  "buttonColor": "#4466aa",
+  "scoringType": "iq",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "What comes next: 3, 6, 9, 12, __?", "choices": ["13", "14", "15", "16"], "answerIndex": 2 },
+    { "question": "Which number is missing: 2, 4, 8, 16, __, 64", "choices": ["24", "32", "48", "56"], "answerIndex": 1 },
+    { "question": "What is half of 90?", "choices": ["40", "45", "50", "55"], "answerIndex": 1 },
+    { "question": "Next pattern: A, C, E, G, __?", "choices": ["H", "I", "J", "K"], "answerIndex": 1 },
+    { "question": "Solve: 5 × 5 - 10 ÷ 2", "choices": ["20", "22", "23", "25"], "answerIndex": 1 },
+    { "question": "What is the next odd number after 71?", "choices": ["72", "73", "74", "75"], "answerIndex": 1 },
+    { "question": "Which is larger: 3/8 or 1/2?", "choices": ["3/8", "1/2", "Same", "Depends"], "answerIndex": 1 },
+    { "question": "What is 15% of 100?", "choices": ["10", "15", "20", "25"], "answerIndex": 1 },
+    { "question": "Find the missing number: 1, 4, 9, 16, 25, __?", "choices": ["30", "32", "36", "40"], "answerIndex": 2 },
+    { "question": "What comes next: Z, X, V, T, __?", "choices": ["S", "R", "Q", "P"], "answerIndex": 1 },
+    { "question": "Which number is even?", "choices": ["11", "15", "22", "31"], "answerIndex": 2 },
+    { "question": "What is 7 × 8?", "choices": ["54", "56", "58", "60"], "answerIndex": 1 },
+    { "question": "How many degrees in a triangle?", "choices": ["90", "120", "180", "360"], "answerIndex": 2 },
+    { "question": "Solve: (6 + 4) × 3", "choices": ["18", "24", "30", "36"], "answerIndex": 2 },
+    { "question": "Which pattern is correct?", "choices": ["1-2-3-4-5", "2-4-6-9-10", "3-5-8-10-13", "5-10-15-20-30"], "answerIndex": 0 },
+    { "question": "Find the next prime: 11, 13, 17, __?", "choices": ["19", "21", "23", "25"], "answerIndex": 0 },
+    { "question": "What is 5³ (5 cubed)?", "choices": ["25", "75", "125", "150"], "answerIndex": 2 },
+    { "question": "How many sides does a pentagon have?", "choices": ["4", "5", "6", "7"], "answerIndex": 1 },
+    { "question": "What is 100 ÷ 4?", "choices": ["20", "25", "30", "35"], "answerIndex": 1 },
+    { "question": "Next letter: B, D, F, H, __?", "choices": ["I", "J", "K", "L"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "Lightning Fast Brain! ⚡🧠",
+      "medium": "Quick thinker! 🏃‍♂️💡",
+      "low": "Getting sharper every second! 📚"
+    }
+  }
+}

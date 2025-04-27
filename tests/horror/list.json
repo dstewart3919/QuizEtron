@@ -1,15 +1,27 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Would You Survive a Zombie Outbreak?",
+    "Which Horror Movie Killer Matches Your Style?",
+    "Are You Ready for a Haunted House Escape?",
+    "Horror IQ Test: Legends, Monsters, Survival",
+    "What Type of Horror Survivor Are You?",
+    "How Would You Handle an Alien Invasion?",
+    "Your Role in the Last Human Colony",
+    "How Well Do You Know Horror Lore?",
+    "Apocalypse: Vampire Survival Challenge",
+    "Which Horror Universe Would You Dominate?"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "would-you-survive-zombie-outbreak.json",
+    "which-horror-killer-matches-you.json",
+    "haunted-house-escape-test.json",
+    "horror-iq-test.json",
+    "what-type-of-horror-survivor-are-you.json",
+    "how-would-you-handle-alien-invasion.json",
+    "your-role-in-last-human-colony.json",
+    "how-well-do-you-know-horror-lore.json",
+    "vampire-survival-challenge.json",
+    "which-horror-universe-would-you-dominate.json"
   ]
 }

@@ -1,15 +1,27 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Which Meme Legend Are You?",
+    "Your Cartoon Villain Vibe",
+    "What Internet Animal Are You?",
+    "Which Andrew Tate Quote Matches You?",
+    "Elon Musk Tweet Generator Test",
+    "Trump Speech Simulator Quiz",
+    "Your Meme Survival Instinct",
+    "Goofy Cartoon Logic Test",
+    "Which Classic Viral Meme Are You?",
+    "Ultimate Dankness Quiz"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "which-meme-legend-are-you.json",
+    "cartoon-villain-vibe.json",
+    "internet-animal-personality.json",
+    "andrew-tate-quote-match.json",
+    "elon-musk-tweet-generator.json",
+    "trump-speech-simulator.json",
+    "meme-survival-instinct.json",
+    "goofy-cartoon-logic-test.json",
+    "classic-viral-meme.json",
+    "ultimate-dankness-quiz.json"
   ]
 }

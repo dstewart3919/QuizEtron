@@ -1,0 +1,43 @@
+{
+  "title": "Your Role in the Last Human Colony",
+  "background": "horror",
+  "themeColor": "#223311",
+  "buttonColor": "#558844",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Colony under threat. You volunteer to:", "choices": ["Defend the walls", "Scout dangerous zones", "Treat the wounded", "Run the command center"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Resources are running low. You suggest:", "choices": ["Raid enemy camps", "Explore distant cities", "Conserve and ration", "Organize trade deals"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "A strange sickness spreads. You:", "choices": ["Quarantine everyone", "Find the source outside", "Develop treatments", "Calm the masses"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "A scout goes missing. You:", "choices": ["Secure defenses", "Join the rescue mission", "Prepare a field hospital", "Coordinate search teams"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "First alien encounter. You:", "choices": ["Attack immediately", "Observe from hiding", "Analyze effects on humans", "Negotiate cautiously"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Food shortage worsens. You:", "choices": ["Guard food supplies", "Hunt wild animals", "Create emergency rations", "Hold town meetings"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "A child disappears. You:", "choices": ["Patrol harder", "Track clues", "Treat the parents", "Rally volunteers"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Biggest priority after an attack?", "choices": ["Rebuild defenses", "Track invaders", "Treat wounded", "Boost morale"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Colony splits into factions. You:", "choices": ["Enforce order", "Spy and gather info", "Heal divisions", "Mediate the groups"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "The generators fail. You:", "choices": ["Guard in the dark", "Search for new parts", "Treat hypothermia victims", "Strategize new plans"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Someone is sabotaging supplies. You:", "choices": ["Interrogate suspects", "Set up surveillance", "Treat any poisonings", "Negotiate ceasefires"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Best survival motto?", "choices": ["Stand strong", "Move fast", "Heal first", "Lead wisely"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Emergency! One choice only:", "choices": ["Secure weapons", "Escape to map terrain", "Save medical supplies", "Save leaders"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Ideal daily task?", "choices": ["Guard duty", "Exploring ruins", "Running field hospital", "Commanding operations"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "You fear:", "choices": ["Being overrun", "Getting lost", "Watching people suffer", "Losing control"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Colony rule system?", "choices": ["Military law", "Flexible patrols", "Medical triage leadership", "Elected council"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "If wounded badly, you:", "choices": ["Keep fighting", "Crawl back", "Self-treat immediately", "Signal leadership"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "Unexpected survivors approach. You:", "choices": ["Block and question", "Sneak up on them", "Offer medical checks", "Negotiate entry"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "End goal after survival?", "choices": ["Build strong walls", "Explore new worlds", "Heal civilization", "Form new government"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] },
+    { "question": "After everything is rebuilt, you:", "choices": ["Stay as head of security", "Continue exploring", "Open a hospital", "Run the new nation"], "weights": [{"Guardian": 2}, {"Scout": 2}, {"Medic": 2}, {"Leader": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Guardian": "You are the Protector of the Colony! 🛡️",
+      "Scout": "You are the Pathfinder of the Colony! 🧭",
+      "Medic": "You are the Lifeline of the Colony! 🏥",
+      "Leader": "You are the Heart of the Colony! 👑"
+    }
+  }
+}

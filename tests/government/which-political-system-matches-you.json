@@ -1,0 +1,43 @@
+{
+  "title": "Which Political System Matches You?",
+  "background": "government",
+  "themeColor": "#553355",
+  "buttonColor": "#aa55aa",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Ideal government size?", "choices": ["Minimal", "Massive and organized", "Flexible", "Controlled tightly"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Best economic system?", "choices": ["Free market", "Mixed economy", "Collective ownership", "State-controlled"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "How should leaders be chosen?", "choices": ["Voluntary association", "Free elections", "By working class", "Appointed by state"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Your view on laws?", "choices": ["As few as possible", "Reasonable and evolving", "Protect equality", "Enforce strict control"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Social services should be:", "choices": ["Privatized", "Government-supported", "Guaranteed to all", "Only for loyal citizens"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Freedom of speech is:", "choices": ["Absolute", "Vital but limited when necessary", "Regulated against hate", "Controlled by state"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Military power should be:", "choices": ["Minimal", "Defensive only", "Global peacekeeping", "Central pillar of government"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Government handling of healthcare:", "choices": ["None — private market", "Public and private options", "Universal healthcare", "State healthcare only"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Ideal education system?", "choices": ["Private choice", "Public with freedom", "State-funded and equal", "Indoctrinated by state"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "On foreign relations:", "choices": ["Stay out", "Cooperate internationally", "Global equality advocacy", "Expand power globally"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Your leader should be:", "choices": ["Unnecessary", "Elected by majority", "Chosen by collective vote", "Hand-picked for strength"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Public protests:", "choices": ["Essential right", "Generally welcome", "Sometimes encouraged", "Only allowed if state permits"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Biggest threat to freedom?", "choices": ["Government itself", "Corruption", "Corporate control", "Enemies of the state"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Media should be:", "choices": ["Completely free", "Mostly independent", "Publically funded", "State run"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Handling economic inequality?", "choices": ["Acceptable outcome", "Regulate for fairness", "Redistribute wealth", "Eliminate dissent"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Handling misinformation?", "choices": ["Let truth emerge", "Fact-check with transparency", "Regulate harmful speech", "Control narrative"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Main goal of government?", "choices": ["Stay out of the way", "Protect rights", "Create equality", "Preserve power"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Your dream society?", "choices": ["Self-reliant communities", "Vibrant democracy", "Global worker unity", "Unified national strength"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "Government should:", "choices": ["Leave citizens alone", "Serve the people", "Manage economy", "Command society"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] },
+    { "question": "When problems arise:", "choices": ["Solve them privately", "Vote and debate", "Collectivize solutions", "Force solutions"], "weights": [{"Libertarianism": 2}, {"Democracy": 2}, {"Socialism": 2}, {"Authoritarianism": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Libertarianism": "You align with Libertarianism — Freedom first! 🗽",
+      "Democracy": "You align with Democracy — Power to the People! 🗳️",
+      "Socialism": "You align with Socialism — Equality and community! ✊",
+      "Authoritarianism": "You align with Authoritarianism — Order and Strength! 🛡️"
+    }
+  }
+}

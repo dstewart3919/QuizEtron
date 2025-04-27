@@ -1,0 +1,33 @@
+{
+  "title": "Which Meme Legend Are You?",
+  "background": "meme",
+  "themeColor": "#333300",
+  "buttonColor": "#999900",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Your spirit animal on a bad day?", "choices": ["Shrek", "Doge", "Grumpy Cat", "SpongeBob"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Someone cuts you off in traffic. You:", "choices": ["Roar like Shrek", "Laugh it off like Doge", "Grumble like Grumpy Cat", "Mock them like SpongeBob"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "You win a million dollars. First reaction?", "choices": ["Retreat to a swamp", "Celebrate like a good doggo", "Stay unimpressed", "Annoy your enemies gleefully"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Your texting style is closest to:", "choices": ["Sarcastic roars", "Wholesome typos", "Deadpan one-liners", "ALL CAPS CHAOS"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Best way to spend a Saturday?", "choices": ["Building swamp castles", "Zoomies in the park", "Napping all day", "Starting meme wars"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Which food fuels your chaotic soul?", "choices": ["Onions", "Bacon strips", "Canned tuna", "Krabby Patties"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Your biggest flex:", "choices": ["Swamp real estate", "Perfect memes", "Resting unimpressed face", "Pure meme chaos"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Final boss energy:", "choices": ["Fighting dragons", "Meming enemies to death", "Judging silently", "Laughing until collapse"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Describe your luck:", "choices": ["Layers of disaster", "Luckiest pupper alive", "Never lucky", "Chaotic neutral"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] },
+    { "question": "Your true motto:", "choices": ["Better out than in", "Much wow, very success", "No.", "I'm ready, I'm ready!"], "weights": [{"Shrek": 2}, {"Doge": 2}, {"Grumpy Cat": 2}, {"SpongeBob": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Shrek": "You are Shrek — unstoppable, misunderstood, and living your best swamp life. 🧅🛡️",
+      "Doge": "Such wow. Much meme. Very legend. You are Doge! 🐕🚀",
+      "Grumpy Cat": "You are Grumpy Cat — master of sarcasm and eternal side-eye. 😾☕",
+      "SpongeBob": "You are SpongeBob — chaotic good, unstoppable energy, meme master. 🍍🎤"
+    }
+  }
+}
