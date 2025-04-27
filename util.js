@@ -1,4 +1,4 @@
-// Util.js
+// FULL CLEAN PATCH for Util.js
 
 // Load a Quiz JSON and start it
 async function loadQuiz() {
@@ -34,6 +34,12 @@ async function loadQuiz() {
 function startQuiz(quizData) {
   console.log("Starting quiz:", quizData);
 
+  const quizLoading = document.getElementById('quiz-loading');
+  if (quizLoading) quizLoading.style.display = 'none';
+
+  const quizContainer = document.getElementById('quizContainer');
+  if (quizContainer) quizContainer.style.display = 'block';
+
   const quizTitle = document.getElementById('quiz-title');
   const questionEl = document.getElementById('question');
   const optionsEl = document.getElementById('options');
@@ -51,12 +57,6 @@ function startQuiz(quizData) {
 
   quizTitle.textContent = quizData.title || "Quiz Loaded";
 
-  // Unhide the quiz container
-  const quizContainer = document.getElementById('quizContainer');
-  if (quizContainer) {
-    quizContainer.style.display = 'block';
-  }
-
   function renderQuestion() {
     const questionObj = quizData.questions[currentIndex];
 
@@ -72,10 +72,18 @@ function startQuiz(quizData) {
     questionObj.choices.forEach((choice, index) => {
       const label = document.createElement('label');
       label.style.display = 'block';
-      label.innerHTML = `
-        <input type="radio" name="option" value="${index}">
-        ${choice}
-      `;
+      label.style.margin = '10px 0';
+      label.style.fontSize = '1.2rem';
+      label.style.color = 'white';
+
+      const input = document.createElement('input');
+      input.type = 'radio';
+      input.name = 'option';
+      input.value = index;
+      input.style.marginRight = '8px';
+
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(choice));
       optionsEl.appendChild(label);
     });
 
@@ -89,7 +97,7 @@ function startQuiz(quizData) {
     submitBtn.style.display = currentIndex === quizData.questions.length - 1 ? 'inline-block' : 'none';
   }
 
-  nextBtn.addEventListener('click', () => {
+  nextBtn.onclick = () => {
     const selected = optionsEl.querySelector('input[name="option"]:checked');
     if (!selected) {
       alert('Please select an option before continuing.');
@@ -98,14 +106,14 @@ function startQuiz(quizData) {
     userAnswers[currentIndex] = parseInt(selected.value, 10);
     currentIndex++;
     renderQuestion();
-  });
+  };
 
-  prevBtn.addEventListener('click', () => {
+  prevBtn.onclick = () => {
     currentIndex--;
     renderQuestion();
-  });
+  };
 
-  submitBtn.addEventListener('click', () => {
+  submitBtn.onclick = () => {
     const selected = optionsEl.querySelector('input[name="option"]:checked');
     if (!selected) {
       alert('Please select an option before submitting.');
@@ -121,7 +129,7 @@ function startQuiz(quizData) {
     }));
 
     window.location.href = 'results.html';
-  });
+  };
 
   renderQuestion();
 }
@@ -164,3 +172,9 @@ function showError(msg) {
     </div>
   `;
 }
+
+// Expose to window
+window.loadQuiz = loadQuiz;
+window.startQuiz = startQuiz;
+window.loadResults = loadResults;
+window.showError = showError;

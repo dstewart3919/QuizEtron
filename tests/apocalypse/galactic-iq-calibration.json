@@ -1,6 +1,6 @@
 {
   "title": "Galactic IQ Calibration",
-  "background": "starmap",
+  "background": "IQTestBG",
   "themeColor": "#00ffcc",
   "buttonColor": "#00ffaa",
   "scoringType": "iq",

@@ -3,44 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quizetron - Quiz</title>
+  <title>Loading Quiz...</title>
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <video autoplay muted loop playsinline class="video-background" id="quiz-background">
-    <source id="bg-source" src="media/defaultBG.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <h1 id="quiz-loading" style="text-align:center; margin-top:20%;">Loading Quiz...</h1>
 
-  <div class="overlay"></div>
-
-  <div class="content" id="quiz-content">
-    <h1 id="quiz-title">Loading Quiz...</h1>
-
-    <div id="quizContainer">
-      <h2 id="question"></h2>
-      <div id="options"></div>
-
-      <div style="margin-top: 2rem;">
-        <button id="prevBtn" style="display:none;">Previous</button>
-        <button id="nextBtn" style="display:none;">Next</button>
-        <button id="submitBtn" style="display:none;">Submit</button>
-      </div>
+  <div id="quizContainer" style="display:none; text-align:center; margin-top:5%;">
+    <h1 id="quiz-title"></h1>
+    <div id="question" style="margin-top:20px;"></div>
+    <div id="options" style="margin-top:20px;"></div>
+    <div style="margin-top:20px;">
+      <button id="prevBtn" style="display:none;">Previous</button>
+      <button id="nextBtn" style="display:none;">Next</button>
+      <button id="submitBtn" style="display:none;">Submit</button>
     </div>
   </div>
 
-  <footer>
-    <a href="legal/privacy.html">Privacy</a>
-    <a href="legal/terms.html">Terms</a>
-    <a href="legal/disclaimer.html">Disclaimer</a>
-    <a href="legal/copyright.html">Copyright</a>
+  <footer style="position:absolute; bottom:10px; width:100%; text-align:center;">
+    <a href="legal/privacy.html" style="color:cyan; margin:0 8px;">Privacy</a>
+    <a href="legal/terms.html" style="color:cyan; margin:0 8px;">Terms</a>
+    <a href="legal/disclaimer.html" style="color:cyan; margin:0 8px;">Disclaimer</a>
+    <a href="legal/copyright.html" style="color:cyan; margin:0 8px;">Copyright</a>
   </footer>
 
   <script src="Util.js"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      loadQuiz();
-    });
+    document.addEventListener('DOMContentLoaded', loadQuiz);
   </script>
 </body>
 </html>
