@@ -4,7 +4,12 @@
     "Apocalypse Survivor Essentials",
     "Zombie Apocalypse Survival Test",
     "Apocalypse Leadership Challenge",
-    "Doomsday Prepper Knowledge"
+    "Doomsday Prepper Knowledge",
+    "Apocalypse Scavenging Challenge",
+    "Collapse Crisis Decision Test",
+    "Apocalypse Engineering and Repair Quiz",
+    "When the Nukes Drop",
+    "Your Off-Grid Home"
   ],
 
   "listJSON": [
@@ -12,6 +17,11 @@
     "apocalypse-survivor-essentials.json",
     "zombie-apocalypse-survival-test.json",
     "apocalypse-leadership-challenge.json",
-    "doomsday-prepper-knowledge.json"
+    "doomsday-prepper-knowledge.json",
+    "apocalypse-scavenging-challenge.json",
+    "collapse-crisis-decision-test.json",
+    "apocalypse-engineering-and-repair-quiz.json",
+    "when-the-nukes-drop.json",
+    "your-off-grid-home"
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "title": "Apocalypse Scavenging Challenge",
+  "background": "apocalypse",
+  "themeColor": "#444400",
+  "buttonColor": "#999900",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Most valuable scavenged item from abandoned cars?", "choices": ["Spare tire", "Gasoline", "Seat covers", "License plates"], "answerIndex": 1 },
+    { "question": "Best building type to scavenge medicine?", "choices": ["Supermarket", "School", "Pharmacy", "Gas station"], "answerIndex": 2 },
+    { "question": "Most useful item from a wrecked bicycle?", "choices": ["Tires", "Gears", "Chain", "Seat"], "answerIndex": 2 },
+    { "question": "If you find canned food with no labels, you should:", "choices": ["Trust smell", "Eat immediately", "Boil first", "Inspect for bulges"], "answerIndex": 3 },
+    { "question": "Best tool to carry for scavenging locked doors?", "choices": ["Sledgehammer", "Crowbar", "Knife", "Axe"], "answerIndex": 1 },
+    { "question": "From a destroyed electronics store, priority item?", "choices": ["Gaming console", "Solar panels", "LED screens", "Speakers"], "answerIndex": 1 },
+    { "question": "Best way to transport large amounts of supplies?", "choices": ["Carry by hand", "Pull cart", "Use backpack", "Drag tarp"], "answerIndex": 1 },
+    { "question": "Which area likely has hidden underground supplies?", "choices": ["Residential home", "Abandoned military base", "Parking garage", "High school"], "answerIndex": 1 },
+    { "question": "Safest time to scavenge in urban ruins?", "choices": ["Noon", "Early morning", "Midnight", "Evening"], "answerIndex": 1 },
+    { "question": "What is the biggest threat while scavenging?", "choices": ["Collapse", "Raiders", "Zombies", "Disease"], "answerIndex": 1 },
+    { "question": "If you find old batteries, what should you check first?", "choices": ["Brand", "Expiration date", "Voltage", "Leaks"], "answerIndex": 3 },
+    { "question": "Which container is safest for carrying drinking water?", "choices": ["Glass jug", "Plastic bottle", "Metal canteen", "Ceramic pot"], "answerIndex": 2 },
+    { "question": "From a junkyard, most useful material?", "choices": ["Old tires", "Scrap metal", "Plastic sheets", "Broken engines"], "answerIndex": 1 },
+    { "question": "Best clothing find for wasteland survival?", "choices": ["Cotton shirt", "Leather jacket", "Wool sweater", "Raincoat"], "answerIndex": 1 },
+    { "question": "Safest improvised shelter material from ruins?", "choices": ["Metal sheets", "Wooden doors", "Glass panels", "Plastic signs"], "answerIndex": 0 },
+    { "question": "You find a semi-working generator. What's critical to scavenge?", "choices": ["Spark plug", "Fuel tank", "Battery", "Exhaust"], "answerIndex": 0 },
+    { "question": "Best footwear to scavenge for rough travel?", "choices": ["Running shoes", "Work boots", "Sandals", "Slippers"], "answerIndex": 1 },
+    { "question": "How should you prioritize scavenging a hospital?", "choices": ["Day 1", "After securing base", "Only when injured", "Ignore hospitals"], "answerIndex": 0 },
+    { "question": "You find a backpack, first thing to check?", "choices": ["Pockets", "Weight", "Zippers", "If it's trapped"], "answerIndex": 3 },
+    { "question": "Which common household item is priceless post-collapse?", "choices": ["Duct tape", "Mirrors", "Shoelaces", "Picture frames"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Master Scavenger! \ud83c\udf0d\ud83d\udcaa",
+      "medium": "You can survive... barely! \ud83d\udeab\ud83e\uddb4",
+      "low": "You're easy pickings for raiders... \ud83d\udc80"
+    }
+  }
+}

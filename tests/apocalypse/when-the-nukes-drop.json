@@ -1,0 +1,42 @@
+{
+  "title": "When the Nukes Drop?",
+  "background": "apocalypse",
+  "themeColor": "#550000",
+  "buttonColor": "#cc3333",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Mushroom cloud appears on the horizon. Your first move?", "choices": ["Post online", "Grab supplies and run", "Take a selfie", "Pray loudly"], "answerIndex": 1 },
+    { "question": "Siren blares. Where do you go?", "choices": ["Stay at window", "Find underground shelter", "Run into traffic", "Call boss"], "answerIndex": 1 },
+    { "question": "You have 5 minutes. What do you grab?", "choices": ["Gaming console", "Go Bag", "Cereal box", "Favorite hoodie"], "answerIndex": 1 },
+    { "question": "Family scattered. Who do you prioritize?", "choices": ["Cat", "Yourself", "Nearest family member", "Everyone at once"], "answerIndex": 2 },
+    { "question": "You find a basement. It's crowded. You:", "choices": ["Scream at everyone", "Push in calmly", "Stay outside", "Argue about politics"], "answerIndex": 1 },
+    { "question": "You see a massive crowd running. You:", "choices": ["Run with them", "Hide alone", "Go opposite way", "Climb a tree"], "answerIndex": 2 },
+    { "question": "You have 10 seconds to choose. Which item?", "choices": ["Canned food", "Gold coins", "Perfume", "Board games"], "answerIndex": 0 },
+    { "question": "Power grid fails instantly. What's critical?", "choices": ["Stockpile memes", "Secure clean water", "Update TikTok", "Find flashlight batteries"], "answerIndex": 1 },
+    { "question": "Gas station open — you do what?", "choices": ["Top off car fast", "Loot candy aisle", "Take selfies", "Start argument"], "answerIndex": 0 },
+    { "question": "Neighbors fighting over supplies. You:", "choices": ["Join the fight", "Steal quietly", "Mediate peacefully", "Get out fast"], "answerIndex": 3 },
+    { "question": "Radio says 'Shelter in place'. You:", "choices": ["Roam streets", "Board up windows", "Take nap", "Go sightseeing"], "answerIndex": 1 },
+    { "question": "You see military trucks rolling by. You:", "choices": ["Wave frantically", "Hide indoors", "Run alongside them", "Ask for snacks"], "answerIndex": 1 },
+    { "question": "Biggest initial threat after blast?", "choices": ["Looters", "Fallout radiation", "No coffee", "No internet"], "answerIndex": 1 },
+    { "question": "You hear another explosion nearby. You:", "choices": ["Go see it", "Stay sheltered", "Film it", "Throw a party"], "answerIndex": 1 },
+    { "question": "Sudden flash in sky. Best reaction?", "choices": ["Duck and cover", "Stare directly", "Run toward it", "Ask Google"], "answerIndex": 0 },
+    { "question": "You find an abandoned bunker. First step?", "choices": ["Post about it", "Secure door, check for traps", "Leave graffiti", "Eat all supplies"], "answerIndex": 1 },
+    { "question": "Only water nearby is suspicious. You:", "choices": ["Drink it fast", "Boil it first", "Ignore and stay thirsty", "Share it on TikTok"], "answerIndex": 1 },
+    { "question": "Internet gone. You:", "choices": ["Panic wildly", "Focus on survival basics", "Yell at the sky", "Search for Wi-Fi"], "answerIndex": 1 },
+    { "question": "One working car left. You:", "choices": ["Fight for it", "Plan escape route first", "Pop tires for fun", "Spray paint it"], "answerIndex": 1 },
+    { "question": "Final move before impact?", "choices": ["Say goodbye", "Sprint to cover", "Pray", "Live Tweet it"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Nuclear Survival Pro! 🔥☢️",
+      "medium": "You survive... but it's messy. 🧟‍♂️",
+      "low": "Vaporized in 5 seconds flat. 💀"
+    }
+  }
+}

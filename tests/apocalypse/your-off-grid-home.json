@@ -1,0 +1,42 @@
+{
+  "title": "Your Off-Grid Home",
+  "background": "apocalypse",
+  "themeColor": "#226622",
+  "buttonColor": "#55aa55",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Where would you build your off-grid home?", "choices": ["Deep forest", "Desert flatland", "Mountain cliffs", "Suburbs"], "answerIndex": 2 },
+    { "question": "Primary material for your shelter?", "choices": ["Recycled wood", "Shipping containers", "Mud and straw", "Scrap metal"], "answerIndex": 1 },
+    { "question": "First critical system to install?", "choices": ["Solar panels", "Entertainment system", "Swimming pool", "Electric fence"], "answerIndex": 0 },
+    { "question": "How would you supply fresh water?", "choices": ["River siphon", "Rainwater harvesting", "Bottle delivery", "Wishing really hard"], "answerIndex": 1 },
+    { "question": "For food production, your first move?", "choices": ["Plant massive cornfield", "Build raised gardens", "Stockpile chips", "Hunt random squirrels"], "answerIndex": 1 },
+    { "question": "Defense perimeter of choice?", "choices": ["Guard dogs", "Tripwire alarms", "Electric fences", "Invisibility cloak"], "answerIndex": 1 },
+    { "question": "What would power your home?", "choices": ["Hamsters on wheels", "Wind turbines", "Diesel generator", "Solar and backup battery"], "answerIndex": 3 },
+    { "question": "Best first livestock animal?", "choices": ["Cows", "Chickens", "Llamas", "Dragons"], "answerIndex": 1 },
+    { "question": "Backup communication method?", "choices": ["CB Radio", "Carrier pigeon", "Flare gun", "Paper airplanes"], "answerIndex": 0 },
+    { "question": "Main heating method?", "choices": ["Electric heater", "Wood stove", "Campfire inside", "Nuclear fusion... somehow"], "answerIndex": 1 },
+    { "question": "Shelter hidden by:", "choices": ["Overgrown vines", "Massive billboards", "Neon signs", "Paint it pink"], "answerIndex": 0 },
+    { "question": "If wild raiders approach, first defense action?", "choices": ["Negotiate", "Sound alarms and secure gates", "Offer snacks", "Challenge to dance-off"], "answerIndex": 1 },
+    { "question": "Ideal number of people in your off-grid home?", "choices": ["Just me", "Small crew (5-8)", "Big village (20+)", "Every person I know"], "answerIndex": 1 },
+    { "question": "You can build one luxury item. Choose:", "choices": ["Solar hot tub", "Movie theater", "Drone surveillance hub", "Chocolate fountain"], "answerIndex": 0 },
+    { "question": "What would you store in bulk?", "choices": ["Popcorn", "Ammunition", "Self-help books", "TV remotes"], "answerIndex": 1 },
+    { "question": "Main construction tool?", "choices": ["Chainsaw", "Hand saw", "Laser cutter", "Spoon"], "answerIndex": 0 },
+    { "question": "Night-time defense system?", "choices": ["Infrared cameras", "Motion lights", "Boom boxes blasting music", "Glow sticks everywhere"], "answerIndex": 1 },
+    { "question": "Where do you grow your veggies?", "choices": ["Vertical hydroponic walls", "Random pots everywhere", "Secret garden behind shed", "Painted on walls"], "answerIndex": 0 },
+    { "question": "Biggest off-grid threat to plan for?", "choices": ["Alien invasion", "Wildfires", "Zombie deer", "Moth attacks"], "answerIndex": 1 },
+    { "question": "Final off-grid motto?", "choices": ["Prepare and prosper!", "YOLO!", "Netflix or bust!", "Stay fabulous"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Master Off-Grid Architect! 🏡🔋",
+      "medium": "You survive... but it's a little chaotic. 🛠️",
+      "low": "You built a treehouse and called it a day. 🌳😂"
+    }
+  }
+}
