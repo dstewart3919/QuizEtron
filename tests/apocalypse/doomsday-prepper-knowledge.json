@@ -1,0 +1,42 @@
+{
+  "title": "Doomsday Prepper Knowledge",
+  "background": "apocalypse",
+  "themeColor": "#336600",
+  "buttonColor": "#669900",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Which food item has the longest shelf life?", "choices": ["Canned beans", "Rice", "Honey", "Beef jerky"], "answerIndex": 2 },
+    { "question": "How much water should you store per person per day?", "choices": ["1 liter", "2 liters", "1 gallon", "5 gallons"], "answerIndex": 2 },
+    { "question": "Best location for a survival bunker?", "choices": ["Near a river", "Under a forest", "Underground hill", "Urban basement"], "answerIndex": 2 },
+    { "question": "What is a Faraday cage used for?", "choices": ["Food storage", "EMP protection", "Water filtration", "Animal trapping"], "answerIndex": 1 },
+    { "question": "Best way to purify water on the move?", "choices": ["Solar still", "Boiling", "Filter straw", "Bottled bleach"], "answerIndex": 2 },
+    { "question": "Ideal firearm for home defense in a collapse?", "choices": ["AR-15", "Bolt-action rifle", "Shotgun", "Handgun"], "answerIndex": 2 },
+    { "question": "Most critical survival priority after disaster?", "choices": ["Food", "Water", "Shelter", "Weapons"], "answerIndex": 2 },
+    { "question": "How long can you survive without water?", "choices": ["7 days", "5 days", "3 days", "10 days"], "answerIndex": 2 },
+    { "question": "Essential item for cold weather bug-out?", "choices": ["Thermal blanket", "Rain poncho", "Solar charger", "Fishing line"], "answerIndex": 0 },
+    { "question": "What fuel is most versatile for survival cooking?", "choices": ["Wood", "Propane", "Charcoal", "Natural gas"], "answerIndex": 1 },
+    { "question": "Best communication method post-collapse?", "choices": ["Satellite phone", "CB radio", "Smartphone", "Walkie-talkie"], "answerIndex": 1 },
+    { "question": "In case of nuclear fallout, you should shelter for how long initially?", "choices": ["24 hours", "3 days", "7 days", "14 days"], "answerIndex": 2 },
+    { "question": "Which knot is critical for survival shelters?", "choices": ["Square knot", "Bowline knot", "Slipknot", "Fisherman's knot"], "answerIndex": 1 },
+    { "question": "How do you identify safe edible plants?", "choices": ["Smell test", "Taste test", "Universal edibility test", "Random eating"], "answerIndex": 2 },
+    { "question": "Best defense against dehydration in desert survival?", "choices": ["Drink large amounts rarely", "Drink small amounts regularly", "Avoid drinking until desperate", "Eat dry food"], "answerIndex": 1 },
+    { "question": "Which type of seeds are best to store for long-term food security?", "choices": ["Hybrid seeds", "GMO seeds", "Heirloom seeds", "Sterilized seeds"], "answerIndex": 2 },
+    { "question": "Essential survival item for urban collapse?", "choices": ["Compass", "Multi-tool", "Flare gun", "Fishing rod"], "answerIndex": 1 },
+    { "question": "What's the main threat of underground bunkers?", "choices": ["Flooding", "Structural collapse", "Oxygen depletion", "Mold"], "answerIndex": 2 },
+    { "question": "Ideal backup energy source after grid failure?", "choices": ["Solar panels", "Wind turbines", "Diesel generators", "Water wheels"], "answerIndex": 0 },
+    { "question": "Best way to protect food from rodents long-term?", "choices": ["Plastic tubs", "Mylar bags with oxygen absorbers", "Wooden crates", "Glass jars"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Master Prepper! 💪🧹",
+      "medium": "You have good survival instincts! 🌍🛡️",
+      "low": "You need serious prepping lessons! 🤯🤖"
+    }
+  }
+}

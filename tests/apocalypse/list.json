@@ -3,13 +3,15 @@
     "Apocalypse Survival Readiness",
     "Apocalypse Survivor Essentials",
     "Zombie Apocalypse Survival Test",
-    "Apocalypse Leadership Challenge"
+    "Apocalypse Leadership Challenge",
+    "Doomsday Prepper Knowledge"
   ],
 
   "listJSON": [
     "apocalypse-survival-readiness.json",
     "apocalypse-survivor-essentials.json",
     "zombie-apocalypse-survival-test.json",
-    "apocalypse-leadership-challenge.json"
+    "apocalypse-leadership-challenge.json",
+    "doomsday-prepper-knowledge.json"
   ]
 }
