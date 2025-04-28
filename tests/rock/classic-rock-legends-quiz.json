@@ -1,0 +1,42 @@
+{
+  "title": "Classic Rock Legends Quiz",
+  "background": "rock",
+  "themeColor": "#222222",
+  "buttonColor": "#aa0000",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Which band released 'Stairway to Heaven'?", "choices": ["Led Zeppelin", "Pink Floyd", "The Beatles", "The Rolling Stones"], "answerIndex": 0 },
+    { "question": "Who was the lead guitarist for Queen?", "choices": ["Eric Clapton", "Jimmy Page", "Brian May", "Slash"], "answerIndex": 2 },
+    { "question": "Which artist is known as 'The Boss'?", "choices": ["Bruce Springsteen", "David Bowie", "Freddie Mercury", "Elvis Presley"], "answerIndex": 0 },
+    { "question": "Which rock band is famous for 'Hotel California'?", "choices": ["Eagles", "Journey", "Fleetwood Mac", "AC/DC"], "answerIndex": 0 },
+    { "question": "Which artist performed 'Purple Haze'?", "choices": ["Jimi Hendrix", "Ozzy Osbourne", "Robert Plant", "Tom Petty"], "answerIndex": 0 },
+    { "question": "AC/DC's iconic album 'Back in Black' was released in which year?", "choices": ["1975", "1980", "1985", "1990"], "answerIndex": 1 },
+    { "question": "Which band had the hit 'Another Brick in the Wall'?", "choices": ["Pink Floyd", "Led Zeppelin", "Deep Purple", "The Who"], "answerIndex": 0 },
+    { "question": "Which classic rock band was Freddie Mercury part of?", "choices": ["Queen", "Genesis", "U2", "The Doors"], "answerIndex": 0 },
+    { "question": "Who is often called the 'God of Guitar'?", "choices": ["Jimi Hendrix", "Eric Clapton", "Carlos Santana", "Angus Young"], "answerIndex": 1 },
+    { "question": "Which band is known for the song 'Sweet Child O' Mine'?", "choices": ["Guns N' Roses", "Nirvana", "Metallica", "Aerosmith"], "answerIndex": 0 },
+    { "question": "Which Rolling Stones member is famous for his lips logo?", "choices": ["Keith Richards", "Mick Jagger", "Ronnie Wood", "Charlie Watts"], "answerIndex": 1 },
+    { "question": "Which city are The Doors associated with?", "choices": ["New York", "Los Angeles", "London", "Seattle"], "answerIndex": 1 },
+    { "question": "Which band's guitarist smashed his guitar on stage?", "choices": ["The Who", "The Beatles", "Pink Floyd", "AC/DC"], "answerIndex": 0 },
+    { "question": "Which band had an album called 'Dark Side of the Moon'?", "choices": ["Pink Floyd", "The Beatles", "The Rolling Stones", "Led Zeppelin"], "answerIndex": 0 },
+    { "question": "In which band did Ozzy Osbourne start?", "choices": ["Black Sabbath", "Metallica", "Led Zeppelin", "Aerosmith"], "answerIndex": 0 },
+    { "question": "Which song features the line 'We will, we will rock you'?", "choices": ["Bohemian Rhapsody", "We Will Rock You", "Born to Run", "Highway to Hell"], "answerIndex": 1 },
+    { "question": "Who wrote 'Imagine'?", "choices": ["Paul McCartney", "John Lennon", "George Harrison", "Ringo Starr"], "answerIndex": 1 },
+    { "question": "Which band was famous for smashing their instruments at shows?", "choices": ["The Who", "Pink Floyd", "AC/DC", "The Eagles"], "answerIndex": 0 },
+    { "question": "Which guitarist was part of Cream?", "choices": ["Brian May", "Jimmy Page", "Eric Clapton", "Eddie Van Halen"], "answerIndex": 2 },
+    { "question": "Which band had the nickname 'The Bad Boys from Boston'?", "choices": ["Aerosmith", "Bon Jovi", "Metallica", "Fleetwood Mac"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a true Classic Rock Legend! 🎸🔥",
+      "medium": "Solid knowledge! Your rock soul is alive. 🤘🎶",
+      "low": "You might need a few more jam sessions... 🎶🤷"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Hard Rock History Challenge",
+  "background": "rock",
+  "themeColor": "#111111",
+  "buttonColor": "#cc0000",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Which band is known for the song 'Back In Black'?", "choices": ["Led Zeppelin", "AC/DC", "Aerosmith", "Deep Purple"], "answerIndex": 1 },
+    { "question": "Who sang 'Sweet Emotion'?", "choices": ["Led Zeppelin", "Aerosmith", "The Who", "Guns N' Roses"], "answerIndex": 1 },
+    { "question": "Which band released 'Smoke on the Water'?", "choices": ["Deep Purple", "AC/DC", "The Rolling Stones", "Van Halen"], "answerIndex": 0 },
+    { "question": "David Lee Roth was the frontman of:", "choices": ["Metallica", "AC/DC", "Van Halen", "Led Zeppelin"], "answerIndex": 2 },
+    { "question": "Which guitarist was famous for playing a two-necked guitar?", "choices": ["Slash", "Jimmy Page", "Joe Perry", "Angus Young"], "answerIndex": 1 },
+    { "question": "Which band is known for 'Paradise City'?", "choices": ["Guns N' Roses", "Aerosmith", "Queen", "Led Zeppelin"], "answerIndex": 0 },
+    { "question": "Angus Young often performed wearing:", "choices": ["A leather jacket", "A schoolboy uniform", "A cowboy hat", "A top hat"], "answerIndex": 1 },
+    { "question": "Who is the lead singer of Guns N' Roses?", "choices": ["Steven Tyler", "Axl Rose", "Brian Johnson", "Ozzy Osbourne"], "answerIndex": 1 },
+    { "question": "Which band had the album 'High Voltage'?", "choices": ["Led Zeppelin", "Deep Purple", "AC/DC", "Aerosmith"], "answerIndex": 2 },
+    { "question": "Which hard rock band had the hit 'Dream On'?", "choices": ["Van Halen", "Guns N' Roses", "Aerosmith", "Led Zeppelin"], "answerIndex": 2 },
+    { "question": "The album 'Appetite for Destruction' belongs to:", "choices": ["AC/DC", "Guns N' Roses", "Deep Purple", "Metallica"], "answerIndex": 1 },
+    { "question": "Which member of Led Zeppelin played drums?", "choices": ["Jimmy Page", "Robert Plant", "John Paul Jones", "John Bonham"], "answerIndex": 3 },
+    { "question": "Eddie Van Halen was famous for:", "choices": ["Bass solos", "Finger tapping guitar technique", "Drum solos", "Keyboard solos"], "answerIndex": 1 },
+    { "question": "Which song begins with a famous guitar riff and cowbell?", "choices": ["Smoke on the Water", "Sweet Emotion", "Back In Black", "Mississippi Queen"], "answerIndex": 3 },
+    { "question": "Which band is known for 'Whole Lotta Love'?", "choices": ["Led Zeppelin", "AC/DC", "Van Halen", "Aerosmith"], "answerIndex": 0 },
+    { "question": "Which guitarist is associated with the song 'November Rain'?", "choices": ["Jimmy Page", "Slash", "Eddie Van Halen", "Joe Perry"], "answerIndex": 1 },
+    { "question": "Which band's album was called 'Physical Graffiti'?", "choices": ["AC/DC", "Led Zeppelin", "Guns N' Roses", "Aerosmith"], "answerIndex": 1 },
+    { "question": "Brian Johnson became the singer of which band after Bon Scott's death?", "choices": ["Led Zeppelin", "AC/DC", "Van Halen", "Deep Purple"], "answerIndex": 1 },
+    { "question": "Which band’s music is heavily featured in the movie 'Wayne’s World'?", "choices": ["Aerosmith", "Queen", "Led Zeppelin", "Van Halen"], "answerIndex": 1 },
+    { "question": "What year did Led Zeppelin officially form?", "choices": ["1965", "1968", "1970", "1972"], "answerIndex": 1 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You are a Hard Rock Historian! 🎸🔥",
+      "medium": "You know your rock — just a few riffs away from legend! 🤘🎶",
+      "low": "Crank up the amp and hit the books of rock! 📚🎸"
+    }
+  }
+}

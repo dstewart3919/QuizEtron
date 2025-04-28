@@ -1,0 +1,42 @@
+{
+  "title": "Grunge Era Knowledge Check",
+  "background": "rock",
+  "themeColor": "#111111",
+  "buttonColor": "#cc4400",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Which city is the birthplace of grunge?", "choices": ["Los Angeles", "Seattle", "New York", "Chicago"], "answerIndex": 1 },
+    { "question": "Who was the lead singer of Soundgarden?", "choices": ["Kurt Cobain", "Chris Cornell", "Layne Staley", "Eddie Vedder"], "answerIndex": 1 },
+    { "question": "Which Nirvana album features 'Come As You Are'?", "choices": ["Nevermind", "In Utero", "Bleach", "MTV Unplugged"], "answerIndex": 0 },
+    { "question": "Which band released 'Dirt'?", "choices": ["Soundgarden", "Nirvana", "Alice in Chains", "Pearl Jam"], "answerIndex": 2 },
+    { "question": "Pearl Jam's debut album was titled:", "choices": ["Vitalogy", "Ten", "Vs.", "Yield"], "answerIndex": 1 },
+    { "question": "Which band sang 'Vasoline'?", "choices": ["Stone Temple Pilots", "Soundgarden", "Pearl Jam", "Screaming Trees"], "answerIndex": 0 },
+    { "question": "Kurt Cobain famously wore which clothing item?", "choices": ["Leather jackets", "Plaid flannel shirts", "Turtlenecks", "Metal vests"], "answerIndex": 1 },
+    { "question": "Who produced Nirvana’s 'Nevermind'?", "choices": ["Butch Vig", "Rick Rubin", "Steve Albini", "Phil Spector"], "answerIndex": 0 },
+    { "question": "Which band is known for the track 'Black'?", "choices": ["Soundgarden", "Pearl Jam", "Nirvana", "Alice in Chains"], "answerIndex": 1 },
+    { "question": "Layne Staley’s voice is described as:", "choices": ["Smooth and jazzy", "Raw and emotional", "Pop-friendly", "Operatic"], "answerIndex": 1 },
+    { "question": "Which band featured members from both Pearl Jam and Soundgarden?", "choices": ["Temple of the Dog", "Mad Season", "Green River", "Mother Love Bone"], "answerIndex": 0 },
+    { "question": "Which grunge band had a hit with 'Nearly Lost You'?", "choices": ["Stone Temple Pilots", "Screaming Trees", "The Melvins", "Nirvana"], "answerIndex": 1 },
+    { "question": "Grunge fashion often featured:", "choices": ["High heels and blazers", "Flannel, ripped jeans, and boots", "Suits and ties", "Gold chains and sunglasses"], "answerIndex": 1 },
+    { "question": "Who was Pearl Jam’s original drummer?", "choices": ["Dave Grohl", "Matt Cameron", "Dave Krusen", "Taylor Hawkins"], "answerIndex": 2 },
+    { "question": "What year was Nirvana’s 'Nevermind' released?", "choices": ["1989", "1991", "1993", "1995"], "answerIndex": 1 },
+    { "question": "Alice in Chains’ acoustic EP was called:", "choices": ["Sap", "Jar of Flies", "Facelift", "Dirt"], "answerIndex": 1 },
+    { "question": "Which band covered Bowie’s 'The Man Who Sold the World' during MTV Unplugged?", "choices": ["Pearl Jam", "Nirvana", "Soundgarden", "Alice in Chains"], "answerIndex": 1 },
+    { "question": "Chris Cornell later fronted which band after Soundgarden?", "choices": ["Temple of the Dog", "AudioSlave", "Foo Fighters", "Mad Season"], "answerIndex": 1 },
+    { "question": "Which Seattle band released 'Touch Me I’m Sick'?", "choices": ["Mudhoney", "Screaming Trees", "Alice in Chains", "Pearl Jam"], "answerIndex": 0 },
+    { "question": "Kurt Cobain tragically passed away in what year?", "choices": ["1992", "1993", "1994", "1995"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You lived through the grunge revolution! 🧢🎸",
+      "medium": "You definitely rock a flannel shirt, but study up! 🎶🧢",
+      "low": "Time to dust off your Doc Martens and dive into some Nirvana albums! 🎶🤘"
+    }
+  }
+}

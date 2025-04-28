@@ -1,0 +1,42 @@
+{
+  "title": "90s Rock Band Survival Test",
+  "background": "rock",
+  "themeColor": "#222222",
+  "buttonColor": "#cc0000",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Who was the lead singer of Nirvana?", "choices": ["Kurt Cobain", "Eddie Vedder", "Chris Cornell", "Scott Weiland"], "answerIndex": 0 },
+    { "question": "Which band released the album 'Ten'?", "choices": ["Soundgarden", "Pearl Jam", "Nirvana", "Alice in Chains"], "answerIndex": 1 },
+    { "question": "Which 90s rock band featured the song 'Black Hole Sun'?", "choices": ["Soundgarden", "Bush", "Foo Fighters", "Stone Temple Pilots"], "answerIndex": 0 },
+    { "question": "Which band had a hit with 'Interstate Love Song'?", "choices": ["Stone Temple Pilots", "Smashing Pumpkins", "Pearl Jam", "Radiohead"], "answerIndex": 0 },
+    { "question": "Dave Grohl was the drummer for which iconic band?", "choices": ["Foo Fighters", "Nirvana", "Smashing Pumpkins", "Soundgarden"], "answerIndex": 1 },
+    { "question": "Which band released 'Creep' in 1992?", "choices": ["Stone Temple Pilots", "Radiohead", "Nirvana", "Green Day"], "answerIndex": 1 },
+    { "question": "What city is considered the home of grunge?", "choices": ["Los Angeles", "Seattle", "New York", "Chicago"], "answerIndex": 1 },
+    { "question": "Which 90s rock band performed 'Glycerine'?", "choices": ["Bush", "Radiohead", "Smashing Pumpkins", "Oasis"], "answerIndex": 0 },
+    { "question": "Chris Cornell was the frontman of which band?", "choices": ["Soundgarden", "Pearl Jam", "Alice in Chains", "Rage Against the Machine"], "answerIndex": 0 },
+    { "question": "Which band had the album 'Mellon Collie and the Infinite Sadness'?", "choices": ["Nirvana", "Bush", "Smashing Pumpkins", "Green Day"], "answerIndex": 2 },
+    { "question": "Who sang 'Come Out and Play'?", "choices": ["The Offspring", "Green Day", "Rage Against the Machine", "Sublime"], "answerIndex": 0 },
+    { "question": "Which band featured Zack de la Rocha?", "choices": ["Soundgarden", "Foo Fighters", "Rage Against the Machine", "Weezer"], "answerIndex": 2 },
+    { "question": "What was the name of Nirvana’s first major label album?", "choices": ["Nevermind", "Bleach", "In Utero", "Incesticide"], "answerIndex": 0 },
+    { "question": "Who fronted Stone Temple Pilots?", "choices": ["Chris Cornell", "Scott Weiland", "Billy Corgan", "Thom Yorke"], "answerIndex": 1 },
+    { "question": "Which band had a breakout hit with 'Buddy Holly'?", "choices": ["Green Day", "Weezer", "The Offspring", "Oasis"], "answerIndex": 1 },
+    { "question": "Which band is known for 'Smells Like Teen Spirit'?", "choices": ["Alice in Chains", "Nirvana", "Pearl Jam", "Soundgarden"], "answerIndex": 1 },
+    { "question": "Which 90s band sang 'No Rain'?", "choices": ["Blind Melon", "Stone Temple Pilots", "Radiohead", "Soundgarden"], "answerIndex": 0 },
+    { "question": "Which British band rose with 'Wonderwall'?", "choices": ["Blur", "Oasis", "The Verve", "Pulp"], "answerIndex": 1 },
+    { "question": "Layne Staley was the lead singer for:", "choices": ["Alice in Chains", "Nirvana", "Pearl Jam", "Soundgarden"], "answerIndex": 0 },
+    { "question": "Which album is considered Nirvana's masterpiece?", "choices": ["In Utero", "Bleach", "Nevermind", "MTV Unplugged"], "answerIndex": 2 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You're a true 90s Rock Survivor — Grunge flows through you! 🎸🔥",
+      "medium": "You rock hard, but there's room to grow! 🤘😎",
+      "low": "Might wanna spend a little more time in the mosh pit... 🎶🤷‍♂️"
+    }
+  }
+}

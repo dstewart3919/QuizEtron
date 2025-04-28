@@ -1,0 +1,42 @@
+{
+  "title": "Do You Know POP Music?",
+  "background": "pop",
+  "themeColor": "#ff66cc",
+  "buttonColor": "#ff3399",
+  "scoringType": "score",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Which artist had a breakout hit with 'Baby One More Time'?", "choices": ["Britney Spears", "Christina Aguilera", "Mandy Moore", "Jessica Simpson"], "answerIndex": 0 },
+    { "question": "Who sang 'Firework'?", "choices": ["Adele", "Katy Perry", "Lady Gaga", "Taylor Swift"], "answerIndex": 1 },
+    { "question": "Which artist’s nickname is 'The Queen of Pop'?", "choices": ["Madonna", "Mariah Carey", "Lady Gaga", "Britney Spears"], "answerIndex": 0 },
+    { "question": "Which band sang 'I Want It That Way'?", "choices": ["*NSYNC", "Backstreet Boys", "98 Degrees", "O-Town"], "answerIndex": 1 },
+    { "question": "Which artist was known for 'Genie in a Bottle'?", "choices": ["Britney Spears", "Christina Aguilera", "Jessica Simpson", "Pink"], "answerIndex": 1 },
+    { "question": "Who is famous for the song 'Bad Romance'?", "choices": ["Lady Gaga", "Katy Perry", "Beyoncé", "Rihanna"], "answerIndex": 0 },
+    { "question": "Which pop singer’s real name is Stefani Germanotta?", "choices": ["Lady Gaga", "Dua Lipa", "Selena Gomez", "Olivia Rodrigo"], "answerIndex": 0 },
+    { "question": "Which band is behind the hit 'Sugar'?", "choices": ["Maroon 5", "OneRepublic", "Coldplay", "Imagine Dragons"], "answerIndex": 0 },
+    { "question": "Who released the album 'Future Nostalgia'?", "choices": ["Dua Lipa", "Ariana Grande", "Miley Cyrus", "Selena Gomez"], "answerIndex": 0 },
+    { "question": "Which pop legend was married to Sean Penn?", "choices": ["Madonna", "Cher", "Whitney Houston", "Cyndi Lauper"], "answerIndex": 0 },
+    { "question": "Which singer starred in 'A Star Is Born' (2018)?", "choices": ["Beyoncé", "Lady Gaga", "Adele", "Selena Gomez"], "answerIndex": 1 },
+    { "question": "Who sang 'Havana'?", "choices": ["Camila Cabello", "Selena Gomez", "Dua Lipa", "Miley Cyrus"], "answerIndex": 0 },
+    { "question": "Which artist’s fans are called 'Beliebers'?", "choices": ["Justin Timberlake", "Justin Bieber", "Shawn Mendes", "Ed Sheeran"], "answerIndex": 1 },
+    { "question": "Who performed 'Shallow' with Bradley Cooper?", "choices": ["Ariana Grande", "Lady Gaga", "Taylor Swift", "Lana Del Rey"], "answerIndex": 1 },
+    { "question": "Which singer broke records with 'Rolling in the Deep'?", "choices": ["Adele", "Billie Eilish", "Rihanna", "Katy Perry"], "answerIndex": 0 },
+    { "question": "Which singer is known for the hit 'Sorry Not Sorry'?", "choices": ["Demi Lovato", "Selena Gomez", "Katy Perry", "Pink"], "answerIndex": 0 },
+    { "question": "Which pop diva is known for 'Always Be My Baby'?", "choices": ["Whitney Houston", "Mariah Carey", "Celine Dion", "Janet Jackson"], "answerIndex": 1 },
+    { "question": "Which artist released the hit album '25'?", "choices": ["Adele", "Taylor Swift", "Dua Lipa", "Rihanna"], "answerIndex": 0 },
+    { "question": "Who sang 'Shake It Off'?", "choices": ["Taylor Swift", "Katy Perry", "Selena Gomez", "Lady Gaga"], "answerIndex": 0 },
+    { "question": "Which artist famously had a halftime Super Bowl performance with sharks?", "choices": ["Katy Perry", "Lady Gaga", "Shakira", "Jennifer Lopez"], "answerIndex": 0 }
+  ],
+
+  "resultMapping": {
+    "score": {
+      "high": "You’re a certified Pop Music Expert! 🎶🌟",
+      "medium": "Solid Pop vibes, but could go deeper! 🎤🎶",
+      "low": "Quick! Grab your headphones and hit the playlists! 🎧🎶"
+    }
+  }
+}

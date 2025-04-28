@@ -1,0 +1,33 @@
+{
+  "title": "Which Michael Jackson Song Are You?",
+  "background": "pop",
+  "themeColor": "#ff66cc",
+  "buttonColor": "#ff3399",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Pick a dance move:", "choices": ["Moonwalk", "Spin and freeze", "Robot dance", "Smooth slide"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "How would you describe your energy?", "choices": ["Mysterious and cool", "Sleek and sneaky", "Bold and theatrical", "Reflective and powerful"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "Pick a color:", "choices": ["Black", "White", "Red", "Silver"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "In a group project, you're the:", "choices": ["Silent powerhouse", "Strategist", "Showman", "Peacemaker"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "Your dream performance would be:", "choices": ["Under the stars", "In a neon-lit club", "On Halloween night", "At a peace rally"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "Pick a phrase:", "choices": ["She was more like a beauty queen...", "Annie, are you okay?", "Cause this is thriller!", "I'm starting with the man in the mirror"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "What motivates you?", "choices": ["Mystery and fame", "Precision and strategy", "Excitement and spectacle", "Personal growth and change"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "Choose an iconic MJ outfit:", "choices": ["White glove and fedora", "Pinstripe suit", "Zombie jacket", "White T-shirt and jeans"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "Best time of day for you:", "choices": ["Midnight", "Late evening", "Witching hour", "Early morning"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] },
+    { "question": "Choose your legacy:", "choices": ["Being unforgettable", "Being untouchable", "Being unforgettable and spooky", "Being inspirational"], "weights": [{"Billie Jean": 2}, {"Smooth Criminal": 2}, {"Thriller": 2}, {"Man in the Mirror": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Billie Jean": "You're 'Billie Jean'! 🎤✨ Smooth, legendary, and full of mystery.",
+      "Smooth Criminal": "You're 'Smooth Criminal'! 🕶️🎩 Sharp, cool, and always ten steps ahead.",
+      "Thriller": "You're 'Thriller'! 🧟‍♂️🎶 Bold, exciting, and impossible to forget.",
+      "Man in the Mirror": "You're 'Man in the Mirror'! 🌟🎶 Deep, thoughtful, and inspiring change."
+    }
+  }
+}

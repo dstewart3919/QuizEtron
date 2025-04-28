@@ -1,0 +1,40 @@
+{
+  "title": "Rock Star or Mythical Beast?",
+  "background": "rock",
+  "themeColor": "#222222",
+  "buttonColor": "#dd0000",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "You enter a room. People:", "choices": ["Cheer wildly", "Run away in fear", "Offer you food", "Challenge you"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"Beast": 2}, {"RockStar": 2}] },
+    { "question": "Your idea of a Saturday night?", "choices": ["Stage dive", "Hunt in the woods", "Mosh pit rampage", "Roam the mountains"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "You wake up and notice:", "choices": ["Screaming fans", "Glowing eyes", "Broken instruments", "Massive footprints"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Preferred method of travel?", "choices": ["Tour bus", "Dark forests", "Private jet", "Caverns"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Best sidekick?", "choices": ["Lead guitarist", "Loyal wolf pack", "Hyped-up drummer", "Mystical ravens"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Ultimate goal?", "choices": ["Top the charts", "Dominate the mountains", "Sell out arenas", "Become a legend of the forests"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Signature style?", "choices": ["Leather jackets and chains", "Thick fur and battle scars", "Spiked boots", "Wings and claws"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "When people meet you, they feel:", "choices": ["Awestruck", "Slightly terrified", "Inspired", "Intimidated"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Your favorite phrase?", "choices": ["'Let’s rock!'", "'Prepare to tremble.'", "'Encore!'", "'You dare challenge me?'"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Battle cry?", "choices": ["Screaming vocals", "Earth-shaking roar", "Guitar solo from hell", "Thunderous stomp"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "If someone insults you, you:", "choices": ["Write a diss track", "Devour their courage", "Roast them mid-show", "Scare them silent"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Preferred meal?", "choices": ["Pizza backstage", "Fresh caught prey", "Giant cheeseburger", "Raw meat"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Most important skill?", "choices": ["Crowd control", "Territory defense", "Songwriting", "Hunting"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Worst enemy?", "choices": ["Music critics", "Hunters", "Fake fans", "Dragon slayers"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Who would narrate your story?", "choices": ["MTV announcer", "Ancient bards", "Rolling Stone journalist", "Village elders"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "In battle, your weapon is:", "choices": ["Mic stand", "Fangs and claws", "Flying V guitar", "Massive horns"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Preferred environment?", "choices": ["Rock festival", "Dark enchanted forest", "Sold-out arena", "Snowy mountain pass"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Biggest fear?", "choices": ["Losing your voice", "Hunter's traps", "Being forgotten", "Being tamed"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] },
+    { "question": "Legacy?", "choices": ["Albums and gold records", "Tales of terror", "Immortal anthems", "Epic monster legends"], "weights": [{"RockStar": 2}, {"Beast": 2}, {"RockStar": 2}, {"Beast": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "RockStar": "You are a true Rock Star! 🎸🔥 Arena-filling energy, wild spirit!",
+      "Beast": "You are a Mythical Beast! 🐲🌑 A force of nature no one can tame."
+    }
+  }
+}

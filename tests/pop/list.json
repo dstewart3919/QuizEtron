@@ -1,15 +1,27 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Which 2000'S POP Icon are you?",
+    "What in the POP Culture?",
+    "Do you know POP Music?",
+    "Which POP song are you?",
+    "Which 90's Pop Icon are you?", 
+    "Move's like Jagger",
+    "Which Michael Jackson song are you?",
+    "Your 2010's POP Theme Song?", 
+    "Your Early 2000'S POP Theme Song?",
+    "Which POP Star are you?"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "which-2000s-pop-icon-are-you.json",
+    "what-in-the-pop-culture.json",
+    "do-you-know-pop-music.json",
+    "which-pop-song-are-you.json",
+    "which-90s-pop-icon-are-you.json",
+    "moves-like-jagger.json",
+    "which-michael-jackson-song-are-you.json",
+    "your-2010s-pop-theme-song.json",
+    "your-early-2000s-pop-theme-song.json",
+    "which-pop-star-are-you.json"
   ]
 }

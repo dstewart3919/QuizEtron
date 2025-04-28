@@ -1,15 +1,27 @@
 {
   "list": [
-    "Galactic IQ Calibration",
-    "Spaceship Life Support Systems",
-    "Spaceship Pilot Readiness",
-    "Which Space Crew Role Fits You"
+    "Classic Rock Legends Quiz",
+    "90s Rock Band Survival Test",
+    "Heavy Metal IQ Challenge",
+    "Rock Star or Mythical Beast?",
+    "Indie Rock Rebel Scorecard",
+    "Punk Rock Spirit Test",
+    "Grunge Era Knowledge Check",
+    "Hard Rock History Challenge",
+    "Rock Lyrics Finish-the-Line",
+    "Which Guitar God Are You?"
   ],
 
   "listJSON": [
-    "galactic-iq-calibration.json",
-    "spaceship-life-support-systems.json",
-    "spaceship-pilot-readiness.json",
-    "which-space-crew-role-fits-you.json"
+    "classic-rock-legends-quiz.json",
+    "90s-rock-band-survival-test.json",
+    "heavy-metal-iq-challenge.json",
+    "rock-star-or-mythical-beast.json",
+    "indie-rock-rebel-scorecard.json",
+    "punk-rock-spirit-test.json",
+    "grunge-era-knowledge-check.json",
+    "hard-rock-history-challenge.json",
+    "rock-lyrics-finish-the-line.json",
+    "which-guitar-god-are-you.json"
   ]
 }

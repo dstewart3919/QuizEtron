@@ -1,0 +1,33 @@
+{
+  "title": "Your 2010's POP Theme Song",
+  "background": "pop",
+  "themeColor": "#ff66cc",
+  "buttonColor": "#ff3399",
+  "scoringType": "category",
+  "timeLimitSeconds": 0,
+  "randomizeQuestions": true,
+  "backgroundCycle": false,
+  "backgroundCycleTime": 30,
+
+  "questions": [
+    { "question": "Pick your 2010's aesthetic:", "choices": ["Bold and colorful", "Sleek and minimal", "Futuristic and edgy", "Retro and soulful"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "Ideal weekend activity:", "choices": ["Dance party", "Writing poetry", "Plotting world domination", "Singing with passion"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "Your biggest strength:", "choices": ["Energy and charisma", "Originality and honesty", "Boldness and risk-taking", "Power and emotion"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "Favorite accessory:", "choices": ["Sunglasses", "Vintage jewelry", "Oversized hoodie", "Long flowing dress"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "In a movie, you're the:", "choices": ["Life of the party", "Quiet rebel", "Unpredictable antihero", "Heartbroken hero"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "Which decade influenced your style most?", "choices": ["70s funk", "90s alt pop", "Late 2010s cyberpunk", "Classic soulful ballads"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "If someone disrespects you, you:", "choices": ["Laugh and dance it off", "Write a song about it", "Plot your silent comeback", "Release a power ballad"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "Pick a dream collaboration:", "choices": ["Bruno Mars", "Lorde", "Billie Eilish", "Adele"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "Choose a music video setting:", "choices": ["Glittery nightclub", "Abandoned castle", "Dark neon-lit city", "Stormy coastline"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] },
+    { "question": "What's your secret talent?", "choices": ["Dancing without a care", "Seeing through fake people", "Creating eerie moods", "Channeling raw emotion"], "weights": [{"Uptown Funk": 2}, {"Royals": 2}, {"Bad Guy": 2}, {"Rolling in the Deep": 2}] }
+  ],
+
+  "resultMapping": {
+    "categoryMapping": {
+      "Uptown Funk": "Your 2010's anthem is 'Uptown Funk'! 🎶💃 Life of the party with unstoppable energy!",
+      "Royals": "Your 2010's anthem is 'Royals'! 👑🎶 Unique, classy, and effortlessly cool.",
+      "Bad Guy": "Your 2010's anthem is 'Bad Guy'! 😈🎶 Dark, unpredictable, and unforgettable.",
+      "Rolling in the Deep": "Your 2010's anthem is 'Rolling in the Deep'! 🎤💔 Powerful, emotional, and soul-stirring."
+    }
+  }
+}
