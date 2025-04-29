@@ -40,8 +40,6 @@ body {
   text-align: center;
   padding: 0 20px;
   animation: fadeIn 1.5s ease-out;
-  padding-top: 4rem; /* Add a safe space at top */
-  padding-bottom: 6rem;
 }
 
 h1 {
@@ -65,7 +63,7 @@ h2 {
 
 footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   font-size: 0.8rem;
   color: #ccc;
   text-align: center;
@@ -131,6 +129,7 @@ footer a:hover {
   align-items: center;
   gap: 1rem;
   padding: 2rem 0;
+  margin-bottom: -3rem;
 }
 
 .test-list-item {
@@ -166,10 +165,6 @@ footer a:hover {
   .test-card .icon {
     font-size: 2rem;
   }
-
-  .content {
-    padding-top: 7rem; /* push Horror down extra on small screens */
-  }
 }
 
 .back-link {
@@ -177,7 +172,7 @@ footer a:hover {
   text-decoration: none;
   color: #88ccff;
   font-size: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .back-link:hover {

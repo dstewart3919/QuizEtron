@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Loading Quiz...</title>
   <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="ads.css" />
 </head>
 <body>
   <h1 id="quiz-loading" style="text-align:center; margin-top:20%;">Loading Quiz...</h1>
@@ -20,16 +21,44 @@
     </div>
   </div>
 
-  <footer style="position:absolute; bottom:10px; width:100%; text-align:center;">
+  <!-- Sponsored Ad Grid -->
+  <div class="sponsored-label">Sponsored Ads</div>
+  <div id="ad-grid">
+    <div id="ad1" class="ad-tile"></div>
+    <div id="ad2" class="ad-tile"></div>
+    <div id="ad3" class="ad-tile"></div>
+    <div id="ad4" class="ad-tile"></div>
+  </div>
+
+  <footer style="margin-top: 60px; text-align:center;">
     <a href="legal/privacy.html" style="color:cyan; margin:0 8px;">Privacy</a>
     <a href="legal/terms.html" style="color:cyan; margin:0 8px;">Terms</a>
     <a href="legal/disclaimer.html" style="color:cyan; margin:0 8px;">Disclaimer</a>
     <a href="legal/copyright.html" style="color:cyan; margin:0 8px;">Copyright</a>
   </footer>
 
+  <script src="ads.js"></script>
   <script src="util.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', loadQuiz);
+    function tryInsertAd(containerId, options = {}) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      try {
+        insertAd(containerId, options);
+      } catch (e) {
+        container.innerHTML = `<div style="background: #eee; width: ${options.width || '300px'}; height: ${options.height || '150px'}; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #666;">Ad Placeholder</div>`;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadQuiz();
+
+      tryInsertAd('ad1', { slot: '1234567890', width: '300px', height: '150px' });
+      tryInsertAd('ad2', { slot: '2345678901', width: '300px', height: '150px' });
+      tryInsertAd('ad3', { slot: '3456789012', width: '300px', height: '150px' });
+      tryInsertAd('ad4', { slot: '4567890123', width: '300px', height: '150px' });
+    });
   </script>
 </body>
 </html>
