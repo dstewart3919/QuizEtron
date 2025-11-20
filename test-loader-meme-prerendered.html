@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizetron - Test Loader</title>
+  <link rel="stylesheet" href="test-loader.css" />
+  <link rel="stylesheet" href="ads.css" /> <!-- NEW: ads grid and overlay styling -->
+</head>
+<body>
+  <video autoplay muted loop playsinline class="video-background">
+    <source src="media/indexBG.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>Quizetron</h1>
+    <h2><span id="categoryName">Meme</span></h2>
+
+    <div id="testGrid" class="test-grid">
+      <!-- Tiles populated dynamically -->
+    </div>
+
+    <div id="backBtnContainer" style="margin-top: 2rem;">
+      <a href="test-loader.html" class="back-link">← Back to Categories</a>
+    </div>
+  </div>
+
+  <!-- Sponsored Ad Grid -->
+  <div class="sponsored-label">Sponsored Ads</div>
+  <div id="ad-grid">
+    <div id="ad1" class="ad-tile"></div>
+    <div id="ad2" class="ad-tile"></div>
+    <div id="ad3" class="ad-tile"></div>
+    <div id="ad4" class="ad-tile"></div>
+  </div>
+
+  <footer>
+    <a href="legal/privacy.html">Privacy</a>
+    <a href="legal/terms.html">Terms</a>
+    <a href="legal/disclaimer.html">Disclaimer</a>
+    <a href="legal/copyright.html">Copyright</a>
+  </footer>
+
+  <script src="ads.js"></script> <!-- NEW: central ad loader -->
+  <script src="util.js"></script>
+  <script src="test-loader.js"></script>
+
+  <script>
+    function suppressSpecificError(event) {
+      if (event.message && event.message.includes("Failed to load resource") && event.target && event.target.tagName === "SCRIPT") {
+        event.stopImmediatePropagation();
+        event.preventDefault();
+      }
+    }
+
+    window.addEventListener('error', suppressSpecificError, true);
+
+    // Dynamically insert ads into the grid
+    insertAd('ad1', { slot: '1234567890' }); // TODO: Replace with real slot IDs
+    insertAd('ad2', { slot: '2345678901' });
+    insertAd('ad3', { slot: '3456789012' });
+    insertAd('ad4', { slot: '4567890123' });
+
+    // Handle back button visibility
+    document.addEventListener('DOMContentLoaded', () => {
+      const backBtn = document.getElementById('backBtnContainer');
+      const categoryName = document.getElementById('categoryName');
+      if (categoryName.textContent.trim().toLowerCase() === 'all categories') {
+        backBtn.style.display = 'none';
+      } else {
+        backBtn.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>
