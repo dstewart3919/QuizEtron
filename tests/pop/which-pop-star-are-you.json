@@ -1,25 +1,154 @@
 {
   "title": "Which POP Star Are You?",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Pick a stage look:", "choices": ["Glitter dress", "Leather jacket", "Baggy streetwear", "Glam rock outfit"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "Your favorite fan message would be:", "choices": ["'You're my light!'", "'You inspire me to dance!'", "'Your music saved me!'", "'You made me believe in myself!'"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "Pick a favorite color:", "choices": ["Pink", "Black", "Green", "Red"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "If you had a superpower:", "choices": ["Vocal power", "Infinite charisma", "Shape-shifting", "Mind reading"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "Your dream venue:", "choices": ["Madison Square Garden", "Super Bowl halftime show", "Underground secret show", "Las Vegas residency"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "Choose a vibe:", "choices": ["Emotional queen", "Dancing king", "Dark poet", "Avant-garde visionary"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "Pick your anthem:", "choices": ["No Tears Left to Cry", "Can't Stop the Feeling!", "Bad Guy", "Born This Way"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "What motivates you the most?", "choices": ["Expressing emotions", "Spreading joy", "Challenging norms", "Changing the world"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "Favorite post-show activity:", "choices": ["Thanking fans", "Hanging with the crew", "Writing lyrics", "Planning new costumes"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] },
-    { "question": "If you had to create a perfume, it would smell like:", "choices": ["Sweet berries", "Fresh ocean air", "Mystery and smoke", "Wildflowers and leather"], "weights": [{"Ariana Grande": 2}, {"Justin Timberlake": 2}, {"Billie Eilish": 2}, {"Lady Gaga": 2}] }
+    {
+      "question": "Pick a stage look:",
+      "choices": [
+        "Glitter dress",
+        "Leather jacket",
+        "Baggy streetwear",
+        "Glam rock outfit"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "Your favorite fan message would be:",
+      "choices": [
+        "'You're my light!'",
+        "'You inspire me to dance!'",
+        "'Your music saved me!'",
+        "'You made me believe in myself!'"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "Pick a favorite color:",
+      "choices": ["Pink", "Black", "Green", "Red"],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "If you had a superpower:",
+      "choices": [
+        "Vocal power",
+        "Infinite charisma",
+        "Shape-shifting",
+        "Mind reading"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "Your dream venue:",
+      "choices": [
+        "Madison Square Garden",
+        "Super Bowl halftime show",
+        "Underground secret show",
+        "Las Vegas residency"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "Choose a vibe:",
+      "choices": [
+        "Emotional queen",
+        "Dancing king",
+        "Dark poet",
+        "Avant-garde visionary"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "Pick your anthem:",
+      "choices": [
+        "No Tears Left to Cry",
+        "Can't Stop the Feeling!",
+        "Bad Guy",
+        "Born This Way"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "What motivates you the most?",
+      "choices": [
+        "Expressing emotions",
+        "Spreading joy",
+        "Challenging norms",
+        "Changing the world"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "Favorite post-show activity:",
+      "choices": [
+        "Thanking fans",
+        "Hanging with the crew",
+        "Writing lyrics",
+        "Planning new costumes"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    },
+    {
+      "question": "If you had to create a perfume, it would smell like:",
+      "choices": [
+        "Sweet berries",
+        "Fresh ocean air",
+        "Mystery and smoke",
+        "Wildflowers and leather"
+      ],
+      "weights": [
+        { "Ariana Grande": 2 },
+        { "Justin Timberlake": 2 },
+        { "Billie Eilish": 2 },
+        { "Lady Gaga": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

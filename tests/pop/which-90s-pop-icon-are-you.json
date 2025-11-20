@@ -1,25 +1,154 @@
 {
   "title": "Which 90's Pop Icon Are You?",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Pick a 90s accessory:", "choices": ["Butterfly clips", "Baggy jeans", "Platform sneakers", "Chain wallet"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Your dream career as a kid?", "choices": ["Pop superstar", "Dance choreographer", "Fashion designer", "Touring with a band"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Favorite kind of party:", "choices": ["Glitter and glam party", "Dance-off competition", "Girl power sleepover", "Karaoke battle"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Which vibe best matches you?", "choices": ["Innocent rebel", "Smooth operator", "Energetic motivator", "Romantic heartthrob"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Choose a 90s TV show:", "choices": ["Sabrina the Teenage Witch", "Fresh Prince of Bel-Air", "Powerpuff Girls", "Saved by the Bell"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "First big splurge when you got money would be:", "choices": ["Pink convertible", "Epic mansion", "Designer outfits", "Private concert tour"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Your 90s anthem:", "choices": ["...Baby One More Time", "Tearin' Up My Heart", "Wannabe", "I Want It That Way"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Your personal motto:", "choices": ["Stronger than yesterday", "Never say never", "Girl power forever", "As long as you love me"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "If you had a superpower, it'd be:", "choices": ["Hypnotic singing", "Epic dance-offs", "Unstoppable confidence", "Charm and charisma"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] },
-    { "question": "Your fans would describe you as:", "choices": ["Iconic", "Talented", "Empowering", "Loyal"], "weights": [{"Britney Spears": 2}, {"NSYNC": 2}, {"Spice Girls": 2}, {"Backstreet Boys": 2}] }
+    {
+      "question": "Pick a 90s accessory:",
+      "choices": [
+        "Butterfly clips",
+        "Baggy jeans",
+        "Platform sneakers",
+        "Chain wallet"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Your dream career as a kid?",
+      "choices": [
+        "Pop superstar",
+        "Dance choreographer",
+        "Fashion designer",
+        "Touring with a band"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Favorite kind of party:",
+      "choices": [
+        "Glitter and glam party",
+        "Dance-off competition",
+        "Girl power sleepover",
+        "Karaoke battle"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Which vibe best matches you?",
+      "choices": [
+        "Innocent rebel",
+        "Smooth operator",
+        "Energetic motivator",
+        "Romantic heartthrob"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Choose a 90s TV show:",
+      "choices": [
+        "Sabrina the Teenage Witch",
+        "Fresh Prince of Bel-Air",
+        "Powerpuff Girls",
+        "Saved by the Bell"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "First big splurge when you got money would be:",
+      "choices": [
+        "Pink convertible",
+        "Epic mansion",
+        "Designer outfits",
+        "Private concert tour"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Your 90s anthem:",
+      "choices": [
+        "...Baby One More Time",
+        "Tearin' Up My Heart",
+        "Wannabe",
+        "I Want It That Way"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Your personal motto:",
+      "choices": [
+        "Stronger than yesterday",
+        "Never say never",
+        "Girl power forever",
+        "As long as you love me"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "If you had a superpower, it'd be:",
+      "choices": [
+        "Hypnotic singing",
+        "Epic dance-offs",
+        "Unstoppable confidence",
+        "Charm and charisma"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    },
+    {
+      "question": "Your fans would describe you as:",
+      "choices": ["Iconic", "Talented", "Empowering", "Loyal"],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "NSYNC": 2 },
+        { "Spice Girls": 2 },
+        { "Backstreet Boys": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

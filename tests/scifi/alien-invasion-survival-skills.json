@@ -1,35 +1,184 @@
 {
   "title": "Alien Invasion Survival Skills",
-  "background": "sci-fi",
-  "themeColor": "#334400",
-  "buttonColor": "#88aa00",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "First move after alien ships appear?", "choices": ["Hide underground", "Broadcast welcome", "Grab weapons", "Observe silently"], "answerIndex": 3 },
-    { "question": "If aliens jam communication, you:", "choices": ["Panic", "Use coded signals", "Attack immediately", "Do nothing"], "answerIndex": 1 },
-    { "question": "Best shelter during orbital attacks?", "choices": ["Tall buildings", "Basement or underground", "Fields", "Rooftop"], "answerIndex": 1 },
-    { "question": "Aliens land — you notice they react strongly to light. Best tactic?", "choices": ["Use flares", "Hide in shadows", "Attack head-on", "Ignore"], "answerIndex": 0 },
-    { "question": "You must evacuate. Priority items?", "choices": ["Food, water, first aid", "Jewelry", "Electronics", "Paintings"], "answerIndex": 0 },
-    { "question": "If your city is targeted first:", "choices": ["Head toward military base", "Head away from population centers", "Hide in a museum", "Rush downtown"], "answerIndex": 1 },
-    { "question": "Aliens using mind control — how to protect yourself?", "choices": ["Helmet/insulation", "Firearms", "Loud music", "Running in circles"], "answerIndex": 0 },
-    { "question": "Easiest natural defense against drones?", "choices": ["Caves", "Flat fields", "Beaches", "Parking lots"], "answerIndex": 0 },
-    { "question": "Alien ships scan for metal objects. You:", "choices": ["Drop metal gear", "Hide inside car", "Put on armor", "Stand tall"], "answerIndex": 0 },
-    { "question": "During capture attempts, safest formation is:", "choices": ["Group tightly", "Stay spread out", "Make noise", "Form a line"], "answerIndex": 1 },
-    { "question": "Unknown gas spreads. Best response?", "choices": ["Hold breath and find mask", "Scream", "Run into gas", "Use phone"], "answerIndex": 0 },
-    { "question": "An alien appears non-hostile. You:", "choices": ["Capture it", "Communicate cautiously", "Attack", "Run away screaming"], "answerIndex": 1 },
-    { "question": "Your car stops working near a UFO. First action?", "choices": ["Push car away", "Flee on foot", "Turn radio up", "Call for tow truck"], "answerIndex": 1 },
-    { "question": "They use energy-based weapons. Best cover?", "choices": ["Trees", "Concrete barriers", "Tents", "Fences"], "answerIndex": 1 },
-    { "question": "How can you detect cloaked alien presence?", "choices": ["Sudden chills or tech interference", "Seeing blurry shapes", "Hearing whispers", "None, it’s impossible"], "answerIndex": 0 },
-    { "question": "First way to identify a fake rescue signal?", "choices": ["Strange accents", "Wrong code words", "Appearing too perfect", "All of the above"], "answerIndex": 3 },
-    { "question": "During abduction, you must:", "choices": ["Struggle violently", "Play dead", "Focus on escape opportunities", "Call for help"], "answerIndex": 2 },
-    { "question": "Aliens disable power grids. Best tool to have?", "choices": ["Solar charger", "Blowtorch", "iPad", "Fan"], "answerIndex": 0 },
-    { "question": "A magnetic pulse fries electronics. What still works?", "choices": ["Old mechanical tools", "Smartphones", "Laptops", "Electric cars"], "answerIndex": 0 },
-    { "question": "Ultimate survival quality?", "choices": ["Adaptability", "Speed", "Strength", "Size"], "answerIndex": 0 }
+    {
+      "question": "First move after alien ships appear?",
+      "choices": [
+        "Hide underground",
+        "Broadcast welcome",
+        "Grab weapons",
+        "Observe silently"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "If aliens jam communication, you:",
+      "choices": [
+        "Panic",
+        "Use coded signals",
+        "Attack immediately",
+        "Do nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best shelter during orbital attacks?",
+      "choices": [
+        "Tall buildings",
+        "Basement or underground",
+        "Fields",
+        "Rooftop"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Aliens land — you notice they react strongly to light. Best tactic?",
+      "choices": ["Use flares", "Hide in shadows", "Attack head-on", "Ignore"],
+      "answerIndex": 0
+    },
+    {
+      "question": "You must evacuate. Priority items?",
+      "choices": [
+        "Food, water, first aid",
+        "Jewelry",
+        "Electronics",
+        "Paintings"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "If your city is targeted first:",
+      "choices": [
+        "Head toward military base",
+        "Head away from population centers",
+        "Hide in a museum",
+        "Rush downtown"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Aliens using mind control — how to protect yourself?",
+      "choices": [
+        "Helmet/insulation",
+        "Firearms",
+        "Loud music",
+        "Running in circles"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Easiest natural defense against drones?",
+      "choices": ["Caves", "Flat fields", "Beaches", "Parking lots"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Alien ships scan for metal objects. You:",
+      "choices": [
+        "Drop metal gear",
+        "Hide inside car",
+        "Put on armor",
+        "Stand tall"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "During capture attempts, safest formation is:",
+      "choices": [
+        "Group tightly",
+        "Stay spread out",
+        "Make noise",
+        "Form a line"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Unknown gas spreads. Best response?",
+      "choices": [
+        "Hold breath and find mask",
+        "Scream",
+        "Run into gas",
+        "Use phone"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "An alien appears non-hostile. You:",
+      "choices": [
+        "Capture it",
+        "Communicate cautiously",
+        "Attack",
+        "Run away screaming"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your car stops working near a UFO. First action?",
+      "choices": [
+        "Push car away",
+        "Flee on foot",
+        "Turn radio up",
+        "Call for tow truck"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "They use energy-based weapons. Best cover?",
+      "choices": ["Trees", "Concrete barriers", "Tents", "Fences"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How can you detect cloaked alien presence?",
+      "choices": [
+        "Sudden chills or tech interference",
+        "Seeing blurry shapes",
+        "Hearing whispers",
+        "None, it’s impossible"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "First way to identify a fake rescue signal?",
+      "choices": [
+        "Strange accents",
+        "Wrong code words",
+        "Appearing too perfect",
+        "All of the above"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "During abduction, you must:",
+      "choices": [
+        "Struggle violently",
+        "Play dead",
+        "Focus on escape opportunities",
+        "Call for help"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Aliens disable power grids. Best tool to have?",
+      "choices": ["Solar charger", "Blowtorch", "iPad", "Fan"],
+      "answerIndex": 0
+    },
+    {
+      "question": "A magnetic pulse fries electronics. What still works?",
+      "choices": [
+        "Old mechanical tools",
+        "Smartphones",
+        "Laptops",
+        "Electric cars"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Ultimate survival quality?",
+      "choices": ["Adaptability", "Speed", "Strength", "Size"],
+      "answerIndex": 0
+    }
   ],
 
   "resultMapping": {

@@ -1,35 +1,194 @@
 {
   "title": "Would You Survive a Government Collapse?",
-  "background": "government",
-  "themeColor": "#442200",
-  "buttonColor": "#aa5522",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Government falls overnight. What's your first move?", "choices": ["Find weapons", "Loot a mall", "Head to countryside", "Stay home and wait"], "answerIndex": 2 },
-    { "question": "Banks shut down. Your best financial backup?", "choices": ["Gold and silver", "Crypto wallet", "Cash stash", "Nothing"], "answerIndex": 0 },
-    { "question": "Police are gone. How do you protect yourself?", "choices": ["Trust neighbors", "Fortify your home", "Join roaming gangs", "Hope for mercy"], "answerIndex": 1 },
-    { "question": "You hear rumors of organized militias. You:", "choices": ["Join immediately", "Investigate cautiously", "Ignore completely", "Challenge them"], "answerIndex": 1 },
-    { "question": "Water supplies are failing. Your backup?", "choices": ["Buy bottled water", "Rain collection system", "Dig a well", "Hope it rains soon"], "answerIndex": 1 },
-    { "question": "Food riots erupt. You:", "choices": ["Rush into crowd", "Raid local farms", "Defend your supplies", "Join a food riot"], "answerIndex": 2 },
-    { "question": "Communication is cut. How do you get news?", "choices": ["Wait for rumors", "Shortwave radio", "Drive around asking", "Hope to overhear it"], "answerIndex": 1 },
-    { "question": "Power grids down for weeks. Your lighting?", "choices": ["Candles", "Solar lights", "Generator", "Live in darkness"], "answerIndex": 1 },
-    { "question": "Your house is targeted. First defensive step?", "choices": ["Evacuate fast", "Barricade and hide", "Set traps", "Negotiate"], "answerIndex": 2 },
-    { "question": "You find a warehouse of supplies. Best move?", "choices": ["Loot everything at once", "Scout and monitor first", "Take only essentials quietly", "Broadcast it to others"], "answerIndex": 2 },
-    { "question": "Biggest new threat during collapse?", "choices": ["Police", "Foreign invasion", "Other survivors", "Natural disasters"], "answerIndex": 2 },
-    { "question": "If injured badly with no hospitals?", "choices": ["Self-treat using first aid kit", "Hope to heal naturally", "Search abandoned clinics", "Call for nonexistent help"], "answerIndex": 0 },
-    { "question": "You're offered a spot in a survival group. You:", "choices": ["Accept immediately", "Demand leadership", "Vet them carefully", "Refuse all groups"], "answerIndex": 2 },
-    { "question": "Best shelter location during urban collapse?", "choices": ["Skyscrapers", "Abandoned suburbs", "Underground bunkers", "Shopping malls"], "answerIndex": 2 },
-    { "question": "Government returns but demands loyalty tests. You:", "choices": ["Fake loyalty", "Resist openly", "Flee area", "Take loyalty tests"], "answerIndex": 0 },
-    { "question": "You must ration supplies. Priority item?", "choices": ["Water", "Candy", "Canned soup", "Rice and beans"], "answerIndex": 0 },
-    { "question": "Your group faces a betrayal. You:", "choices": ["Expel immediately", "Forgive once", "Punish harshly", "Ignore it"], "answerIndex": 0 },
-    { "question": "New currency emerges. You:", "choices": ["Trade skills instead", "Jump on new currency", "Ignore it", "Hoarde old money"], "answerIndex": 0 },
-    { "question": "Enemy groups approaching fast. You:", "choices": ["Negotiate", "Evacuate stealthily", "Prepare ambush", "Surrender"], "answerIndex": 1 },
-    { "question": "Final rule of survival after collapse?", "choices": ["Trust no one", "Share with all", "Post everything online", "Party like it's 1999"], "answerIndex": 0 }
+    {
+      "question": "Government falls overnight. What's your first move?",
+      "choices": [
+        "Find weapons",
+        "Loot a mall",
+        "Head to countryside",
+        "Stay home and wait"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Banks shut down. Your best financial backup?",
+      "choices": ["Gold and silver", "Crypto wallet", "Cash stash", "Nothing"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Police are gone. How do you protect yourself?",
+      "choices": [
+        "Trust neighbors",
+        "Fortify your home",
+        "Join roaming gangs",
+        "Hope for mercy"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You hear rumors of organized militias. You:",
+      "choices": [
+        "Join immediately",
+        "Investigate cautiously",
+        "Ignore completely",
+        "Challenge them"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Water supplies are failing. Your backup?",
+      "choices": [
+        "Buy bottled water",
+        "Rain collection system",
+        "Dig a well",
+        "Hope it rains soon"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Food riots erupt. You:",
+      "choices": [
+        "Rush into crowd",
+        "Raid local farms",
+        "Defend your supplies",
+        "Join a food riot"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Communication is cut. How do you get news?",
+      "choices": [
+        "Wait for rumors",
+        "Shortwave radio",
+        "Drive around asking",
+        "Hope to overhear it"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Power grids down for weeks. Your lighting?",
+      "choices": ["Candles", "Solar lights", "Generator", "Live in darkness"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your house is targeted. First defensive step?",
+      "choices": [
+        "Evacuate fast",
+        "Barricade and hide",
+        "Set traps",
+        "Negotiate"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "You find a warehouse of supplies. Best move?",
+      "choices": [
+        "Loot everything at once",
+        "Scout and monitor first",
+        "Take only essentials quietly",
+        "Broadcast it to others"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Biggest new threat during collapse?",
+      "choices": [
+        "Police",
+        "Foreign invasion",
+        "Other survivors",
+        "Natural disasters"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "If injured badly with no hospitals?",
+      "choices": [
+        "Self-treat using first aid kit",
+        "Hope to heal naturally",
+        "Search abandoned clinics",
+        "Call for nonexistent help"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You're offered a spot in a survival group. You:",
+      "choices": [
+        "Accept immediately",
+        "Demand leadership",
+        "Vet them carefully",
+        "Refuse all groups"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Best shelter location during urban collapse?",
+      "choices": [
+        "Skyscrapers",
+        "Abandoned suburbs",
+        "Underground bunkers",
+        "Shopping malls"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Government returns but demands loyalty tests. You:",
+      "choices": [
+        "Fake loyalty",
+        "Resist openly",
+        "Flee area",
+        "Take loyalty tests"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You must ration supplies. Priority item?",
+      "choices": ["Water", "Candy", "Canned soup", "Rice and beans"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your group faces a betrayal. You:",
+      "choices": [
+        "Expel immediately",
+        "Forgive once",
+        "Punish harshly",
+        "Ignore it"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "New currency emerges. You:",
+      "choices": [
+        "Trade skills instead",
+        "Jump on new currency",
+        "Ignore it",
+        "Hoarde old money"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Enemy groups approaching fast. You:",
+      "choices": [
+        "Negotiate",
+        "Evacuate stealthily",
+        "Prepare ambush",
+        "Surrender"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Final rule of survival after collapse?",
+      "choices": [
+        "Trust no one",
+        "Share with all",
+        "Post everything online",
+        "Party like it's 1999"
+      ],
+      "answerIndex": 0
+    }
   ],
 
   "resultMapping": {

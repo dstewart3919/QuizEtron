@@ -1,0 +1,115 @@
+{
+  "title": "Surprise Reflex Quiz",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "Someone jumps out and yells “BOO!” right behind you. You:",
+      "choices": [
+        "Scream and nearly hit the ceiling",
+        "Flinch hard but recover in 1 second",
+        "Slow blink and say “really?”",
+        "Don’t move at all"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "A car horn blares out of nowhere. Your body reacts:",
+      "choices": [
+        "Full-body jump + heart explodes",
+        "Quick shoulder twitch + sharp inhale",
+        "Head turns slowly",
+        "Zero reaction—you saw it coming"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your friends throw you a surprise party. The moment the lights flip on and everyone yells, you:",
+      "choices": [
+        "Scream, drop whatever you’re holding, then laugh",
+        "Big smile + small gasp",
+        "Stand there confused for 5 seconds",
+        "Knew the whole time and pretend to be shocked"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "A loud balloon pops right next to you. Instant reaction:",
+      "choices": [
+        "Jump out of your skin and curse",
+        "Flinch hard and look around",
+        "Barely blink",
+        "Laugh because you popped it on purpose"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Watching a jump-scare horror movie, you usually:",
+      "choices": [
+        "Scream every single time (even when you know it’s coming)",
+        "Jump a little but stay seated",
+        "Just widen your eyes",
+        "Never flinch—you’re immune"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Someone tosses you their keys without warning. You:",
+      "choices": [
+        "Fumble and drop them half the time",
+        "Catch them smoothly 90% of the time",
+        "Duck first, then pick them up off the floor",
+        "Always catch perfectly"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Thunder cracks super loud while you’re outside. You:",
+      "choices": [
+        "Jump, look up, heart racing",
+        "Quick flinch then laugh at yourself",
+        "Casually look at the sky",
+        "Don’t even notice"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "A spider drops from the ceiling onto your desk. Your move:",
+      "choices": [
+        "Leap backward, chair flies, possible scream",
+        "Fast swipe + controlled panic",
+        "Slowly stand up and walk away",
+        "Pick it up and relocate it"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your phone on max volume rings in a dead-silent room. You:",
+      "choices": [
+        "Nearly throw the phone across the room",
+        "Big flinch + grab it fast",
+        "Calmly reach for it",
+        "Knew it was about to ring"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "In general, people who know you would say your startle reflex is:",
+      "choices": [
+        "Legendary—everyone tries to scare you for fun",
+        "Pretty jumpy but manageable",
+        "Average",
+        "Basically nonexistent"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Human Cat on a Hot Tin Roof  Electricity in your veins—one decibel and you’re airborne!",
+      "medium": "Respectably Jumpy  You’ll flinch like a normal person, then laugh about it 2 seconds later.",
+      "low": "Unflappable Zen Master  Nothing fazes you. You probably meditate during horror movies."
+    }
+  }
+}

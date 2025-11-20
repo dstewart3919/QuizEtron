@@ -1,35 +1,154 @@
 {
   "title": "How Well Do You Know the Constitution?",
-  "background": "government",
-  "themeColor": "#445522",
-  "buttonColor": "#88aa44",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Which branch of government can veto bills?", "choices": ["Legislative", "Executive", "Judicial", "Federal Reserve"], "answerIndex": 1 },
-    { "question": "Which amendment guarantees free speech?", "choices": ["First", "Second", "Fourth", "Fifth"], "answerIndex": 0 },
-    { "question": "Who is considered the 'Father of the Constitution'?", "choices": ["George Washington", "James Madison", "Thomas Jefferson", "John Adams"], "answerIndex": 1 },
-    { "question": "What does the Fourth Amendment protect?", "choices": ["Gun rights", "Freedom of religion", "Against unreasonable searches", "Voting rights"], "answerIndex": 2 },
-    { "question": "How many articles are in the U.S. Constitution?", "choices": ["5", "7", "10", "12"], "answerIndex": 1 },
-    { "question": "The 'Supremacy Clause' is found in:", "choices": ["Article I", "Article II", "Article VI", "Preamble"], "answerIndex": 2 },
-    { "question": "How many justices are on the Supreme Court?", "choices": ["7", "9", "11", "13"], "answerIndex": 1 },
-    { "question": "The power of judicial review was established by which case?", "choices": ["Brown v. Board", "Marbury v. Madison", "Roe v. Wade", "Gideon v. Wainwright"], "answerIndex": 1 },
-    { "question": "The President is Commander-in-Chief of:", "choices": ["Congress", "The military", "The courts", "The economy"], "answerIndex": 1 },
-    { "question": "Which body must approve Supreme Court nominations?", "choices": ["House", "Senate", "President alone", "Judiciary Committee"], "answerIndex": 1 },
-    { "question": "The right to remain silent is protected by:", "choices": ["First Amendment", "Second Amendment", "Fifth Amendment", "Sixth Amendment"], "answerIndex": 2 },
-    { "question": "Which amendment abolished slavery?", "choices": ["10th", "13th", "15th", "19th"], "answerIndex": 1 },
-    { "question": "Freedom of religion is protected under:", "choices": ["First Amendment", "Fourth Amendment", "Sixth Amendment", "Eighth Amendment"], "answerIndex": 0 },
-    { "question": "The Electoral College elects the:", "choices": ["Senators", "Supreme Court Justices", "President", "Governors"], "answerIndex": 2 },
-    { "question": "Congress has how many chambers?", "choices": ["One", "Two", "Three", "Four"], "answerIndex": 1 },
-    { "question": "Which body initiates impeachment proceedings?", "choices": ["Senate", "House of Representatives", "Supreme Court", "The President"], "answerIndex": 1 },
-    { "question": "Who signs bills into law?", "choices": ["Vice President", "Speaker of the House", "President", "Chief Justice"], "answerIndex": 2 },
-    { "question": "Which amendment lowered the voting age to 18?", "choices": ["22nd", "24th", "26th", "28th"], "answerIndex": 2 },
-    { "question": "The right to a speedy trial is protected by:", "choices": ["Fifth Amendment", "Sixth Amendment", "Eighth Amendment", "First Amendment"], "answerIndex": 1 },
-    { "question": "How many amendments does the Constitution have?", "choices": ["25", "26", "27", "28"], "answerIndex": 2 }
+    {
+      "question": "Which branch of government can veto bills?",
+      "choices": ["Legislative", "Executive", "Judicial", "Federal Reserve"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which amendment guarantees free speech?",
+      "choices": ["First", "Second", "Fourth", "Fifth"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who is considered the 'Father of the Constitution'?",
+      "choices": [
+        "George Washington",
+        "James Madison",
+        "Thomas Jefferson",
+        "John Adams"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does the Fourth Amendment protect?",
+      "choices": [
+        "Gun rights",
+        "Freedom of religion",
+        "Against unreasonable searches",
+        "Voting rights"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "How many articles are in the U.S. Constitution?",
+      "choices": ["5", "7", "10", "12"],
+      "answerIndex": 1
+    },
+    {
+      "question": "The 'Supremacy Clause' is found in:",
+      "choices": ["Article I", "Article II", "Article VI", "Preamble"],
+      "answerIndex": 2
+    },
+    {
+      "question": "How many justices are on the Supreme Court?",
+      "choices": ["7", "9", "11", "13"],
+      "answerIndex": 1
+    },
+    {
+      "question": "The power of judicial review was established by which case?",
+      "choices": [
+        "Brown v. Board",
+        "Marbury v. Madison",
+        "Roe v. Wade",
+        "Gideon v. Wainwright"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "The President is Commander-in-Chief of:",
+      "choices": ["Congress", "The military", "The courts", "The economy"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which body must approve Supreme Court nominations?",
+      "choices": ["House", "Senate", "President alone", "Judiciary Committee"],
+      "answerIndex": 1
+    },
+    {
+      "question": "The right to remain silent is protected by:",
+      "choices": [
+        "First Amendment",
+        "Second Amendment",
+        "Fifth Amendment",
+        "Sixth Amendment"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which amendment abolished slavery?",
+      "choices": ["10th", "13th", "15th", "19th"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Freedom of religion is protected under:",
+      "choices": [
+        "First Amendment",
+        "Fourth Amendment",
+        "Sixth Amendment",
+        "Eighth Amendment"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "The Electoral College elects the:",
+      "choices": [
+        "Senators",
+        "Supreme Court Justices",
+        "President",
+        "Governors"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Congress has how many chambers?",
+      "choices": ["One", "Two", "Three", "Four"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which body initiates impeachment proceedings?",
+      "choices": [
+        "Senate",
+        "House of Representatives",
+        "Supreme Court",
+        "The President"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who signs bills into law?",
+      "choices": [
+        "Vice President",
+        "Speaker of the House",
+        "President",
+        "Chief Justice"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which amendment lowered the voting age to 18?",
+      "choices": ["22nd", "24th", "26th", "28th"],
+      "answerIndex": 2
+    },
+    {
+      "question": "The right to a speedy trial is protected by:",
+      "choices": [
+        "Fifth Amendment",
+        "Sixth Amendment",
+        "Eighth Amendment",
+        "First Amendment"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many amendments does the Constitution have?",
+      "choices": ["25", "26", "27", "28"],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

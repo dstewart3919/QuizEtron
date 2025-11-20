@@ -1,35 +1,129 @@
 {
   "title": "Move's Like Jagger",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Who sings 'Moves Like Jagger' with Maroon 5?", "choices": ["Christina Aguilera", "Beyoncé", "Rihanna", "Shakira"], "answerIndex": 0 },
-    { "question": "Which band is Adam Levine the lead singer for?", "choices": ["Maroon 5", "OneRepublic", "The Script", "Imagine Dragons"], "answerIndex": 0 },
-    { "question": "What iconic band was Mick Jagger part of?", "choices": ["The Beatles", "The Rolling Stones", "The Who", "Led Zeppelin"], "answerIndex": 1 },
-    { "question": "Which song is NOT by Maroon 5?", "choices": ["Sugar", "Memories", "Counting Stars", "She Will Be Loved"], "answerIndex": 2 },
-    { "question": "Mick Jagger is best known for his:", "choices": ["Epic dance moves", "Shredding guitar solos", "High vocal range", "Stage light design"], "answerIndex": 0 },
-    { "question": "What does 'Moves Like Jagger' primarily celebrate?", "choices": ["Dance moves", "Heartbreak", "Friendship", "Wealth"], "answerIndex": 0 },
-    { "question": "What is the primary instrument in 'Moves Like Jagger'?", "choices": ["Bass guitar", "Whistling and synths", "Piano", "Drums"], "answerIndex": 1 },
-    { "question": "Which other song features Adam Levine's falsetto voice heavily?", "choices": ["Girls Like You", "Sugar", "Locked Away", "Closer"], "answerIndex": 1 },
-    { "question": "Who is often called 'the face' of pop-rock for his smooth voice?", "choices": ["Adam Levine", "Bruno Mars", "Justin Bieber", "Shawn Mendes"], "answerIndex": 0 },
-    { "question": "What style of dance would 'Moves Like Jagger' fit best?", "choices": ["Breakdance", "Freestyle pop dance", "Tap dance", "Salsa"], "answerIndex": 1 },
-    { "question": "Mick Jagger’s iconic walk is often described as:", "choices": ["Swaggering", "Gliding", "Skipping", "Crawling"], "answerIndex": 0 },
-    { "question": "Maroon 5’s musical style can best be described as:", "choices": ["Heavy Metal", "Soft Rock and Pop", "Country", "Jazz Fusion"], "answerIndex": 1 },
-    { "question": "The Rolling Stones are known for which song?", "choices": ["Let It Be", "Paint It Black", "Bohemian Rhapsody", "Come As You Are"], "answerIndex": 1 },
-    { "question": "What year was 'Moves Like Jagger' released?", "choices": ["2009", "2010", "2011", "2012"], "answerIndex": 2 },
-    { "question": "Which award did 'Moves Like Jagger' get nominated for?", "choices": ["Grammy", "Oscar", "Tony", "Emmy"], "answerIndex": 0 },
-    { "question": "Christina Aguilera's breakout single was:", "choices": ["Genie in a Bottle", "Beautiful", "Fighter", "Hurt"], "answerIndex": 0 },
-    { "question": "Who is known for energetic, unpredictable dance moves?", "choices": ["Mick Jagger", "Freddie Mercury", "Elvis Presley", "Steven Tyler"], "answerIndex": 0 },
-    { "question": "Which Maroon 5 song includes the lyric 'I'm hurting, baby, I'm broken down'?", "choices": ["Sugar", "Maps", "Animals", "Girls Like You"], "answerIndex": 0 },
-    { "question": "Rolling Stones were inducted into the Rock and Roll Hall of Fame in what year?", "choices": ["1986", "1989", "1992", "1995"], "answerIndex": 1 },
-    { "question": "Adam Levine also appeared as a judge on which show?", "choices": ["The Voice", "American Idol", "X Factor", "Masked Singer"], "answerIndex": 0 }
+    {
+      "question": "Who sings 'Moves Like Jagger' with Maroon 5?",
+      "choices": ["Christina Aguilera", "Beyoncé", "Rihanna", "Shakira"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which band is Adam Levine the lead singer for?",
+      "choices": ["Maroon 5", "OneRepublic", "The Script", "Imagine Dragons"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What iconic band was Mick Jagger part of?",
+      "choices": [
+        "The Beatles",
+        "The Rolling Stones",
+        "The Who",
+        "Led Zeppelin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which song is NOT by Maroon 5?",
+      "choices": ["Sugar", "Memories", "Counting Stars", "She Will Be Loved"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Mick Jagger is best known for his:",
+      "choices": [
+        "Epic dance moves",
+        "Shredding guitar solos",
+        "High vocal range",
+        "Stage light design"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does 'Moves Like Jagger' primarily celebrate?",
+      "choices": ["Dance moves", "Heartbreak", "Friendship", "Wealth"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the primary instrument in 'Moves Like Jagger'?",
+      "choices": ["Bass guitar", "Whistling and synths", "Piano", "Drums"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which other song features Adam Levine's falsetto voice heavily?",
+      "choices": ["Girls Like You", "Sugar", "Locked Away", "Closer"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who is often called 'the face' of pop-rock for his smooth voice?",
+      "choices": ["Adam Levine", "Bruno Mars", "Justin Bieber", "Shawn Mendes"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What style of dance would 'Moves Like Jagger' fit best?",
+      "choices": ["Breakdance", "Freestyle pop dance", "Tap dance", "Salsa"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Mick Jagger’s iconic walk is often described as:",
+      "choices": ["Swaggering", "Gliding", "Skipping", "Crawling"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Maroon 5’s musical style can best be described as:",
+      "choices": ["Heavy Metal", "Soft Rock and Pop", "Country", "Jazz Fusion"],
+      "answerIndex": 1
+    },
+    {
+      "question": "The Rolling Stones are known for which song?",
+      "choices": [
+        "Let It Be",
+        "Paint It Black",
+        "Bohemian Rhapsody",
+        "Come As You Are"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What year was 'Moves Like Jagger' released?",
+      "choices": ["2009", "2010", "2011", "2012"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which award did 'Moves Like Jagger' get nominated for?",
+      "choices": ["Grammy", "Oscar", "Tony", "Emmy"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Christina Aguilera's breakout single was:",
+      "choices": ["Genie in a Bottle", "Beautiful", "Fighter", "Hurt"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who is known for energetic, unpredictable dance moves?",
+      "choices": [
+        "Mick Jagger",
+        "Freddie Mercury",
+        "Elvis Presley",
+        "Steven Tyler"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which Maroon 5 song includes the lyric 'I'm hurting, baby, I'm broken down'?",
+      "choices": ["Sugar", "Maps", "Animals", "Girls Like You"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Rolling Stones were inducted into the Rock and Roll Hall of Fame in what year?",
+      "choices": ["1986", "1989", "1992", "1995"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Adam Levine also appeared as a judge on which show?",
+      "choices": ["The Voice", "American Idol", "X Factor", "Masked Singer"],
+      "answerIndex": 0
+    }
   ],
 
   "resultMapping": {

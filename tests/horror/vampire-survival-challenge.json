@@ -1,35 +1,179 @@
 {
   "title": "Apocalypse: Vampire Survival Challenge",
-  "background": "horror",
-  "themeColor": "#440022",
-  "buttonColor": "#aa2255",
+  "background": "horror.png",
+  "theme": "theme-horror",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Vampires overrun the city. You first:", "choices": ["Barricade shelter", "Gather weapons", "Search for food", "Call for help"], "answerIndex": 1 },
-    { "question": "Weapon against vampires?", "choices": ["Silver knife", "Wooden stake", "Iron sword", "Poison darts"], "answerIndex": 1 },
-    { "question": "Best place to survive?", "choices": ["Basement bunker", "Tall skyscraper", "Deserted church", "Underground caves"], "answerIndex": 2 },
-    { "question": "Biggest vampire weakness?", "choices": ["Holy water", "Bullets", "Salt", "Electricity"], "answerIndex": 0 },
-    { "question": "You see a wounded vampire begging. You:", "choices": ["Spare it", "Stake immediately", "Capture it", "Run away"], "answerIndex": 1 },
-    { "question": "Ally is bitten but not turned yet. You:", "choices": ["Trust them", "Kill them", "Quarantine and observe", "Leave them behind"], "answerIndex": 2 },
-    { "question": "Food sources drying up. You:", "choices": ["Risk night raids", "Eat canned rations", "Steal from vampires", "Grow underground farms"], "answerIndex": 1 },
-    { "question": "Vampires are hunting during the day. You:", "choices": ["Hide in reinforced shelter", "Escape to forests", "Camouflage yourself", "Fight openly"], "answerIndex": 0 },
-    { "question": "You hear rumors of a safe haven. You:", "choices": ["Stay where you are", "Travel at night carefully", "Only go after scouting", "Ignore rumors"], "answerIndex": 2 },
-    { "question": "Vampires use humans as bait. You:", "choices": ["Rescue immediately", "Scout carefully first", "Ignore trap", "Destroy bait and escape"], "answerIndex": 1 },
-    { "question": "Religious artifacts are rare. You:", "choices": ["Use any holy item", "Rely on traditional weapons", "Forge makeshift crosses", "Avoid vampires altogether"], "answerIndex": 0 },
-    { "question": "Vampires evolve into daywalkers. You:", "choices": ["Panic", "Strengthen defenses", "Relocate immediately", "Launch preemptive strike"], "answerIndex": 2 },
-    { "question": "You are surrounded. Last move?", "choices": ["Charge through", "Use sunlight traps", "Fake death", "Hide under debris"], "answerIndex": 1 },
-    { "question": "Travel best during:", "choices": ["Night", "Day", "Twilight", "Rainstorms"], "answerIndex": 1 },
-    { "question": "Team trait you value most?", "choices": ["Loyalty", "Bravery", "Stealth", "Intelligence"], "answerIndex": 2 },
-    { "question": "Your shelter smells of blood. You:", "choices": ["Flee immediately", "Clean thoroughly", "Mask scent", "Set traps"], "answerIndex": 3 },
-    { "question": "Captured by vampires. First reaction?", "choices": ["Beg for mercy", "Fake compliance", "Fight instantly", "Try to escape silently"], "answerIndex": 1 },
-    { "question": "If bitten, you would:", "choices": ["Accept fate", "Hide it", "Seek cure", "Ask for mercy killing"], "answerIndex": 3 },
-    { "question": "Biggest threat among vampires?", "choices": ["Elders", "Newborns", "Half-breeds", "Blood cults"], "answerIndex": 0 },
-    { "question": "Final goal?", "choices": ["Survive at any cost", "Eradicate the vampires", "Build human stronghold", "Escape to wilderness"], "answerIndex": 1 }
+    {
+      "question": "Vampires overrun the city. You first:",
+      "choices": [
+        "Barricade shelter",
+        "Gather weapons",
+        "Search for food",
+        "Call for help"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Weapon against vampires?",
+      "choices": ["Silver knife", "Wooden stake", "Iron sword", "Poison darts"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best place to survive?",
+      "choices": [
+        "Basement bunker",
+        "Tall skyscraper",
+        "Deserted church",
+        "Underground caves"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Biggest vampire weakness?",
+      "choices": ["Holy water", "Bullets", "Salt", "Electricity"],
+      "answerIndex": 0
+    },
+    {
+      "question": "You see a wounded vampire begging. You:",
+      "choices": ["Spare it", "Stake immediately", "Capture it", "Run away"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Ally is bitten but not turned yet. You:",
+      "choices": [
+        "Trust them",
+        "Kill them",
+        "Quarantine and observe",
+        "Leave them behind"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Food sources drying up. You:",
+      "choices": [
+        "Risk night raids",
+        "Eat canned rations",
+        "Steal from vampires",
+        "Grow underground farms"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Vampires are hunting during the day. You:",
+      "choices": [
+        "Hide in reinforced shelter",
+        "Escape to forests",
+        "Camouflage yourself",
+        "Fight openly"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You hear rumors of a safe haven. You:",
+      "choices": [
+        "Stay where you are",
+        "Travel at night carefully",
+        "Only go after scouting",
+        "Ignore rumors"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Vampires use humans as bait. You:",
+      "choices": [
+        "Rescue immediately",
+        "Scout carefully first",
+        "Ignore trap",
+        "Destroy bait and escape"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Religious artifacts are rare. You:",
+      "choices": [
+        "Use any holy item",
+        "Rely on traditional weapons",
+        "Forge makeshift crosses",
+        "Avoid vampires altogether"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Vampires evolve into daywalkers. You:",
+      "choices": [
+        "Panic",
+        "Strengthen defenses",
+        "Relocate immediately",
+        "Launch preemptive strike"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "You are surrounded. Last move?",
+      "choices": [
+        "Charge through",
+        "Use sunlight traps",
+        "Fake death",
+        "Hide under debris"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Travel best during:",
+      "choices": ["Night", "Day", "Twilight", "Rainstorms"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Team trait you value most?",
+      "choices": ["Loyalty", "Bravery", "Stealth", "Intelligence"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Your shelter smells of blood. You:",
+      "choices": [
+        "Flee immediately",
+        "Clean thoroughly",
+        "Mask scent",
+        "Set traps"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Captured by vampires. First reaction?",
+      "choices": [
+        "Beg for mercy",
+        "Fake compliance",
+        "Fight instantly",
+        "Try to escape silently"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If bitten, you would:",
+      "choices": [
+        "Accept fate",
+        "Hide it",
+        "Seek cure",
+        "Ask for mercy killing"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Biggest threat among vampires?",
+      "choices": ["Elders", "Newborns", "Half-breeds", "Blood cults"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Final goal?",
+      "choices": [
+        "Survive at any cost",
+        "Eradicate the vampires",
+        "Build human stronghold",
+        "Escape to wilderness"
+      ],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

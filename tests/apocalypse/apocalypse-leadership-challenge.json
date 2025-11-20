@@ -1,0 +1,210 @@
+{
+  "title": "Apocalypse Leadership Challenge",
+  "background": "apocalypse.png",
+  "theme": "theme-apocalypse",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "Your generator refuses to start after sitting for months. What’s the very first thing you check?",
+      "choices": [
+        "Fuel level and quality",
+        "The color of the spark plug",
+        "What brand of battery it has",
+        "Whether the oil looks pretty"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You’ve got river water that looks like chocolate milk. Fastest reliable way to make it drinkable?",
+      "choices": [
+        "Strain it through a T-shirt",
+        "Boil it hard for at least 1 minute",
+        "Stir in some sand and wait",
+        "Freeze it overnight"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your metal fuel tank has a pinhole leak. Best wasteland patch that actually holds pressure?",
+      "choices": [
+        "Melted plastic bag",
+        "Rubber inner tube + hose clamps",
+        "Two-part epoxy putty (JB Weld style)",
+        "Wood glue and a prayer"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Snapped a rear axle on your truck in the middle of nowhere. Minimum tools needed to limp it home?",
+      "choices": [
+        "Just a big hammer",
+        "Floor jack, lug wrench, and spare parts",
+        "Crowbar and hope",
+        "Rope and a dream"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You need a working water filter with only scavenged junk. Best layered materials?",
+      "choices": [
+        "Gravel, sand, and charcoal (from a fire)",
+        "Wood ash and scrap metal",
+        "Notebook paper and lawn grass",
+        "Old socks and rubber bands"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Grid’s been down for years. How do you recharge 12V lead-acid batteries without a running generator?",
+      "choices": [
+        "Small solar panel",
+        "Hand-crank dynamo",
+        "Bicycle with belt-driven alternator",
+        "Literally all of the above work"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "You’re sleeping in an uninsulated metal shack during winter. Best scavenged insulation that actually works?",
+      "choices": [
+        "Piles of dry sand",
+        "Thick mud plaster",
+        "Mylar emergency blankets layered inside walls",
+        "Saran wrap and duct tape"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "You crack open a dead desktop PC after the collapse. Which part is pure gold for a survivor?",
+      "choices": [
+        "The fancy RGB graphics card",
+        "The 12V cooling fans",
+        "The hard drive platters",
+        "The plastic case"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Monsoon just hit and you need drinking water NOW. Quickest collection method?",
+      "choices": [
+        "Dig a hole and wait",
+        "Stretch a tarp or poncho with a rock in the center to funnel",
+        "Build a mini dam in a creek",
+        "Just hold a bucket in the river"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your shelter roof is leaking like a sieve during a storm. Fastest effective patch?",
+      "choices": [
+        "Throw dirt on it",
+        "Tarp over the top and tie it down tight",
+        "Nail scrap plywood over the holes",
+        "Stuff pillows in the leaks"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You need to drill holes but power tools are long dead. Best hand-powered option?",
+      "choices": [
+        "Hand brace and auger bit",
+        "Regular wrench somehow",
+        "Block and tackle pulley",
+        "Really long lever"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "No electricity, but you still need to keep food from spoiling in summer. Old-school refrigeration hack?",
+      "choices": [
+        "Bury it 3–4 ft underground (or use a zeer pot)",
+        "Cover with plastic sheeting",
+        "Put it in a wooden box and pray",
+        "Cook it in a solar oven (that’s the opposite)"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your only shelter is a metal shipping container cooking you alive. Best way to drop the interior temp fast?",
+      "choices": [
+        "Hang wet blankets/cloth over the walls and roof",
+        "Paint it flat white",
+        "Punch ventilation holes everywhere",
+        "Heat it up more to “burn off” the heat"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You’re crossing hundreds of miles of wasteland. What’s the one repair kit you NEVER leave without?",
+      "choices": [
+        "Pots and pans",
+        "Duct tape, baling wire, vise-grips, and a multi-tool",
+        "Fishing kit",
+        "500 ft of paracord and sidewalk chalk"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your only radio just went silent. 9 times out of 10, what died first?",
+      "choices": [
+        "The speaker cone",
+        "Bent antenna",
+        "Loose internal wiring",
+        "The batteries finally gave up"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "You’re reinforcing a settlement wall with whatever you can find. Strongest method without welding gear?",
+      "choices": [
+        "Nail planks together",
+        "Lash logs/poles with rope or wire",
+        "Weld it (you don’t have welder)",
+        "Stack cinder blocks dry"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You’ve got a pile of bedsheets but need strong rope yesterday. Best knot to join them end-to-end?",
+      "choices": ["Bowline", "Reef (square) knot", "Slip knot", "Sheet bend"],
+      "answerIndex": 3
+    },
+    {
+      "question": "No matches, no lighter fluid left. Absolute fastest fire from common scavenged items?",
+      "choices": [
+        "9V battery + ultra-fine steel wool",
+        "Bow drill (takes forever)",
+        "Magnifying lens (needs sun)",
+        "Flint and steel (if you have it)"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your only solar panel took a rock and cracked. It still puts out power. Best field fix?",
+      "choices": [
+        "Duct tape the crack",
+        "Clear epoxy or glass glue to seal it",
+        "Eh, it’ll be fine",
+        "Throw it away and cry"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Every real tool is broken or lost. You still need a weapon that can crack skulls. Best improvised option?",
+      "choices": [
+        "Pointy stick",
+        "Hammer head lashed to a sturdy branch",
+        "Throwing handfuls of sand",
+        "Wiffle bat"
+      ],
+      "answerIndex": 1
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Wasteland Engineer Legend  You don’t just survive the apocalypse—you rebuild it.",
+      "medium": "Solid Scrapper  You’ll live… probably. Keep duct tape close.",
+      "low": "Future Raider Bait  Better hope someone tougher likes you."
+    }
+  }
+}

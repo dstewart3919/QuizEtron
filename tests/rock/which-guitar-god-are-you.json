@@ -1,35 +1,304 @@
 {
   "title": "Which Guitar God Are You?",
-  "background": "rock",
-  "themeColor": "#111111",
-  "buttonColor": "#ff5500",
+  "background": "rock.png",
+  "theme": "theme-rock",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Your playing style is:", "choices": ["Wild and chaotic", "Precise and emotional", "Fast and technical", "Smooth and experimental"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Favorite stage move?", "choices": ["Top hat tilt", "Slow emotional solos", "Tapping frenzy", "Smashing the guitar"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Preferred guitar color?", "choices": ["Sunburst Les Paul", "Sleek black Strat", "Red Frankenstein", "Psychedelic swirl Strat"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "If you weren't a guitarist, you would be:", "choices": ["Rock legend still", "Poet or painter", "Inventor", "Mad scientist"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Solo style:", "choices": ["Bluesy bends", "Melodic weeping notes", "Tapping and shredding", "Spacey soundscapes"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Your guitar hero era:", "choices": ["Late 80s - Guns N' Roses explosion", "70s Pink Floyd evolution", "80s arena shred", "60s psychedelic revolution"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Favorite musical weapon?", "choices": ["Gibson Les Paul", "Fender Stratocaster", "Frankenstrat", "Upside-down Stratocaster"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "You would rather:", "choices": ["Play a 7-minute solo", "Craft the perfect emotional note", "Invent a new technique mid-song", "Start a guitar fire ritual"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Biggest musical vibe:", "choices": ["Hard-hitting riffs", "Dreamy emotional flow", "Technical mastery", "Mind-bending creativity"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Onstage personality:", "choices": ["Cool and collected", "Mysterious", "Wild inventor", "Psychedelic dreamer"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Ideal jam partner:", "choices": ["Axl Rose", "Roger Waters", "Sammy Hagar", "Janis Joplin"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Favorite distortion flavor:", "choices": ["Crunchy and bold", "Smooth and layered", "Aggressive and bright", "Fuzzy and chaotic"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Favorite encore song:", "choices": ["Sweet Child O’ Mine", "Comfortably Numb", "Eruption", "Voodoo Child"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Would you rather:", "choices": ["Headbang on stage", "Stand still and mesmerize", "Jump while soloing", "Float through feedback loops"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Biggest musical risk:", "choices": ["Opening for huge crowds", "Experimenting with ambient sounds", "Building your own guitar mods", "Using feedback as an instrument"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Your music would inspire:", "choices": ["Headbanging legions", "Silent awe and tears", "Future shredders", "Cosmic awakenings"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Describe your ultimate gig:", "choices": ["Rooftop jam", "Psychedelic light show", "Colossal arena", "Woodstock open field"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Your anthem is:", "choices": ["November Rain", "Shine On You Crazy Diamond", "Eruption", "Purple Haze"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "Guitar solo approach:", "choices": ["Blistering speed", "Melancholic beauty", "Explosive tapping", "Magical chaos"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] },
-    { "question": "When you play, the world:", "choices": ["Rocks out", "Sinks into dreams", "Freaks out at speed", "Gets lifted into the cosmos"], "weights": [{"Slash": 2}, {"David Gilmour": 2}, {"Eddie Van Halen": 2}, {"Jimi Hendrix": 2}] }
+    {
+      "question": "Your playing style is:",
+      "choices": [
+        "Wild and chaotic",
+        "Precise and emotional",
+        "Fast and technical",
+        "Smooth and experimental"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Favorite stage move?",
+      "choices": [
+        "Top hat tilt",
+        "Slow emotional solos",
+        "Tapping frenzy",
+        "Smashing the guitar"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Preferred guitar color?",
+      "choices": [
+        "Sunburst Les Paul",
+        "Sleek black Strat",
+        "Red Frankenstein",
+        "Psychedelic swirl Strat"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "If you weren't a guitarist, you would be:",
+      "choices": [
+        "Rock legend still",
+        "Poet or painter",
+        "Inventor",
+        "Mad scientist"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Solo style:",
+      "choices": [
+        "Bluesy bends",
+        "Melodic weeping notes",
+        "Tapping and shredding",
+        "Spacey soundscapes"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Your guitar hero era:",
+      "choices": [
+        "Late 80s - Guns N' Roses explosion",
+        "70s Pink Floyd evolution",
+        "80s arena shred",
+        "60s psychedelic revolution"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Favorite musical weapon?",
+      "choices": [
+        "Gibson Les Paul",
+        "Fender Stratocaster",
+        "Frankenstrat",
+        "Upside-down Stratocaster"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "You would rather:",
+      "choices": [
+        "Play a 7-minute solo",
+        "Craft the perfect emotional note",
+        "Invent a new technique mid-song",
+        "Start a guitar fire ritual"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Biggest musical vibe:",
+      "choices": [
+        "Hard-hitting riffs",
+        "Dreamy emotional flow",
+        "Technical mastery",
+        "Mind-bending creativity"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Onstage personality:",
+      "choices": [
+        "Cool and collected",
+        "Mysterious",
+        "Wild inventor",
+        "Psychedelic dreamer"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Ideal jam partner:",
+      "choices": ["Axl Rose", "Roger Waters", "Sammy Hagar", "Janis Joplin"],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Favorite distortion flavor:",
+      "choices": [
+        "Crunchy and bold",
+        "Smooth and layered",
+        "Aggressive and bright",
+        "Fuzzy and chaotic"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Favorite encore song:",
+      "choices": [
+        "Sweet Child O’ Mine",
+        "Comfortably Numb",
+        "Eruption",
+        "Voodoo Child"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Would you rather:",
+      "choices": [
+        "Headbang on stage",
+        "Stand still and mesmerize",
+        "Jump while soloing",
+        "Float through feedback loops"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Biggest musical risk:",
+      "choices": [
+        "Opening for huge crowds",
+        "Experimenting with ambient sounds",
+        "Building your own guitar mods",
+        "Using feedback as an instrument"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Your music would inspire:",
+      "choices": [
+        "Headbanging legions",
+        "Silent awe and tears",
+        "Future shredders",
+        "Cosmic awakenings"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Describe your ultimate gig:",
+      "choices": [
+        "Rooftop jam",
+        "Psychedelic light show",
+        "Colossal arena",
+        "Woodstock open field"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Your anthem is:",
+      "choices": [
+        "November Rain",
+        "Shine On You Crazy Diamond",
+        "Eruption",
+        "Purple Haze"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "Guitar solo approach:",
+      "choices": [
+        "Blistering speed",
+        "Melancholic beauty",
+        "Explosive tapping",
+        "Magical chaos"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    },
+    {
+      "question": "When you play, the world:",
+      "choices": [
+        "Rocks out",
+        "Sinks into dreams",
+        "Freaks out at speed",
+        "Gets lifted into the cosmos"
+      ],
+      "weights": [
+        { "Slash": 2 },
+        { "David Gilmour": 2 },
+        { "Eddie Van Halen": 2 },
+        { "Jimi Hendrix": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

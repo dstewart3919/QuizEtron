@@ -1,35 +1,109 @@
 {
   "title": "Are You a Hidden Genius?",
-  "background": "intelligence",
-  "themeColor": "#552211",
-  "buttonColor": "#aa5533",
+  "background": "intelligence.png",
+  "theme": "theme-intelligence",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "What gets wetter as it dries?", "choices": ["Towel", "Sponge", "Rain", "Fog"], "answerIndex": 0 },
-    { "question": "Which number is odd?", "choices": ["24", "42", "17", "68"], "answerIndex": 2 },
-    { "question": "Which animal can’t jump?", "choices": ["Dog", "Elephant", "Rabbit", "Kangaroo"], "answerIndex": 1 },
-    { "question": "What is the smallest prime number?", "choices": ["0", "1", "2", "3"], "answerIndex": 2 },
-    { "question": "Which month has 28 days?", "choices": ["February", "Only February", "All months", "March"], "answerIndex": 2 },
-    { "question": "If you mix red and blue, what color do you get?", "choices": ["Orange", "Green", "Purple", "Brown"], "answerIndex": 2 },
-    { "question": "Which planet is known for its beautiful rings?", "choices": ["Mars", "Venus", "Saturn", "Earth"], "answerIndex": 2 },
-    { "question": "A farmer has 17 sheep and all but 9 run away. How many are left?", "choices": ["8", "9", "17", "0"], "answerIndex": 1 },
-    { "question": "How many vowels are in the word 'Genius'?", "choices": ["2", "3", "4", "5"], "answerIndex": 1 },
-    { "question": "Which weighs more: 1 pound of feathers or 1 pound of rocks?", "choices": ["Feathers", "Rocks", "Same weight", "Depends on size"], "answerIndex": 2 },
-    { "question": "What is half of 50 added to 25?", "choices": ["45", "50", "55", "60"], "answerIndex": 2 },
-    { "question": "Which word is spelled correctly?", "choices": ["Definately", "Definitly", "Definitely", "Definitley"], "answerIndex": 2 },
-    { "question": "What letter comes after 'G'?", "choices": ["H", "I", "J", "K"], "answerIndex": 0 },
-    { "question": "If a dozen eggs cost $1.20, how much is one egg?", "choices": ["$0.10", "$0.12", "$0.15", "$0.08"], "answerIndex": 1 },
-    { "question": "Which is a mammal?", "choices": ["Shark", "Salmon", "Dolphin", "Penguin"], "answerIndex": 2 },
-    { "question": "Solve: 144 ÷ 12", "choices": ["10", "11", "12", "13"], "answerIndex": 2 },
-    { "question": "If you have three apples and take away two, how many do you have?", "choices": ["1", "2", "3", "0"], "answerIndex": 1 },
-    { "question": "Which is larger: 3/4 or 2/3?", "choices": ["3/4", "2/3", "Same", "Depends"], "answerIndex": 0 },
-    { "question": "Which shape has no sides?", "choices": ["Triangle", "Circle", "Square", "Hexagon"], "answerIndex": 1 },
-    { "question": "Which is a synonym for 'intelligent'?", "choices": ["Dull", "Brilliant", "Silly", "Slow"], "answerIndex": 1 }
+    {
+      "question": "What gets wetter as it dries?",
+      "choices": ["Towel", "Sponge", "Rain", "Fog"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which number is odd?",
+      "choices": ["24", "42", "17", "68"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which animal can’t jump?",
+      "choices": ["Dog", "Elephant", "Rabbit", "Kangaroo"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "choices": ["0", "1", "2", "3"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which month has 28 days?",
+      "choices": ["February", "Only February", "All months", "March"],
+      "answerIndex": 2
+    },
+    {
+      "question": "If you mix red and blue, what color do you get?",
+      "choices": ["Orange", "Green", "Purple", "Brown"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which planet is known for its beautiful rings?",
+      "choices": ["Mars", "Venus", "Saturn", "Earth"],
+      "answerIndex": 2
+    },
+    {
+      "question": "A farmer has 17 sheep and all but 9 run away. How many are left?",
+      "choices": ["8", "9", "17", "0"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many vowels are in the word 'Genius'?",
+      "choices": ["2", "3", "4", "5"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which weighs more: 1 pound of feathers or 1 pound of rocks?",
+      "choices": ["Feathers", "Rocks", "Same weight", "Depends on size"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is half of 50 added to 25?",
+      "choices": ["45", "50", "55", "60"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which word is spelled correctly?",
+      "choices": ["Definately", "Definitly", "Definitely", "Definitley"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What letter comes after 'G'?",
+      "choices": ["H", "I", "J", "K"],
+      "answerIndex": 0
+    },
+    {
+      "question": "If a dozen eggs cost $1.20, how much is one egg?",
+      "choices": ["$0.10", "$0.12", "$0.15", "$0.08"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which is a mammal?",
+      "choices": ["Shark", "Salmon", "Dolphin", "Penguin"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Solve: 144 ÷ 12",
+      "choices": ["10", "11", "12", "13"],
+      "answerIndex": 2
+    },
+    {
+      "question": "If you have three apples and take away two, how many do you have?",
+      "choices": ["1", "2", "3", "0"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which is larger: 3/4 or 2/3?",
+      "choices": ["3/4", "2/3", "Same", "Depends"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which shape has no sides?",
+      "choices": ["Triangle", "Circle", "Square", "Hexagon"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which is a synonym for 'intelligent'?",
+      "choices": ["Dull", "Brilliant", "Silly", "Slow"],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

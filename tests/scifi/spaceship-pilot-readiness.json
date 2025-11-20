@@ -1,35 +1,174 @@
 {
   "title": "Spaceship Pilot Readiness",
-  "background": "sci-fi",
-  "themeColor": "#002244",
-  "buttonColor": "#0044aa",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "What instrument tells you ship's orientation?", "choices": ["Altimeter", "Gyroscope", "Tachometer", "Compass"], "answerIndex": 1 },
-    { "question": "First thing to check before takeoff?", "choices": ["Window shields", "Oxygen levels", "Engine diagnostics", "Landing gear"], "answerIndex": 2 },
-    { "question": "Escape velocity for Earth is roughly:", "choices": ["7 km/s", "11 km/s", "15 km/s", "20 km/s"], "answerIndex": 1 },
-    { "question": "When docking, you should:", "choices": ["Approach fast", "Match velocity", "Power down engines", "Open airlocks early"], "answerIndex": 1 },
-    { "question": "Fuel reserves are low. First action?", "choices": ["Panic", "Throttle up", "Throttle down", "Shut down life support"], "answerIndex": 2 },
-    { "question": "Spaceships mostly steer by:", "choices": ["Wheels", "Thrusters", "Magnets", "Wings"], "answerIndex": 1 },
-    { "question": "Critical system after life support:", "choices": ["Solar panels", "Gyroscopes", "Communication array", "Oxygen recycler"], "answerIndex": 3 },
-    { "question": "Red warning light on the console means:", "choices": ["Good news", "Immediate danger", "Ignore it", "Low battery"], "answerIndex": 1 },
-    { "question": "What causes G-forces?", "choices": ["Gravity waves", "Acceleration", "Solar flares", "Radio signals"], "answerIndex": 1 },
-    { "question": "Best pilot reaction to engine flameout?", "choices": ["Throttle max", "Steady course", "Sharp turn", "Cut comms"], "answerIndex": 1 },
-    { "question": "Starboard side of a spaceship is:", "choices": ["Front", "Left", "Right", "Rear"], "answerIndex": 2 },
-    { "question": "Gyroscopic drift correction helps maintain:", "choices": ["Communication clarity", "Stable navigation", "Engine temperature", "Gravity balance"], "answerIndex": 1 },
-    { "question": "Ideal landing angle for atmospheric entry:", "choices": ["5 degrees", "15 degrees", "25 degrees", "90 degrees"], "answerIndex": 1 },
-    { "question": "If communications fail during landing:", "choices": ["Abort mission", "Follow pre-planned procedures", "Eject crew", "Switch to autopilot only"], "answerIndex": 1 },
-    { "question": "Most important thing during black hole proximity?", "choices": ["Speed up", "Stay calm and slingshot", "Turn engines off", "Broadcast memes"], "answerIndex": 1 },
-    { "question": "A ship's 'delta-v' measures:", "choices": ["Gravitational pull", "Fuel efficiency", "Change in velocity", "Amount of thrust"], "answerIndex": 2 },
-    { "question": "When orbiting a planet, pilots must balance:", "choices": ["Thrust and gravity", "Air pressure and temperature", "Magnetism and torque", "Engine heat and crew oxygen"], "answerIndex": 0 },
-    { "question": "Ship's shield generator mainly protects against:", "choices": ["Missiles", "Debris and radiation", "Asteroid impacts", "Laser beams"], "answerIndex": 1 },
-    { "question": "Short, quick bursts from thrusters help with:", "choices": ["Long-distance cruising", "Precise maneuvers", "Cooling engines", "Tuning life support"], "answerIndex": 1 },
-    { "question": "When braking in space, pilots:", "choices": ["Throttle down", "Reverse thrust", "Use air drag", "Drop cargo"], "answerIndex": 1 }
+    {
+      "question": "What instrument tells you ship's orientation?",
+      "choices": ["Altimeter", "Gyroscope", "Tachometer", "Compass"],
+      "answerIndex": 1
+    },
+    {
+      "question": "First thing to check before takeoff?",
+      "choices": [
+        "Window shields",
+        "Oxygen levels",
+        "Engine diagnostics",
+        "Landing gear"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Escape velocity for Earth is roughly:",
+      "choices": ["7 km/s", "11 km/s", "15 km/s", "20 km/s"],
+      "answerIndex": 1
+    },
+    {
+      "question": "When docking, you should:",
+      "choices": [
+        "Approach fast",
+        "Match velocity",
+        "Power down engines",
+        "Open airlocks early"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Fuel reserves are low. First action?",
+      "choices": [
+        "Panic",
+        "Throttle up",
+        "Throttle down",
+        "Shut down life support"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Spaceships mostly steer by:",
+      "choices": ["Wheels", "Thrusters", "Magnets", "Wings"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Critical system after life support:",
+      "choices": [
+        "Solar panels",
+        "Gyroscopes",
+        "Communication array",
+        "Oxygen recycler"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Red warning light on the console means:",
+      "choices": ["Good news", "Immediate danger", "Ignore it", "Low battery"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What causes G-forces?",
+      "choices": [
+        "Gravity waves",
+        "Acceleration",
+        "Solar flares",
+        "Radio signals"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best pilot reaction to engine flameout?",
+      "choices": ["Throttle max", "Steady course", "Sharp turn", "Cut comms"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Starboard side of a spaceship is:",
+      "choices": ["Front", "Left", "Right", "Rear"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Gyroscopic drift correction helps maintain:",
+      "choices": [
+        "Communication clarity",
+        "Stable navigation",
+        "Engine temperature",
+        "Gravity balance"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Ideal landing angle for atmospheric entry:",
+      "choices": ["5 degrees", "15 degrees", "25 degrees", "90 degrees"],
+      "answerIndex": 1
+    },
+    {
+      "question": "If communications fail during landing:",
+      "choices": [
+        "Abort mission",
+        "Follow pre-planned procedures",
+        "Eject crew",
+        "Switch to autopilot only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Most important thing during black hole proximity?",
+      "choices": [
+        "Speed up",
+        "Stay calm and slingshot",
+        "Turn engines off",
+        "Broadcast memes"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "A ship's 'delta-v' measures:",
+      "choices": [
+        "Gravitational pull",
+        "Fuel efficiency",
+        "Change in velocity",
+        "Amount of thrust"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "When orbiting a planet, pilots must balance:",
+      "choices": [
+        "Thrust and gravity",
+        "Air pressure and temperature",
+        "Magnetism and torque",
+        "Engine heat and crew oxygen"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Ship's shield generator mainly protects against:",
+      "choices": [
+        "Missiles",
+        "Debris and radiation",
+        "Asteroid impacts",
+        "Laser beams"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Short, quick bursts from thrusters help with:",
+      "choices": [
+        "Long-distance cruising",
+        "Precise maneuvers",
+        "Cooling engines",
+        "Tuning life support"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "When braking in space, pilots:",
+      "choices": [
+        "Throttle down",
+        "Reverse thrust",
+        "Use air drag",
+        "Drop cargo"
+      ],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

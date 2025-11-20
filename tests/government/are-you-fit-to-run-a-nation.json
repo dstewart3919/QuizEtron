@@ -1,35 +1,179 @@
 {
   "title": "Are You Fit to Run a Nation?",
-  "background": "government",
-  "themeColor": "#662200",
-  "buttonColor": "#cc7744",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "First executive decision you make?", "choices": ["Declare national holiday", "Audit everything", "Cut unnecessary programs", "Expand surveillance"], "answerIndex": 2 },
-    { "question": "Your leadership style?", "choices": ["Inspirational", "Strict", "Democratic", "Authoritarian"], "answerIndex": 0 },
-    { "question": "Dealing with political rivals?", "choices": ["Negotiate deals", "Crush opposition", "Ignore them", "Co-opt them"], "answerIndex": 0 },
-    { "question": "Handling economic collapse?", "choices": ["Print money", "Slash spending", "Raise taxes", "Privatize everything"], "answerIndex": 1 },
-    { "question": "Press conference scandal. You:", "choices": ["Blame staff", "Address it head-on", "Deny everything", "Change the subject"], "answerIndex": 1 },
-    { "question": "Choosing cabinet members, you pick:", "choices": ["Friends", "Experts", "Family", "Random citizens"], "answerIndex": 1 },
-    { "question": "Foreign country demands territory. You:", "choices": ["Negotiate", "Prepare for war", "Appease them", "Threaten sanctions"], "answerIndex": 1 },
-    { "question": "Best national motto?", "choices": ["Unity and Progress", "Strength Through Fear", "Prosperity for All", "Don't Tread on Me"], "answerIndex": 0 },
-    { "question": "Protests erupt against you. First action?", "choices": ["Send riot police", "Hear grievances", "Ignore them", "Bribe leaders"], "answerIndex": 1 },
-    { "question": "National emergency strikes. You prioritize:", "choices": ["Public communication", "Military deployment", "Economic stability", "Panic quietly"], "answerIndex": 0 },
-    { "question": "State of the Union speech theme?", "choices": ["Resilience", "Strength", "Freedom", "Profit"], "answerIndex": 0 },
-    { "question": "How do you handle fake news?", "choices": ["Ignore it", "Fight it legally", "Create counter-narratives", "Ban media"], "answerIndex": 1 },
-    { "question": "Secret government project leaks. You:", "choices": ["Deny involvement", "Spin it positively", "Admit mistakes", "Blame another agency"], "answerIndex": 2 },
-    { "question": "You lose majority in Congress. Your move?", "choices": ["Compromise", "Executive orders", "Quit", "Overthrow it"], "answerIndex": 0 },
-    { "question": "Immigration crisis arises. First step?", "choices": ["Border security", "Amnesty programs", "Deportations", "International negotiations"], "answerIndex": 0 },
-    { "question": "Your daily stress relief?", "choices": ["Meditation", "Yelling at staff", "Long walks", "Golf"], "answerIndex": 2 },
-    { "question": "Drafting a constitution, your key focus?", "choices": ["Rights of people", "Strength of government", "Religious freedom", "Economic rules"], "answerIndex": 0 },
-    { "question": "Dealing with cyber attacks?", "choices": ["Strengthen defenses", "Launch counter-hacks", "Ignore unless major", "Go offline completely"], "answerIndex": 0 },
-    { "question": "Biggest political danger?", "choices": ["Corruption", "Complacency", "Ignorance", "Hubris"], "answerIndex": 0 },
-    { "question": "Final thought before inauguration?", "choices": ["Serve the people", "Get rich", "Make history", "Avoid impeachment"], "answerIndex": 0 }
+    {
+      "question": "First executive decision you make?",
+      "choices": [
+        "Declare national holiday",
+        "Audit everything",
+        "Cut unnecessary programs",
+        "Expand surveillance"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Your leadership style?",
+      "choices": ["Inspirational", "Strict", "Democratic", "Authoritarian"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Dealing with political rivals?",
+      "choices": [
+        "Negotiate deals",
+        "Crush opposition",
+        "Ignore them",
+        "Co-opt them"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Handling economic collapse?",
+      "choices": [
+        "Print money",
+        "Slash spending",
+        "Raise taxes",
+        "Privatize everything"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Press conference scandal. You:",
+      "choices": [
+        "Blame staff",
+        "Address it head-on",
+        "Deny everything",
+        "Change the subject"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Choosing cabinet members, you pick:",
+      "choices": ["Friends", "Experts", "Family", "Random citizens"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Foreign country demands territory. You:",
+      "choices": [
+        "Negotiate",
+        "Prepare for war",
+        "Appease them",
+        "Threaten sanctions"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best national motto?",
+      "choices": [
+        "Unity and Progress",
+        "Strength Through Fear",
+        "Prosperity for All",
+        "Don't Tread on Me"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Protests erupt against you. First action?",
+      "choices": [
+        "Send riot police",
+        "Hear grievances",
+        "Ignore them",
+        "Bribe leaders"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "National emergency strikes. You prioritize:",
+      "choices": [
+        "Public communication",
+        "Military deployment",
+        "Economic stability",
+        "Panic quietly"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "State of the Union speech theme?",
+      "choices": ["Resilience", "Strength", "Freedom", "Profit"],
+      "answerIndex": 0
+    },
+    {
+      "question": "How do you handle fake news?",
+      "choices": [
+        "Ignore it",
+        "Fight it legally",
+        "Create counter-narratives",
+        "Ban media"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Secret government project leaks. You:",
+      "choices": [
+        "Deny involvement",
+        "Spin it positively",
+        "Admit mistakes",
+        "Blame another agency"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "You lose majority in Congress. Your move?",
+      "choices": ["Compromise", "Executive orders", "Quit", "Overthrow it"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Immigration crisis arises. First step?",
+      "choices": [
+        "Border security",
+        "Amnesty programs",
+        "Deportations",
+        "International negotiations"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your daily stress relief?",
+      "choices": ["Meditation", "Yelling at staff", "Long walks", "Golf"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Drafting a constitution, your key focus?",
+      "choices": [
+        "Rights of people",
+        "Strength of government",
+        "Religious freedom",
+        "Economic rules"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Dealing with cyber attacks?",
+      "choices": [
+        "Strengthen defenses",
+        "Launch counter-hacks",
+        "Ignore unless major",
+        "Go offline completely"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Biggest political danger?",
+      "choices": ["Corruption", "Complacency", "Ignorance", "Hubris"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Final thought before inauguration?",
+      "choices": [
+        "Serve the people",
+        "Get rich",
+        "Make history",
+        "Avoid impeachment"
+      ],
+      "answerIndex": 0
+    }
   ],
 
   "resultMapping": {

@@ -1,35 +1,134 @@
 {
   "title": "What in the POP Culture?",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Which pop icon wore a meat dress to the VMAs?", "choices": ["Lady Gaga", "Madonna", "Britney Spears", "Katy Perry"], "answerIndex": 0 },
-    { "question": "Who sang 'Single Ladies (Put a Ring on It)'?", "choices": ["Beyoncé", "Rihanna", "Nicki Minaj", "Adele"], "answerIndex": 0 },
-    { "question": "Which pop group brought us 'Bye Bye Bye'?", "choices": ["Backstreet Boys", "*NSYNC", "98 Degrees", "O-Town"], "answerIndex": 1 },
-    { "question": "Who is famous for the album 'Teenage Dream'?", "choices": ["Katy Perry", "Ariana Grande", "Taylor Swift", "Selena Gomez"], "answerIndex": 0 },
-    { "question": "Which artist shocked the world with a surprise album drop in 2013?", "choices": ["Beyoncé", "Justin Bieber", "Adele", "Ed Sheeran"], "answerIndex": 0 },
-    { "question": "Which singer is known for 'Umbrella'?", "choices": ["Rihanna", "Lady Gaga", "Kesha", "Dua Lipa"], "answerIndex": 0 },
-    { "question": "Taylor Swift’s debut album was primarily what genre?", "choices": ["Country", "Pop", "Rock", "Hip-Hop"], "answerIndex": 0 },
-    { "question": "Which viral song featured a signature horse dance?", "choices": ["Despacito", "Gangnam Style", "Old Town Road", "Baby Shark"], "answerIndex": 1 },
-    { "question": "Which Disney star transitioned to pop with 'Come & Get It'?", "choices": ["Selena Gomez", "Demi Lovato", "Miley Cyrus", "Hilary Duff"], "answerIndex": 0 },
-    { "question": "Who is known for the album 'Future Nostalgia'?", "choices": ["Dua Lipa", "Billie Eilish", "Ariana Grande", "Olivia Rodrigo"], "answerIndex": 0 },
-    { "question": "Which singer famously performed with sharks at the Super Bowl?", "choices": ["Katy Perry", "Lady Gaga", "Shakira", "Jennifer Lopez"], "answerIndex": 0 },
-    { "question": "Who sang 'Rolling in the Deep'?", "choices": ["Adele", "Amy Winehouse", "Lana Del Rey", "Dua Lipa"], "answerIndex": 0 },
-    { "question": "Which artist popularized 'Sorry' and 'What Do You Mean?'?", "choices": ["Justin Timberlake", "Justin Bieber", "Ed Sheeran", "Shawn Mendes"], "answerIndex": 1 },
-    { "question": "Which singer is famous for 'drivers license'?", "choices": ["Olivia Rodrigo", "Billie Eilish", "Selena Gomez", "Demi Lovato"], "answerIndex": 0 },
-    { "question": "Lady Gaga and Bradley Cooper performed which song together?", "choices": ["Rain on Me", "Bad Romance", "Shallow", "Born This Way"], "answerIndex": 2 },
-    { "question": "Which song by Luis Fonsi became a global phenomenon?", "choices": ["Havana", "Despacito", "Señorita", "Shape of You"], "answerIndex": 1 },
-    { "question": "Who sang 'Bad Guy'?", "choices": ["Billie Eilish", "Dua Lipa", "Adele", "Selena Gomez"], "answerIndex": 0 },
-    { "question": "The Weeknd’s hit 'Blinding Lights' draws inspiration from which decade?", "choices": ["70s", "80s", "90s", "2000s"], "answerIndex": 1 },
-    { "question": "Which artist wore a swan dress to the Oscars?", "choices": ["Gwen Stefani", "Bjork", "Madonna", "Fergie"], "answerIndex": 1 },
-    { "question": "Who famously said 'Leave Britney alone!' in a viral video?", "choices": ["Paris Hilton", "Chris Crocker", "Perez Hilton", "Logan Paul"], "answerIndex": 1 }
+    {
+      "question": "Which pop icon wore a meat dress to the VMAs?",
+      "choices": ["Lady Gaga", "Madonna", "Britney Spears", "Katy Perry"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who sang 'Single Ladies (Put a Ring on It)'?",
+      "choices": ["Beyoncé", "Rihanna", "Nicki Minaj", "Adele"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which pop group brought us 'Bye Bye Bye'?",
+      "choices": ["Backstreet Boys", "*NSYNC", "98 Degrees", "O-Town"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who is famous for the album 'Teenage Dream'?",
+      "choices": [
+        "Katy Perry",
+        "Ariana Grande",
+        "Taylor Swift",
+        "Selena Gomez"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which artist shocked the world with a surprise album drop in 2013?",
+      "choices": ["Beyoncé", "Justin Bieber", "Adele", "Ed Sheeran"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which singer is known for 'Umbrella'?",
+      "choices": ["Rihanna", "Lady Gaga", "Kesha", "Dua Lipa"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Taylor Swift’s debut album was primarily what genre?",
+      "choices": ["Country", "Pop", "Rock", "Hip-Hop"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which viral song featured a signature horse dance?",
+      "choices": ["Despacito", "Gangnam Style", "Old Town Road", "Baby Shark"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which Disney star transitioned to pop with 'Come & Get It'?",
+      "choices": ["Selena Gomez", "Demi Lovato", "Miley Cyrus", "Hilary Duff"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who is known for the album 'Future Nostalgia'?",
+      "choices": [
+        "Dua Lipa",
+        "Billie Eilish",
+        "Ariana Grande",
+        "Olivia Rodrigo"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which singer famously performed with sharks at the Super Bowl?",
+      "choices": ["Katy Perry", "Lady Gaga", "Shakira", "Jennifer Lopez"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who sang 'Rolling in the Deep'?",
+      "choices": ["Adele", "Amy Winehouse", "Lana Del Rey", "Dua Lipa"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which artist popularized 'Sorry' and 'What Do You Mean?'?",
+      "choices": [
+        "Justin Timberlake",
+        "Justin Bieber",
+        "Ed Sheeran",
+        "Shawn Mendes"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which singer is famous for 'drivers license'?",
+      "choices": [
+        "Olivia Rodrigo",
+        "Billie Eilish",
+        "Selena Gomez",
+        "Demi Lovato"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Lady Gaga and Bradley Cooper performed which song together?",
+      "choices": ["Rain on Me", "Bad Romance", "Shallow", "Born This Way"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which song by Luis Fonsi became a global phenomenon?",
+      "choices": ["Havana", "Despacito", "Señorita", "Shape of You"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who sang 'Bad Guy'?",
+      "choices": ["Billie Eilish", "Dua Lipa", "Adele", "Selena Gomez"],
+      "answerIndex": 0
+    },
+    {
+      "question": "The Weeknd’s hit 'Blinding Lights' draws inspiration from which decade?",
+      "choices": ["70s", "80s", "90s", "2000s"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which artist wore a swan dress to the Oscars?",
+      "choices": ["Gwen Stefani", "Bjork", "Madonna", "Fergie"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who famously said 'Leave Britney alone!' in a viral video?",
+      "choices": [
+        "Paris Hilton",
+        "Chris Crocker",
+        "Perez Hilton",
+        "Logan Paul"
+      ],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

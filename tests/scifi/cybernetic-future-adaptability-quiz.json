@@ -1,35 +1,294 @@
 {
   "title": "Cybernetic Future Adaptability Quiz",
-  "background": "sci-fi",
-  "themeColor": "#222244",
-  "buttonColor": "#5555aa",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "First enhancement you'd accept?", "choices": ["Neural interface", "Strength implants", "Vision upgrades", "Self-healing nanobots"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Biggest worry about cybernetics?", "choices": ["Mind control", "Physical failure", "Overload of senses", "Corrupted nanotech"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Best future profession?", "choices": ["Cybernetic architect", "Combat mech pilot", "AI data analyst", "Medical nanoengineer"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "You lose a limb in battle. Your reaction?", "choices": ["Install upgraded synthetic version", "Adapt with raw strength", "Focus on tech-assisted precision", "Heal faster than ever"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Favorite upgrade style?", "choices": ["Direct brain ports", "Titanium frame", "Enhanced ocular HUD", "Nano skin regeneration"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "When AI takes over traffic, you:", "choices": ["Integrate driving software", "Muscle your way manually", "Use enhanced visual tracking", "Trust predictive safety algorithms"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Biggest advantage of cyber implants?", "choices": ["Instant knowledge", "Unmatched physical feats", "Perfect situational awareness", "Rapid recovery"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "During cybernetic malfunction, you first:", "choices": ["Reroute brain commands", "Force reboot", "Rely on vision overlays", "Activate repair nanobots"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Best defense against hacking?", "choices": ["Mental firewalls", "Physical hardening", "Encrypted visual feeds", "Self-repair protocols"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Preferred power source?", "choices": ["Bioelectric energy", "Fusion core", "Solar adaptive layers", "Internal nano generators"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Favorite futuristic setting?", "choices": ["Neural network cities", "Gladiator arenas", "Virtual tourism hubs", "Medical research stations"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "You face a critical system shutdown. You:", "choices": ["Hotwire neural backups", "Manual override physical systems", "Scan for visual anomalies", "Activate nanobot fail-safes"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "How do you recharge your systems?", "choices": ["Brainwave harness", "Heavy-duty kinetic chargers", "Light-adaptive modules", "Nano-regeneration field"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "A blackout cuts tech support. You:", "choices": ["Focus mind protocols", "Physically overpower problems", "Navigate blind but adaptive", "Rely on self-repair"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Post-humanity looks like:", "choices": ["Pure thought networks", "Augmented warriors", "Augmented visionaries", "Self-healing immortals"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Best way to upgrade civilization?", "choices": ["Boost brain-to-brain links", "Enhance physical limits", "Improve perception", "Universal healthcare via nanobots"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Biggest threat in cybernetic society?", "choices": ["Hive mind collapse", "Systemic violence", "Data blindness", "Nanotech plagues"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Most important asset for survival?", "choices": ["Knowledge", "Power", "Insight", "Recovery"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "What drives your upgrades?", "choices": ["Intellect", "Might", "Clarity", "Resilience"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] },
-    { "question": "Ideal cybernetic nickname?", "choices": ["Mindforge", "Titan", "Eagle Eye", "Nanomancer"], "weights": [{"Neural": 2}, {"Strength": 2}, {"Vision": 2}, {"Healing": 2}] }
+    {
+      "question": "First enhancement you'd accept?",
+      "choices": [
+        "Neural interface",
+        "Strength implants",
+        "Vision upgrades",
+        "Self-healing nanobots"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Biggest worry about cybernetics?",
+      "choices": [
+        "Mind control",
+        "Physical failure",
+        "Overload of senses",
+        "Corrupted nanotech"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Best future profession?",
+      "choices": [
+        "Cybernetic architect",
+        "Combat mech pilot",
+        "AI data analyst",
+        "Medical nanoengineer"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "You lose a limb in battle. Your reaction?",
+      "choices": [
+        "Install upgraded synthetic version",
+        "Adapt with raw strength",
+        "Focus on tech-assisted precision",
+        "Heal faster than ever"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Favorite upgrade style?",
+      "choices": [
+        "Direct brain ports",
+        "Titanium frame",
+        "Enhanced ocular HUD",
+        "Nano skin regeneration"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "When AI takes over traffic, you:",
+      "choices": [
+        "Integrate driving software",
+        "Muscle your way manually",
+        "Use enhanced visual tracking",
+        "Trust predictive safety algorithms"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Biggest advantage of cyber implants?",
+      "choices": [
+        "Instant knowledge",
+        "Unmatched physical feats",
+        "Perfect situational awareness",
+        "Rapid recovery"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "During cybernetic malfunction, you first:",
+      "choices": [
+        "Reroute brain commands",
+        "Force reboot",
+        "Rely on vision overlays",
+        "Activate repair nanobots"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Best defense against hacking?",
+      "choices": [
+        "Mental firewalls",
+        "Physical hardening",
+        "Encrypted visual feeds",
+        "Self-repair protocols"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Preferred power source?",
+      "choices": [
+        "Bioelectric energy",
+        "Fusion core",
+        "Solar adaptive layers",
+        "Internal nano generators"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Favorite futuristic setting?",
+      "choices": [
+        "Neural network cities",
+        "Gladiator arenas",
+        "Virtual tourism hubs",
+        "Medical research stations"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "You face a critical system shutdown. You:",
+      "choices": [
+        "Hotwire neural backups",
+        "Manual override physical systems",
+        "Scan for visual anomalies",
+        "Activate nanobot fail-safes"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "How do you recharge your systems?",
+      "choices": [
+        "Brainwave harness",
+        "Heavy-duty kinetic chargers",
+        "Light-adaptive modules",
+        "Nano-regeneration field"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "A blackout cuts tech support. You:",
+      "choices": [
+        "Focus mind protocols",
+        "Physically overpower problems",
+        "Navigate blind but adaptive",
+        "Rely on self-repair"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Post-humanity looks like:",
+      "choices": [
+        "Pure thought networks",
+        "Augmented warriors",
+        "Augmented visionaries",
+        "Self-healing immortals"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Best way to upgrade civilization?",
+      "choices": [
+        "Boost brain-to-brain links",
+        "Enhance physical limits",
+        "Improve perception",
+        "Universal healthcare via nanobots"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Biggest threat in cybernetic society?",
+      "choices": [
+        "Hive mind collapse",
+        "Systemic violence",
+        "Data blindness",
+        "Nanotech plagues"
+      ],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Most important asset for survival?",
+      "choices": ["Knowledge", "Power", "Insight", "Recovery"],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "What drives your upgrades?",
+      "choices": ["Intellect", "Might", "Clarity", "Resilience"],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    },
+    {
+      "question": "Ideal cybernetic nickname?",
+      "choices": ["Mindforge", "Titan", "Eagle Eye", "Nanomancer"],
+      "weights": [
+        { "Neural": 2 },
+        { "Strength": 2 },
+        { "Vision": 2 },
+        { "Healing": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

@@ -1,0 +1,115 @@
+{
+  "title": "Microexpressions Mastery Test",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "The universal sign of fear that appears in less than 1/5 of a second is:",
+      "choices": [
+        "Wide-open eyes with raised upper eyelids",
+        "Lowered eyebrows and glare",
+        "One-sided mouth pull",
+        "Nose wrinkle"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "True anger almost always includes:",
+      "choices": [
+        "Eyebrows raised and pulled together + lowered stare",
+        "Eyebrows lowered and pulled together + hard stare",
+        "Smiling eyes with raised cheeks",
+        "Lips pressed but relaxed"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "A genuine (Duchenne) smile always involves:",
+      "choices": [
+        "Mouth smile only",
+        "Mouth + raised cheeks + crow’s feet around eyes",
+        "Mouth + lowered eyebrows",
+        "Just crow’s feet, no mouth movement"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Contempt is the only emotion that shows asymmetrically. You spot it when someone:",
+      "choices": [
+        "Tightens and raises one corner of the mouth only",
+        "Flares nostrils on both sides",
+        "Shows teeth on both sides",
+        "Pulls both lips in"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "A quick flash of raised eyebrows + wide eyes usually means:",
+      "choices": [
+        "Anger",
+        "Surprise (even if they quickly hide it)",
+        "Disgust",
+        "Boredom"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "When someone says “I’m fine” but you see a microexpression of:",
+      "choices": [
+        "Lowered mouth corners for 1/10 second",
+        "Brief nose wrinkle",
+        "One-sided shoulder shrug",
+        "All of the above can mean they’re NOT fine"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Disgust is reliably shown by:",
+      "choices": [
+        "Upper lip raised + nose wrinkle + squinted eyes",
+        "Lips pressed flat",
+        "Eye roll",
+        "Head tilt back"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Sadness microexpressions usually include:",
+      "choices": [
+        "Inner eyebrows raised + mouth corners down + lip tremble",
+        "Outer eyebrows raised",
+        "Hard stare",
+        "Smirk"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You see a quick lip press (lips disappear) right after someone smiles. This often signals:",
+      "choices": [
+        "They’re super happy",
+        "They’re controlling or suppressing negative emotion",
+        "They’re about to laugh",
+        "They’re confused"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "A reliable “tell” that someone is lying or hiding something is:",
+      "choices": [
+        "Microexpression that doesn’t match their words (incongruence)",
+        "They never blink",
+        "They always touch their face",
+        "They look up and left"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Microexpression Master  You read faces like an FBI profiler—nothing gets past you!",
+      "medium": "Sharp Observer  You catch most leaks and tells; just a little more practice and you’re elite.",
+      "low": "Human Polygraph in Training  You’re learning! Faces are tough—keep studying and you’ll get scary good."
+    }
+  }
+}

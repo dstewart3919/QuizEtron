@@ -1,35 +1,109 @@
 {
   "title": "IQ Challenge: Logic and Math",
-  "background": "intelligence",
-  "themeColor": "#112233",
-  "buttonColor": "#335577",
+  "background": "intelligence.png",
+  "theme": "theme-intelligence",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?", "choices": ["24", "30", "32", "36"], "answerIndex": 2 },
-    { "question": "If all bloops are razzies and all razzies are lazzies, are all bloops definitely lazzies?", "choices": ["Yes", "No", "Only sometimes", "Not enough information"], "answerIndex": 0 },
-    { "question": "Which is the odd one out?", "choices": ["Apple", "Banana", "Carrot", "Grapes"], "answerIndex": 2 },
-    { "question": "If a train travels 60 miles in 1 hour, how long to travel 300 miles?", "choices": ["3 hours", "4 hours", "5 hours", "6 hours"], "answerIndex": 2 },
-    { "question": "What is 15% of 200?", "choices": ["15", "30", "35", "45"], "answerIndex": 1 },
-    { "question": "Which comes next: Monday, Thursday, Sunday, Wednesday, ___?", "choices": ["Friday", "Saturday", "Tuesday", "Thursday"], "answerIndex": 2 },
-    { "question": "5 birds are on a wire. A hunter shoots one. How many are left?", "choices": ["4", "5", "0", "2"], "answerIndex": 2 },
-    { "question": "A rectangle has a length of 8 and width of 3. What is the area?", "choices": ["24", "32", "11", "22"], "answerIndex": 0 },
-    { "question": "Which is heavier: 1kg of feathers or 1kg of steel?", "choices": ["Feathers", "Steel", "Neither", "Depends on temperature"], "answerIndex": 2 },
-    { "question": "What is the square root of 81?", "choices": ["8", "9", "18", "81"], "answerIndex": 1 },
-    { "question": "A bat and ball cost $1.10. Bat costs $1.00 more than the ball. How much is the ball?", "choices": ["$0.05", "$0.10", "$0.15", "$0.20"], "answerIndex": 0 },
-    { "question": "What number is missing: 3, 7, __, 15, 19?", "choices": ["9", "11", "13", "17"], "answerIndex": 1 },
-    { "question": "If 6x = 18, what is x?", "choices": ["2", "3", "6", "9"], "answerIndex": 1 },
-    { "question": "Which shape has 8 sides?", "choices": ["Hexagon", "Octagon", "Pentagon", "Heptagon"], "answerIndex": 1 },
-    { "question": "Solve: (5 + 3) × 2 - 4", "choices": ["10", "12", "14", "16"], "answerIndex": 2 },
-    { "question": "What number is 3 more than half of 16?", "choices": ["8", "10", "11", "12"], "answerIndex": 2 },
-    { "question": "What is the next letter in the sequence: J, F, M, A, M, ___?", "choices": ["J", "A", "S", "O"], "answerIndex": 0 },
-    { "question": "If a bookstore sells a book for $20 with a 10% discount, what is the final price?", "choices": ["$18", "$17", "$16", "$15"], "answerIndex": 0 },
-    { "question": "In a race, you pass the second-place runner. What place are you now?", "choices": ["First", "Second", "Third", "Fourth"], "answerIndex": 1 },
-    { "question": "How many sides does a dodecagon have?", "choices": ["8", "10", "12", "14"], "answerIndex": 2 }
+    {
+      "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
+      "choices": ["24", "30", "32", "36"],
+      "answerIndex": 2
+    },
+    {
+      "question": "If all bloops are razzies and all razzies are lazzies, are all bloops definitely lazzies?",
+      "choices": ["Yes", "No", "Only sometimes", "Not enough information"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which is the odd one out?",
+      "choices": ["Apple", "Banana", "Carrot", "Grapes"],
+      "answerIndex": 2
+    },
+    {
+      "question": "If a train travels 60 miles in 1 hour, how long to travel 300 miles?",
+      "choices": ["3 hours", "4 hours", "5 hours", "6 hours"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is 15% of 200?",
+      "choices": ["15", "30", "35", "45"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which comes next: Monday, Thursday, Sunday, Wednesday, ___?",
+      "choices": ["Friday", "Saturday", "Tuesday", "Thursday"],
+      "answerIndex": 2
+    },
+    {
+      "question": "5 birds are on a wire. A hunter shoots one. How many are left?",
+      "choices": ["4", "5", "0", "2"],
+      "answerIndex": 2
+    },
+    {
+      "question": "A rectangle has a length of 8 and width of 3. What is the area?",
+      "choices": ["24", "32", "11", "22"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which is heavier: 1kg of feathers or 1kg of steel?",
+      "choices": ["Feathers", "Steel", "Neither", "Depends on temperature"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the square root of 81?",
+      "choices": ["8", "9", "18", "81"],
+      "answerIndex": 1
+    },
+    {
+      "question": "A bat and ball cost $1.10. Bat costs $1.00 more than the ball. How much is the ball?",
+      "choices": ["$0.05", "$0.10", "$0.15", "$0.20"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What number is missing: 3, 7, __, 15, 19?",
+      "choices": ["9", "11", "13", "17"],
+      "answerIndex": 1
+    },
+    {
+      "question": "If 6x = 18, what is x?",
+      "choices": ["2", "3", "6", "9"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which shape has 8 sides?",
+      "choices": ["Hexagon", "Octagon", "Pentagon", "Heptagon"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Solve: (5 + 3) × 2 - 4",
+      "choices": ["10", "12", "14", "16"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What number is 3 more than half of 16?",
+      "choices": ["8", "10", "11", "12"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the next letter in the sequence: J, F, M, A, M, ___?",
+      "choices": ["J", "A", "S", "O"],
+      "answerIndex": 0
+    },
+    {
+      "question": "If a bookstore sells a book for $20 with a 10% discount, what is the final price?",
+      "choices": ["$18", "$17", "$16", "$15"],
+      "answerIndex": 0
+    },
+    {
+      "question": "In a race, you pass the second-place runner. What place are you now?",
+      "choices": ["First", "Second", "Third", "Fourth"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many sides does a dodecagon have?",
+      "choices": ["8", "10", "12", "14"],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

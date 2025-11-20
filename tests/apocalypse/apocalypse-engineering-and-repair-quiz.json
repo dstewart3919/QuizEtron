@@ -1,35 +1,164 @@
 {
-  "title": "Apocalypse Engineering and Repair Quiz",
-  "background": "apocalypse",
-  "themeColor": "#333366",
-  "buttonColor": "#6666cc",
+  "title": "Apocalypse Engineering and Repair",
+  "background": "apocalypse.png",
+  "theme": "theme-apocalypse",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Your generator won't start. First thing to check?", "choices": ["Fuel supply", "Color", "Battery brand", "Spark plugs"], "answerIndex": 0 },
-    { "question": "Fastest way to purify river water?", "choices": ["Filter through cloth", "Boil it", "Mix with sand", "Freeze it"], "answerIndex": 1 },
-    { "question": "What material is best to patch holes in a metal tank?", "choices": ["Plastic", "Rubber", "Epoxy putty", "Wood glue"], "answerIndex": 2 },
-    { "question": "Essential tool for fixing a broken vehicle axle?", "choices": ["Hammer", "Jack and wrench", "Crowbar", "Rope"], "answerIndex": 1 },
-    { "question": "Best material to create a simple water filter?", "choices": ["Rocks and sand", "Ash and metal", "Paper and grass", "Cloth and rubber"], "answerIndex": 0 },
-    { "question": "How can you recharge 12V car batteries without a generator?", "choices": ["Solar panel", "Hand crank", "Pedal bike alternator", "All of the above"], "answerIndex": 3 },
-    { "question": "Which material provides best makeshift insulation?", "choices": ["Sand", "Mud", "Foil blankets", "Plastic wrap"], "answerIndex": 2 },
-    { "question": "Which part of a broken-down computer is most valuable post-collapse?", "choices": ["Graphics card", "Cooling fans", "Hard drive", "Plastic casing"], "answerIndex": 1 },
-    { "question": "Simple way to harvest rainwater for survival?", "choices": ["Dig pit", "Lay tarp and funnel", "Build a dam", "Bucket in river"], "answerIndex": 1 },
-    { "question": "If a shelter roof is leaking, best quick fix?", "choices": ["Pile dirt", "Tarp and tie down", "Nail wood over", "Use pillows"], "answerIndex": 1 },
-    { "question": "A hand-powered tool that can drill holes?", "choices": ["Brace and bit", "Manual wrench", "Pulley", "Lever arm"], "answerIndex": 0 },
-    { "question": "How can you create basic refrigeration without power?", "choices": ["Dig underground", "Plastic cover", "Wooden box", "Solar oven"], "answerIndex": 0 },
-    { "question": "If your only shelter option is metal, how do you cool it?", "choices": ["Cover with wet cloth", "Paint it", "Punch holes", "Heat it first"], "answerIndex": 0 },
-    { "question": "Essential repair kit for wasteland travel?", "choices": ["Cooking gear", "Duct tape, wire, wrench", "Fishing rod", "Rope and chalk"], "answerIndex": 1 },
-    { "question": "If your radio fails, what part usually broke first?", "choices": ["Speaker", "Antenna", "Wires", "Battery"], "answerIndex": 3 },
-    { "question": "Best method to secure an improvised wall?", "choices": ["Nail boards", "Tie logs", "Weld steel", "Brick stacking"], "answerIndex": 1 },
-    { "question": "You need rope but only have bedsheets. Best knot?", "choices": ["Bowline", "Square knot", "Slip knot", "Sheet bend"], "answerIndex": 3 },
-    { "question": "Fastest way to create fire without matches?", "choices": ["Battery and steel wool", "Rubbing sticks", "Lens magnifier", "Sparks on rock"], "answerIndex": 0 },
-    { "question": "Your solar panel is cracked — best quick fix?", "choices": ["Tape it", "Glass glue", "Ignore it", "Replace entire panel"], "answerIndex": 1 },
-    { "question": "Improvised weapon if all tools are broken?", "choices": ["Stick", "Hammer head tied to branch", "Throw sand", "Plastic bat"], "answerIndex": 1 }
+    {
+      "question": "Your generator won't start. First thing to check?",
+      "choices": ["Fuel supply", "Color", "Battery brand", "Spark plugs"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Fastest way to purify river water?",
+      "choices": [
+        "Filter through cloth",
+        "Boil it",
+        "Mix with sand",
+        "Freeze it"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What material is best to patch holes in a metal tank?",
+      "choices": ["Plastic", "Rubber", "Epoxy putty", "Wood glue"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Essential tool for fixing a broken vehicle axle?",
+      "choices": ["Hammer", "Jack and wrench", "Crowbar", "Rope"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best material to create a simple water filter?",
+      "choices": [
+        "Rocks and sand",
+        "Ash and metal",
+        "Paper and grass",
+        "Cloth and rubber"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "How can you recharge 12V car batteries without a generator?",
+      "choices": [
+        "Solar panel",
+        "Hand crank",
+        "Pedal bike alternator",
+        "All of the above"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which material provides best makeshift insulation?",
+      "choices": ["Sand", "Mud", "Foil blankets", "Plastic wrap"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which part of a broken-down computer is most valuable post-collapse?",
+      "choices": [
+        "Graphics card",
+        "Cooling fans",
+        "Hard drive",
+        "Plastic casing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Simple way to harvest rainwater for survival?",
+      "choices": [
+        "Dig pit",
+        "Lay tarp and funnel",
+        "Build a dam",
+        "Bucket in river"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If a shelter roof is leaking, best quick fix?",
+      "choices": [
+        "Pile dirt",
+        "Tarp and tie down",
+        "Nail wood over",
+        "Use pillows"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "A hand-powered tool that can drill holes?",
+      "choices": ["Brace and bit", "Manual wrench", "Pulley", "Lever arm"],
+      "answerIndex": 0
+    },
+    {
+      "question": "How can you create basic refrigeration without power?",
+      "choices": [
+        "Dig underground",
+        "Plastic cover",
+        "Wooden box",
+        "Solar oven"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "If your only shelter option is metal, how do you cool it?",
+      "choices": [
+        "Cover with wet cloth",
+        "Paint it",
+        "Punch holes",
+        "Heat it first"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Essential repair kit for wasteland travel?",
+      "choices": [
+        "Cooking gear",
+        "Duct tape, wire, wrench",
+        "Fishing rod",
+        "Rope and chalk"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If your radio fails, what part usually broke first?",
+      "choices": ["Speaker", "Antenna", "Wires", "Battery"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Best method to secure an improvised wall?",
+      "choices": ["Nail boards", "Tie logs", "Weld steel", "Brick stacking"],
+      "answerIndex": 1
+    },
+    {
+      "question": "You need rope but only have bedsheets. Best knot?",
+      "choices": ["Bowline", "Square knot", "Slip knot", "Sheet bend"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Fastest way to create fire without matches?",
+      "choices": [
+        "Battery and steel wool",
+        "Rubbing sticks",
+        "Lens magnifier",
+        "Sparks on rock"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your solar panel is cracked — best quick fix?",
+      "choices": ["Tape it", "Glass glue", "Ignore it", "Replace entire panel"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Improvised weapon if all tools are broken?",
+      "choices": [
+        "Stick",
+        "Hammer head tied to branch",
+        "Throw sand",
+        "Plastic bat"
+      ],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

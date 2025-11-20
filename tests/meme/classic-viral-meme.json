@@ -1,25 +1,154 @@
 {
   "title": "Which Classic Viral Meme Are You?",
-  "background": "meme",
-  "themeColor": "#444400",
-  "buttonColor": "#bbbb00",
+  "background": "meme.png",
+  "theme": "theme-meme",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Pick your internet era:", "choices": ["2007 rage comics", "2010 advice animals", "2012 reaction gifs", "OG Pepe memes"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Your meme energy is:", "choices": ["Pure rage", "Helpful but dumb", "Accidental win", "Deep emotional chaos"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "When you fail spectacularly, you:", "choices": ["Scream internally", "Laugh it off", "Turn it into a win somehow", "Question existence"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Pick your ultimate meme weapon:", "choices": ["Rage capslock", "Advice in comic sans", "Accidental success story", "Sad frog reaction"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Your reaction to winning $5:", "choices": ["Still mad somehow", "Give weird advice with it", "Celebrate like a king", "Feel oddly empty"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Best meme accessory?", "choices": ["Comic rage face", "Impact font captions", "Tiny clenched fist", "Sad frog hoodie"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Ultimate meme crime?", "choices": ["Wrong font", "Bad grammar", "Obvious fake story", "Forgetting to watermark Pepe"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Your natural habitat?", "choices": ["Old 9GAG posts", "Weird meme forums", "Wholesome meme subs", "The dark corners of internet lore"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "What’s your vibe when confused?", "choices": ["LOUD AND ANGRY", "Give weird random tips", "Still win somehow", "Stare into the abyss"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] },
-    { "question": "Choose your battle cry:", "choices": ["FFFFFUUUUU", "YOLO advice", "YESSSSS", "Feels bad, man"], "weights": [{"RageFace": 2}, {"AdviceDog": 2}, {"SuccessKid": 2}, {"PepeFeels": 2}] }
+    {
+      "question": "Pick your internet era:",
+      "choices": [
+        "2007 rage comics",
+        "2010 advice animals",
+        "2012 reaction gifs",
+        "OG Pepe memes"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Your meme energy is:",
+      "choices": [
+        "Pure rage",
+        "Helpful but dumb",
+        "Accidental win",
+        "Deep emotional chaos"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "When you fail spectacularly, you:",
+      "choices": [
+        "Scream internally",
+        "Laugh it off",
+        "Turn it into a win somehow",
+        "Question existence"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Pick your ultimate meme weapon:",
+      "choices": [
+        "Rage capslock",
+        "Advice in comic sans",
+        "Accidental success story",
+        "Sad frog reaction"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Your reaction to winning $5:",
+      "choices": [
+        "Still mad somehow",
+        "Give weird advice with it",
+        "Celebrate like a king",
+        "Feel oddly empty"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Best meme accessory?",
+      "choices": [
+        "Comic rage face",
+        "Impact font captions",
+        "Tiny clenched fist",
+        "Sad frog hoodie"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Ultimate meme crime?",
+      "choices": [
+        "Wrong font",
+        "Bad grammar",
+        "Obvious fake story",
+        "Forgetting to watermark Pepe"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Your natural habitat?",
+      "choices": [
+        "Old 9GAG posts",
+        "Weird meme forums",
+        "Wholesome meme subs",
+        "The dark corners of internet lore"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "What’s your vibe when confused?",
+      "choices": [
+        "LOUD AND ANGRY",
+        "Give weird random tips",
+        "Still win somehow",
+        "Stare into the abyss"
+      ],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    },
+    {
+      "question": "Choose your battle cry:",
+      "choices": ["FFFFFUUUUU", "YOLO advice", "YESSSSS", "Feels bad, man"],
+      "weights": [
+        { "RageFace": 2 },
+        { "AdviceDog": 2 },
+        { "SuccessKid": 2 },
+        { "PepeFeels": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

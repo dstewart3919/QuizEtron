@@ -1,25 +1,154 @@
 {
   "title": "Your Cartoon Villain Vibe",
-  "background": "meme",
-  "themeColor": "#551144",
-  "buttonColor": "#aa4488",
+  "background": "meme.png",
+  "theme": "theme-meme",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Pick your evil hideout:", "choices": ["Volcano lair", "Underwater dome", "Space station", "Creepy abandoned theme park"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Your weapon of choice?", "choices": ["Mind control helmet", "Tiny robots", "Alien tech", "Overcomplicated gadgets"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Pick your villain goal:", "choices": ["Rule the city", "Steal the secret formula", "Destroy humanity (for fun)", "Beat your childhood idol"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Your biggest weakness:", "choices": ["Talking too much", "Always losing to a sponge", "Overconfidence", "Being ignored"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Villain motto?", "choices": ["'Curse you, Powerpuff Girls!'", "'I went to college!'", "'Earth is doomed!'", "'Everyone will be super!'"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Best villain accessory?", "choices": ["Cape", "Robot army", "Laser gun", "Shrinking ray"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Choose your sidekick:", "choices": ["Talking monkey minions", "Karen (the robot wife)", "Robot drones", "No sidekicks, you trust no one"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "When your plan fails, you:", "choices": ["Scream dramatically", "Blame your computer", "Plot revenge", "Invent a crazier plan immediately"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Your favorite villain vibe?", "choices": ["Overdramatic speeches", "Sassy insults", "Chaotic evil", "Passive-aggressive plans"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] },
-    { "question": "Choose a villainous pet:", "choices": ["Giant talking monkey", "Computer wife", "Mutant dog", "Robot shark"], "weights": [{"Mojo Jojo": 2}, {"Plankton": 2}, {"Zim": 2}, {"Syndrome": 2}] }
+    {
+      "question": "Pick your evil hideout:",
+      "choices": [
+        "Volcano lair",
+        "Underwater dome",
+        "Space station",
+        "Creepy abandoned theme park"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Your weapon of choice?",
+      "choices": [
+        "Mind control helmet",
+        "Tiny robots",
+        "Alien tech",
+        "Overcomplicated gadgets"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Pick your villain goal:",
+      "choices": [
+        "Rule the city",
+        "Steal the secret formula",
+        "Destroy humanity (for fun)",
+        "Beat your childhood idol"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Your biggest weakness:",
+      "choices": [
+        "Talking too much",
+        "Always losing to a sponge",
+        "Overconfidence",
+        "Being ignored"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Villain motto?",
+      "choices": [
+        "'Curse you, Powerpuff Girls!'",
+        "'I went to college!'",
+        "'Earth is doomed!'",
+        "'Everyone will be super!'"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Best villain accessory?",
+      "choices": ["Cape", "Robot army", "Laser gun", "Shrinking ray"],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Choose your sidekick:",
+      "choices": [
+        "Talking monkey minions",
+        "Karen (the robot wife)",
+        "Robot drones",
+        "No sidekicks, you trust no one"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "When your plan fails, you:",
+      "choices": [
+        "Scream dramatically",
+        "Blame your computer",
+        "Plot revenge",
+        "Invent a crazier plan immediately"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Your favorite villain vibe?",
+      "choices": [
+        "Overdramatic speeches",
+        "Sassy insults",
+        "Chaotic evil",
+        "Passive-aggressive plans"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    },
+    {
+      "question": "Choose a villainous pet:",
+      "choices": [
+        "Giant talking monkey",
+        "Computer wife",
+        "Mutant dog",
+        "Robot shark"
+      ],
+      "weights": [
+        { "Mojo Jojo": 2 },
+        { "Plankton": 2 },
+        { "Zim": 2 },
+        { "Syndrome": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

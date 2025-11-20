@@ -1,35 +1,164 @@
 {
   "title": "Survival IQ: Smartest Move Wins",
-  "background": "intelligence",
-  "themeColor": "#334422",
-  "buttonColor": "#668844",
+  "background": "intelligence.png",
+  "theme": "theme-intelligence",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "You are lost in a forest. First step?", "choices": ["Climb a tree", "Look for water", "Walk aimlessly", "Scream for help"], "answerIndex": 1 },
-    { "question": "If you find a river, what direction is safest to follow?", "choices": ["Upstream", "Downstream", "Stay put", "Cross it"], "answerIndex": 1 },
-    { "question": "Best way to signal for rescue?", "choices": ["Start fires in a triangle", "Yell loudly", "Run in circles", "Lay down"], "answerIndex": 0 },
-    { "question": "In cold weather, your biggest danger is:", "choices": ["Hunger", "Predators", "Hypothermia", "Dehydration"], "answerIndex": 2 },
-    { "question": "If you encounter a bear, you should:", "choices": ["Run", "Play dead (if grizzly)", "Scream", "Climb tree"], "answerIndex": 1 },
-    { "question": "How many minutes can a human survive without air?", "choices": ["3", "10", "15", "20"], "answerIndex": 0 },
-    { "question": "To purify water, you should:", "choices": ["Freeze it", "Filter it through cloth", "Boil it", "Shake it"], "answerIndex": 2 },
-    { "question": "Lost at sea: Best first action?", "choices": ["Drink seawater", "Stay with wreckage", "Swim toward horizon", "Dive underwater"], "answerIndex": 1 },
-    { "question": "In desert survival, first priority?", "choices": ["Water", "Shelter from sun", "Food", "Signal for help"], "answerIndex": 1 },
-    { "question": "Most common way people get lost hiking?", "choices": ["Wild animals", "Getting off the trail", "Lack of supplies", "Falls"], "answerIndex": 1 },
-    { "question": "Which fire material is best to start a flame?", "choices": ["Wet wood", "Dry twigs", "Rocks", "Sand"], "answerIndex": 1 },
-    { "question": "If bitten by a snake, first action?", "choices": ["Cut the bite", "Suck venom", "Stay still and call help", "Run fast"], "answerIndex": 2 },
-    { "question": "Which survival shelter is fastest to build?", "choices": ["Tent", "Snow cave", "Debris hut", "Log cabin"], "answerIndex": 2 },
-    { "question": "You fall through ice. What's first step?", "choices": ["Swim under ice", "Kick and pull yourself out", "Yell", "Sink lower"], "answerIndex": 1 },
-    { "question": "Lost without compass. How find north?", "choices": ["Moss grows on all sides", "Watch the stars", "Follow animal tracks", "Spin in a circle"], "answerIndex": 1 },
-    { "question": "Most essential nutrient in survival?", "choices": ["Protein", "Fats", "Carbs", "Water"], "answerIndex": 3 },
-    { "question": "Most effective way to keep heat in cold weather?", "choices": ["Run constantly", "Shelter and layer clothing", "Drink water", "Take off wet clothes immediately"], "answerIndex": 1 },
-    { "question": "Best improvised water container?", "choices": ["Cloth", "Plastic bottle", "Metal helmet", "Wooden stick"], "answerIndex": 2 },
-    { "question": "Which natural sign helps find water?", "choices": ["Birds circling", "Ants marching", "Green vegetation", "Clear skies"], "answerIndex": 2 },
-    { "question": "Which natural event often signals approaching danger?", "choices": ["Sudden silence from animals", "Storms clearing", "Rainbow appearing", "Snowfall"], "answerIndex": 0 }
+    {
+      "question": "You are lost in a forest. First step?",
+      "choices": [
+        "Climb a tree",
+        "Look for water",
+        "Walk aimlessly",
+        "Scream for help"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If you find a river, what direction is safest to follow?",
+      "choices": ["Upstream", "Downstream", "Stay put", "Cross it"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best way to signal for rescue?",
+      "choices": [
+        "Start fires in a triangle",
+        "Yell loudly",
+        "Run in circles",
+        "Lay down"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "In cold weather, your biggest danger is:",
+      "choices": ["Hunger", "Predators", "Hypothermia", "Dehydration"],
+      "answerIndex": 2
+    },
+    {
+      "question": "If you encounter a bear, you should:",
+      "choices": ["Run", "Play dead (if grizzly)", "Scream", "Climb tree"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many minutes can a human survive without air?",
+      "choices": ["3", "10", "15", "20"],
+      "answerIndex": 0
+    },
+    {
+      "question": "To purify water, you should:",
+      "choices": [
+        "Freeze it",
+        "Filter it through cloth",
+        "Boil it",
+        "Shake it"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Lost at sea: Best first action?",
+      "choices": [
+        "Drink seawater",
+        "Stay with wreckage",
+        "Swim toward horizon",
+        "Dive underwater"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "In desert survival, first priority?",
+      "choices": ["Water", "Shelter from sun", "Food", "Signal for help"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Most common way people get lost hiking?",
+      "choices": [
+        "Wild animals",
+        "Getting off the trail",
+        "Lack of supplies",
+        "Falls"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which fire material is best to start a flame?",
+      "choices": ["Wet wood", "Dry twigs", "Rocks", "Sand"],
+      "answerIndex": 1
+    },
+    {
+      "question": "If bitten by a snake, first action?",
+      "choices": [
+        "Cut the bite",
+        "Suck venom",
+        "Stay still and call help",
+        "Run fast"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which survival shelter is fastest to build?",
+      "choices": ["Tent", "Snow cave", "Debris hut", "Log cabin"],
+      "answerIndex": 2
+    },
+    {
+      "question": "You fall through ice. What's first step?",
+      "choices": [
+        "Swim under ice",
+        "Kick and pull yourself out",
+        "Yell",
+        "Sink lower"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Lost without compass. How find north?",
+      "choices": [
+        "Moss grows on all sides",
+        "Watch the stars",
+        "Follow animal tracks",
+        "Spin in a circle"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Most essential nutrient in survival?",
+      "choices": ["Protein", "Fats", "Carbs", "Water"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Most effective way to keep heat in cold weather?",
+      "choices": [
+        "Run constantly",
+        "Shelter and layer clothing",
+        "Drink water",
+        "Take off wet clothes immediately"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best improvised water container?",
+      "choices": ["Cloth", "Plastic bottle", "Metal helmet", "Wooden stick"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which natural sign helps find water?",
+      "choices": [
+        "Birds circling",
+        "Ants marching",
+        "Green vegetation",
+        "Clear skies"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which natural event often signals approaching danger?",
+      "choices": [
+        "Sudden silence from animals",
+        "Storms clearing",
+        "Rainbow appearing",
+        "Snowfall"
+      ],
+      "answerIndex": 0
+    }
   ],
 
   "resultMapping": {

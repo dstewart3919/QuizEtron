@@ -1,25 +1,159 @@
 {
   "title": "Your Early 2000'S POP Theme Song",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Favorite 2000's trend:", "choices": ["Denim everything", "Frosted tips", "Mini skirts and tank tops", "Baggy jeans and chains"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "What describes your attitude?", "choices": ["Heartbreak survivor", "Energetic team player", "Flirtatious icon", "Boss-level hustler"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Pick your ideal party vibe:", "choices": ["Singing at the top of your lungs", "Dancing with a crew", "Owning the room with confidence", "VIP club entrance"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Your biggest goal right now:", "choices": ["Move on stronger", "Find my people", "Own the spotlight", "Stack achievements"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Which lyric hits hardest?", "choices": ["Since you been gone, I can breathe for the first time", "Bye, bye, bye!", "With a taste of your lips, I'm on a ride", "Go shorty, it's your birthday"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Favorite early 2000s music video look?", "choices": ["Crying in the rain", "Synchronized boy band dance", "Mysterious and seductive", "Blinged-out club scene"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Choose a guilty pleasure:", "choices": ["Belting breakup songs", "Choreographed dance routines", "Dramatic selfies", "Buying ridiculous luxury items"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Your natural energy level:", "choices": ["Explosive once activated", "Constantly upbeat", "Smooth and steady", "High and unstoppable"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Pick your dream collaborator:", "choices": ["Kelly Clarkson", "Justin Timberlake", "Britney Spears", "50 Cent"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] },
-    { "question": "Favorite way to end a night out:", "choices": ["Singing in the car", "Late-night dance battle", "Mysterious exit", "Bottle service celebration"], "weights": [{"Since U Been Gone": 2}, {"Bye Bye Bye": 2}, {"Toxic": 2}, {"In Da Club": 2}] }
+    {
+      "question": "Favorite 2000's trend:",
+      "choices": [
+        "Denim everything",
+        "Frosted tips",
+        "Mini skirts and tank tops",
+        "Baggy jeans and chains"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "What describes your attitude?",
+      "choices": [
+        "Heartbreak survivor",
+        "Energetic team player",
+        "Flirtatious icon",
+        "Boss-level hustler"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Pick your ideal party vibe:",
+      "choices": [
+        "Singing at the top of your lungs",
+        "Dancing with a crew",
+        "Owning the room with confidence",
+        "VIP club entrance"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Your biggest goal right now:",
+      "choices": [
+        "Move on stronger",
+        "Find my people",
+        "Own the spotlight",
+        "Stack achievements"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Which lyric hits hardest?",
+      "choices": [
+        "Since you been gone, I can breathe for the first time",
+        "Bye, bye, bye!",
+        "With a taste of your lips, I'm on a ride",
+        "Go shorty, it's your birthday"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Favorite early 2000s music video look?",
+      "choices": [
+        "Crying in the rain",
+        "Synchronized boy band dance",
+        "Mysterious and seductive",
+        "Blinged-out club scene"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Choose a guilty pleasure:",
+      "choices": [
+        "Belting breakup songs",
+        "Choreographed dance routines",
+        "Dramatic selfies",
+        "Buying ridiculous luxury items"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Your natural energy level:",
+      "choices": [
+        "Explosive once activated",
+        "Constantly upbeat",
+        "Smooth and steady",
+        "High and unstoppable"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Pick your dream collaborator:",
+      "choices": [
+        "Kelly Clarkson",
+        "Justin Timberlake",
+        "Britney Spears",
+        "50 Cent"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    },
+    {
+      "question": "Favorite way to end a night out:",
+      "choices": [
+        "Singing in the car",
+        "Late-night dance battle",
+        "Mysterious exit",
+        "Bottle service celebration"
+      ],
+      "weights": [
+        { "Since U Been Gone": 2 },
+        { "Bye Bye Bye": 2 },
+        { "Toxic": 2 },
+        { "In Da Club": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

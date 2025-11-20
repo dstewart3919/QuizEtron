@@ -1,35 +1,304 @@
 {
   "title": "Galaxy Explorer Readiness Test",
-  "background": "sci-fi",
-  "themeColor": "#223344",
-  "buttonColor": "#4477aa",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Your ideal first mission?", "choices": ["Map new stars", "Study alien species", "Establish trade routes", "Lead security detail"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Greatest danger on a new world?", "choices": ["Meteor strikes", "Alien viruses", "Hostile locals", "Environmental hazards"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Most valuable crew skill?", "choices": ["Precise calculations", "Deep scientific curiosity", "Clever negotiation", "Combat readiness"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "First tool you bring?", "choices": ["Star charts", "Data analyzer", "Universal translator", "Phase rifle"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "How do you react to alien ruins?", "choices": ["Map them thoroughly", "Analyze for hidden tech", "Search for artifacts to trade", "Secure perimeter"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "If lost, you:", "choices": ["Triangulate position", "Study local fauna", "Bargain with natives", "Defend the crew"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Your philosophy on unknown life?", "choices": ["Observe from afar", "Initiate studies", "Make profitable deals", "Approach with caution"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "A star chart error leads to danger. You:", "choices": ["Correct course immediately", "Collect field samples", "Use situation to trade info", "Prepare defensive protocols"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "You discover a primitive civilization. You:", "choices": ["Stay hidden", "Observe and document", "Negotiate discreetly", "Establish defensive stance"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Biggest frontier danger?", "choices": ["Unmapped regions", "Unknown bacteria", "Trust issues", "Hostile species"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "After an accident, you first:", "choices": ["Check star maps", "Scan for environmental hazards", "Assess negotiation leverage", "Secure wounded crew"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "How do you handle alien technology?", "choices": ["Analyze distance and structure", "Disassemble carefully", "Negotiate for samples", "Guard it fiercely"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Your greatest strength?", "choices": ["Precision", "Curiosity", "Charisma", "Bravery"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "On new planets, your role is:", "choices": ["Lead navigation", "Research flora and fauna", "Establish trade", "Ensure security"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Best gift to offer aliens?", "choices": ["Maps and charts", "Scientific knowledge", "Rare goods", "Protection services"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "When a mystery signal appears:", "choices": ["Trace origin", "Analyze transmission", "Negotiate with sender", "Prepare defenses"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Greatest explorer in history?", "choices": ["Astrogator legend", "Scientific pioneer", "Merchant adventurer", "Battle-hardened leader"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "First law of exploration?", "choices": ["Map or die", "Document all findings", "Trade whenever possible", "Protect the crew"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Biggest reward for exploration?", "choices": ["Charted stars", "New scientific theories", "Alien markets", "Safe new worlds"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] },
-    { "question": "Final frontier means:", "choices": ["Map the unknown", "Discover new life", "Expand trade empires", "Guard the future"], "weights": [{"Navigator": 2}, {"Scientist": 2}, {"Trader": 2}, {"SecurityChief": 2}] }
+    {
+      "question": "Your ideal first mission?",
+      "choices": [
+        "Map new stars",
+        "Study alien species",
+        "Establish trade routes",
+        "Lead security detail"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Greatest danger on a new world?",
+      "choices": [
+        "Meteor strikes",
+        "Alien viruses",
+        "Hostile locals",
+        "Environmental hazards"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Most valuable crew skill?",
+      "choices": [
+        "Precise calculations",
+        "Deep scientific curiosity",
+        "Clever negotiation",
+        "Combat readiness"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "First tool you bring?",
+      "choices": [
+        "Star charts",
+        "Data analyzer",
+        "Universal translator",
+        "Phase rifle"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "How do you react to alien ruins?",
+      "choices": [
+        "Map them thoroughly",
+        "Analyze for hidden tech",
+        "Search for artifacts to trade",
+        "Secure perimeter"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "If lost, you:",
+      "choices": [
+        "Triangulate position",
+        "Study local fauna",
+        "Bargain with natives",
+        "Defend the crew"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Your philosophy on unknown life?",
+      "choices": [
+        "Observe from afar",
+        "Initiate studies",
+        "Make profitable deals",
+        "Approach with caution"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "A star chart error leads to danger. You:",
+      "choices": [
+        "Correct course immediately",
+        "Collect field samples",
+        "Use situation to trade info",
+        "Prepare defensive protocols"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "You discover a primitive civilization. You:",
+      "choices": [
+        "Stay hidden",
+        "Observe and document",
+        "Negotiate discreetly",
+        "Establish defensive stance"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Biggest frontier danger?",
+      "choices": [
+        "Unmapped regions",
+        "Unknown bacteria",
+        "Trust issues",
+        "Hostile species"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "After an accident, you first:",
+      "choices": [
+        "Check star maps",
+        "Scan for environmental hazards",
+        "Assess negotiation leverage",
+        "Secure wounded crew"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "How do you handle alien technology?",
+      "choices": [
+        "Analyze distance and structure",
+        "Disassemble carefully",
+        "Negotiate for samples",
+        "Guard it fiercely"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Your greatest strength?",
+      "choices": ["Precision", "Curiosity", "Charisma", "Bravery"],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "On new planets, your role is:",
+      "choices": [
+        "Lead navigation",
+        "Research flora and fauna",
+        "Establish trade",
+        "Ensure security"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Best gift to offer aliens?",
+      "choices": [
+        "Maps and charts",
+        "Scientific knowledge",
+        "Rare goods",
+        "Protection services"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "When a mystery signal appears:",
+      "choices": [
+        "Trace origin",
+        "Analyze transmission",
+        "Negotiate with sender",
+        "Prepare defenses"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Greatest explorer in history?",
+      "choices": [
+        "Astrogator legend",
+        "Scientific pioneer",
+        "Merchant adventurer",
+        "Battle-hardened leader"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "First law of exploration?",
+      "choices": [
+        "Map or die",
+        "Document all findings",
+        "Trade whenever possible",
+        "Protect the crew"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Biggest reward for exploration?",
+      "choices": [
+        "Charted stars",
+        "New scientific theories",
+        "Alien markets",
+        "Safe new worlds"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    },
+    {
+      "question": "Final frontier means:",
+      "choices": [
+        "Map the unknown",
+        "Discover new life",
+        "Expand trade empires",
+        "Guard the future"
+      ],
+      "weights": [
+        { "Navigator": 2 },
+        { "Scientist": 2 },
+        { "Trader": 2 },
+        { "SecurityChief": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

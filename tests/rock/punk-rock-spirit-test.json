@@ -1,35 +1,134 @@
 {
   "title": "Punk Rock Spirit Test",
-  "background": "rock",
-  "themeColor": "#111111",
-  "buttonColor": "#ff3300",
+  "background": "rock.png",
+  "theme": "theme-rock",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Which band is famous for the song 'Anarchy in the U.K.'?", "choices": ["The Clash", "The Ramones", "Sex Pistols", "Green Day"], "answerIndex": 2 },
-    { "question": "What city is considered the birthplace of punk rock?", "choices": ["New York", "London", "Los Angeles", "Detroit"], "answerIndex": 1 },
-    { "question": "Who fronted The Ramones?", "choices": ["Sid Vicious", "Joey Ramone", "Johnny Rotten", "Billie Joe Armstrong"], "answerIndex": 1 },
-    { "question": "Which band released 'London Calling'?", "choices": ["The Sex Pistols", "The Clash", "The Damned", "Buzzcocks"], "answerIndex": 1 },
-    { "question": "Punk fashion is known for:", "choices": ["Denim jackets", "Spiked hair and leather", "Plaid pants", "Tie-dye shirts"], "answerIndex": 1 },
-    { "question": "Green Day's breakout album was called:", "choices": ["Dookie", "Nimrod", "American Idiot", "Insomniac"], "answerIndex": 0 },
-    { "question": "Which band is known for 'Blitzkrieg Bop'?", "choices": ["Sex Pistols", "The Clash", "The Ramones", "Dead Kennedys"], "answerIndex": 2 },
-    { "question": "Dead Kennedys were famous for their:", "choices": ["Love ballads", "Political lyrics", "Glam outfits", "Heavy metal solos"], "answerIndex": 1 },
-    { "question": "Which punk band had a guitarist named Captain Sensible?", "choices": ["The Clash", "The Damned", "Buzzcocks", "Green Day"], "answerIndex": 1 },
-    { "question": "Which punk legend was briefly a member of Sex Pistols?", "choices": ["Johnny Ramone", "Sid Vicious", "Joey Ramone", "Jello Biafra"], "answerIndex": 1 },
-    { "question": "Bad Religion is known for blending punk with:", "choices": ["Jazz", "Folk", "Political philosophy", "Hip hop"], "answerIndex": 2 },
-    { "question": "What’s a common punk slogan?", "choices": ["Live Fast Die Young", "Stay Classy", "Peace and Love", "Be Humble"], "answerIndex": 0 },
-    { "question": "Which band sang 'Basket Case'?", "choices": ["Green Day", "Blink-182", "The Offspring", "Rancid"], "answerIndex": 0 },
-    { "question": "What movement was associated with Minor Threat?", "choices": ["Straight edge", "Anarcho-punk", "Hardcore emo", "Surf punk"], "answerIndex": 0 },
-    { "question": "Which band’s logo features a four-bar design?", "choices": ["Black Flag", "Dead Kennedys", "The Misfits", "Rancid"], "answerIndex": 0 },
-    { "question": "Blink-182’s sound is best described as:", "choices": ["Hardcore punk", "Pop punk", "Anarcho-punk", "Death metal"], "answerIndex": 1 },
-    { "question": "Which band had a skeleton mascot called 'The Crimson Ghost'?", "choices": ["The Misfits", "Dead Kennedys", "The Damned", "Green Day"], "answerIndex": 0 },
-    { "question": "The Offspring's album 'Smash' came out in:", "choices": ["1990", "1992", "1994", "1996"], "answerIndex": 2 },
-    { "question": "Which band released the song 'Ruby Soho'?", "choices": ["Rancid", "Bad Religion", "Blink-182", "The Ramones"], "answerIndex": 0 },
-    { "question": "Fugazi is considered pioneers of:", "choices": ["Surf punk", "Hardcore emo", "Post-hardcore", "Anarcho-punk"], "answerIndex": 2 }
+    {
+      "question": "Which band is famous for the song 'Anarchy in the U.K.'?",
+      "choices": ["The Clash", "The Ramones", "Sex Pistols", "Green Day"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What city is considered the birthplace of punk rock?",
+      "choices": ["New York", "London", "Los Angeles", "Detroit"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who fronted The Ramones?",
+      "choices": [
+        "Sid Vicious",
+        "Joey Ramone",
+        "Johnny Rotten",
+        "Billie Joe Armstrong"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band released 'London Calling'?",
+      "choices": ["The Sex Pistols", "The Clash", "The Damned", "Buzzcocks"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Punk fashion is known for:",
+      "choices": [
+        "Denim jackets",
+        "Spiked hair and leather",
+        "Plaid pants",
+        "Tie-dye shirts"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Green Day's breakout album was called:",
+      "choices": ["Dookie", "Nimrod", "American Idiot", "Insomniac"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which band is known for 'Blitzkrieg Bop'?",
+      "choices": ["Sex Pistols", "The Clash", "The Ramones", "Dead Kennedys"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Dead Kennedys were famous for their:",
+      "choices": [
+        "Love ballads",
+        "Political lyrics",
+        "Glam outfits",
+        "Heavy metal solos"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which punk band had a guitarist named Captain Sensible?",
+      "choices": ["The Clash", "The Damned", "Buzzcocks", "Green Day"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which punk legend was briefly a member of Sex Pistols?",
+      "choices": [
+        "Johnny Ramone",
+        "Sid Vicious",
+        "Joey Ramone",
+        "Jello Biafra"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Bad Religion is known for blending punk with:",
+      "choices": ["Jazz", "Folk", "Political philosophy", "Hip hop"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What’s a common punk slogan?",
+      "choices": [
+        "Live Fast Die Young",
+        "Stay Classy",
+        "Peace and Love",
+        "Be Humble"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which band sang 'Basket Case'?",
+      "choices": ["Green Day", "Blink-182", "The Offspring", "Rancid"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What movement was associated with Minor Threat?",
+      "choices": ["Straight edge", "Anarcho-punk", "Hardcore emo", "Surf punk"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which band’s logo features a four-bar design?",
+      "choices": ["Black Flag", "Dead Kennedys", "The Misfits", "Rancid"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Blink-182’s sound is best described as:",
+      "choices": ["Hardcore punk", "Pop punk", "Anarcho-punk", "Death metal"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band had a skeleton mascot called 'The Crimson Ghost'?",
+      "choices": ["The Misfits", "Dead Kennedys", "The Damned", "Green Day"],
+      "answerIndex": 0
+    },
+    {
+      "question": "The Offspring's album 'Smash' came out in:",
+      "choices": ["1990", "1992", "1994", "1996"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which band released the song 'Ruby Soho'?",
+      "choices": ["Rancid", "Bad Religion", "Blink-182", "The Ramones"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Fugazi is considered pioneers of:",
+      "choices": ["Surf punk", "Hardcore emo", "Post-hardcore", "Anarcho-punk"],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

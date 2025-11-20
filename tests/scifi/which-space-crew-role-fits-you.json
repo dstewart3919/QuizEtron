@@ -1,35 +1,299 @@
 {
   "title": "Which Space Crew Role Fits You?",
-  "background": "sci-fi",
-  "themeColor": "#330066",
-  "buttonColor": "#6600cc",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "In a crisis, you:", "choices": ["Take command immediately", "Start fixing equipment", "Calculate risks", "Boost everyone's morale"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Favorite ship station?", "choices": ["Captain's chair", "Engine room", "Lab bay", "Communications desk"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "What's your strength?", "choices": ["Leadership", "Technical skills", "Problem-solving", "Negotiation"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "If ship power fails, first move?", "choices": ["Order backup plan", "Patch the systems", "Analyze the fault", "Calm the crew"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "You find alien tech. You:", "choices": ["Declare caution", "Disassemble it", "Study it", "Try to communicate"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "What motivates you?", "choices": ["Honor", "Innovation", "Discovery", "Unity"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Under pressure you:", "choices": ["Stay decisive", "Work quietly", "Calculate odds", "Diffuse tension"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Crew conflict breaks out. You:", "choices": ["Lay down the law", "Ignore it, fix things", "Run probability models", "Mediate the peace"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Favorite downtime activity?", "choices": ["Strategic games", "Tinkering projects", "Reading science journals", "Hosting crew parties"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "An alien ship approaches. You:", "choices": ["Raise shields, prepare negotiation", "Check defense systems", "Analyze transmission data", "Send greeting protocols"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Ship's systems are failing. You:", "choices": ["Direct repair teams", "Reroute power manually", "Diagnose the root cause", "Keep crew from panicking"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Most important ship function?", "choices": ["Command hierarchy", "Engineering stability", "Research outputs", "Crew cohesion"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Favorite piece of gear?", "choices": ["Tactical comms", "Multi-tool kit", "Data analyzer", "Universal translator"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "You believe survival depends on:", "choices": ["Strong leadership", "Technical resilience", "Intellectual adaptability", "Interpersonal trust"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "If stranded, you prioritize:", "choices": ["Command structure", "Building shelter", "Mapping the environment", "Diplomacy with locals"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "What’s most thrilling?", "choices": ["Leading a battle", "Repairing critical systems", "Solving cosmic mysteries", "Brokering alien alliances"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "If lost in space, you:", "choices": ["Strategize escape", "Rig navigation fixes", "Chart unknown stars", "Keep crew hope alive"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Facing failure you:", "choices": ["Motivate the crew", "Work overtime", "Analyze outcomes", "Mediate blame"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "First command priority?", "choices": ["Crew safety", "Ship repairs", "Data collection", "Communication clarity"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] },
-    { "question": "Best quality in a captain?", "choices": ["Decisiveness", "Technical trust", "Intellect", "Empathy"], "weights": [{"Commander": 2}, {"Engineer": 2}, {"Scientist": 2}, {"Diplomat": 2}] }
+    {
+      "question": "In a crisis, you:",
+      "choices": [
+        "Take command immediately",
+        "Start fixing equipment",
+        "Calculate risks",
+        "Boost everyone's morale"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Favorite ship station?",
+      "choices": [
+        "Captain's chair",
+        "Engine room",
+        "Lab bay",
+        "Communications desk"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "What's your strength?",
+      "choices": [
+        "Leadership",
+        "Technical skills",
+        "Problem-solving",
+        "Negotiation"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "If ship power fails, first move?",
+      "choices": [
+        "Order backup plan",
+        "Patch the systems",
+        "Analyze the fault",
+        "Calm the crew"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "You find alien tech. You:",
+      "choices": [
+        "Declare caution",
+        "Disassemble it",
+        "Study it",
+        "Try to communicate"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "What motivates you?",
+      "choices": ["Honor", "Innovation", "Discovery", "Unity"],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Under pressure you:",
+      "choices": [
+        "Stay decisive",
+        "Work quietly",
+        "Calculate odds",
+        "Diffuse tension"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Crew conflict breaks out. You:",
+      "choices": [
+        "Lay down the law",
+        "Ignore it, fix things",
+        "Run probability models",
+        "Mediate the peace"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Favorite downtime activity?",
+      "choices": [
+        "Strategic games",
+        "Tinkering projects",
+        "Reading science journals",
+        "Hosting crew parties"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "An alien ship approaches. You:",
+      "choices": [
+        "Raise shields, prepare negotiation",
+        "Check defense systems",
+        "Analyze transmission data",
+        "Send greeting protocols"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Ship's systems are failing. You:",
+      "choices": [
+        "Direct repair teams",
+        "Reroute power manually",
+        "Diagnose the root cause",
+        "Keep crew from panicking"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Most important ship function?",
+      "choices": [
+        "Command hierarchy",
+        "Engineering stability",
+        "Research outputs",
+        "Crew cohesion"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Favorite piece of gear?",
+      "choices": [
+        "Tactical comms",
+        "Multi-tool kit",
+        "Data analyzer",
+        "Universal translator"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "You believe survival depends on:",
+      "choices": [
+        "Strong leadership",
+        "Technical resilience",
+        "Intellectual adaptability",
+        "Interpersonal trust"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "If stranded, you prioritize:",
+      "choices": [
+        "Command structure",
+        "Building shelter",
+        "Mapping the environment",
+        "Diplomacy with locals"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "What’s most thrilling?",
+      "choices": [
+        "Leading a battle",
+        "Repairing critical systems",
+        "Solving cosmic mysteries",
+        "Brokering alien alliances"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "If lost in space, you:",
+      "choices": [
+        "Strategize escape",
+        "Rig navigation fixes",
+        "Chart unknown stars",
+        "Keep crew hope alive"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Facing failure you:",
+      "choices": [
+        "Motivate the crew",
+        "Work overtime",
+        "Analyze outcomes",
+        "Mediate blame"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "First command priority?",
+      "choices": [
+        "Crew safety",
+        "Ship repairs",
+        "Data collection",
+        "Communication clarity"
+      ],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    },
+    {
+      "question": "Best quality in a captain?",
+      "choices": ["Decisiveness", "Technical trust", "Intellect", "Empathy"],
+      "weights": [
+        { "Commander": 2 },
+        { "Engineer": 2 },
+        { "Scientist": 2 },
+        { "Diplomat": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

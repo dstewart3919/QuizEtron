@@ -1,0 +1,115 @@
+{
+  "title": "Love Language Assessment",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "It means more to me when my partner…",
+      "choices": [
+        "Surprises me with a thoughtful gift",
+        "Tells me they’re proud of me or love me",
+        "Holds my hand or cuddles with me",
+        "Does something helpful without being asked"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "I feel most connected when we…",
+      "choices": [
+        "Go on a planned date with no phones",
+        "Exchange long, sweet texts or talks",
+        "Just sit together touching or hugging",
+        "They take something off my to-do list"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "On a tough day, I’d rather my partner…",
+      "choices": [
+        "Brings me my favorite treat or something small",
+        "Says “I believe in you, you’ve got this”",
+        "Gives me a long hug or back rub",
+        "Handles dinner or chores so I can rest"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "I feel most loved when they…",
+      "choices": [
+        "Remember tiny details and get me the perfect gift",
+        "Compliment me in front of others",
+        "Reach for my hand in public",
+        "Fill my car with gas or fix something broken"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "A weekend with no plans sounds perfect if we…",
+      "choices": [
+        "Do absolutely nothing but be together the whole time",
+        "Have deep conversations late into the night",
+        "Are physically close—cuddling, kissing, etc.",
+        "They plan and handle everything so I can relax"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which apology feels most sincere to you?",
+      "choices": [
+        "They bring a “sorry” gift or flowers",
+        "They look me in the eye and say heartfelt words",
+        "They pull me into a big hug and don’t let go",
+        "They immediately fix whatever went wrong"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "I light up most when my partner…",
+      "choices": [
+        "Surprises me with tickets or something I wanted",
+        "Leaves me a loving note or voice message",
+        "Greets me with a kiss and long hug",
+        "Washes the dishes or runs my errands"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "After a long trip apart, I want them to…",
+      "choices": [
+        "Have a welcome-home gift waiting",
+        "Tell me how much they missed me",
+        "Hold me for ages at the airport",
+        "Have already unpacked or handled laundry"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Little daily things that make me melt:",
+      "choices": [
+        "Finding a small present on my pillow",
+        "Hearing “You look amazing” or “I’m so lucky”",
+        "Random kisses or playing with my hair",
+        "They made my coffee exactly right"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "My heart feels fullest when they…",
+      "choices": [
+        "Celebrate my wins with a special gift",
+        "Publicly brag about me or post loving words",
+        "Are physically affectionate all day",
+        "Take care of something I hate doing"
+      ],
+      "answerIndex": 1
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Words of Affirmation  Your love tank fills fastest with heartfelt words, compliments, and verbal appreciation.",
+      "medium": "Quality Time  or Physical Touch  (Tie—check which category you picked more!)",
+      "low": "Acts of Service  or Receiving Gifts  (These still matter, but they’re not your primary language.)"
+    }
+  }
+}

@@ -1,35 +1,159 @@
 {
   "title": "Are You Ready for a Haunted House Escape?",
-  "background": "horror",
-  "themeColor": "#442211",
-  "buttonColor": "#aa6633",
+  "background": "horror.png",
+  "theme": "theme-horror",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "You hear a whisper in an empty room. You:", "choices": ["Investigate", "Run immediately", "Call out loudly", "Ignore it"], "answerIndex": 1 },
-    { "question": "Find a locked door. You:", "choices": ["Pick the lock", "Break it down", "Look for another exit", "Stand and panic"], "answerIndex": 2 },
-    { "question": "Footsteps upstairs but no one is home. You:", "choices": ["Shout", "Leave the house quietly", "Go upstairs", "Hide in closet"], "answerIndex": 1 },
-    { "question": "Creepy doll sitting on a chair. You:", "choices": ["Burn it", "Throw it away", "Walk around it", "Pick it up and inspect"], "answerIndex": 2 },
-    { "question": "Best tool to have in haunted house?", "choices": ["Flashlight", "Holy water", "Knife", "Walkie-talkie"], "answerIndex": 0 },
-    { "question": "A door slams shut behind you. You:", "choices": ["Try opening it", "Panic", "Find another path", "Scream for help"], "answerIndex": 2 },
-    { "question": "Ghost appears. First reaction?", "choices": ["Fight it", "Freeze", "Run", "Try to reason with it"], "answerIndex": 2 },
-    { "question": "You find ancient writing on walls. You:", "choices": ["Touch it", "Photograph it", "Ignore it", "Try to read it aloud"], "answerIndex": 1 },
-    { "question": "Something brushes your leg in the dark. You:", "choices": ["Kick wildly", "Stay calm", "Run", "Light it up with flashlight"], "answerIndex": 3 },
-    { "question": "What is your escape motto?", "choices": ["Never split up", "Explore everything", "Run blindly", "Stand ground"], "answerIndex": 0 },
-    { "question": "You hear crying in a basement. You:", "choices": ["Investigate", "Stay away", "Call for help", "Ignore and leave"], "answerIndex": 1 },
-    { "question": "Find an old mirror. You:", "choices": ["Look deep into it", "Cover it", "Break it", "Ignore it"], "answerIndex": 1 },
-    { "question": "Creaking floorboards ahead. You:", "choices": ["Step carefully", "Run", "Change path", "Jump over them"], "answerIndex": 2 },
-    { "question": "Best time to escape?", "choices": ["Midnight", "Dawn", "3AM", "Midday"], "answerIndex": 1 },
-    { "question": "You get separated from your group. You:", "choices": ["Shout for them", "Stay silent", "Go back", "Run outside"], "answerIndex": 2 },
-    { "question": "Unknown entity whispers your name. You:", "choices": ["Follow it", "Block your ears", "Pray", "Escape immediately"], "answerIndex": 3 },
-    { "question": "Staircase collapses behind you. You:", "choices": ["Panic", "Find another way", "Scream", "Wait for rescue"], "answerIndex": 1 },
-    { "question": "A book falls open to a strange ritual. You:", "choices": ["Perform it", "Ignore it", "Read silently", "Tear pages out"], "answerIndex": 1 },
-    { "question": "Lights go out suddenly. You:", "choices": ["Scream", "Use flashlight", "Stay still", "Run"], "answerIndex": 1 },
-    { "question": "You finally see an exit door. You:", "choices": ["Sprint without hesitation", "Look for traps", "Call for others", "Pray before moving"], "answerIndex": 1 }
+    {
+      "question": "You hear a whisper in an empty room. You:",
+      "choices": [
+        "Investigate",
+        "Run immediately",
+        "Call out loudly",
+        "Ignore it"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Find a locked door. You:",
+      "choices": [
+        "Pick the lock",
+        "Break it down",
+        "Look for another exit",
+        "Stand and panic"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Footsteps upstairs but no one is home. You:",
+      "choices": [
+        "Shout",
+        "Leave the house quietly",
+        "Go upstairs",
+        "Hide in closet"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Creepy doll sitting on a chair. You:",
+      "choices": [
+        "Burn it",
+        "Throw it away",
+        "Walk around it",
+        "Pick it up and inspect"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Best tool to have in haunted house?",
+      "choices": ["Flashlight", "Holy water", "Knife", "Walkie-talkie"],
+      "answerIndex": 0
+    },
+    {
+      "question": "A door slams shut behind you. You:",
+      "choices": [
+        "Try opening it",
+        "Panic",
+        "Find another path",
+        "Scream for help"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Ghost appears. First reaction?",
+      "choices": ["Fight it", "Freeze", "Run", "Try to reason with it"],
+      "answerIndex": 2
+    },
+    {
+      "question": "You find ancient writing on walls. You:",
+      "choices": [
+        "Touch it",
+        "Photograph it",
+        "Ignore it",
+        "Try to read it aloud"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Something brushes your leg in the dark. You:",
+      "choices": [
+        "Kick wildly",
+        "Stay calm",
+        "Run",
+        "Light it up with flashlight"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "What is your escape motto?",
+      "choices": [
+        "Never split up",
+        "Explore everything",
+        "Run blindly",
+        "Stand ground"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You hear crying in a basement. You:",
+      "choices": [
+        "Investigate",
+        "Stay away",
+        "Call for help",
+        "Ignore and leave"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Find an old mirror. You:",
+      "choices": ["Look deep into it", "Cover it", "Break it", "Ignore it"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Creaking floorboards ahead. You:",
+      "choices": ["Step carefully", "Run", "Change path", "Jump over them"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Best time to escape?",
+      "choices": ["Midnight", "Dawn", "3AM", "Midday"],
+      "answerIndex": 1
+    },
+    {
+      "question": "You get separated from your group. You:",
+      "choices": ["Shout for them", "Stay silent", "Go back", "Run outside"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Unknown entity whispers your name. You:",
+      "choices": ["Follow it", "Block your ears", "Pray", "Escape immediately"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Staircase collapses behind you. You:",
+      "choices": ["Panic", "Find another way", "Scream", "Wait for rescue"],
+      "answerIndex": 1
+    },
+    {
+      "question": "A book falls open to a strange ritual. You:",
+      "choices": ["Perform it", "Ignore it", "Read silently", "Tear pages out"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Lights go out suddenly. You:",
+      "choices": ["Scream", "Use flashlight", "Stay still", "Run"],
+      "answerIndex": 1
+    },
+    {
+      "question": "You finally see an exit door. You:",
+      "choices": [
+        "Sprint without hesitation",
+        "Look for traps",
+        "Call for others",
+        "Pray before moving"
+      ],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

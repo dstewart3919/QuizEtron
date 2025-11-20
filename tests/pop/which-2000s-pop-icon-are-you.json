@@ -1,25 +1,154 @@
 {
   "title": "Which 2000'S POP Icon are you?",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Your fashion style in the 2000s:", "choices": ["Low-rise jeans and crop tops", "Fedoras and leather jackets", "Glittery dresses", "Tracksuits and bling"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Biggest dream growing up:", "choices": ["Win a Grammy", "Sell out an arena", "Shock the world with a performance", "Dominate the Billboard charts"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Preferred vibe?", "choices": ["Innocent but edgy", "Smooth and confident", "Bold and powerful", "Tough and unstoppable"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Pick your 2000s anthem:", "choices": ["Oops!... I Did It Again", "Cry Me a River", "Beautiful", "In Da Club"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "What’s your stage move?", "choices": ["Sassy dance routine", "Smooth pop-and-lock", "Vocal powerhouse blast", "Crowd intimidation energy"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Ideal collab partner:", "choices": ["Madonna", "Jay-Z", "Pink", "Dr. Dre"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Signature accessory:", "choices": ["Microphone headset", "Fedora hat", "Bold red lipstick", "Bulletproof vest"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Your biggest flex:", "choices": ["Iconic music videos", "Legendary dance moves", "Powerful vocal runs", "Massive album sales"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Favorite award moment:", "choices": ["Kissing Madonna", "Suit-and-tie swag", "Winning Best New Artist", "Taking over the rap game"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] },
-    { "question": "Best describes your life today:", "choices": ["Still a legend", "Expanding my empire", "Empowering others", "Running my businesses"], "weights": [{"Britney Spears": 2}, {"Justin Timberlake": 2}, {"Christina Aguilera": 2}, {"50 Cent": 2}] }
+    {
+      "question": "Your fashion style in the 2000s:",
+      "choices": [
+        "Low-rise jeans and crop tops",
+        "Fedoras and leather jackets",
+        "Glittery dresses",
+        "Tracksuits and bling"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Biggest dream growing up:",
+      "choices": [
+        "Win a Grammy",
+        "Sell out an arena",
+        "Shock the world with a performance",
+        "Dominate the Billboard charts"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Preferred vibe?",
+      "choices": [
+        "Innocent but edgy",
+        "Smooth and confident",
+        "Bold and powerful",
+        "Tough and unstoppable"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Pick your 2000s anthem:",
+      "choices": [
+        "Oops!... I Did It Again",
+        "Cry Me a River",
+        "Beautiful",
+        "In Da Club"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "What’s your stage move?",
+      "choices": [
+        "Sassy dance routine",
+        "Smooth pop-and-lock",
+        "Vocal powerhouse blast",
+        "Crowd intimidation energy"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Ideal collab partner:",
+      "choices": ["Madonna", "Jay-Z", "Pink", "Dr. Dre"],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Signature accessory:",
+      "choices": [
+        "Microphone headset",
+        "Fedora hat",
+        "Bold red lipstick",
+        "Bulletproof vest"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Your biggest flex:",
+      "choices": [
+        "Iconic music videos",
+        "Legendary dance moves",
+        "Powerful vocal runs",
+        "Massive album sales"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Favorite award moment:",
+      "choices": [
+        "Kissing Madonna",
+        "Suit-and-tie swag",
+        "Winning Best New Artist",
+        "Taking over the rap game"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    },
+    {
+      "question": "Best describes your life today:",
+      "choices": [
+        "Still a legend",
+        "Expanding my empire",
+        "Empowering others",
+        "Running my businesses"
+      ],
+      "weights": [
+        { "Britney Spears": 2 },
+        { "Justin Timberlake": 2 },
+        { "Christina Aguilera": 2 },
+        { "50 Cent": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

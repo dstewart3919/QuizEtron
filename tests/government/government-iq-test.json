@@ -1,35 +1,169 @@
 {
   "title": "Government IQ Test: Laws, Powers, History",
-  "background": "government",
-  "themeColor": "#223366",
-  "buttonColor": "#4466cc",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Which document established America's national government?", "choices": ["Bill of Rights", "Declaration of Independence", "U.S. Constitution", "Federalist Papers"], "answerIndex": 2 },
-    { "question": "Who has the power to declare war?", "choices": ["President", "Congress", "Supreme Court", "Governors"], "answerIndex": 1 },
-    { "question": "Which branch of government interprets laws?", "choices": ["Executive", "Legislative", "Judicial", "Bureaucratic"], "answerIndex": 2 },
-    { "question": "First ten amendments to the Constitution are called?", "choices": ["Articles", "Bill of Rights", "Federalist Addendums", "Preamble"], "answerIndex": 1 },
-    { "question": "Who wrote most of the Declaration of Independence?", "choices": ["John Adams", "George Washington", "Thomas Jefferson", "James Madison"], "answerIndex": 2 },
-    { "question": "What is the highest law of the land?", "choices": ["Supreme Court decisions", "State constitutions", "U.S. Constitution", "Presidential Orders"], "answerIndex": 2 },
-    { "question": "What does the 1st Amendment protect?", "choices": ["Gun rights", "Voting rights", "Freedom of speech, religion, press", "Trial by jury"], "answerIndex": 2 },
-    { "question": "Supreme Court Justices serve terms of:", "choices": ["8 years", "10 years", "For life", "Until age 70"], "answerIndex": 2 },
-    { "question": "Which political idea argues government must protect natural rights?", "choices": ["Socialism", "Communism", "Classical Liberalism", "Authoritarianism"], "answerIndex": 2 },
-    { "question": "Checks and Balances are meant to:", "choices": ["Speed up lawmaking", "Limit government powers", "Expand executive power", "Eliminate elections"], "answerIndex": 1 },
-    { "question": "Which philosopher heavily influenced the U.S. Constitution?", "choices": ["Hobbes", "Locke", "Marx", "Rousseau"], "answerIndex": 1 },
-    { "question": "The power to tax belongs to:", "choices": ["President", "Congress", "Supreme Court", "State Governors"], "answerIndex": 1 },
-    { "question": "Which document outlines grievances against King George III?", "choices": ["Constitution", "Declaration of Independence", "Bill of Rights", "Emancipation Proclamation"], "answerIndex": 1 },
-    { "question": "The right to bear arms is protected under which amendment?", "choices": ["1st", "2nd", "4th", "5th"], "answerIndex": 1 },
-    { "question": "What is judicial review?", "choices": ["President's veto", "Congressional override", "Court's power to rule laws unconstitutional", "State law supremacy"], "answerIndex": 2 },
-    { "question": "Which body approves treaties?", "choices": ["House of Representatives", "Supreme Court", "Senate", "President alone"], "answerIndex": 2 },
-    { "question": "What is federalism?", "choices": ["Total state control", "Division of power between national and state governments", "One party rule", "Complete independence for states"], "answerIndex": 1 },
-    { "question": "Which event showed weakness in the Articles of Confederation?", "choices": ["Boston Tea Party", "Shays' Rebellion", "Civil War", "Whiskey Rebellion"], "answerIndex": 1 },
-    { "question": "The Bill of Rights was ratified in what year?", "choices": ["1776", "1787", "1791", "1801"], "answerIndex": 2 },
-    { "question": "Which branch controls the military?", "choices": ["Judicial", "Legislative", "Executive", "Treasury"], "answerIndex": 2 }
+    {
+      "question": "Which document established America's national government?",
+      "choices": [
+        "Bill of Rights",
+        "Declaration of Independence",
+        "U.S. Constitution",
+        "Federalist Papers"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Who has the power to declare war?",
+      "choices": ["President", "Congress", "Supreme Court", "Governors"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which branch of government interprets laws?",
+      "choices": ["Executive", "Legislative", "Judicial", "Bureaucratic"],
+      "answerIndex": 2
+    },
+    {
+      "question": "First ten amendments to the Constitution are called?",
+      "choices": [
+        "Articles",
+        "Bill of Rights",
+        "Federalist Addendums",
+        "Preamble"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who wrote most of the Declaration of Independence?",
+      "choices": [
+        "John Adams",
+        "George Washington",
+        "Thomas Jefferson",
+        "James Madison"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the highest law of the land?",
+      "choices": [
+        "Supreme Court decisions",
+        "State constitutions",
+        "U.S. Constitution",
+        "Presidential Orders"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What does the 1st Amendment protect?",
+      "choices": [
+        "Gun rights",
+        "Voting rights",
+        "Freedom of speech, religion, press",
+        "Trial by jury"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Supreme Court Justices serve terms of:",
+      "choices": ["8 years", "10 years", "For life", "Until age 70"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which political idea argues government must protect natural rights?",
+      "choices": [
+        "Socialism",
+        "Communism",
+        "Classical Liberalism",
+        "Authoritarianism"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Checks and Balances are meant to:",
+      "choices": [
+        "Speed up lawmaking",
+        "Limit government powers",
+        "Expand executive power",
+        "Eliminate elections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which philosopher heavily influenced the U.S. Constitution?",
+      "choices": ["Hobbes", "Locke", "Marx", "Rousseau"],
+      "answerIndex": 1
+    },
+    {
+      "question": "The power to tax belongs to:",
+      "choices": ["President", "Congress", "Supreme Court", "State Governors"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which document outlines grievances against King George III?",
+      "choices": [
+        "Constitution",
+        "Declaration of Independence",
+        "Bill of Rights",
+        "Emancipation Proclamation"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "The right to bear arms is protected under which amendment?",
+      "choices": ["1st", "2nd", "4th", "5th"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is judicial review?",
+      "choices": [
+        "President's veto",
+        "Congressional override",
+        "Court's power to rule laws unconstitutional",
+        "State law supremacy"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which body approves treaties?",
+      "choices": [
+        "House of Representatives",
+        "Supreme Court",
+        "Senate",
+        "President alone"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is federalism?",
+      "choices": [
+        "Total state control",
+        "Division of power between national and state governments",
+        "One party rule",
+        "Complete independence for states"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which event showed weakness in the Articles of Confederation?",
+      "choices": [
+        "Boston Tea Party",
+        "Shays' Rebellion",
+        "Civil War",
+        "Whiskey Rebellion"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "The Bill of Rights was ratified in what year?",
+      "choices": ["1776", "1787", "1791", "1801"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which branch controls the military?",
+      "choices": ["Judicial", "Legislative", "Executive", "Treasury"],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

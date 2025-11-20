@@ -1,0 +1,105 @@
+{
+  "title": "Are You a True Empath?",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "You walk into a crowded room and immediately feel drained or overwhelmed, even though nothing has happened yet:",
+      "choices": ["Almost always", "Often", "Sometimes", "Rarely or never"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Watching someone cry in a movie or in real life usually makes you tear up too:",
+      "choices": [
+        "Every single time",
+        "Most of the time",
+        "Only if it’s really sad",
+        "I rarely cry, even at funerals"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You can often tell what someone is feeling before they say a word—just by their energy or facial micro-expressions:",
+      "choices": [
+        "Yes, it’s almost spooky",
+        "Usually",
+        "Sometimes I guess right",
+        "I need them to tell me"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "After spending time with certain people, you feel exactly how they were feeling (angry, sad, anxious) even though it wasn’t about you:",
+      "choices": [
+        "All the time—I absorb it",
+        "Pretty often",
+        "Only if we’re very close",
+        "Never happens"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Loud, chaotic, or highly stimulating places (malls, concerts, parties) make you want to leave after a short time:",
+      "choices": [
+        "Yes, I need to recharge alone afterward",
+        "Usually",
+        "Only if I’m already tired",
+        "I love that energy"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You’ve been told by others that you’re “too sensitive” or “feel things too deeply”:",
+      "choices": ["Many times", "A few times", "Once or twice", "Never"],
+      "answerIndex": 0
+    },
+    {
+      "question": "When someone near you is in physical pain (even if they’re hiding it), you often feel a sensation in the same part of your body:",
+      "choices": [
+        "Yes, it’s unmistakable",
+        "Sometimes",
+        "I think so?",
+        "No, that doesn’t happen"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You tend to know when someone is lying or hiding their true feelings:",
+      "choices": [
+        "Almost always—my gut screams",
+        "Most of the time",
+        "50/50",
+        "I’m usually clueless"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Being around very negative or toxic people physically exhausts you or makes you feel sick:",
+      "choices": [
+        "Yes, I have to limit exposure",
+        "Often",
+        "Only extreme cases",
+        "Doesn’t bother me much"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You feel a strong pull to help people who are suffering, sometimes even strangers, and it’s hard to walk away:",
+      "choices": [
+        "Yes, it feels like a calling",
+        "Usually",
+        "Only if I know them",
+        "I keep my distance"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Certified True Empath  You don’t just understand feelings—you live them. You’re a human emotional sponge (protect that gift!).",
+      "medium": "Highly Empathic Soul  You feel deeply and pick up on others more than most—classic empath in training.",
+      "low": "Low-to-Moderate Empathy  You care, but you don’t absorb the world’s emotions. You probably have strong boundaries and thick skin—also a superpower!"
+    }
+  }
+}

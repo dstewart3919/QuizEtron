@@ -1,35 +1,149 @@
 {
   "title": "Matrix Reality Decoder Challenge",
-  "background": "sci-fi",
-  "themeColor": "#111111",
-  "buttonColor": "#cc0000",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "What is 6 × (4 + 2) ÷ 3?", "choices": ["6", "8", "12", "10"], "answerIndex": 2 },
-    { "question": "Next in sequence: 3, 6, 12, 24, __", "choices": ["36", "42", "48", "54"], "answerIndex": 2 },
-    { "question": "Neo dodges bullets because:", "choices": ["Super strength", "Speed hacking", "Understanding Matrix code", "Time travel"], "answerIndex": 2 },
-    { "question": "If reality is a simulation, biggest clue would be:", "choices": ["Glitches", "Gravity", "Rainfall", "Sunrise"], "answerIndex": 0 },
-    { "question": "Binary for 7 is:", "choices": ["100", "101", "110", "111"], "answerIndex": 3 },
-    { "question": "Red pill symbolizes:", "choices": ["Control", "Ignorance", "Freedom and truth", "Memory loss"], "answerIndex": 2 },
-    { "question": "Solve for X: 5X + 15 = 40", "choices": ["3", "4", "5", "6"], "answerIndex": 2 },
-    { "question": "A mind freed from the Matrix can:", "choices": ["Fly instantly", "Bend reality rules", "Teleport", "Duplicate itself"], "answerIndex": 1 },
-    { "question": "If your senses are unreliable, best way to find truth is:", "choices": ["Logic and reason", "Hope", "Feeling", "Trust others blindly"], "answerIndex": 0 },
-    { "question": "You see repeating numbers everywhere. Most logical explanation?", "choices": ["Glitch", "Superstition", "Time warp", "Magic"], "answerIndex": 0 },
-    { "question": "Complete the pattern: A, C, F, J, __?", "choices": ["K", "L", "M", "N"], "answerIndex": 3 },
-    { "question": "If Morpheus offers 2 pills, which leads to staying asleep?", "choices": ["Red", "Blue", "Green", "Black"], "answerIndex": 1 },
-    { "question": "Which is the odd one out: 2, 4, 8, 10, 16", "choices": ["2", "4", "8", "10"], "answerIndex": 3 },
-    { "question": "Matrix agents can:", "choices": ["Be everywhere", "Control one body at a time", "Teleport between minds", "Be permanently destroyed easily"], "answerIndex": 2 },
-    { "question": "A simulation where everyone sees identical illusions would likely have:", "choices": ["Consistent glitches", "No glitches", "Random magic", "Gravity shifting randomly"], "answerIndex": 0 },
-    { "question": "If time slows near light speed, a ship traveling at 90% light speed would:", "choices": ["Experience more time", "Age slower", "Accelerate aging", "Go backwards"], "answerIndex": 1 },
-    { "question": "Which logical operation is 'both must be true'?", "choices": ["OR", "NOT", "AND", "XOR"], "answerIndex": 2 },
-    { "question": "Morpheus believes destiny is a result of:", "choices": ["Randomness", "Choice", "Glitch", "Luck"], "answerIndex": 1 },
-    { "question": "What kind of signal might reveal a fake world?", "choices": ["Perfect randomness", "Repeating patterns", "Total silence", "Loud alarms"], "answerIndex": 1 },
-    { "question": "Neo’s true power came from:", "choices": ["Magic training", "Genetic mutation", "Faith in reality bending", "New hardware"], "answerIndex": 2 }
+    {
+      "question": "What is 6 × (4 + 2) ÷ 3?",
+      "choices": ["6", "8", "12", "10"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Next in sequence: 3, 6, 12, 24, __",
+      "choices": ["36", "42", "48", "54"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Neo dodges bullets because:",
+      "choices": [
+        "Super strength",
+        "Speed hacking",
+        "Understanding Matrix code",
+        "Time travel"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "If reality is a simulation, biggest clue would be:",
+      "choices": ["Glitches", "Gravity", "Rainfall", "Sunrise"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Binary for 7 is:",
+      "choices": ["100", "101", "110", "111"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Red pill symbolizes:",
+      "choices": ["Control", "Ignorance", "Freedom and truth", "Memory loss"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Solve for X: 5X + 15 = 40",
+      "choices": ["3", "4", "5", "6"],
+      "answerIndex": 2
+    },
+    {
+      "question": "A mind freed from the Matrix can:",
+      "choices": [
+        "Fly instantly",
+        "Bend reality rules",
+        "Teleport",
+        "Duplicate itself"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If your senses are unreliable, best way to find truth is:",
+      "choices": [
+        "Logic and reason",
+        "Hope",
+        "Feeling",
+        "Trust others blindly"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You see repeating numbers everywhere. Most logical explanation?",
+      "choices": ["Glitch", "Superstition", "Time warp", "Magic"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Complete the pattern: A, C, F, J, __?",
+      "choices": ["K", "L", "M", "N"],
+      "answerIndex": 3
+    },
+    {
+      "question": "If Morpheus offers 2 pills, which leads to staying asleep?",
+      "choices": ["Red", "Blue", "Green", "Black"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which is the odd one out: 2, 4, 8, 10, 16",
+      "choices": ["2", "4", "8", "10"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Matrix agents can:",
+      "choices": [
+        "Be everywhere",
+        "Control one body at a time",
+        "Teleport between minds",
+        "Be permanently destroyed easily"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "A simulation where everyone sees identical illusions would likely have:",
+      "choices": [
+        "Consistent glitches",
+        "No glitches",
+        "Random magic",
+        "Gravity shifting randomly"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "If time slows near light speed, a ship traveling at 90% light speed would:",
+      "choices": [
+        "Experience more time",
+        "Age slower",
+        "Accelerate aging",
+        "Go backwards"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which logical operation is 'both must be true'?",
+      "choices": ["OR", "NOT", "AND", "XOR"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Morpheus believes destiny is a result of:",
+      "choices": ["Randomness", "Choice", "Glitch", "Luck"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What kind of signal might reveal a fake world?",
+      "choices": [
+        "Perfect randomness",
+        "Repeating patterns",
+        "Total silence",
+        "Loud alarms"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Neo’s true power came from:",
+      "choices": [
+        "Magic training",
+        "Genetic mutation",
+        "Faith in reality bending",
+        "New hardware"
+      ],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

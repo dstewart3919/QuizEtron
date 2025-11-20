@@ -1,25 +1,144 @@
 {
   "title": "Which POP Song Are You?",
-  "background": "pop",
-  "themeColor": "#ff66cc",
-  "buttonColor": "#ff3399",
+  "background": "pop.png",
+  "theme": "theme-pop",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "What's your ideal Friday night?", "choices": ["Dancing all night", "Netflix binge", "Road trip", "Hosting a party"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Pick a color:", "choices": ["Gold", "Blue", "Red", "Pink"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Your vibe in high school was:", "choices": ["Life of the party", "Quiet and reflective", "Heartbroken but strong", "Cheerful and energetic"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Favorite way to relax:", "choices": ["Dance workout", "Long emotional playlist", "Late night drive", "Singing loudly with friends"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Pick a snack:", "choices": ["Nachos", "Ice cream", "French fries", "Cupcakes"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "When faced with heartbreak, you:", "choices": ["Dance through the pain", "Write poetry", "Drive and cry it out", "Call your besties"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Biggest dream:", "choices": ["Perform on stage", "Find true love", "Become a storyteller", "Travel the world"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Your personal motto:", "choices": ["Don't believe me just watch!", "Never forget your roots.", "Feel it all.", "Freedom and fun forever!"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "Best way to celebrate a win:", "choices": ["Dance battle!", "Reflect and stay humble.", "Take a solo adventure.", "Throw a massive party."], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] },
-    { "question": "If you could meet one pop artist:", "choices": ["Bruno Mars", "Adele", "Olivia Rodrigo", "Miley Cyrus"], "weights": [{"Uptown Funk": 2}, {"Someone Like You": 2}, {"drivers license": 2}, {"Party in the USA": 2}] }
+    {
+      "question": "What's your ideal Friday night?",
+      "choices": [
+        "Dancing all night",
+        "Netflix binge",
+        "Road trip",
+        "Hosting a party"
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Pick a color:",
+      "choices": ["Gold", "Blue", "Red", "Pink"],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Your vibe in high school was:",
+      "choices": [
+        "Life of the party",
+        "Quiet and reflective",
+        "Heartbroken but strong",
+        "Cheerful and energetic"
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Favorite way to relax:",
+      "choices": [
+        "Dance workout",
+        "Long emotional playlist",
+        "Late night drive",
+        "Singing loudly with friends"
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Pick a snack:",
+      "choices": ["Nachos", "Ice cream", "French fries", "Cupcakes"],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "When faced with heartbreak, you:",
+      "choices": [
+        "Dance through the pain",
+        "Write poetry",
+        "Drive and cry it out",
+        "Call your besties"
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Biggest dream:",
+      "choices": [
+        "Perform on stage",
+        "Find true love",
+        "Become a storyteller",
+        "Travel the world"
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Your personal motto:",
+      "choices": [
+        "Don't believe me just watch!",
+        "Never forget your roots.",
+        "Feel it all.",
+        "Freedom and fun forever!"
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "Best way to celebrate a win:",
+      "choices": [
+        "Dance battle!",
+        "Reflect and stay humble.",
+        "Take a solo adventure.",
+        "Throw a massive party."
+      ],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    },
+    {
+      "question": "If you could meet one pop artist:",
+      "choices": ["Bruno Mars", "Adele", "Olivia Rodrigo", "Miley Cyrus"],
+      "weights": [
+        { "Uptown Funk": 2 },
+        { "Someone Like You": 2 },
+        { "drivers license": 2 },
+        { "Party in the USA": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

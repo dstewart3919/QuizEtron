@@ -1,35 +1,299 @@
 {
   "title": "Which Horror Universe Would You Dominate?",
-  "background": "horror",
-  "themeColor": "#330000",
-  "buttonColor": "#990000",
+  "background": "horror.png",
+  "theme": "theme-horror",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Your ideal horror setting?", "choices": ["Nightmare dreamscape", "Haunted woods", "Post-apocalyptic ruins", "Urban ghost city"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Best survival trait?", "choices": ["Controlling fear", "Physical endurance", "Resourcefulness", "Mental resilience"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Your main horror enemy?", "choices": ["Dream monster", "Masked killer", "Rotting undead", "Mind-bending demon"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Preferred weapon?", "choices": ["Mind tricks", "Machete", "Crossbow", "Sigils and charms"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Biggest fear?", "choices": ["Losing reality", "Helplessness", "Loved ones turning", "Facing guilt"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "First thing you build?", "choices": ["Mental defenses", "Hidden shelters", "Supply caches", "Maps of hidden places"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "At night, you:", "choices": ["Control dreams", "Stay silent in darkness", "Keep watch", "Meditate for focus"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "First companion?", "choices": ["Psychologist", "Hunter", "Medic", "Priest"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "What scares you more?", "choices": ["Losing control", "Being hunted", "Starving slowly", "Facing inner demons"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Victory feels like:", "choices": ["Mastering your fears", "Defeating the enemy physically", "Surviving another day", "Unraveling deep truths"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Biggest threat?", "choices": ["Your subconscious", "Supernatural brute force", "The infected", "Psychological breakdown"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Your camp motto?", "choices": ["Master your dreams", "Strength in silence", "Survive at any cost", "Face the darkness"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "After surviving horrors, you:", "choices": ["Master dreamwalking", "Train harder physically", "Build bigger colonies", "Seek meaning in madness"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Choose your ultimate weapon:", "choices": ["Lucid dreaming powers", "Unstoppable endurance", "Team survival tactics", "Mind shields"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Biggest mistake survivors make?", "choices": ["Ignoring inner fears", "Getting cocky", "Wasting supplies", "Trusting hallucinations"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "In a dream realm, your survival tactic:", "choices": ["Shape your reality", "Attack first", "Hide and survive", "Decode symbols"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "When alone, you:", "choices": ["Control fears", "Prepare traps", "Hunt supplies", "Meditate for calm"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "If you could gain one ability?", "choices": ["Dream walking", "Super strength", "Self-healing", "Mind reading"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "Winning strategy overall?", "choices": ["Master yourself", "Strike hard, strike fast", "Endure longer than enemies", "Outthink your nightmares"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] },
-    { "question": "If you ruled a horror universe, you would:", "choices": ["Rule the dream world", "Be the ultimate slasher", "Lead surviving colonies", "Control the dark dimensions"], "weights": [{"Elm Street": 2}, {"Friday the 13th": 2}, {"The Walking Dead": 2}, {"Silent Hill": 2}] }
+    {
+      "question": "Your ideal horror setting?",
+      "choices": [
+        "Nightmare dreamscape",
+        "Haunted woods",
+        "Post-apocalyptic ruins",
+        "Urban ghost city"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Best survival trait?",
+      "choices": [
+        "Controlling fear",
+        "Physical endurance",
+        "Resourcefulness",
+        "Mental resilience"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Your main horror enemy?",
+      "choices": [
+        "Dream monster",
+        "Masked killer",
+        "Rotting undead",
+        "Mind-bending demon"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Preferred weapon?",
+      "choices": ["Mind tricks", "Machete", "Crossbow", "Sigils and charms"],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Biggest fear?",
+      "choices": [
+        "Losing reality",
+        "Helplessness",
+        "Loved ones turning",
+        "Facing guilt"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "First thing you build?",
+      "choices": [
+        "Mental defenses",
+        "Hidden shelters",
+        "Supply caches",
+        "Maps of hidden places"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "At night, you:",
+      "choices": [
+        "Control dreams",
+        "Stay silent in darkness",
+        "Keep watch",
+        "Meditate for focus"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "First companion?",
+      "choices": ["Psychologist", "Hunter", "Medic", "Priest"],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "What scares you more?",
+      "choices": [
+        "Losing control",
+        "Being hunted",
+        "Starving slowly",
+        "Facing inner demons"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Victory feels like:",
+      "choices": [
+        "Mastering your fears",
+        "Defeating the enemy physically",
+        "Surviving another day",
+        "Unraveling deep truths"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Biggest threat?",
+      "choices": [
+        "Your subconscious",
+        "Supernatural brute force",
+        "The infected",
+        "Psychological breakdown"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Your camp motto?",
+      "choices": [
+        "Master your dreams",
+        "Strength in silence",
+        "Survive at any cost",
+        "Face the darkness"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "After surviving horrors, you:",
+      "choices": [
+        "Master dreamwalking",
+        "Train harder physically",
+        "Build bigger colonies",
+        "Seek meaning in madness"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Choose your ultimate weapon:",
+      "choices": [
+        "Lucid dreaming powers",
+        "Unstoppable endurance",
+        "Team survival tactics",
+        "Mind shields"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Biggest mistake survivors make?",
+      "choices": [
+        "Ignoring inner fears",
+        "Getting cocky",
+        "Wasting supplies",
+        "Trusting hallucinations"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "In a dream realm, your survival tactic:",
+      "choices": [
+        "Shape your reality",
+        "Attack first",
+        "Hide and survive",
+        "Decode symbols"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "When alone, you:",
+      "choices": [
+        "Control fears",
+        "Prepare traps",
+        "Hunt supplies",
+        "Meditate for calm"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "If you could gain one ability?",
+      "choices": [
+        "Dream walking",
+        "Super strength",
+        "Self-healing",
+        "Mind reading"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "Winning strategy overall?",
+      "choices": [
+        "Master yourself",
+        "Strike hard, strike fast",
+        "Endure longer than enemies",
+        "Outthink your nightmares"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    },
+    {
+      "question": "If you ruled a horror universe, you would:",
+      "choices": [
+        "Rule the dream world",
+        "Be the ultimate slasher",
+        "Lead surviving colonies",
+        "Control the dark dimensions"
+      ],
+      "weights": [
+        { "Elm Street": 2 },
+        { "Friday the 13th": 2 },
+        { "The Walking Dead": 2 },
+        { "Silent Hill": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

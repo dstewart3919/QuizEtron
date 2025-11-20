@@ -1,35 +1,189 @@
 {
   "title": "Collapse Crisis Decision Test",
-  "background": "apocalypse",
-  "themeColor": "#552200",
-  "buttonColor": "#aa4400",
+  "background": "apocalypse.png",
+  "theme": "theme-apocalypse",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "First action during city-wide blackout?", "choices": ["Loot stores", "Find candles", "Secure perimeter", "Drive to another city"], "answerIndex": 2 },
-    { "question": "If caught in a riot, your best move is:", "choices": ["Join crowd", "Hide indoors", "Film it", "Shout for police"], "answerIndex": 1 },
-    { "question": "Nuclear alert sirens sound — you should:", "choices": ["Run outside", "Get underground", "Climb high", "Board up windows"], "answerIndex": 1 },
-    { "question": "Massive wildfire approaching — what to grab first?", "choices": ["Family photos", "Water and masks", "Jewelry", "TV"], "answerIndex": 1 },
-    { "question": "Sudden flooding — safest escape route?", "choices": ["Downhill", "Follow traffic", "High ground", "Stay indoors"], "answerIndex": 2 },
-    { "question": "Best defense during a pandemic outbreak?", "choices": ["Travel a lot", "Mask and isolate", "Loot pharmacies", "Party while you can"], "answerIndex": 1 },
-    { "question": "You see a collapsing building — first move?", "choices": ["Run into it", "Stand and watch", "Run perpendicular to collapse", "Film for evidence"], "answerIndex": 2 },
-    { "question": "Major EMP event confirmed. Immediate priority?", "choices": ["Post on social media", "Secure food/water", "Drive fast", "Buy more electronics"], "answerIndex": 1 },
-    { "question": "Trapped in elevator during blackout — best move?", "choices": ["Pry doors open", "Wait and conserve air", "Climb through roof hatch", "Shout for hours"], "answerIndex": 1 },
-    { "question": "After chemical plant explosion — your move?", "choices": ["Shelter indoors", "Run outside", "Spray water", "Wait for instructions"], "answerIndex": 0 },
-    { "question": "Civil war erupts in your country — you should:", "choices": ["Join immediately", "Evacuate to rural area", "Stay downtown", "Take photos"], "answerIndex": 1 },
-    { "question": "Tsunami warning issued — first move?", "choices": ["Grab supplies", "Reach high ground immediately", "Start car", "Call friends"], "answerIndex": 1 },
-    { "question": "Hospital collapses during disaster — best survivor triage?", "choices": ["Help anyone first", "Prioritize lightly injured", "Save critically injured first", "Wait for help"], "answerIndex": 1 },
-    { "question": "During martial law, safest strategy?", "choices": ["Blend into crowds", "Avoid cities", "Challenge soldiers", "Ignore curfews"], "answerIndex": 1 },
-    { "question": "Sudden dust storm while traveling — immediate action?", "choices": ["Speed up", "Slow down and pull over", "Keep headlights bright", "Run outside"], "answerIndex": 1 },
-    { "question": "Earthquake strikes — best place to take shelter?", "choices": ["Near windows", "Under sturdy furniture", "Outside immediately", "In tall buildings"], "answerIndex": 1 },
-    { "question": "Water supply contaminated — first step?", "choices": ["Boil all water", "Ignore it", "Drink soda", "Use bleach"], "answerIndex": 0 },
-    { "question": "Mass exodus from city — safest timing to leave?", "choices": ["Before others flee", "During peak traffic", "Late after chaos", "After officials announce it"], "answerIndex": 0 },
-    { "question": "Major bridge collapse nearby — important action?", "choices": ["Cross fast", "Find alternate route", "Inspect personally", "Film and post online"], "answerIndex": 1 },
-    { "question": "Terror attack occurs — safest behavior?", "choices": ["Film it", "Flee from danger", "Rush toward scene", "Join crowd"], "answerIndex": 1 }
+    {
+      "question": "First action during city-wide blackout?",
+      "choices": [
+        "Loot stores",
+        "Find candles",
+        "Secure perimeter",
+        "Drive to another city"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "If caught in a riot, your best move is:",
+      "choices": ["Join crowd", "Hide indoors", "Film it", "Shout for police"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Nuclear alert sirens sound — you should:",
+      "choices": [
+        "Run outside",
+        "Get underground",
+        "Climb high",
+        "Board up windows"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Massive wildfire approaching — what to grab first?",
+      "choices": ["Family photos", "Water and masks", "Jewelry", "TV"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Sudden flooding — safest escape route?",
+      "choices": ["Downhill", "Follow traffic", "High ground", "Stay indoors"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Best defense during a pandemic outbreak?",
+      "choices": [
+        "Travel a lot",
+        "Mask and isolate",
+        "Loot pharmacies",
+        "Party while you can"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You see a collapsing building — first move?",
+      "choices": [
+        "Run into it",
+        "Stand and watch",
+        "Run perpendicular to collapse",
+        "Film for evidence"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Major EMP event confirmed. Immediate priority?",
+      "choices": [
+        "Post on social media",
+        "Secure food/water",
+        "Drive fast",
+        "Buy more electronics"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Trapped in elevator during blackout — best move?",
+      "choices": [
+        "Pry doors open",
+        "Wait and conserve air",
+        "Climb through roof hatch",
+        "Shout for hours"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "After chemical plant explosion — your move?",
+      "choices": [
+        "Shelter indoors",
+        "Run outside",
+        "Spray water",
+        "Wait for instructions"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Civil war erupts in your country — you should:",
+      "choices": [
+        "Join immediately",
+        "Evacuate to rural area",
+        "Stay downtown",
+        "Take photos"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Tsunami warning issued — first move?",
+      "choices": [
+        "Grab supplies",
+        "Reach high ground immediately",
+        "Start car",
+        "Call friends"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Hospital collapses during disaster — best survivor triage?",
+      "choices": [
+        "Help anyone first",
+        "Prioritize lightly injured",
+        "Save critically injured first",
+        "Wait for help"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "During martial law, safest strategy?",
+      "choices": [
+        "Blend into crowds",
+        "Avoid cities",
+        "Challenge soldiers",
+        "Ignore curfews"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Sudden dust storm while traveling — immediate action?",
+      "choices": [
+        "Speed up",
+        "Slow down and pull over",
+        "Keep headlights bright",
+        "Run outside"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Earthquake strikes — best place to take shelter?",
+      "choices": [
+        "Near windows",
+        "Under sturdy furniture",
+        "Outside immediately",
+        "In tall buildings"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Water supply contaminated — first step?",
+      "choices": ["Boil all water", "Ignore it", "Drink soda", "Use bleach"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Mass exodus from city — safest timing to leave?",
+      "choices": [
+        "Before others flee",
+        "During peak traffic",
+        "Late after chaos",
+        "After officials announce it"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Major bridge collapse nearby — important action?",
+      "choices": [
+        "Cross fast",
+        "Find alternate route",
+        "Inspect personally",
+        "Film and post online"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Terror attack occurs — safest behavior?",
+      "choices": [
+        "Film it",
+        "Flee from danger",
+        "Rush toward scene",
+        "Join crowd"
+      ],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

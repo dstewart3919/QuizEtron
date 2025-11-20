@@ -1,0 +1,115 @@
+{
+  "title": "Joyful Spirit Check",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "A completely ordinary Tuesday morning—how likely are you to feel genuinely happy for no big reason?",
+      "choices": [
+        "Almost always",
+        "Pretty often",
+        "Only if something good happens",
+        "Rarely—I need a reason"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your favorite silly song comes on the radio while you’re alone in the car. You:",
+      "choices": [
+        "Turn it up and sing/dance like nobody’s watching",
+        "Smile and tap the wheel",
+        "Keep a straight face",
+        "Change the station—too embarrassing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "When something wonderful happens to a friend, your first feeling is:",
+      "choices": [
+        "Pure excitement—like it happened to you",
+        "Happy for them",
+        "Slightly jealous",
+        "Indifferent"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "How often do you laugh out loud when you’re completely by yourself?",
+      "choices": [
+        "Daily",
+        "A few times a week",
+        "Only when watching comedy",
+        "Almost never"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You spot a beautiful sunset. You immediately:",
+      "choices": [
+        "Stop everything to soak it in and maybe take a photo to share",
+        "Notice it and feel a little lift",
+        "Think “nice” and keep walking",
+        "Don’t even register it"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "People would most likely describe your energy in a room as:",
+      "choices": [
+        "The human equivalent of sunshine",
+        "Warm and pleasant",
+        "Calm/neutral",
+        "Serious or hard to read"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "When life is stressful, you still manage to find or create small moments of joy:",
+      "choices": [
+        "Yes, it’s my superpower",
+        "Most of the time",
+        "Only when things calm down",
+        "Rarely—stress wins"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You’re walking past strangers and accidentally make eye contact. You usually:",
+      "choices": [
+        "Smile instinctively",
+        "Give a quick polite nod/smile",
+        "Look away fast",
+        "Stare blankly or frown"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "How easy is it for you to turn a bad day around with something as simple as good music, a treat, or a funny video?",
+      "choices": [
+        "Super easy—I do it all the time",
+        "Fairly easy",
+        "Takes real effort",
+        "Almost impossible"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "At your core, you believe life is:",
+      "choices": [
+        "A gift meant to be enjoyed",
+        "Pretty good overall",
+        "A mix of ups and downs",
+        "Mostly hard work and struggle"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Radiant Joyful Spirit  You carry happiness like it’s contagious (and it is). The world is brighter because you’re in it.",
+      "medium": "Warm-Hearted & Happy  You’ve got plenty of joy—you just sometimes forget to turn the volume all the way up.",
+      "low": "Joy Seeker in Training  You’re capable of deep happiness, but life might have dimmed your light for now. It’s still there—time to let it shine!"
+    }
+  }
+}

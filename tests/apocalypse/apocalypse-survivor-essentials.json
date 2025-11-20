@@ -1,35 +1,139 @@
 {
   "title": "Apocalypse Survivor Essentials",
-  "background": "apocalypse",
-  "themeColor": "#993300",
-  "buttonColor": "#cc6600",
+  "background": "apocalypse.png",
+  "theme": "theme-apocalypse",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "What's the first thing you secure after a societal collapse?", "choices": ["Weapons", "Water", "Gasoline", "Food"], "answerIndex": 1 },
-    { "question": "Best long-term bartering item post-collapse?", "choices": ["Gold", "Alcohol", "Batteries", "Ammunition"], "answerIndex": 3 },
-    { "question": "Which vehicle is best suited for rough terrain survival?", "choices": ["Motorcycle", "SUV", "Sports Car", "Pickup Truck"], "answerIndex": 3 },
-    { "question": "Ideal defensive structure for an outpost?", "choices": ["Glass building", "Abandoned mall", "Walled farm", "Office tower"], "answerIndex": 2 },
-    { "question": "When traveling, what time is safest?", "choices": ["Midday", "Night", "Dawn", "Afternoon"], "answerIndex": 2 },
-    { "question": "Most reliable way to filter river water?", "choices": ["Cloth", "Boiling", "Sand", "Bleach"], "answerIndex": 1 },
-    { "question": "Which signal shows hostile survivors nearby?", "choices": ["Multiple fires", "Stacked rocks", "Painted skulls", "No signs at all"], "answerIndex": 2 },
-    { "question": "Essential for surviving radioactive zones?", "choices": ["Lead shielding", "Steel armor", "Plastic cover", "Rubber suit"], "answerIndex": 0 },
-    { "question": "Which animal would likely thrive after an apocalypse?", "choices": ["Cows", "Rats", "Deer", "Chickens"], "answerIndex": 1 },
-    { "question": "Which of these is the most calorie-dense survival food?", "choices": ["Jerky", "Peanut butter", "Crackers", "Rice"], "answerIndex": 1 },
-    { "question": "Most important for long-term survival?", "choices": ["Luxury items", "Medicine", "Jewelry", "Electronics"], "answerIndex": 1 },
-    { "question": "Best natural insulation material for shelters?", "choices": ["Grass", "Sand", "Wood", "Mud"], "answerIndex": 3 },
-    { "question": "After a major EMP, which item would still work?", "choices": ["Electric car", "Old diesel truck", "Laptop", "Drone"], "answerIndex": 1 },
-    { "question": "Biggest threat after initial collapse?", "choices": ["Zombies", "Disease", "Starvation", "Mutants"], "answerIndex": 2 },
-    { "question": "Which weapon is most sustainable in the long-term?", "choices": ["Crossbow", "Assault rifle", "Shotgun", "Handgun"], "answerIndex": 0 },
-    { "question": "How often should you rotate your survival camp?", "choices": ["Daily", "Weekly", "Monthly", "Never"], "answerIndex": 1 },
-    { "question": "Best use for salt in survival?", "choices": ["Weapon crafting", "Preserving food", "Fertilizer", "Fuel source"], "answerIndex": 1 },
-    { "question": "Best defensive perimeter alert system?", "choices": ["Dogs", "Tripwire alarms", "Drone surveillance", "Guard towers"], "answerIndex": 1 },
-    { "question": "Where is the best place to store your supplies?", "choices": ["Near the surface", "Buried underground", "In plain sight", "On rooftops"], "answerIndex": 1 },
-    { "question": "Key trait for leading a survival group?", "choices": ["Strength", "Charisma", "Trustworthiness", "Cunning"], "answerIndex": 2 }
+    {
+      "question": "What's the first thing you secure after a societal collapse?",
+      "choices": ["Weapons", "Water", "Gasoline", "Food"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best long-term bartering item post-collapse?",
+      "choices": ["Gold", "Alcohol", "Batteries", "Ammunition"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which vehicle is best suited for rough terrain survival?",
+      "choices": ["Motorcycle", "SUV", "Sports Car", "Pickup Truck"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Ideal defensive structure for an outpost?",
+      "choices": [
+        "Glass building",
+        "Abandoned mall",
+        "Walled farm",
+        "Office tower"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "When traveling, what time is safest?",
+      "choices": ["Midday", "Night", "Dawn", "Afternoon"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Most reliable way to filter river water?",
+      "choices": ["Cloth", "Boiling", "Sand", "Bleach"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which signal shows hostile survivors nearby?",
+      "choices": [
+        "Multiple fires",
+        "Stacked rocks",
+        "Painted skulls",
+        "No signs at all"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Essential for surviving radioactive zones?",
+      "choices": [
+        "Lead shielding",
+        "Steel armor",
+        "Plastic cover",
+        "Rubber suit"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which animal would likely thrive after an apocalypse?",
+      "choices": ["Cows", "Rats", "Deer", "Chickens"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these is the most calorie-dense survival food?",
+      "choices": ["Jerky", "Peanut butter", "Crackers", "Rice"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Most important for long-term survival?",
+      "choices": ["Luxury items", "Medicine", "Jewelry", "Electronics"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best natural insulation material for shelters?",
+      "choices": ["Grass", "Sand", "Wood", "Mud"],
+      "answerIndex": 3
+    },
+    {
+      "question": "After a major EMP, which item would still work?",
+      "choices": ["Electric car", "Old diesel truck", "Laptop", "Drone"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Biggest threat after initial collapse?",
+      "choices": ["Zombies", "Disease", "Starvation", "Mutants"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which weapon is most sustainable in the long-term?",
+      "choices": ["Crossbow", "Assault rifle", "Shotgun", "Handgun"],
+      "answerIndex": 0
+    },
+    {
+      "question": "How often should you rotate your survival camp?",
+      "choices": ["Daily", "Weekly", "Monthly", "Never"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best use for salt in survival?",
+      "choices": [
+        "Weapon crafting",
+        "Preserving food",
+        "Fertilizer",
+        "Fuel source"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best defensive perimeter alert system?",
+      "choices": [
+        "Dogs",
+        "Tripwire alarms",
+        "Drone surveillance",
+        "Guard towers"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Where is the best place to store your supplies?",
+      "choices": [
+        "Near the surface",
+        "Buried underground",
+        "In plain sight",
+        "On rooftops"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Key trait for leading a survival group?",
+      "choices": ["Strength", "Charisma", "Trustworthiness", "Cunning"],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

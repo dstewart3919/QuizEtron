@@ -1,35 +1,209 @@
 {
   "title": "International Politics Survival Test",
-  "background": "government",
-  "themeColor": "#223355",
-  "buttonColor": "#4466aa",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Diplomatic crisis erupts. First move?", "choices": ["Call allies", "Threaten publicly", "Remain silent", "Appease opponent"], "answerIndex": 0 },
-    { "question": "Country violates your airspace. You:", "choices": ["Protest diplomatically", "Shoot down intruders", "Ignore it", "Retaliate with sanctions"], "answerIndex": 0 },
-    { "question": "Global summit begins. Key goal?", "choices": ["Forge alliances", "Dominate negotiations", "Sabotage rivals", "Pose for photos"], "answerIndex": 0 },
-    { "question": "Sanctions fail. You:", "choices": ["Negotiate", "Escalate militarily", "Back down quietly", "Blame another country"], "answerIndex": 0 },
-    { "question": "International media attacks your policies. You:", "choices": ["Defend calmly", "Censor reports", "Ignore", "Counterattack harshly"], "answerIndex": 0 },
-    { "question": "Foreign leader insults your nation. You:", "choices": ["Stay diplomatic", "Retaliate harshly", "Leak dirt on them", "Ignore completely"], "answerIndex": 0 },
-    { "question": "Global economy crashes. First action?", "choices": ["Emergency summits", "Isolationism", "Nationalize industries", "Blame immigrants"], "answerIndex": 0 },
-    { "question": "Your ambassador is expelled. Response?", "choices": ["Expel theirs", "Apologize", "Threaten war", "Send undercover spies"], "answerIndex": 0 },
-    { "question": "New regional power emerges. You:", "choices": ["Negotiate deals", "Challenge them directly", "Ignore it", "Mock them online"], "answerIndex": 0 },
-    { "question": "Mass protests overseas against your country. You:", "choices": ["Address grievances", "Threaten protesters", "Fund counter-protests", "Blame media"], "answerIndex": 0 },
-    { "question": "Global energy crisis begins. First priority?", "choices": ["Secure energy deals", "Steal resources", "Invade oil-rich neighbors", "Ignore it"], "answerIndex": 0 },
-    { "question": "A coup happens in an allied nation. You:", "choices": ["Support democracy restoration", "Support new regime quietly", "Stay neutral", "Exploit situation"], "answerIndex": 0 },
-    { "question": "Trade war begins. You:", "choices": ["Negotiate", "Raise tariffs higher", "Blockade ports", "Ignore"], "answerIndex": 0 },
-    { "question": "Climate change summit. You advocate:", "choices": ["Global cooperation", "Self-interest first", "Denial of science", "Nuclear power only"], "answerIndex": 0 },
-    { "question": "Global famine spreading. First move?", "choices": ["Food aid program", "Profit from food sales", "Ignore", "Blame other countries"], "answerIndex": 0 },
-    { "question": "Cyber attack traced to foreign power. You:", "choices": ["Strengthen defenses", "Launch cyber retaliation", "Sue in international court", "Ignore if small"], "answerIndex": 0 },
-    { "question": "Peace negotiations fail. You:", "choices": ["Try again", "Prepare for war", "Declare neutrality", "Blame another ally"], "answerIndex": 0 },
-    { "question": "Your spy agency is caught overseas. You:", "choices": ["Deny everything", "Trade prisoners", "Abandon the agent", "Blame private contractors"], "answerIndex": 0 },
-    { "question": "Nuclear treaty collapses. First focus?", "choices": ["Rebuild alliances", "Rapid armament", "Declare global neutrality", "Brag about strength"], "answerIndex": 0 },
-    { "question": "At international court, your country is accused. You:", "choices": ["Provide evidence", "Deny all claims", "Withdraw from court", "Blame old leadership"], "answerIndex": 0 }
+    {
+      "question": "Diplomatic crisis erupts. First move?",
+      "choices": [
+        "Call allies",
+        "Threaten publicly",
+        "Remain silent",
+        "Appease opponent"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Country violates your airspace. You:",
+      "choices": [
+        "Protest diplomatically",
+        "Shoot down intruders",
+        "Ignore it",
+        "Retaliate with sanctions"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Global summit begins. Key goal?",
+      "choices": [
+        "Forge alliances",
+        "Dominate negotiations",
+        "Sabotage rivals",
+        "Pose for photos"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Sanctions fail. You:",
+      "choices": [
+        "Negotiate",
+        "Escalate militarily",
+        "Back down quietly",
+        "Blame another country"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "International media attacks your policies. You:",
+      "choices": [
+        "Defend calmly",
+        "Censor reports",
+        "Ignore",
+        "Counterattack harshly"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Foreign leader insults your nation. You:",
+      "choices": [
+        "Stay diplomatic",
+        "Retaliate harshly",
+        "Leak dirt on them",
+        "Ignore completely"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Global economy crashes. First action?",
+      "choices": [
+        "Emergency summits",
+        "Isolationism",
+        "Nationalize industries",
+        "Blame immigrants"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your ambassador is expelled. Response?",
+      "choices": [
+        "Expel theirs",
+        "Apologize",
+        "Threaten war",
+        "Send undercover spies"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "New regional power emerges. You:",
+      "choices": [
+        "Negotiate deals",
+        "Challenge them directly",
+        "Ignore it",
+        "Mock them online"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Mass protests overseas against your country. You:",
+      "choices": [
+        "Address grievances",
+        "Threaten protesters",
+        "Fund counter-protests",
+        "Blame media"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Global energy crisis begins. First priority?",
+      "choices": [
+        "Secure energy deals",
+        "Steal resources",
+        "Invade oil-rich neighbors",
+        "Ignore it"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "A coup happens in an allied nation. You:",
+      "choices": [
+        "Support democracy restoration",
+        "Support new regime quietly",
+        "Stay neutral",
+        "Exploit situation"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Trade war begins. You:",
+      "choices": [
+        "Negotiate",
+        "Raise tariffs higher",
+        "Blockade ports",
+        "Ignore"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Climate change summit. You advocate:",
+      "choices": [
+        "Global cooperation",
+        "Self-interest first",
+        "Denial of science",
+        "Nuclear power only"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Global famine spreading. First move?",
+      "choices": [
+        "Food aid program",
+        "Profit from food sales",
+        "Ignore",
+        "Blame other countries"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Cyber attack traced to foreign power. You:",
+      "choices": [
+        "Strengthen defenses",
+        "Launch cyber retaliation",
+        "Sue in international court",
+        "Ignore if small"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Peace negotiations fail. You:",
+      "choices": [
+        "Try again",
+        "Prepare for war",
+        "Declare neutrality",
+        "Blame another ally"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Your spy agency is caught overseas. You:",
+      "choices": [
+        "Deny everything",
+        "Trade prisoners",
+        "Abandon the agent",
+        "Blame private contractors"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Nuclear treaty collapses. First focus?",
+      "choices": [
+        "Rebuild alliances",
+        "Rapid armament",
+        "Declare global neutrality",
+        "Brag about strength"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "At international court, your country is accused. You:",
+      "choices": [
+        "Provide evidence",
+        "Deny all claims",
+        "Withdraw from court",
+        "Blame old leadership"
+      ],
+      "answerIndex": 0
+    }
   ],
 
   "resultMapping": {

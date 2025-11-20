@@ -1,35 +1,299 @@
 {
   "title": "What Type of Horror Survivor Are You?",
-  "background": "horror",
-  "themeColor": "#331144",
-  "buttonColor": "#663388",
+  "background": "horror.png",
+  "theme": "theme-horror",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "When the horror starts, you:", "choices": ["Hide immediately", "Look for a weapon", "Try to help others", "Investigate noises"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Weapon of choice?", "choices": ["Whatever’s nearby", "Knife", "Bat", "Flashlight"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "You hear crying upstairs. You:", "choices": ["Run away", "Charge up bravely", "Cautiously approach", "Gather information first"], "weights": [{"Coward": 2}, {"Protector": 2}, {"Fighter": 2}, {"Explorer": 2}] },
-    { "question": "Your group splits. You:", "choices": ["Hide alone", "Stick with strongest", "Stick with weakest to defend", "Go explore alone"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "First survival skill you use?", "choices": ["Running fast", "Fighting dirty", "Helping injured", "Finding secret exits"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "A friend falls behind. You:", "choices": ["Save yourself", "Turn to fight back", "Pull them to safety", "Distract enemy"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Favorite horror tactic?", "choices": ["Hiding", "Attacking first", "Shielding others", "Outsmarting monster"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Monster corners you. You:", "choices": ["Beg for mercy", "Fight to death", "Protect others behind you", "Look for escape hatch"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Main fear?", "choices": ["Pain", "Losing", "Letting others die", "Being trapped"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Ideal horror survival partner?", "choices": ["Anyone stronger", "Someone brave", "Someone loyal", "Someone smart"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "In horror movies you root for:", "choices": ["Who hides best", "Who fights bravely", "Who saves the group", "Who solves the puzzle"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "You find a magical item. You:", "choices": ["Hide with it", "Use it offensively", "Use it to defend others", "Experiment carefully"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "When monsters roar outside, you:", "choices": ["Stay hidden", "Prepare to attack", "Protect the injured", "Search for back exits"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "After escaping danger, you:", "choices": ["Collapse crying", "Train harder", "Check for survivors", "Map the area"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Favorite horror movie?", "choices": ["Paranormal Activity", "Halloween", "A Quiet Place", "The Descent"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Final goal?", "choices": ["Stay alive", "Win", "Save as many as possible", "Solve the mystery"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "Monster closes in. Last stand?", "choices": ["Hide", "Fight brutally", "Push friend to safety", "Trigger trap"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "When you're injured, you:", "choices": ["Cry and wait", "Fight harder", "Focus on helping others", "Push forward carefully"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "You discover the monster's lair. You:", "choices": ["Run away fast", "Burn it down", "Rescue anyone inside", "Gather critical info"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] },
-    { "question": "You survive! What's your next move?", "choices": ["Disappear forever", "Train harder", "Form a safe community", "Document everything"], "weights": [{"Coward": 2}, {"Fighter": 2}, {"Protector": 2}, {"Explorer": 2}] }
+    {
+      "question": "When the horror starts, you:",
+      "choices": [
+        "Hide immediately",
+        "Look for a weapon",
+        "Try to help others",
+        "Investigate noises"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Weapon of choice?",
+      "choices": ["Whatever’s nearby", "Knife", "Bat", "Flashlight"],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "You hear crying upstairs. You:",
+      "choices": [
+        "Run away",
+        "Charge up bravely",
+        "Cautiously approach",
+        "Gather information first"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Protector": 2 },
+        { "Fighter": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Your group splits. You:",
+      "choices": [
+        "Hide alone",
+        "Stick with strongest",
+        "Stick with weakest to defend",
+        "Go explore alone"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "First survival skill you use?",
+      "choices": [
+        "Running fast",
+        "Fighting dirty",
+        "Helping injured",
+        "Finding secret exits"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "A friend falls behind. You:",
+      "choices": [
+        "Save yourself",
+        "Turn to fight back",
+        "Pull them to safety",
+        "Distract enemy"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Favorite horror tactic?",
+      "choices": [
+        "Hiding",
+        "Attacking first",
+        "Shielding others",
+        "Outsmarting monster"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Monster corners you. You:",
+      "choices": [
+        "Beg for mercy",
+        "Fight to death",
+        "Protect others behind you",
+        "Look for escape hatch"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Main fear?",
+      "choices": ["Pain", "Losing", "Letting others die", "Being trapped"],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Ideal horror survival partner?",
+      "choices": [
+        "Anyone stronger",
+        "Someone brave",
+        "Someone loyal",
+        "Someone smart"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "In horror movies you root for:",
+      "choices": [
+        "Who hides best",
+        "Who fights bravely",
+        "Who saves the group",
+        "Who solves the puzzle"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "You find a magical item. You:",
+      "choices": [
+        "Hide with it",
+        "Use it offensively",
+        "Use it to defend others",
+        "Experiment carefully"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "When monsters roar outside, you:",
+      "choices": [
+        "Stay hidden",
+        "Prepare to attack",
+        "Protect the injured",
+        "Search for back exits"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "After escaping danger, you:",
+      "choices": [
+        "Collapse crying",
+        "Train harder",
+        "Check for survivors",
+        "Map the area"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Favorite horror movie?",
+      "choices": [
+        "Paranormal Activity",
+        "Halloween",
+        "A Quiet Place",
+        "The Descent"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Final goal?",
+      "choices": [
+        "Stay alive",
+        "Win",
+        "Save as many as possible",
+        "Solve the mystery"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "Monster closes in. Last stand?",
+      "choices": [
+        "Hide",
+        "Fight brutally",
+        "Push friend to safety",
+        "Trigger trap"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "When you're injured, you:",
+      "choices": [
+        "Cry and wait",
+        "Fight harder",
+        "Focus on helping others",
+        "Push forward carefully"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "You discover the monster's lair. You:",
+      "choices": [
+        "Run away fast",
+        "Burn it down",
+        "Rescue anyone inside",
+        "Gather critical info"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    },
+    {
+      "question": "You survive! What's your next move?",
+      "choices": [
+        "Disappear forever",
+        "Train harder",
+        "Form a safe community",
+        "Document everything"
+      ],
+      "weights": [
+        { "Coward": 2 },
+        { "Fighter": 2 },
+        { "Protector": 2 },
+        { "Explorer": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

@@ -1,0 +1,26 @@
+{
+  "list": [
+    "Emotional Empath Test",
+    "What Emotion Defines You?",
+    "Emotional Intelligence Quiz",
+    "Microexpressions Mastery Test",
+    "Love Language Assessment",
+    "Anger Management Quiz",
+    "Fear Resilience Test",
+    "Joyful Spirit Check",
+    "Sadness Coping Strategies",
+    "Surprise Reflex Quiz"
+  ],
+  "listJSON": [
+    "emotional-empath-test.json",
+    "what-emotion-defines-you.json",
+    "emotional-intelligence-quiz.json",
+    "microexpressions-mastery-test.json",
+    "love-language-assessment.json",
+    "anger-management-quiz.json",
+    "fear-resilience-test.json",
+    "joyful-spirit-check.json",
+    "sadness-coping-strategies.json",
+    "surprise-reflex-quiz.json"
+  ]
+}

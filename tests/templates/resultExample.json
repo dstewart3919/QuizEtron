@@ -1,13 +1,8 @@
 {
   "title": "Spaceship Pilot Readiness",
-  "background": "spaceship",
-  "themeColor": "#88ccff",
-  "buttonColor": "#00bfff",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": false,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
 
   "questions": [
     {
@@ -22,12 +17,7 @@
     },
     {
       "question": "What color is the warning light for a hull breach?",
-      "choices": [
-        "Blue",
-        "Green",
-        "Red",
-        "Yellow"
-      ],
+      "choices": ["Blue", "Green", "Red", "Yellow"],
       "answerIndex": 2
     },
     {

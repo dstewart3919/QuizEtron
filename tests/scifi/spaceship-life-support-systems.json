@@ -1,35 +1,179 @@
 {
   "title": "Spaceship Life Support Systems Test",
-  "background": "sci-fi",
-  "themeColor": "#003333",
-  "buttonColor": "#009999",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Primary element needed for breathable atmosphere?", "choices": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon"], "answerIndex": 0 },
-    { "question": "What's the main danger from a CO2 leak?", "choices": ["Explosions", "Asphyxiation", "Electrical fire", "Radiation"], "answerIndex": 1 },
-    { "question": "Best method to remove CO2 in a spaceship?", "choices": ["Vacuum pump", "Soda lime scrubbers", "Freezing air", "Gravity pull"], "answerIndex": 1 },
-    { "question": "Spaceship water is usually:", "choices": ["Boiled", "Electrolyzed", "Recycled", "Imported from Earth"], "answerIndex": 2 },
-    { "question": "Minimum % oxygen in air for human survival?", "choices": ["10%", "21%", "35%", "50%"], "answerIndex": 1 },
-    { "question": "A major failure in the thermal control system would cause:", "choices": ["Loss of gravity", "Extreme temperatures", "Engine shutdown", "Radiation burst"], "answerIndex": 1 },
-    { "question": "Microgravity primarily affects which body system?", "choices": ["Skeletal", "Digestive", "Skin", "Nervous"], "answerIndex": 0 },
-    { "question": "What protects crew from solar radiation?", "choices": ["Shield plates", "Magnetic field generators", "Lead suits", "Plastic armor"], "answerIndex": 1 },
-    { "question": "Air circulation fans must stay on constantly because:", "choices": ["Prevents mold", "Mixes oxygen", "Keeps food fresh", "Cools computers"], "answerIndex": 1 },
-    { "question": "If water leaks into electronics, biggest risk is:", "choices": ["Short circuits", "Fires", "Radiation spikes", "Oxygen loss"], "answerIndex": 0 },
-    { "question": "Which part of a space station collects drinking water?", "choices": ["Solar panels", "Water condensers", "CO2 scrubbers", "Cryo tanks"], "answerIndex": 1 },
-    { "question": "Primary backup system for oxygen failure?", "choices": ["Extra tanks", "Liquid oxygen reserves", "Compressed air bombs", "Frozen algae"], "answerIndex": 1 },
-    { "question": "Critical part of an airlock system?", "choices": ["Strong hinges", "Pressure equalization", "Metal floor", "Alarm lights"], "answerIndex": 1 },
-    { "question": "Low humidity on a ship can cause:", "choices": ["Condensation", "Skin cracking", "Algae blooms", "Oxygen spikes"], "answerIndex": 1 },
-    { "question": "If a fire breaks out, first move?", "choices": ["Vacuum it", "Flood it with CO2", "Water hose", "Open all vents"], "answerIndex": 1 },
-    { "question": "Spaceship heating relies most on:", "choices": ["Engines", "Radioactive decay", "Solar radiation", "Internal systems"], "answerIndex": 3 },
-    { "question": "Main cause of cabin depressurization?", "choices": ["Leaks", "Gravity loss", "Radiation bursts", "Electromagnetic waves"], "answerIndex": 0 },
-    { "question": "What system keeps breathable air moving evenly?", "choices": ["Oxygen tanks", "Air circulation fans", "CO2 vents", "Cryo chambers"], "answerIndex": 1 },
-    { "question": "Which of these helps grow food in space?", "choices": ["Hydroponics", "Sonic watering", "Thermal radiation", "Magnetic fields"], "answerIndex": 0 },
-    { "question": "Biggest long-term life support risk?", "choices": ["Supply shortages", "Psychological breakdown", "CO2 buildup", "Engine failures"], "answerIndex": 2 }
+    {
+      "question": "Primary element needed for breathable atmosphere?",
+      "choices": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What's the main danger from a CO2 leak?",
+      "choices": ["Explosions", "Asphyxiation", "Electrical fire", "Radiation"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best method to remove CO2 in a spaceship?",
+      "choices": [
+        "Vacuum pump",
+        "Soda lime scrubbers",
+        "Freezing air",
+        "Gravity pull"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Spaceship water is usually:",
+      "choices": ["Boiled", "Electrolyzed", "Recycled", "Imported from Earth"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Minimum % oxygen in air for human survival?",
+      "choices": ["10%", "21%", "35%", "50%"],
+      "answerIndex": 1
+    },
+    {
+      "question": "A major failure in the thermal control system would cause:",
+      "choices": [
+        "Loss of gravity",
+        "Extreme temperatures",
+        "Engine shutdown",
+        "Radiation burst"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Microgravity primarily affects which body system?",
+      "choices": ["Skeletal", "Digestive", "Skin", "Nervous"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What protects crew from solar radiation?",
+      "choices": [
+        "Shield plates",
+        "Magnetic field generators",
+        "Lead suits",
+        "Plastic armor"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Air circulation fans must stay on constantly because:",
+      "choices": [
+        "Prevents mold",
+        "Mixes oxygen",
+        "Keeps food fresh",
+        "Cools computers"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If water leaks into electronics, biggest risk is:",
+      "choices": ["Short circuits", "Fires", "Radiation spikes", "Oxygen loss"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which part of a space station collects drinking water?",
+      "choices": [
+        "Solar panels",
+        "Water condensers",
+        "CO2 scrubbers",
+        "Cryo tanks"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Primary backup system for oxygen failure?",
+      "choices": [
+        "Extra tanks",
+        "Liquid oxygen reserves",
+        "Compressed air bombs",
+        "Frozen algae"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Critical part of an airlock system?",
+      "choices": [
+        "Strong hinges",
+        "Pressure equalization",
+        "Metal floor",
+        "Alarm lights"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Low humidity on a ship can cause:",
+      "choices": [
+        "Condensation",
+        "Skin cracking",
+        "Algae blooms",
+        "Oxygen spikes"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "If a fire breaks out, first move?",
+      "choices": [
+        "Vacuum it",
+        "Flood it with CO2",
+        "Water hose",
+        "Open all vents"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Spaceship heating relies most on:",
+      "choices": [
+        "Engines",
+        "Radioactive decay",
+        "Solar radiation",
+        "Internal systems"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Main cause of cabin depressurization?",
+      "choices": [
+        "Leaks",
+        "Gravity loss",
+        "Radiation bursts",
+        "Electromagnetic waves"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What system keeps breathable air moving evenly?",
+      "choices": [
+        "Oxygen tanks",
+        "Air circulation fans",
+        "CO2 vents",
+        "Cryo chambers"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which of these helps grow food in space?",
+      "choices": [
+        "Hydroponics",
+        "Sonic watering",
+        "Thermal radiation",
+        "Magnetic fields"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Biggest long-term life support risk?",
+      "choices": [
+        "Supply shortages",
+        "Psychological breakdown",
+        "CO2 buildup",
+        "Engine failures"
+      ],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

@@ -1,35 +1,119 @@
 {
   "title": "Basic Facts Everyone Should Know",
-  "background": "intelligence",
-  "themeColor": "#335511",
-  "buttonColor": "#77aa33",
+  "background": "intelligence.png",
+  "theme": "theme-intelligence",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "How many days are there in a leap year?", "choices": ["365", "366", "364", "360"], "answerIndex": 1 },
-    { "question": "What is the tallest mountain in the world?", "choices": ["K2", "Kilimanjaro", "Everest", "Denali"], "answerIndex": 2 },
-    { "question": "What is the main ingredient in bread?", "choices": ["Flour", "Salt", "Sugar", "Butter"], "answerIndex": 0 },
-    { "question": "Which ocean is on the East Coast of the U.S.?", "choices": ["Pacific", "Atlantic", "Indian", "Arctic"], "answerIndex": 1 },
-    { "question": "How many colors are in a rainbow?", "choices": ["5", "6", "7", "8"], "answerIndex": 2 },
-    { "question": "What planet do we live on?", "choices": ["Venus", "Mars", "Earth", "Saturn"], "answerIndex": 2 },
-    { "question": "Who wrote the play 'Romeo and Juliet'?", "choices": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"], "answerIndex": 1 },
-    { "question": "What do bees make?", "choices": ["Milk", "Wax", "Honey", "Seeds"], "answerIndex": 2 },
-    { "question": "Which country is famous for inventing pizza?", "choices": ["France", "Greece", "Italy", "USA"], "answerIndex": 2 },
-    { "question": "How many hours are there in two days?", "choices": ["24", "36", "48", "60"], "answerIndex": 2 },
-    { "question": "What gas do humans need to breathe?", "choices": ["Carbon Dioxide", "Oxygen", "Hydrogen", "Nitrogen"], "answerIndex": 1 },
-    { "question": "Which shape has three sides?", "choices": ["Triangle", "Square", "Hexagon", "Pentagon"], "answerIndex": 0 },
-    { "question": "Who is known for developing the theory of evolution?", "choices": ["Albert Einstein", "Charles Darwin", "Isaac Newton", "Marie Curie"], "answerIndex": 1 },
-    { "question": "Which continent is the largest?", "choices": ["Africa", "Asia", "North America", "Europe"], "answerIndex": 1 },
-    { "question": "How many wheels does a tricycle have?", "choices": ["1", "2", "3", "4"], "answerIndex": 2 },
-    { "question": "How many letters are in the English alphabet?", "choices": ["24", "25", "26", "27"], "answerIndex": 2 },
-    { "question": "Which animal is known as the 'King of the Jungle'?", "choices": ["Tiger", "Bear", "Lion", "Wolf"], "answerIndex": 2 },
-    { "question": "What is the largest mammal?", "choices": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"], "answerIndex": 1 },
-    { "question": "How many continents are there?", "choices": ["5", "6", "7", "8"], "answerIndex": 2 },
-    { "question": "What do you call frozen water?", "choices": ["Snow", "Hail", "Ice", "Rain"], "answerIndex": 2 }
+    {
+      "question": "How many days are there in a leap year?",
+      "choices": ["365", "366", "364", "360"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "choices": ["K2", "Kilimanjaro", "Everest", "Denali"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the main ingredient in bread?",
+      "choices": ["Flour", "Salt", "Sugar", "Butter"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which ocean is on the East Coast of the U.S.?",
+      "choices": ["Pacific", "Atlantic", "Indian", "Arctic"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many colors are in a rainbow?",
+      "choices": ["5", "6", "7", "8"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What planet do we live on?",
+      "choices": ["Venus", "Mars", "Earth", "Saturn"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "choices": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What do bees make?",
+      "choices": ["Milk", "Wax", "Honey", "Seeds"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which country is famous for inventing pizza?",
+      "choices": ["France", "Greece", "Italy", "USA"],
+      "answerIndex": 2
+    },
+    {
+      "question": "How many hours are there in two days?",
+      "choices": ["24", "36", "48", "60"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What gas do humans need to breathe?",
+      "choices": ["Carbon Dioxide", "Oxygen", "Hydrogen", "Nitrogen"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which shape has three sides?",
+      "choices": ["Triangle", "Square", "Hexagon", "Pentagon"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who is known for developing the theory of evolution?",
+      "choices": [
+        "Albert Einstein",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Marie Curie"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which continent is the largest?",
+      "choices": ["Africa", "Asia", "North America", "Europe"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many wheels does a tricycle have?",
+      "choices": ["1", "2", "3", "4"],
+      "answerIndex": 2
+    },
+    {
+      "question": "How many letters are in the English alphabet?",
+      "choices": ["24", "25", "26", "27"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which animal is known as the 'King of the Jungle'?",
+      "choices": ["Tiger", "Bear", "Lion", "Wolf"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the largest mammal?",
+      "choices": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "answerIndex": 1
+    },
+    {
+      "question": "How many continents are there?",
+      "choices": ["5", "6", "7", "8"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What do you call frozen water?",
+      "choices": ["Snow", "Hail", "Ice", "Rain"],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {

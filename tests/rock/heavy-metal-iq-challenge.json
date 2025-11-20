@@ -1,35 +1,124 @@
 {
   "title": "Heavy Metal IQ Challenge",
-  "background": "rock",
-  "themeColor": "#111111",
-  "buttonColor": "#990000",
+  "background": "rock.png",
+  "theme": "theme-rock",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Which band is known for 'Master of Puppets'?", "choices": ["Iron Maiden", "Black Sabbath", "Metallica", "Slayer"], "answerIndex": 2 },
-    { "question": "Ozzy Osbourne was originally the singer for which band?", "choices": ["Motörhead", "Black Sabbath", "Judas Priest", "Pantera"], "answerIndex": 1 },
-    { "question": "Which band’s mascot is 'Eddie'?", "choices": ["Iron Maiden", "Anthrax", "Metallica", "Slayer"], "answerIndex": 0 },
-    { "question": "Dimebag Darrell was the guitarist for which band?", "choices": ["Megadeth", "Pantera", "Metallica", "Anthrax"], "answerIndex": 1 },
-    { "question": "Which band is famous for the song 'Raining Blood'?", "choices": ["Anthrax", "Slayer", "Pantera", "Sepultura"], "answerIndex": 1 },
-    { "question": "Who was called the 'Prince of Darkness'?", "choices": ["James Hetfield", "Bruce Dickinson", "Ozzy Osbourne", "Tom Araya"], "answerIndex": 2 },
-    { "question": "Which band released the album 'Rust in Peace'?", "choices": ["Metallica", "Slayer", "Megadeth", "Anthrax"], "answerIndex": 2 },
-    { "question": "Lars Ulrich is a founding member of:", "choices": ["Megadeth", "Metallica", "Anthrax", "Pantera"], "answerIndex": 1 },
-    { "question": "Which country is home to the band Sepultura?", "choices": ["USA", "UK", "Brazil", "Germany"], "answerIndex": 2 },
-    { "question": "Who sings 'Breaking the Law'?", "choices": ["Black Sabbath", "Judas Priest", "Iron Maiden", "Slayer"], "answerIndex": 1 },
-    { "question": "Which band is famous for 'Walk'?", "choices": ["Pantera", "Anthrax", "Metallica", "Korn"], "answerIndex": 0 },
-    { "question": "James Hetfield plays which instrument?", "choices": ["Bass", "Lead Guitar", "Rhythm Guitar", "Drums"], "answerIndex": 2 },
-    { "question": "Which metal band had the album 'Seasons in the Abyss'?", "choices": ["Slayer", "Metallica", "Megadeth", "Pantera"], "answerIndex": 0 },
-    { "question": "Who sings with a signature high-pitched scream?", "choices": ["Ozzy Osbourne", "Bruce Dickinson", "James Hetfield", "Rob Halford"], "answerIndex": 3 },
-    { "question": "Which band was known for 'Among the Living'?", "choices": ["Anthrax", "Metallica", "Pantera", "Judas Priest"], "answerIndex": 0 },
-    { "question": "Lemmy was the frontman of which band?", "choices": ["Iron Maiden", "Motörhead", "Metallica", "Anthrax"], "answerIndex": 1 },
-    { "question": "Metallica’s self-titled 'Black Album' released in:", "choices": ["1988", "1991", "1993", "1995"], "answerIndex": 1 },
-    { "question": "Which band had a song called 'Symphony of Destruction'?", "choices": ["Metallica", "Anthrax", "Megadeth", "Slayer"], "answerIndex": 2 },
-    { "question": "First heavy metal band credited in history?", "choices": ["Led Zeppelin", "The Beatles", "Black Sabbath", "Judas Priest"], "answerIndex": 2 },
-    { "question": "Which band is known for the line 'Run to the Hills'?", "choices": ["Slayer", "Iron Maiden", "Anthrax", "Metallica"], "answerIndex": 1 }
+    {
+      "question": "Which band is known for 'Master of Puppets'?",
+      "choices": ["Iron Maiden", "Black Sabbath", "Metallica", "Slayer"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Ozzy Osbourne was originally the singer for which band?",
+      "choices": ["Motörhead", "Black Sabbath", "Judas Priest", "Pantera"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band’s mascot is 'Eddie'?",
+      "choices": ["Iron Maiden", "Anthrax", "Metallica", "Slayer"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Dimebag Darrell was the guitarist for which band?",
+      "choices": ["Megadeth", "Pantera", "Metallica", "Anthrax"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band is famous for the song 'Raining Blood'?",
+      "choices": ["Anthrax", "Slayer", "Pantera", "Sepultura"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Who was called the 'Prince of Darkness'?",
+      "choices": [
+        "James Hetfield",
+        "Bruce Dickinson",
+        "Ozzy Osbourne",
+        "Tom Araya"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which band released the album 'Rust in Peace'?",
+      "choices": ["Metallica", "Slayer", "Megadeth", "Anthrax"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Lars Ulrich is a founding member of:",
+      "choices": ["Megadeth", "Metallica", "Anthrax", "Pantera"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which country is home to the band Sepultura?",
+      "choices": ["USA", "UK", "Brazil", "Germany"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Who sings 'Breaking the Law'?",
+      "choices": ["Black Sabbath", "Judas Priest", "Iron Maiden", "Slayer"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band is famous for 'Walk'?",
+      "choices": ["Pantera", "Anthrax", "Metallica", "Korn"],
+      "answerIndex": 0
+    },
+    {
+      "question": "James Hetfield plays which instrument?",
+      "choices": ["Bass", "Lead Guitar", "Rhythm Guitar", "Drums"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which metal band had the album 'Seasons in the Abyss'?",
+      "choices": ["Slayer", "Metallica", "Megadeth", "Pantera"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who sings with a signature high-pitched scream?",
+      "choices": [
+        "Ozzy Osbourne",
+        "Bruce Dickinson",
+        "James Hetfield",
+        "Rob Halford"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Which band was known for 'Among the Living'?",
+      "choices": ["Anthrax", "Metallica", "Pantera", "Judas Priest"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Lemmy was the frontman of which band?",
+      "choices": ["Iron Maiden", "Motörhead", "Metallica", "Anthrax"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Metallica’s self-titled 'Black Album' released in:",
+      "choices": ["1988", "1991", "1993", "1995"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band had a song called 'Symphony of Destruction'?",
+      "choices": ["Metallica", "Anthrax", "Megadeth", "Slayer"],
+      "answerIndex": 2
+    },
+    {
+      "question": "First heavy metal band credited in history?",
+      "choices": [
+        "Led Zeppelin",
+        "The Beatles",
+        "Black Sabbath",
+        "Judas Priest"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which band is known for the line 'Run to the Hills'?",
+      "choices": ["Slayer", "Iron Maiden", "Anthrax", "Metallica"],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

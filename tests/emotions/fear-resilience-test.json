@@ -1,0 +1,115 @@
+{
+  "title": "Fear Resilience Test",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "You’re offered a big promotion but it means public speaking every week. You:",
+      "choices": [
+        "Turn it down instantly—too scary",
+        "Feel terrified but accept anyway",
+        "Say yes, then panic and try to back out",
+        "Feel nervous but excited"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "The best way you’ve ever beaten a fear in the past was:",
+      "choices": [
+        "Avoiding it forever",
+        "Gradual exposure—small steps until it wasn’t scary",
+        "One huge leap that traumatized you",
+        "Waiting until it magically went away"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You have to give a toast at a wedding in front of 150 people. Your approach:",
+      "choices": [
+        "Fake being sick to get out of it",
+        "Practice a little every day until it feels normal",
+        "Wing it and hope adrenaline carries you",
+        "Drink heavily beforehand"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "When fear hits, your body’s signals (racing heart, sweaty palms) usually make you:",
+      "choices": [
+        "Freeze or shut down completely",
+        "Notice them, breathe, and keep moving forward",
+        "Get angry at yourself for being weak",
+        "Run away immediately"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You’re lost in a sketchy area at night. Your instinct is to:",
+      "choices": [
+        "Panic and call someone crying",
+        "Stay calm, find a safe route, and walk confidently",
+        "Hide and wait for morning",
+        "Scream for help nonstop"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You see “face your fears” advice online. Your honest reaction:",
+      "choices": [
+        "That’s stupid and dangerous",
+        "It’s scary but it actually works",
+        "Only works for other people",
+        "I’ll try it someday… maybe"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "After a scary event (accident, bad news, etc.), how long until you feel normal again?",
+      "choices": [
+        "Weeks or months—I never really get over it",
+        "A few days if I actively process it",
+        "Years, it haunts me",
+        "I bounce back the same day"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Someone dares you to do something that genuinely terrifies you (safe but scary). You:",
+      "choices": [
+        "Refuse—no way",
+        "Do it while shaking but prove you can",
+        "Back out at the last second",
+        "Make excuses and leave"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your fear of failure or rejection usually stops you from:",
+      "choices": [
+        "Almost everything important",
+        "Some things, but I push through the big ones",
+        "Only minor stuff",
+        "Nothing—I go for it anyway"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "When you think about your biggest remaining fear, your plan is:",
+      "choices": [
+        "Keep avoiding it forever",
+        "Chip away at it with small, deliberate steps",
+        "One day I’ll just rip the band-aid off",
+        "Hope life never forces me to face it"
+      ],
+      "answerIndex": 1
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Fear-Proof Warrior  Fear knocks, you open the door and invite it in for tea—then kick it out stronger.",
+      "medium": "Courage in Training  You feel the fear but do it anyway most of the time. Keep going—you’re almost unbreakable.",
+      "low": "Fear’s Favorite Guest  It still runs the show more than you’d like. The good news? Resilience is a skill anyone can build."
+    }
+  }
+}

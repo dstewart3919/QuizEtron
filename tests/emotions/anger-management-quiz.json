@@ -1,0 +1,115 @@
+{
+  "title": "Anger Management Quiz",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "Someone cuts you off in traffic and almost causes an accident. Your immediate reaction is:",
+      "choices": [
+        "Lay on the horn and flip them off",
+        "Take a deep breath and let it go",
+        "Tailgate them for the next 5 miles",
+        "Scream every curse word you know"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You’re fuming after an argument. The fastest thing that actually calms you down is:",
+      "choices": [
+        "Punching something",
+        "Counting slowly to 10 (or 100)",
+        "Smashing your phone",
+        "Ranting to the first person you see"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your partner forgets your birthday. Best immediate response:",
+      "choices": [
+        "Ice-cold silent treatment for a week",
+        "Calmly say “Hey, that really hurt me”",
+        "Explode about every mistake they’ve ever made",
+        "Pretend you don’t care while boiling inside"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your boss criticizes your work in front of the team. You:",
+      "choices": [
+        "Snap back instantly",
+        "Stay quiet, then respond calmly later",
+        "Walk out mid-meeting",
+        "Plot revenge for months"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Someone jumps ahead of you in a long line. You usually:",
+      "choices": [
+        "Yell “Learn some manners!” and make a scene",
+        "Politely say “Excuse me, the line starts back there”",
+        "Glare and mutter under your breath",
+        "Post about it online for the next hour"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "The most reliable long-term way you’ve found to get angry less often:",
+      "choices": [
+        "Cut toxic people out completely",
+        "Exercise, good sleep, and mindfulness habits",
+        "Keep score of every wrong done to you",
+        "Always win so no one dares cross you"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Your kid/spouse makes the same mistake for the 100th time. You:",
+      "choices": [
+        "Scream “Are you stupid or what?!”",
+        "Take a timeout, then explain calmly again",
+        "Do it yourself while passive-aggressively sighing",
+        "Punish them way harder than needed"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You can usually feel anger rising because you notice:",
+      "choices": [
+        "Nothing until you’ve already exploded",
+        "Tight chest, clenched fists, louder voice",
+        "It feels good and righteous",
+        "You enjoy the adrenaline rush"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "After losing your temper and hurting someone you love, you:",
+      "choices": [
+        "Never apologize—it was their fault",
+        "Apologize sincerely and talk about triggers",
+        "Say “I’m sorry but you made me…”",
+        "Avoid them until they apologize first"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "When anger is completely justified, the healthiest way to express it is:",
+      "choices": [
+        "“I feel ___ when ___ because ___; I need ___”",
+        "Sarcasm and eye-rolling",
+        "Getting in their face or slamming doors",
+        "Swallow it until you blow up later"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Anger Master  Ice in your veins, wisdom in your words—you’ve tamed the beast.",
+      "medium": "Work in Progress  Mostly under control, occasionally volcanic. You’re getting there!",
+      "low": "Human Volcano  One spark and everything burns. Time to learn some new skills before you lose the people you love!"
+    }
+  }
+}

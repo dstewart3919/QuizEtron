@@ -1,35 +1,154 @@
 {
   "title": "Indie Rock Rebel Scorecard",
-  "background": "rock",
-  "themeColor": "#333333",
-  "buttonColor": "#cc6600",
+  "background": "rock.png",
+  "theme": "theme-rock",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Which band released the album 'Is This It'?", "choices": ["The Strokes", "Arctic Monkeys", "The Killers", "Radiohead"], "answerIndex": 0 },
-    { "question": "Arcade Fire’s breakout album was called:", "choices": ["Neon Bible", "Funeral", "The Suburbs", "Reflektor"], "answerIndex": 1 },
-    { "question": "Which band is known for 'Mr. Brightside'?", "choices": ["The Killers", "Franz Ferdinand", "Muse", "The Strokes"], "answerIndex": 0 },
-    { "question": "Who sings 'Take Me Out'?", "choices": ["The Killers", "Vampire Weekend", "Franz Ferdinand", "Coldplay"], "answerIndex": 2 },
-    { "question": "Which indie band famously wore suits on stage?", "choices": ["The Strokes", "Vampire Weekend", "Arctic Monkeys", "The Killers"], "answerIndex": 1 },
-    { "question": "Radiohead’s 'OK Computer' is known for:", "choices": ["Love ballads", "Electronic experimentations", "Acoustic folk", "Garage rock revival"], "answerIndex": 1 },
-    { "question": "Which band had the hit 'Do I Wanna Know?'?", "choices": ["Vampire Weekend", "Arctic Monkeys", "The Killers", "Modest Mouse"], "answerIndex": 1 },
-    { "question": "Modest Mouse had a huge hit with:", "choices": ["Time is Running Out", "Float On", "I Bet You Look Good on the Dancefloor", "Clocks"], "answerIndex": 1 },
-    { "question": "Muse is known for blending rock with:", "choices": ["Reggae", "Synthesizers and operatic vocals", "Jazz", "Country"], "answerIndex": 1 },
-    { "question": "Which band headlined Coachella in 2005?", "choices": ["The Killers", "Arcade Fire", "Coldplay", "Nine Inch Nails"], "answerIndex": 3 },
-    { "question": "Florence Welch is the frontwoman of which band?", "choices": ["Paramore", "Florence + The Machine", "Metric", "The Kills"], "answerIndex": 1 },
-    { "question": "MGMT is famous for the song:", "choices": ["Time to Pretend", "Reptilia", "Human", "Take Me Out"], "answerIndex": 0 },
-    { "question": "Which band’s album was titled 'Whatever People Say I Am, That's What I'm Not'?", "choices": ["Arctic Monkeys", "The Strokes", "Muse", "Vampire Weekend"], "answerIndex": 0 },
-    { "question": "Interpol is known for which style?", "choices": ["Garage Rock", "Post-punk revival", "Psychedelic rock", "Dream pop"], "answerIndex": 1 },
-    { "question": "Which indie artist released 'Sea Change'?", "choices": ["Beck", "Bon Iver", "Jack White", "Father John Misty"], "answerIndex": 0 },
-    { "question": "Which song begins with the lyrics 'Coming out of my cage and I've been doing just fine'?", "choices": ["Mr. Brightside", "Do I Wanna Know?", "Pumped Up Kicks", "Electric Feel"], "answerIndex": 0 },
-    { "question": "The song '1901' was released by which band?", "choices": ["Phoenix", "MGMT", "Arctic Monkeys", "Muse"], "answerIndex": 0 },
-    { "question": "Which band sang 'Dog Days Are Over'?", "choices": ["Paramore", "Florence + The Machine", "Foster the People", "Arcade Fire"], "answerIndex": 1 },
-    { "question": "Which band's music video featured dancing construction workers?", "choices": ["Vampire Weekend", "OK Go", "Phoenix", "MGMT"], "answerIndex": 1 },
-    { "question": "Which indie anthem repeats 'You only live once'?", "choices": ["The Killers", "The Strokes", "Arctic Monkeys", "Muse"], "answerIndex": 1 }
+    {
+      "question": "Which band released the album 'Is This It'?",
+      "choices": ["The Strokes", "Arctic Monkeys", "The Killers", "Radiohead"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Arcade Fire’s breakout album was called:",
+      "choices": ["Neon Bible", "Funeral", "The Suburbs", "Reflektor"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band is known for 'Mr. Brightside'?",
+      "choices": ["The Killers", "Franz Ferdinand", "Muse", "The Strokes"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who sings 'Take Me Out'?",
+      "choices": [
+        "The Killers",
+        "Vampire Weekend",
+        "Franz Ferdinand",
+        "Coldplay"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which indie band famously wore suits on stage?",
+      "choices": [
+        "The Strokes",
+        "Vampire Weekend",
+        "Arctic Monkeys",
+        "The Killers"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Radiohead’s 'OK Computer' is known for:",
+      "choices": [
+        "Love ballads",
+        "Electronic experimentations",
+        "Acoustic folk",
+        "Garage rock revival"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band had the hit 'Do I Wanna Know?'?",
+      "choices": [
+        "Vampire Weekend",
+        "Arctic Monkeys",
+        "The Killers",
+        "Modest Mouse"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Modest Mouse had a huge hit with:",
+      "choices": [
+        "Time is Running Out",
+        "Float On",
+        "I Bet You Look Good on the Dancefloor",
+        "Clocks"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Muse is known for blending rock with:",
+      "choices": [
+        "Reggae",
+        "Synthesizers and operatic vocals",
+        "Jazz",
+        "Country"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band headlined Coachella in 2005?",
+      "choices": ["The Killers", "Arcade Fire", "Coldplay", "Nine Inch Nails"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Florence Welch is the frontwoman of which band?",
+      "choices": ["Paramore", "Florence + The Machine", "Metric", "The Kills"],
+      "answerIndex": 1
+    },
+    {
+      "question": "MGMT is famous for the song:",
+      "choices": ["Time to Pretend", "Reptilia", "Human", "Take Me Out"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which band’s album was titled 'Whatever People Say I Am, That's What I'm Not'?",
+      "choices": ["Arctic Monkeys", "The Strokes", "Muse", "Vampire Weekend"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Interpol is known for which style?",
+      "choices": [
+        "Garage Rock",
+        "Post-punk revival",
+        "Psychedelic rock",
+        "Dream pop"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which indie artist released 'Sea Change'?",
+      "choices": ["Beck", "Bon Iver", "Jack White", "Father John Misty"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which song begins with the lyrics 'Coming out of my cage and I've been doing just fine'?",
+      "choices": [
+        "Mr. Brightside",
+        "Do I Wanna Know?",
+        "Pumped Up Kicks",
+        "Electric Feel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "The song '1901' was released by which band?",
+      "choices": ["Phoenix", "MGMT", "Arctic Monkeys", "Muse"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which band sang 'Dog Days Are Over'?",
+      "choices": [
+        "Paramore",
+        "Florence + The Machine",
+        "Foster the People",
+        "Arcade Fire"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which band's music video featured dancing construction workers?",
+      "choices": ["Vampire Weekend", "OK Go", "Phoenix", "MGMT"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which indie anthem repeats 'You only live once'?",
+      "choices": ["The Killers", "The Strokes", "Arctic Monkeys", "Muse"],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

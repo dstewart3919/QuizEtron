@@ -1,25 +1,159 @@
 {
   "title": "Ultimate Dankness Quiz",
-  "background": "meme",
-  "themeColor": "#222222",
-  "buttonColor": "#666666",
+  "background": "meme.png",
+  "theme": "theme-meme",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Pick your ultimate meme weapon:", "choices": ["Airhorns", "Deep fried memes", "Weird SpongeBob images", "Exploding brain memes"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Your natural habitat online:", "choices": ["Meme soundboards", "Subreddits with -2 karma", "Weird Twitter", "Philosophical meme pages"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Favorite meme format?", "choices": ["LOUD noises", "Overcompressed jpegs", "Absurd SpongeBob screenshots", "10-layer brain explosions"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Reaction to seeing a cursed meme?", "choices": ["BLAST AIRHORNS", "Deep fry it more", "Laugh uncontrollably", "Contemplate life"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "How do you improve a meme?", "choices": ["Add more noise", "Crank the saturation", "Make it nonsensical", "Add layers of 'enlightenment'"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Biggest meme sin?", "choices": ["Quiet memes", "Clear images", "Too much logic", "Not confusing enough"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "What's your favorite meme soundtrack?", "choices": ["Airhorns and yelling", "Ear rape remix", "Random screaming SpongeBob", "Gregorian chant over memes"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Describe your meme energy:", "choices": ["Chaotic loud", "Overcooked pixel", "Weird and proud", "Galaxy brain expanding"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Pick your battle cry:", "choices": ["BWAAAH!", "DEEP FRY!", "IMAGINATION!", "ENLIGHTEN ME BROTHER!"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] },
-    { "question": "Your final meme move:", "choices": ["Blast all airhorns at once", "Overcompress to oblivion", "Weird caption nobody understands", "Quantum meme physics"], "weights": [{"AirhornLord": 2}, {"DeepFryKing": 2}, {"WeirdSponge": 2}, {"BigBrainDank": 2}] }
+    {
+      "question": "Pick your ultimate meme weapon:",
+      "choices": [
+        "Airhorns",
+        "Deep fried memes",
+        "Weird SpongeBob images",
+        "Exploding brain memes"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Your natural habitat online:",
+      "choices": [
+        "Meme soundboards",
+        "Subreddits with -2 karma",
+        "Weird Twitter",
+        "Philosophical meme pages"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Favorite meme format?",
+      "choices": [
+        "LOUD noises",
+        "Overcompressed jpegs",
+        "Absurd SpongeBob screenshots",
+        "10-layer brain explosions"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Reaction to seeing a cursed meme?",
+      "choices": [
+        "BLAST AIRHORNS",
+        "Deep fry it more",
+        "Laugh uncontrollably",
+        "Contemplate life"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "How do you improve a meme?",
+      "choices": [
+        "Add more noise",
+        "Crank the saturation",
+        "Make it nonsensical",
+        "Add layers of 'enlightenment'"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Biggest meme sin?",
+      "choices": [
+        "Quiet memes",
+        "Clear images",
+        "Too much logic",
+        "Not confusing enough"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "What's your favorite meme soundtrack?",
+      "choices": [
+        "Airhorns and yelling",
+        "Ear rape remix",
+        "Random screaming SpongeBob",
+        "Gregorian chant over memes"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Describe your meme energy:",
+      "choices": [
+        "Chaotic loud",
+        "Overcooked pixel",
+        "Weird and proud",
+        "Galaxy brain expanding"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Pick your battle cry:",
+      "choices": [
+        "BWAAAH!",
+        "DEEP FRY!",
+        "IMAGINATION!",
+        "ENLIGHTEN ME BROTHER!"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    },
+    {
+      "question": "Your final meme move:",
+      "choices": [
+        "Blast all airhorns at once",
+        "Overcompress to oblivion",
+        "Weird caption nobody understands",
+        "Quantum meme physics"
+      ],
+      "weights": [
+        { "AirhornLord": 2 },
+        { "DeepFryKing": 2 },
+        { "WeirdSponge": 2 },
+        { "BigBrainDank": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

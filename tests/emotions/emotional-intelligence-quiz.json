@@ -1,0 +1,115 @@
+{
+  "title": "Emotional Intelligence Quiz",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "You walk into a meeting and instantly notice someone is upset, even though they’re smiling. This happens:",
+      "choices": [
+        "Almost always",
+        "Often",
+        "Rarely",
+        "Never—I only notice words"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "How accurately can you name what you’re feeling in the moment (not just “good” or “bad”)?",
+      "choices": [
+        "Very precisely (e.g., frustrated, anxious, disappointed)",
+        "Fairly well",
+        "Only basic feelings",
+        "I usually have no idea"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "When a friend is venting, your usual response is:",
+      "choices": [
+        "Listen fully and mirror their feelings before offering advice",
+        "Jump in with solutions right away",
+        "Wait for my turn to talk",
+        "Change the subject if it gets too heavy"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "During an argument, you’re able to stay calm and notice your rising emotions before they take over:",
+      "choices": [
+        "Almost always",
+        "Most of the time",
+        "Only sometimes",
+        "Rarely—I get flooded fast"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You can usually tell the difference between someone being sarcastic versus genuinely kind:",
+      "choices": [
+        "Yes, easily from tone and body language",
+        "Most of the time",
+        "I get fooled sometimes",
+        "I take everything at face value"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "When you’ve hurt someone’s feelings (even unintentionally), you tend to:",
+      "choices": [
+        "Notice quickly and apologize sincerely",
+        "Notice eventually",
+        "Only realize when they tell me",
+        "Rarely notice at all"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "How often do you adjust your behavior based on the emotional state of the people around you?",
+      "choices": [
+        "All the time—I read the room",
+        "Fairly often",
+        "Only in important situations",
+        "Almost never"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Colleagues or friends would describe you as:",
+      "choices": [
+        "The one who always “gets” people",
+        "Pretty empathetic",
+        "Nice but not super tuned-in",
+        "Direct and no-nonsense"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "After a stressful day, you’re able to shift your mood instead of staying stuck in it:",
+      "choices": [
+        "Yes, I have reliable ways to reset",
+        "Usually",
+        "It takes me a while",
+        "I carry it with me for days"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "You genuinely enjoy trying to understand why people feel and act the way they do:",
+      "choices": [
+        "Yes, it fascinates me",
+        "Sometimes",
+        "Only if it affects me",
+        "Not really—people should just say what they mean"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Emotional Intelligence Superstar  You read people like open books and navigate feelings with ninja-level skill.",
+      "medium": "Solid Emotional Radar  You’re tuned in most of the time—keep practicing and you’ll be elite.",
+      "low": "Just Starting the Journey � baby steps You’re probably more logical than emotional (nothing wrong with that), but there’s huge growth ahead if you want it!"
+    }
+  }
+}

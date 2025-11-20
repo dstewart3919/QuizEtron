@@ -1,0 +1,115 @@
+{
+  "title": "What Emotion Defines You?",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "When life is going perfectly, the feeling that fills you most is:",
+      "choices": [
+        "Pure excitement and energy",
+        "Deep peace and gratitude",
+        "Playful joy and laughter",
+        "Quiet contentment"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Under heavy stress, people usually see you become:",
+      "choices": [
+        "Fiery and intense (anger/fight)",
+        "Withdrawn and quiet (sadness/flight)",
+        "Overthinking everything (anxiety/freeze)",
+        "Surprisingly calm and solution-focused"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Friends come to you when they need:",
+      "choices": [
+        "Someone to hype them up",
+        "A shoulder to cry on",
+        "Honest advice no matter what",
+        "To laugh until it doesn’t hurt anymore"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Your happiest memories all have this in common:",
+      "choices": [
+        "Adventure and adrenaline",
+        "Deep connection with people",
+        "Achievement and pride",
+        "Silly, ridiculous fun"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Pick the phrase you say (or think) most often:",
+      "choices": [
+        "“Let’s go!”",
+        "“It’s going to be okay”",
+        "“I’ve got this”",
+        "“This is hilarious”"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "When you’re alone and music is on, you’re most likely:",
+      "choices": [
+        "Dancing like nobody’s watching",
+        "Crying happy or sad tears",
+        "Head-banging or air-guitaring",
+        "Smiling and singing every word"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "People who meet you once usually remember you as:",
+      "choices": [
+        "Intense/passionate",
+        "Kind/sensitive",
+        "Driven/serious",
+        "The fun, positive one"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Your camera roll is 90%:",
+      "choices": [
+        "Sunsets and deep quotes",
+        "Concert clips and funny memes",
+        "Achievements and gym selfies",
+        "Friends laughing and silly faces"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "If you could bottle one feeling and feel it every day, it would be:",
+      "choices": [
+        "Love (romantic or platonic)",
+        "Peace",
+        "Excitement",
+        "Pure joy and laughter"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "At your core, the emotion that powers you the most is:",
+      "choices": [
+        "Anger turned into drive",
+        "Empathy and care",
+        "Fear turned into caution",
+        "Joy turned into light for everyone else"
+      ],
+      "answerIndex": 3
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Joy  You are living sunshine. Laughter is your oxygen, and you make the world brighter just by existing.",
+      "medium": "Love & Peace  Deep connection and calm are your superpowers—quietly powerful and deeply felt.",
+      "low": "Drive & Intensity  You run on passion and purpose. Emotions are fuel, not fluff."
+    }
+  }
+}

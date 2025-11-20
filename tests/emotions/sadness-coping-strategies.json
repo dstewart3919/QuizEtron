@@ -1,0 +1,115 @@
+{
+  "title": "Sadness Coping Strategies Quiz",
+  "background": "emotions.png",
+  "theme": "theme-emotions",
+  "scoringType": "score",
+  "questions": [
+    {
+      "question": "When you feel a wave of sadness coming, your first healthy move usually is:",
+      "choices": [
+        "Push it down and pretend you’re fine",
+        "Let yourself cry or feel it fully",
+        "Immediately distract with scrolling or snacks",
+        "Bottle it up until bedtime"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You’ve had a terrible day. The thing that actually helps you feel better fastest is:",
+      "choices": [
+        "Texting or calling someone who really gets you",
+        "Sleeping it off for days",
+        "Drinking or numbing out",
+        "Keeping everything to yourself"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Journaling or writing your feelings down when you’re sad:",
+      "choices": [
+        "Feels pointless",
+        "Is one of the best tools I have",
+        "I do it sometimes",
+        "I’ve never tried"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "After a breakup or loss, you usually:",
+      "choices": [
+        "Isolate completely for weeks",
+        "Lean on friends/family and let them support you",
+        "Stay busy 24/7 so you don’t feel it",
+        "Ruminate alone for months"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Sad music when you’re already down:",
+      "choices": [
+        "Makes it way worse",
+        "Surprisingly helps you process and release",
+        "I only listen to happy stuff",
+        "I avoid music completely"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Exercise or walking outside when you feel low:",
+      "choices": [
+        "Never helps me",
+        "Almost always lifts my mood, even a little",
+        "Only if I’m already motivated",
+        "I force myself but hate it"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "How comfortable are you telling someone “I’m really struggling right now”?",
+      "choices": [
+        "Very—I reach out when I need to",
+        "Somewhat, if they’re really close",
+        "Only in extreme cases",
+        "Never—I handle it alone"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "When sadness lingers longer than a few days, you:",
+      "choices": [
+        "Wait it out forever",
+        "Talk to a friend, therapist, or doctor",
+        "Self-medicate",
+        "Convince yourself you’re broken"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Self-compassion (being kind to yourself like you would a friend) when sad feels:",
+      "choices": [
+        "Natural and helpful",
+        "Weird and uncomfortable",
+        "Only sometimes",
+        "I’m too hard on myself"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Looking back, the times you’ve healed best from sadness involved:",
+      "choices": [
+        "Feeling it fully + connection + gentle self-care",
+        "Time alone and suppression",
+        "Numbing or avoidance",
+        "Waiting for someone else to fix it"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "resultMapping": {
+    "score": {
+      "high": "Sadness Whisperer → You let yourself feel without drowning. Healthy, gentle, and strong—you heal beautifully.",
+      "medium": "Healing in Progress  You’ve got some solid tools and you’re learning more every time. Keep going—you’re on the right path.",
+      "low": "Stuck in the Rain  Right now sadness tends to linger longer than it needs to. The good news: healthy coping is 100% learnable."
+    }
+  }
+}

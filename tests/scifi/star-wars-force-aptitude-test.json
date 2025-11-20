@@ -1,35 +1,124 @@
 {
   "title": "Star Wars Force Aptitude Test",
-  "background": "sci-fi",
-  "themeColor": "#111144",
-  "buttonColor": "#4444aa",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "If Jedi sense danger 10 minutes before it happens, and a threat is detected at 9:45 AM, what time does it occur?", "choices": ["9:35 AM", "9:50 AM", "9:55 AM", "10:00 AM"], "answerIndex": 2 },
-    { "question": "Which shape has the fewest corners?", "choices": ["Square", "Triangle", "Circle", "Hexagon"], "answerIndex": 2 },
-    { "question": "Which is heavier: a ton of feathers or a ton of beskar?", "choices": ["Feathers", "Beskar", "Same", "Depends on air pressure"], "answerIndex": 2 },
-    { "question": "Complete the sequence: 2, 4, 8, 16, __", "choices": ["20", "24", "30", "32"], "answerIndex": 3 },
-    { "question": "A droid speaks 30 languages. If it learns 5 more every 2 years, how many will it know after 6 years?", "choices": ["35", "40", "45", "50"], "answerIndex": 1 },
-    { "question": "Light travels fastest through:", "choices": ["Water", "Air", "Vacuum", "Glass"], "answerIndex": 2 },
-    { "question": "Which side of the Force values passion over peace?", "choices": ["Light", "Dark", "Both", "Neither"], "answerIndex": 1 },
-    { "question": "If a hyperdrive jump cuts a trip by 90%, a 10-day voyage becomes:", "choices": ["1 day", "9 days", "5 days", "2 days"], "answerIndex": 0 },
-    { "question": "Yoda is 900 years old. If he trained Jedi for 2/3 of his life, how many years did he train?", "choices": ["300", "450", "600", "750"], "answerIndex": 3 },
-    { "question": "A Sith Lord has 2 apprentices, each training 2 apprentices. How many Sith total?", "choices": ["2", "4", "6", "8"], "answerIndex": 3 },
-    { "question": "Solve for X: 4X - 12 = 8", "choices": ["4", "5", "6", "7"], "answerIndex": 2 },
-    { "question": "Which system would power a lightsaber?", "choices": ["Solar cell", "Kyber crystal", "Fusion battery", "Plasma tank"], "answerIndex": 1 },
-    { "question": "Complete: X-Wing, Y-Wing, A-Wing, __?", "choices": ["T-Wing", "Z-Wing", "B-Wing", "D-Wing"], "answerIndex": 2 },
-    { "question": "An Ewok runs 5 meters/second. How far in 3 minutes?", "choices": ["900m", "600m", "300m", "1000m"], "answerIndex": 0 },
-    { "question": "Most Force visions come when?", "choices": ["During battle", "During meditation", "During eating", "During piloting"], "answerIndex": 1 },
-    { "question": "Darth Vader wears armor mainly for:", "choices": ["Fear effect", "Breathing support", "Increased strength", "Electric resistance"], "answerIndex": 1 },
-    { "question": "In binary, 1001 equals:", "choices": ["7", "8", "9", "10"], "answerIndex": 2 },
-    { "question": "Which planet is known for cloning?", "choices": ["Tatooine", "Kamino", "Hoth", "Dagobah"], "answerIndex": 1 },
-    { "question": "Force users move faster by tapping into:", "choices": ["Midichlorians", "Gravitons", "Solar power", "Ion drives"], "answerIndex": 0 },
-    { "question": "Solve: 12 ÷ (3 × 2)", "choices": ["2", "3", "4", "6"], "answerIndex": 1 }
+    {
+      "question": "If Jedi sense danger 10 minutes before it happens, and a threat is detected at 9:45 AM, what time does it occur?",
+      "choices": ["9:35 AM", "9:50 AM", "9:55 AM", "10:00 AM"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which shape has the fewest corners?",
+      "choices": ["Square", "Triangle", "Circle", "Hexagon"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which is heavier: a ton of feathers or a ton of beskar?",
+      "choices": ["Feathers", "Beskar", "Same", "Depends on air pressure"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Complete the sequence: 2, 4, 8, 16, __",
+      "choices": ["20", "24", "30", "32"],
+      "answerIndex": 3
+    },
+    {
+      "question": "A droid speaks 30 languages. If it learns 5 more every 2 years, how many will it know after 6 years?",
+      "choices": ["35", "40", "45", "50"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Light travels fastest through:",
+      "choices": ["Water", "Air", "Vacuum", "Glass"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which side of the Force values passion over peace?",
+      "choices": ["Light", "Dark", "Both", "Neither"],
+      "answerIndex": 1
+    },
+    {
+      "question": "If a hyperdrive jump cuts a trip by 90%, a 10-day voyage becomes:",
+      "choices": ["1 day", "9 days", "5 days", "2 days"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Yoda is 900 years old. If he trained Jedi for 2/3 of his life, how many years did he train?",
+      "choices": ["300", "450", "600", "750"],
+      "answerIndex": 3
+    },
+    {
+      "question": "A Sith Lord has 2 apprentices, each training 2 apprentices. How many Sith total?",
+      "choices": ["2", "4", "6", "8"],
+      "answerIndex": 3
+    },
+    {
+      "question": "Solve for X: 4X - 12 = 8",
+      "choices": ["4", "5", "6", "7"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which system would power a lightsaber?",
+      "choices": [
+        "Solar cell",
+        "Kyber crystal",
+        "Fusion battery",
+        "Plasma tank"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Complete: X-Wing, Y-Wing, A-Wing, __?",
+      "choices": ["T-Wing", "Z-Wing", "B-Wing", "D-Wing"],
+      "answerIndex": 2
+    },
+    {
+      "question": "An Ewok runs 5 meters/second. How far in 3 minutes?",
+      "choices": ["900m", "600m", "300m", "1000m"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Most Force visions come when?",
+      "choices": [
+        "During battle",
+        "During meditation",
+        "During eating",
+        "During piloting"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Darth Vader wears armor mainly for:",
+      "choices": [
+        "Fear effect",
+        "Breathing support",
+        "Increased strength",
+        "Electric resistance"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "In binary, 1001 equals:",
+      "choices": ["7", "8", "9", "10"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which planet is known for cloning?",
+      "choices": ["Tatooine", "Kamino", "Hoth", "Dagobah"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Force users move faster by tapping into:",
+      "choices": ["Midichlorians", "Gravitons", "Solar power", "Ion drives"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Solve: 12 ÷ (3 × 2)",
+      "choices": ["2", "3", "4", "6"],
+      "answerIndex": 1
+    }
   ],
 
   "resultMapping": {

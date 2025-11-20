@@ -1,43 +1,23 @@
 {
   "title": "Galactic IQ Calibration",
-  "background": "starmap",
-  "themeColor": "#00ffcc",
-  "buttonColor": "#00ffaa",
+  "background": "sfi-fi.png",
+  "theme": "theme-sfi-fi",
   "scoringType": "iq",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": false,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
 
   "questions": [
     {
       "question": "Which pattern completes the sequence: ◯ △ ◯ △ ◯ __?",
-      "choices": [
-        "△",
-        "◯",
-        "⬛",
-        "⬤"
-      ],
+      "choices": ["△", "◯", "⬛", "⬤"],
       "answerIndex": 0
     },
     {
       "question": "Solve: 7, 14, 28, __?",
-      "choices": [
-        "56",
-        "42",
-        "35",
-        "49"
-      ],
+      "choices": ["56", "42", "35", "49"],
       "answerIndex": 0
     },
     {
       "question": "Which direction is opposite to port on a spaceship?",
-      "choices": [
-        "Starboard",
-        "Aft",
-        "Bow",
-        "Down"
-      ],
+      "choices": ["Starboard", "Aft", "Bow", "Down"],
       "answerIndex": 0
     }
   ],

@@ -1,35 +1,309 @@
 {
   "title": "What Type of Leader Would You Be?",
-  "background": "government",
-  "themeColor": "#553300",
-  "buttonColor": "#aa7722",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "category",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "First major policy you implement?", "choices": ["Expand rights", "Enforce order", "Promote innovation", "Strengthen defense"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "How do you handle dissent?", "choices": ["Encourage debate", "Silence critics", "Use PR campaigns", "Harsh crackdowns"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Your leadership image:", "choices": ["Man of the people", "Strongman", "Visionary futurist", "Unbreakable general"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Economic strategy?", "choices": ["Balanced market", "State control", "Green economy", "Military-industrial focus"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "How you deal with global crises?", "choices": ["Build alliances", "Isolate and strengthen", "Innovate new systems", "Launch pre-emptive actions"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "National security threat?", "choices": ["Protect civil liberties", "Expand surveillance", "Cyber defense priority", "Military dominance"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Government ideal size?", "choices": ["Moderate", "Huge centralized", "Flexible and evolving", "Military-run executive"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Citizens should be:", "choices": ["Empowered voters", "Loyal patriots", "Social innovators", "Disciplined soldiers"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Handling fake news:", "choices": ["Protect free speech", "Censor aggressively", "Educate masses", "Punish propaganda"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Dealing with enemies?", "choices": ["Diplomacy first", "Detain and interrogate", "Win hearts and minds", "Crush completely"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Leadership weakness?", "choices": ["Too idealistic", "Too harsh", "Too experimental", "Too aggressive"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Election results contested. You:", "choices": ["Respect courts", "Seize power", "Propose reforms", "Suppress opposition"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Government technology use:", "choices": ["Balance innovation and privacy", "Mass surveillance", "Blockchain governance", "AI defense systems"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "When economy collapses?", "choices": ["Emergency stimulus", "Martial law", "Universal basic income", "Nationalize industries"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Foreign leaders criticize you. You:", "choices": ["Diplomatically respond", "Retaliate fiercely", "Debate on global stage", "Ignore and fortify"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Environmental policy?", "choices": ["Conservation projects", "Minimal concern", "Full green transition", "Exploit resources"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Major achievement you want?", "choices": ["Equality", "Supremacy", "Scientific revolution", "Global domination"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Your leadership legacy?", "choices": ["Democracy defender", "Iron fist ruler", "Tech innovator", "Warlord"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "What would drive you out of power?", "choices": ["Loss of public trust", "Coup", "System failure", "Military defeat"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] },
-    { "question": "Personal motto?", "choices": ["For the People", "Order Above All", "Dream Big, Build Fast", "Victory or Death"], "weights": [{"Democrat": 2}, {"Authoritarian": 2}, {"Progressive": 2}, {"Militarist": 2}] }
+    {
+      "question": "First major policy you implement?",
+      "choices": [
+        "Expand rights",
+        "Enforce order",
+        "Promote innovation",
+        "Strengthen defense"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "How do you handle dissent?",
+      "choices": [
+        "Encourage debate",
+        "Silence critics",
+        "Use PR campaigns",
+        "Harsh crackdowns"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Your leadership image:",
+      "choices": [
+        "Man of the people",
+        "Strongman",
+        "Visionary futurist",
+        "Unbreakable general"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Economic strategy?",
+      "choices": [
+        "Balanced market",
+        "State control",
+        "Green economy",
+        "Military-industrial focus"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "How you deal with global crises?",
+      "choices": [
+        "Build alliances",
+        "Isolate and strengthen",
+        "Innovate new systems",
+        "Launch pre-emptive actions"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "National security threat?",
+      "choices": [
+        "Protect civil liberties",
+        "Expand surveillance",
+        "Cyber defense priority",
+        "Military dominance"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Government ideal size?",
+      "choices": [
+        "Moderate",
+        "Huge centralized",
+        "Flexible and evolving",
+        "Military-run executive"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Citizens should be:",
+      "choices": [
+        "Empowered voters",
+        "Loyal patriots",
+        "Social innovators",
+        "Disciplined soldiers"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Handling fake news:",
+      "choices": [
+        "Protect free speech",
+        "Censor aggressively",
+        "Educate masses",
+        "Punish propaganda"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Dealing with enemies?",
+      "choices": [
+        "Diplomacy first",
+        "Detain and interrogate",
+        "Win hearts and minds",
+        "Crush completely"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Leadership weakness?",
+      "choices": [
+        "Too idealistic",
+        "Too harsh",
+        "Too experimental",
+        "Too aggressive"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Election results contested. You:",
+      "choices": [
+        "Respect courts",
+        "Seize power",
+        "Propose reforms",
+        "Suppress opposition"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Government technology use:",
+      "choices": [
+        "Balance innovation and privacy",
+        "Mass surveillance",
+        "Blockchain governance",
+        "AI defense systems"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "When economy collapses?",
+      "choices": [
+        "Emergency stimulus",
+        "Martial law",
+        "Universal basic income",
+        "Nationalize industries"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Foreign leaders criticize you. You:",
+      "choices": [
+        "Diplomatically respond",
+        "Retaliate fiercely",
+        "Debate on global stage",
+        "Ignore and fortify"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Environmental policy?",
+      "choices": [
+        "Conservation projects",
+        "Minimal concern",
+        "Full green transition",
+        "Exploit resources"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Major achievement you want?",
+      "choices": [
+        "Equality",
+        "Supremacy",
+        "Scientific revolution",
+        "Global domination"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Your leadership legacy?",
+      "choices": [
+        "Democracy defender",
+        "Iron fist ruler",
+        "Tech innovator",
+        "Warlord"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "What would drive you out of power?",
+      "choices": [
+        "Loss of public trust",
+        "Coup",
+        "System failure",
+        "Military defeat"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    },
+    {
+      "question": "Personal motto?",
+      "choices": [
+        "For the People",
+        "Order Above All",
+        "Dream Big, Build Fast",
+        "Victory or Death"
+      ],
+      "weights": [
+        { "Democrat": 2 },
+        { "Authoritarian": 2 },
+        { "Progressive": 2 },
+        { "Militarist": 2 }
+      ]
+    }
   ],
 
   "resultMapping": {

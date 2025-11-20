@@ -1,35 +1,179 @@
 {
   "title": "Civil War Survival Challenge",
-  "background": "government",
-  "themeColor": "#662222",
-  "buttonColor": "#cc4444",
+  "background": "government.png",
+  "theme": "theme-government",
   "scoringType": "score",
-  "timeLimitSeconds": 0,
-  "randomizeQuestions": true,
-  "backgroundCycle": false,
-  "backgroundCycleTime": 30,
-
   "questions": [
-    { "question": "Civil war erupts overnight. First move?", "choices": ["Stay hidden", "Join local militia", "Flee to rural areas", "Surrender immediately"], "answerIndex": 2 },
-    { "question": "Supply chain collapses. What do you do?", "choices": ["Loot stores", "Grow food fast", "Steal from others", "Trade valuables"], "answerIndex": 1 },
-    { "question": "You spot military convoys moving. You:", "choices": ["Attack them", "Avoid all movement", "Try to join them", "Surrender"], "answerIndex": 1 },
-    { "question": "Civilian checkpoints set up. You:", "choices": ["Try to sneak through", "Negotiate passage", "Join checkpoint forces", "Avoid them completely"], "answerIndex": 3 },
-    { "question": "Major cities burn. Best shelter?", "choices": ["Deep forest", "Downtown high rise", "Suburbia", "Police stations"], "answerIndex": 0 },
-    { "question": "Which currency holds value?", "choices": ["U.S. dollars", "Gold/silver", "Cryptocurrency", "Bartered goods"], "answerIndex": 1 },
-    { "question": "Long marches needed. You prioritize:", "choices": ["Weapons", "Food & water", "Cash", "Laptop"], "answerIndex": 1 },
-    { "question": "If caught by enemy faction:", "choices": ["Fight instantly", "Fake allegiance", "Negotiate", "Beg for mercy"], "answerIndex": 1 },
-    { "question": "Best survival group size?", "choices": ["Solo", "Small group (5-8)", "Huge caravan (20+)", "Government convoy"], "answerIndex": 1 },
-    { "question": "Trusting strangers during civil war?", "choices": ["Absolutely not", "Only after careful vetting", "Always", "If they offer food"], "answerIndex": 1 },
-    { "question": "Medical emergency but no hospital. You:", "choices": ["Self-treat", "Search abandoned clinics", "Call for imaginary help", "Hope for a medic"], "answerIndex": 0 },
-    { "question": "Weapon of choice for defense?", "choices": ["Rifle", "Pistol", "Bow and arrows", "Crowbar"], "answerIndex": 0 },
-    { "question": "Travel during day or night?", "choices": ["Day", "Night", "Both equally", "Never travel"], "answerIndex": 1 },
-    { "question": "Biggest danger during collapse?", "choices": ["Hunger", "Disease", "Violence", "All equally"], "answerIndex": 3 },
-    { "question": "You need to fortify shelter. First priority?", "choices": ["Bar windows", "Trap entrances", "Camouflage from view", "Build moats"], "answerIndex": 2 },
-    { "question": "Mass famine strikes. You:", "choices": ["Raid others", "Grow gardens fast", "Hunt aggressively", "Stockpile junk food"], "answerIndex": 1 },
-    { "question": "Law collapses. Moral compass?", "choices": ["Stick to ethics", "Do whatever it takes", "Follow strongest faction", "Give up"], "answerIndex": 0 },
-    { "question": "Encounter armed raiders. You:", "choices": ["Fight", "Hide", "Bribe", "Join them"], "answerIndex": 1 },
-    { "question": "Post-collapse rebuilding, your role?", "choices": ["Leader", "Farmer", "Merchant", "Warlord"], "answerIndex": 0 },
-    { "question": "One survival motto?", "choices": ["Stay hidden, stay alive", "Rule or die", "Trust few, fear none", "Hope for the best"], "answerIndex": 2 }
+    {
+      "question": "Civil war erupts overnight. First move?",
+      "choices": [
+        "Stay hidden",
+        "Join local militia",
+        "Flee to rural areas",
+        "Surrender immediately"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Supply chain collapses. What do you do?",
+      "choices": [
+        "Loot stores",
+        "Grow food fast",
+        "Steal from others",
+        "Trade valuables"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "You spot military convoys moving. You:",
+      "choices": [
+        "Attack them",
+        "Avoid all movement",
+        "Try to join them",
+        "Surrender"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Civilian checkpoints set up. You:",
+      "choices": [
+        "Try to sneak through",
+        "Negotiate passage",
+        "Join checkpoint forces",
+        "Avoid them completely"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Major cities burn. Best shelter?",
+      "choices": [
+        "Deep forest",
+        "Downtown high rise",
+        "Suburbia",
+        "Police stations"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which currency holds value?",
+      "choices": [
+        "U.S. dollars",
+        "Gold/silver",
+        "Cryptocurrency",
+        "Bartered goods"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Long marches needed. You prioritize:",
+      "choices": ["Weapons", "Food & water", "Cash", "Laptop"],
+      "answerIndex": 1
+    },
+    {
+      "question": "If caught by enemy faction:",
+      "choices": [
+        "Fight instantly",
+        "Fake allegiance",
+        "Negotiate",
+        "Beg for mercy"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Best survival group size?",
+      "choices": [
+        "Solo",
+        "Small group (5-8)",
+        "Huge caravan (20+)",
+        "Government convoy"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Trusting strangers during civil war?",
+      "choices": [
+        "Absolutely not",
+        "Only after careful vetting",
+        "Always",
+        "If they offer food"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Medical emergency but no hospital. You:",
+      "choices": [
+        "Self-treat",
+        "Search abandoned clinics",
+        "Call for imaginary help",
+        "Hope for a medic"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Weapon of choice for defense?",
+      "choices": ["Rifle", "Pistol", "Bow and arrows", "Crowbar"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Travel during day or night?",
+      "choices": ["Day", "Night", "Both equally", "Never travel"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Biggest danger during collapse?",
+      "choices": ["Hunger", "Disease", "Violence", "All equally"],
+      "answerIndex": 3
+    },
+    {
+      "question": "You need to fortify shelter. First priority?",
+      "choices": [
+        "Bar windows",
+        "Trap entrances",
+        "Camouflage from view",
+        "Build moats"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Mass famine strikes. You:",
+      "choices": [
+        "Raid others",
+        "Grow gardens fast",
+        "Hunt aggressively",
+        "Stockpile junk food"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Law collapses. Moral compass?",
+      "choices": [
+        "Stick to ethics",
+        "Do whatever it takes",
+        "Follow strongest faction",
+        "Give up"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Encounter armed raiders. You:",
+      "choices": ["Fight", "Hide", "Bribe", "Join them"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Post-collapse rebuilding, your role?",
+      "choices": ["Leader", "Farmer", "Merchant", "Warlord"],
+      "answerIndex": 0
+    },
+    {
+      "question": "One survival motto?",
+      "choices": [
+        "Stay hidden, stay alive",
+        "Rule or die",
+        "Trust few, fear none",
+        "Hope for the best"
+      ],
+      "answerIndex": 2
+    }
   ],
 
   "resultMapping": {
