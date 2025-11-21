@@ -6,11 +6,11 @@ let userAnswers = [];
 
 async function loadQuiz() {
   const params = new URLSearchParams(window.location.search);
-  const category = params.get('category');
-  const test = params.get('test');
+  const category = params.get("category");
+  const test = params.get("test");
 
   if (!category || !test) {
-    showError('Missing quiz parameters.');
+    showError("Missing quiz parameters.");
     return;
   }
 
@@ -18,39 +18,51 @@ async function loadQuiz() {
 
   try {
     const response = await fetch(quizPath);
-    if (!response.ok) throw new Error('Quiz file not found.');
+    if (!response.ok) throw new Error("Quiz file not found.");
 
     quizData = await response.json();
 
-    if (!quizData || !Array.isArray(quizData.questions) || quizData.questions.length === 0) {
-      throw new Error('Invalid quiz data.');
+    if (
+      !quizData ||
+      !Array.isArray(quizData.questions) ||
+      quizData.questions.length === 0
+    ) {
+      throw new Error("Invalid quiz data.");
     }
 
     startQuiz(quizData);
   } catch (error) {
-    console.error('Error loading quiz:', error);
-    showError('Failed to load quiz.');
+    console.error("Error loading quiz:", error);
+    showError("Failed to load quiz.");
   }
 }
 
 function startQuiz(data) {
   quizData = data;
-  console.log('Starting quiz:', quizData);
+  console.log("Starting quiz:", quizData);
 
-  const quizLoading = document.getElementById('quiz-loading');
-  if (quizLoading) quizLoading.style.display = 'none';
+  if (quizData.background) {
+    document.body.style.backgroundImage = `url('media/${quizData.background}')`;
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundPosition = "center";
+    document.body.style.backgroundRepeat = "no-repeat";
+  }
 
-  const quizContainer = document.getElementById('quizContainer');
-  if (quizContainer) quizContainer.style.display = 'block';
+  const quizLoading = document.getElementById("quiz-loading");
+  if (quizLoading) quizLoading.style.display = "none";
 
-  document.getElementById('quiz-title').textContent = quizData.title || 'Quiz Loaded';
+  const quizContainer = document.getElementById("quizContainer");
+  if (quizContainer) quizContainer.style.display = "block";
+
+  document.getElementById("quiz-title").textContent =
+    quizData.title || "Quiz Loaded";
 
   renderQuestion();
 
-  document.getElementById('nextBtn').onclick = () => {
+  document.getElementById("nextBtn").onclick = () => {
     const selected = document.querySelector('input[name="option"]:checked');
     if (!selected) {
-      alert('Please select an option before continuing.');
+      alert("Please select an option before continuing.");
       return;
     }
     userAnswers[currentIndex] = parseInt(selected.value, 10);
@@ -58,28 +70,33 @@ function startQuiz(data) {
     renderQuestion();
   };
 
-  document.getElementById('prevBtn').onclick = () => {
+  document.getElementById("prevBtn").onclick = () => {
     currentIndex--;
     renderQuestion();
   };
 
-  document.getElementById('submitBtn').onclick = () => {
+  document.getElementById("submitBtn").onclick = () => {
     const selected = document.querySelector('input[name="option"]:checked');
     if (!selected) {
-      alert('Please select an option before submitting.');
+      alert("Please select an option before submitting.");
       return;
     }
     userAnswers[currentIndex] = parseInt(selected.value, 10);
 
-    localStorage.setItem('quizResults', JSON.stringify({
-      title: quizData.title,
-      questions: quizData.questions,
-      scoringType: quizData.scoringType,
-      resultMapping: quizData.resultMapping || null,
-      userAnswers: userAnswers
-    }));
+    localStorage.setItem(
+      "quizResults",
+      JSON.stringify({
+        title: quizData.title,
+        background: quizData.background,
+        theme: quizData.theme,
+        scoringType: quizData.scoringType,
+        questions: quizData.questions,
+        resultMapping: quizData.resultMapping,
+        userAnswers: userAnswers,
+      })
+    );
 
-    window.location.href = 'results.html';
+    window.location.href = "results.html";
   };
 }
 
@@ -87,38 +104,38 @@ function renderQuestion() {
   const questionObj = quizData.questions[currentIndex];
 
   if (!questionObj) {
-    console.error('No question found at index:', currentIndex);
-    showError('No more questions available.');
+    console.error("No question found at index:", currentIndex);
+    showError("No more questions available.");
     return;
   }
 
-  const questionEl = document.getElementById('question');
-  const optionsEl = document.getElementById('options');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  const submitBtn = document.getElementById('submitBtn');
+  const questionEl = document.getElementById("question");
+  const optionsEl = document.getElementById("options");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  const submitBtn = document.getElementById("submitBtn");
 
   questionEl.textContent = questionObj.question;
-  optionsEl.innerHTML = '';
+  optionsEl.innerHTML = "";
 
   questionObj.choices.forEach((choice, index) => {
-    const wrapper = document.createElement('div');
-    wrapper.style.display = 'flex';
-    wrapper.style.alignItems = 'center';
-    wrapper.style.justifyContent = 'center';
-    wrapper.style.margin = '8px 0';
+    const wrapper = document.createElement("div");
+    wrapper.style.display = "flex";
+    wrapper.style.alignItems = "center";
+    wrapper.style.justifyContent = "center";
+    wrapper.style.margin = "8px 0";
 
-    const input = document.createElement('input');
-    input.type = 'radio';
-    input.name = 'option';
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "option";
     input.value = index;
-    input.style.marginRight = '10px';
-    input.style.transform = 'scale(1.5)';
+    input.style.marginRight = "10px";
+    input.style.transform = "scale(1.5)";
 
-    const label = document.createElement('label');
-    label.style.fontSize = '1.2rem';
-    label.style.color = 'white';
-    label.style.cursor = 'pointer';
+    const label = document.createElement("label");
+    label.style.fontSize = "1.2rem";
+    label.style.color = "white";
+    label.style.cursor = "pointer";
     label.textContent = choice;
 
     wrapper.appendChild(input);
@@ -127,53 +144,59 @@ function renderQuestion() {
   });
 
   if (userAnswers[currentIndex] !== undefined) {
-    const selectedOption = optionsEl.querySelectorAll('input')[userAnswers[currentIndex]];
+    const selectedOption =
+      optionsEl.querySelectorAll("input")[userAnswers[currentIndex]];
     if (selectedOption) selectedOption.checked = true;
   }
 
-  prevBtn.style.display = currentIndex > 0 ? 'inline-block' : 'none';
-  nextBtn.style.display = currentIndex < quizData.questions.length - 1 ? 'inline-block' : 'none';
-  submitBtn.style.display = currentIndex === quizData.questions.length - 1 ? 'inline-block' : 'none';
+  prevBtn.style.display = currentIndex > 0 ? "inline-block" : "none";
+  nextBtn.style.display =
+    currentIndex < quizData.questions.length - 1 ? "inline-block" : "none";
+  submitBtn.style.display =
+    currentIndex === quizData.questions.length - 1 ? "inline-block" : "none";
 }
 
 async function loadResults() {
-  const storedResult = localStorage.getItem('quizResults');
+  const storedResult = localStorage.getItem("quizResults");
   if (!storedResult) {
-    showError('No quiz result found.');
+    showError("No quiz result found.");
     return;
   }
 
   const resultData = JSON.parse(storedResult);
-  document.getElementById('result-title').textContent = `Quiz Completed: ${resultData.title}`;
+  document.getElementById(
+    "result-title"
+  ).textContent = `Quiz Completed: ${resultData.title}`;
 
-  const desc = document.getElementById('result-description');
+  const desc = document.getElementById("result-description");
 
-  if (resultData.scoringType === 'score') {
-  const correctCount = resultData.userAnswers.reduce((count, answer, idx) => {
-    return count + (answer === resultData.questions[idx].answerIndex ? 1 : 0);
-  }, 0);
+  if (resultData.scoringType === "score") {
+    const correctCount = resultData.userAnswers.reduce((count, answer, idx) => {
+      return count + (answer === resultData.questions[idx].answerIndex ? 1 : 0);
+    }, 0);
 
-  const percentage = correctCount / resultData.questions.length;
-  let resultText = `You scored ${correctCount} out of ${resultData.questions.length}.`;
+    const percentage = correctCount / resultData.questions.length;
+    let resultText = `You scored ${correctCount} out of ${resultData.questions.length}.`;
 
-  if (resultData.resultMapping && resultData.resultMapping.score) {
-    if (percentage >= 0.8) {
-      resultText = resultData.resultMapping.score.high;
-    } else if (percentage >= 0.5) {
-      resultText = resultData.resultMapping.score.medium;
-    } else {
-      resultText = resultData.resultMapping.score.low;
+    if (resultData.resultMapping && resultData.resultMapping.score) {
+      if (percentage >= 0.8) {
+        resultText = resultData.resultMapping.score.high;
+      } else if (percentage >= 0.5) {
+        resultText = resultData.resultMapping.score.medium;
+      } else {
+        resultText = resultData.resultMapping.score.low;
+      }
     }
-  }
 
-  desc.textContent = resultText;
-} else if (resultData.scoringType === 'iq') {
+    desc.textContent = resultText;
+  } else if (resultData.scoringType === "iq") {
     const correct = resultData.userAnswers.reduce((count, answer, idx) => {
       return count + (answer === resultData.questions[idx].answerIndex ? 1 : 0);
     }, 0);
-    const iqScore = 80 + Math.round(correct / resultData.questions.length * 60);
+    const iqScore =
+      80 + Math.round((correct / resultData.questions.length) * 60);
     desc.textContent = `Your estimated Galactic IQ: ${iqScore}!`;
-  } else if (resultData.scoringType === 'category') {
+  } else if (resultData.scoringType === "category") {
     const categoryScores = {};
 
     resultData.userAnswers.forEach((answer, index) => {
@@ -196,13 +219,14 @@ async function loadResults() {
       }
     }
 
-    const finalRole = resultData.resultMapping && resultData.resultMapping.categoryMapping
-      ? resultData.resultMapping.categoryMapping[bestCategory]
-      : bestCategory;
+    const finalRole =
+      resultData.resultMapping && resultData.resultMapping.categoryMapping
+        ? resultData.resultMapping.categoryMapping[bestCategory]
+        : bestCategory;
 
     desc.textContent = `You are best suited for the role: ${finalRole}!`;
   } else {
-    desc.textContent = 'Results calculated.';
+    desc.textContent = "Results calculated.";
   }
 }
 
