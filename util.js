@@ -39,7 +39,6 @@ async function loadQuiz() {
 
 function startQuiz(data) {
   quizData = data;
-  console.log("Starting quiz:", quizData);
 
   if (quizData.background) {
     document.body.style.backgroundImage = `url('media/${quizData.background}')`;
