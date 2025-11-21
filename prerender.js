@@ -19,6 +19,9 @@ async function prerender() {
     rock: "🎸",
     scifi: "👽",
     emotions: "<3",
+    X: "X (coming soon)",
+    Isreal: "✡︎ (coming soon)",
+    Russia: "RU (coming soon)",
   };
 
   // Generate category tiles
