@@ -4,12 +4,9 @@
   "description": "QuizEtron Quiz Website",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server .",
-    "prerender": "node prerender.js"
+    "start": "npx http-server ."
   },
-  "dependencies": {
-    "puppeteer": "^21.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "http-server": "^14.1.1"
   }
